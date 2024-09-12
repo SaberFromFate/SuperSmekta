@@ -35,10 +35,14 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 15  ##Демократия
+	democratic = 25  ##Демократия
 	neutrality = 20 ##Нейтралитет
 	communism = 5 ##Коммунизм
-	fascism = 60 ##Фашизм
+	fascism = 50 ##Фашизм
+}
+
+add_ideas = {
+	PUZ_WT
 }
 
 # Лидер Страны
