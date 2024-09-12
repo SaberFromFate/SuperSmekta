@@ -1,0 +1,230 @@
+focus_tree = {
+	id = PUZ
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PUZ
+		}
+	}
+	default = no
+	focus = {
+		id = startpuz
+		text = startpuz
+		icon = GFX_focus_generic_conspiracy
+		cost = 10,00
+		x = 49
+		y = 1
+
+	}
+	focus = {
+		id = am
+		text = am
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = startpuz
+		}
+		x = 43
+		y = 3
+
+	}
+	focus = {
+		id = am2
+		text = am2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = am
+		}
+		x = 40
+		y = 5
+
+	}
+	focus = {
+		id = am3
+		text = am3
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = am
+		}
+		x = 43
+		y = 5
+
+	}
+	focus = {
+		id = am4
+		text = am4
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = am
+		}
+		x = 46
+		y = 5
+
+	}
+	focus = {
+		id = am5
+		text = am5
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = am3
+		}
+		prerequisite = {
+			focus = am4
+		}
+		prerequisite = {
+			focus = am2
+		}
+		x = 43
+		y = 7
+
+	}
+	focus = {
+		id = arm1
+		text = arm1
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = startpuz
+		}
+		x = 49
+		y = 3
+
+	}
+	focus = {
+		id = arm2
+		text = arm2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = arm1
+		}
+		x = 49
+		y = 5
+
+	}
+	focus = {
+		id = arm3
+		text = arm3
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = arm2
+		}
+		x = 49
+		y = 7
+
+	}
+	focus = {
+		id = eco1
+		text = eco1
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10,00
+		prerequisite = {
+			focus = startpuz
+		}
+		x = 55
+		y = 3
+
+	}
+	focus = {
+		id = ecom
+		text = ecom
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10,00
+		prerequisite = {
+			focus = eco1
+		}
+		x = 52
+		y = 5
+
+	}
+	focus = {
+		id = ecom1
+		text = ecom1
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10,00
+		prerequisite = {
+			focus = ecom
+		}
+		x = 52
+		y = 7
+
+	}
+	focus = {
+		id = ecoc
+		text = ecoc
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10,00
+		prerequisite = {
+			focus = eco1
+		}
+		x = 55
+		y = 5
+
+	}
+	focus = {
+		id = ecoc1
+		text = ecoc1
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10,00
+		prerequisite = {
+			focus = ecoc
+		}
+		x = 55
+		y = 7
+
+	}
+	focus = {
+		id = ecoi
+		text = ecoi
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10,00
+		prerequisite = {
+			focus = eco1
+		}
+		x = 58
+		y = 5
+
+	}
+	focus = {
+		id = ecoi1
+		text = ecoi1
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10,00
+		prerequisite = {
+			focus = ecoi
+		}
+		x = 58
+		y = 7
+
+	}
+	focus = {
+		id = finp
+		text = finp
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = arm3
+		}
+		prerequisite = {
+			focus = ecoc1
+		}
+		prerequisite = {
+			focus = ecoi1
+		}
+		prerequisite = {
+			focus = ecom1
+		}
+		prerequisite = {
+			focus = am5
+		}
+		x = 49
+		y = 9
+
+	}
+}
