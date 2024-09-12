@@ -1,0 +1,83 @@
+focus_tree = {        
+      id = Sanya_focus ##Пример germen_focus
+      
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SAN
+		}
+	}	
+	default = no
+	reset_on_civilwar = no
+
+focus = { 
+        id = sanf_1 
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8 #По горизонтали
+        y = 0 #По вертикали
+        cost = 10  
+        completion_reward = { 
+			random_owned_controlled_state = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 11
+				add_building_construction = {
+					type = industrial_complex
+					level = 11
+					instant_build = yes
+				}
+			}
+						add_timed_idea = {
+				idea = FRA_devalue_the_franc
+				days = 365
+			}
+	}   
+    }
+	focus = { 
+        id = sanft_2 
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sanf_1 } ##Наследование от Focus_Number_1
+        x = 8 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanf_1 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+			add_popularity = { ideology = fashism popularity = 0.15 }
+			
+			add_political_power = 150
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = EST_johan_pitka
+	}		
+    }
+	focus = { 
+        id = sanft_3
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sanft_2 } ##Наследование от Focus_Number_1
+        x = 8 #По горизонтали
+        y = 2 #По вертикали
+	relative_position_id = sanft_2 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+			add_popularity = { ideology = fashism popularity = 0.05 }
+			
+					
+						set_politics = {
+							ruling_party = fascism
+							elections_allowed = no
+						}
+						
+					
+	}		
+    }
+	
+}

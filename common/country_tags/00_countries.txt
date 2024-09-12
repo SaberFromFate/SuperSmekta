@@ -281,3 +281,4 @@ IAS = "countries/Isthmo Amerindia.txt"
 
 PUZ = "countries/PUZ.txt"
 CJO = "countries/CJ STATE.txt"
+SAN = "countries/SANYA.txt"
