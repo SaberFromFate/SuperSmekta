@@ -1,4 +1,4 @@
-focus_tree = {
+﻿focus_tree = {
 	id = PUZ
 	country = {
 		factor = 0
@@ -7,6 +7,12 @@ focus_tree = {
 			tag = PUZ
 		}
 	}
+
+
+
+
+
+
 	default = no
 	focus = {
 		id = startpuz
@@ -16,7 +22,26 @@ focus_tree = {
 		x = 49
 		y = 1
 
+		completion_reward = {
+			add_political_power = 200
+			add_popularity = {
+    				ideology = fascism
+    				popularity = +0.5
+			}
+			
+		}
+
+
 	}
+
+
+
+
+
+
+
+
+
 	focus = {
 		id = am
 		text = am
@@ -86,7 +111,7 @@ focus_tree = {
 	focus = {
 		id = arm1
 		text = arm1
-		icon = GFX_goal_unknown
+		icon = GFX_focus_FIN_parmis_devils
 		cost = 10,00
 		prerequisite = {
 			focus = startpuz
@@ -98,7 +123,7 @@ focus_tree = {
 	focus = {
 		id = arm2
 		text = arm2
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ARG_juan_peron_elected
 		cost = 10,00
 		prerequisite = {
 			focus = arm1
@@ -110,7 +135,7 @@ focus_tree = {
 	focus = {
 		id = arm3
 		text = arm3
-		icon = GFX_goal_unknown
+		icon = GFX_focus_FIN_suomen_ilmavoimat
 		cost = 10,00
 		prerequisite = {
 			focus = arm2
@@ -177,6 +202,18 @@ focus_tree = {
 		}
 		x = 55
 		y = 7
+
+	}
+	focus = {
+		id = arm1
+		text = arm1
+		icon = GFX_focus_FIN_parmis_devils
+		cost = 10,00
+		prerequisite = {
+			focus = startpuz
+		}
+		x = 49
+		y = 3
 
 	}
 	focus = {
