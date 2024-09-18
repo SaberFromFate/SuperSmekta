@@ -25,8 +25,8 @@
 		completion_reward = {
 			add_political_power = 200
 			add_popularity = {
-    				ideology = fascism
-    				popularity = +0.5
+    			ideology = fascism
+    			popularity = +0.5
 			}
 			
 		}
