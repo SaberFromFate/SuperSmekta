@@ -140,8 +140,17 @@
 		}
 		x = 49
 		y = 3
-
 	}
+
+
+
+
+
+
+
+
+
+
 	focus = {
 		id = arm22
 		text = arm22
