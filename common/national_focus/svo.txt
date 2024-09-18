@@ -168,6 +168,58 @@ set_technology = {
 }
 }
 }
+	focus = { 
+        id = sv_s3
+			prerequisite = { focus = sv_s2 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_s2 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+create_corps_commander = {
+	name = "PRIGOJHIN JENYA"
+	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
+	traits = { trickster brilliant_strategist }
+	skill = 14
+	attack_skill = 14
+	defense_skill = 4
+	planning_skill = 7
+	logistics_skill = 2
+
+}
+}
+}
+	focus = { 
+        id = sv_c1
+			
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+				random_owned_controlled_state = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 11
+				add_building_construction = {
+					type = industrial_complex
+					level = 11
+					instant_build = yes
+				}
+			}
+}
+}
+
 
 }
 	

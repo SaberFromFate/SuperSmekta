@@ -37,9 +37,9 @@ war_support_factor = 0.10
 	available_if_capitulated = yes
 		
         completion_reward = { 
-war_support_factor = 0.10
-mobilization_laws_cost_factor = -0.5
-justify_war_goal_time = -0.5
+		add_ideas = {
+    SVO_SVO
+	}
 }}
 focus = { 
         id = sv_h3
@@ -53,9 +53,10 @@ focus = {
 	available_if_capitulated = yes
 		
         completion_reward = { 
-offensive_war_stability_factor = 0.4
-conscription = 0.05
-	land_reinforce_rate = 0.3
+						swap_ideas = {
+    remove_idea = SVO_SVO
+    add_idea = SVO_SVO2
+}
 }}
 	focus = { 
         id = sv_h4
@@ -107,7 +108,68 @@ conscription = 0.05
     add_idea = SVO_GOR3
 }
 }}
- focus = sv_h5
+	focus = { 
+        id = sv_b1
+        icon = GFX_goal_generic_construct_mil_factory
+        x = 4 #По горизонтали
+        y = 1 #По вертикали
+	
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+set_technology = {
+    artillery5 = 1
+	medium_tank_equipment_3=1
+	medium_tank_chassis_3=1
+}
+}
+}
+	focus = { 
+        id = sv_b2
+			prerequisite = { focus = sv_b1 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_b1 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+
+	
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+set_technology = {
+add_tech_bonus = {
+    bonus = 2.5
+    uses = 5
+    category = nuclear_tech
+}
+}
+}
+}
+	focus = { 
+        id = sv_b3
+			prerequisite = { focus = sv_b2 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_b2 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+set_technology = {
+    rocket_artillery5 = 1
+	light_tank_equipment_3=1
+	light_tank_chassis_3=1
+}
+}
+}
+
+}
 	
 	
-	}
+	
