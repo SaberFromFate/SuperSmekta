@@ -13,7 +13,7 @@ focus_tree = {
 	reset_on_civilwar = no
 
 focus = { 
-        id = Focus_Number_1 
+        id = sanf_1 
         icon = GFX_goal_generic_construct_civ_factory
         x = 8 #По горизонтали
         y = 0 #По вертикали
@@ -24,10 +24,10 @@ focus = {
 					ROOT = { has_full_control_of_state = PREV }
 					is_core_of = ROOT
 				}
-				add_extra_state_shared_building_slots = 22
+				add_extra_state_shared_building_slots = 11
 				add_building_construction = {
 					type = industrial_complex
-					level = 22
+					level = 11
 					instant_build = yes
 				}
 			}
@@ -38,35 +38,344 @@ focus = {
 	}   
     }
 	focus = { 
-        id = Focus_Number_2 
+        id = sanft_2 
         icon = GFX_goal_generic_construct_mil_factory
-	prerequisite = { focus = Focus_Number_1 } ##Наследование от Focus_Number_1
+	prerequisite = { focus = sanf_1 } ##Наследование от Focus_Number_1
         x = 0 #По горизонтали
         y = 1 #По вертикали
-	relative_position_id = Focus_Number_1 ##Наследование позиции
+	relative_position_id = sanf_1 ##Наследование позиции
 	cost = 10 
 		
 	available_if_capitulated = yes
 		
         completion_reward = { 
-			random_owned_controlled_state = {
+			add_popularity = { ideology = fashism popularity = 0.15 }
+			
+			add_political_power = 150
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = EST_johan_pitka
+	}		
+    }
+	focus = { 
+        id = sanft_3
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sanft_2 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanft_2 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+			add_popularity = { ideology = fashism popularity = 0.05 }
+			
+					
+						set_politics = {
+							ruling_party = fascism
+							elections_allowed = no
+						}
+						
+					
+	}		
+    }
+		focus = { 
+        id = sanft_4
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sanft_3 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanft_3 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+			add_ideas = {
+    SAN_BRIT
+}
+						
+					
+	}		
+    }
+		focus = { 
+        id = sanft_5
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sanft_4 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanft_4 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+			add_popularity = { ideology = fashism popularity = 0.05 }
+			
+					
+						swap_ideas = {
+    remove_idea = SAN_BRIT
+    add_idea = SAN_RUS
+}
+						
+					
+	}		
+    }
+		focus = { 
+        id = sanft_6
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sanft_5 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanft_5 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+			add_ideas = {
+    SAN_BOT
+}
+						
+					
+	}		
+    }
+		focus = { 
+        id = sanft_6a
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sanft_5 } ##Наследование от Focus_Number_1
+        x = 6 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanft_5 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+			add_ideas ={
+			SAN_LAP
+			}
+						
+					
+	}		
+    }
+			focus = { 
+        id = sanft_6b
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sanft_5 } ##Наследование от Focus_Number_1
+        x = -3 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanft_5 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+			add_ideas ={
+			SAN_WEA
+			}
+						
+					
+	}		
+    }
+			focus = { 
+        id = sanft_6d
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sanft_5 } ##Наследование от Focus_Number_1
+        x = 3 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanft_5 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+			add_tech_bonus = {
+    bonus = 148.8
+    uses = 6
+    category = aviation_tech
+}
+	}		
+    }
+	
+				focus = { 
+        id = sanft_7a
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sanft_5 } ##Наследование от Focus_Number_1
+        x = 2 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanft_6 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+			add_equipment_to_stockpile = {
+    type = nuke
+    amount = 1488
+    producer = GER
+}
+}
+	}
+focus = { 
+        id = sanft_7b
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sanft_5 } ##Наследование от Focus_Number_1
+        x = 2 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanft_6 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+			add_ideas ={
+			SAN_TIM
+			}
+}
+}
+focus = { 
+        id = sanft_8
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sanft_7b } ##Наследование от Focus_Number_1
+        x = 2 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanft_7b ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+			add_ideas ={SAN_TIM}
+}
+}
+
+focus = { 
+        id = sane_1
+        icon = GFX_goal_generic_construct_mil_factory
+        x = 20 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanft_1 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+			add_research_slot = 4
+}
+}
+focus = { 
+        id = sane_2
+        icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = sane_1 }
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanft_1 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+			add_political_power = 100
+			        
+			add_tech_bonus = {
+    bonus = 148.8
+    uses = 6
+    category = industrial_tech
+
+}
+}
+
+	}
+	focus = { 
+        id = sane_3a
+        icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = sane_2 }
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanft_2 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+						random_owned_controlled_state = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
 					is_core_of = ROOT
 				}
-				add_extra_state_shared_building_slots = 22
+				add_extra_state_shared_building_slots = 8
 				add_building_construction = {
 					type = industrial_complex
-					level = 22
+					level = 7
 					instant_build = yes
 				}
 			}
-						add_timed_idea = {
-				idea = FRA_devalue_the_franc
-				days = 365
-			}
-	}		
-    }
-	
-	
+
 }
+}
+	focus = { 
+        id = sane_3b
+        icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = sane_2 }
+        x = 4 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanft_2 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+						random_owned_controlled_state = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+				add_war_support = 0.2
+			}
+
+}
+}
+focus = { 
+        id = sane_2a
+        icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = sane_1 }
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sanft_1 ##Наследование позиции
+	cost = 10 
+		
+	available_if_capitulated = yes
+		
+        completion_reward = { 
+			add_political_power = 100
+			        
+			add_tech_bonus = {
+    bonus = 148.8
+    uses = 6
+    category = industrial_tech
+
+}
+}
+
+	}
+
+	}
+	
+	
+	
+	
+	
+	
+	
+
+
+
+	
+    

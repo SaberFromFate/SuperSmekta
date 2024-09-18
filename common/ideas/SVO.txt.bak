@@ -1,0 +1,219 @@
+ideas = {
+
+	country = {
+	SVO_HOR = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.15
+				attrition = 0.05
+				experience_loss_factor = 0.1
+			}
+		}
+			SVO_MSU = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+				MONTHLY_POPULATION = 0.01
+				war_support_weekly = 0.001
+				fascism_drift = 0.10
+			}
+		}
+		SVO_MSU2 = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.35
+				MONTHLY_POPULATION = 0.01
+				war_support_weekly = 0.003
+				fascism_drift = 0.30
+				army_morale_factor = 0.1
+				out_of_supply_factor = -0.3
+			}
+		}
+				SVO_MAR = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.30
+				army_speed_factor = 0.15
+			}
+		}
+						SVO_GOR = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				special_forces_min = 1488
+				non_core_manpower = 0.02
+				special_forces_attack_factor = 0.1
+				special_forces_defence_factor = 0.1
+			}
+		}
+		SVO_GOR2 = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				special_forces_min = 1488
+				non_core_manpower = 0.02
+				special_forces_attack_factor = 0.5
+				special_forces_defence_factor = 0.5
+				army_org = 5
+			}
+		}
+				SVO_GOR3 = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				special_forces_min = 1488
+				non_core_manpower = 0.02
+				special_forces_attack_factor = 0.7
+				special_forces_defence_factor = 0.7
+				army_org = 5
+				command_power_gain = 0.5
+				mobilization_laws_cost_factor = -0.5
+				attrition = -0.2
+				no_supply_grace = 28
+			}
+		}
+						SVO_PUE = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				line_change_production_efficiency_factor = 0.2
+				industrial_capacity_factory = 0.1
+			}
+		}
+								SVO_OKU = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.3
+				line_change_production_efficiency_factor = 0.6
+				industrial_capacity_factory = 0.3
+				production_speed_buildings_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.2
+				production_factory_start_efficiency_factor = 0.2
+			}
+		}
+										SVO_FLO = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+modifier = {
+				
+				naval_damage_factor = 0.3
+				naval_defense_factor = 0.3
+				convoy_raiding_efficiency_factor = 0.5
+				critical_receive_chance = -0.5
+				experience_gain_navy_unit_factor = 0.3
+				army_fuel_capacity_factor = 0.3
+				navy_fuel_consumption_factor = -0.3
+				navy_max_range_factor = 1.00
+				invasion_preparation = -0.69
+				amphibious_invasion = 0.10
+			}
+		}
+
+		
+}}
