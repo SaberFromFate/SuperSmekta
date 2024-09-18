@@ -106,39 +106,61 @@
 		}
 		x = 43
 		y = 7
-
 	}
+
+
+
+
+
+
+
+
 	focus = {
-		id = arm1
-		text = arm1
+		id = arm21
+		text = arm21
 		icon = GFX_focus_FIN_parmis_devils
 		cost = 10,00
 		prerequisite = {
 			focus = startpuz
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					OR = {
+						has_idea = disarmed_nation
+						has_idea = volunteer_only
+					}
+				}
+				add_ideas = limited_conscription
+			}
+			else = {
+				add_political_power = 150
+			}
+			set_war_support = 0.6			
 		}
 		x = 49
 		y = 3
 
 	}
 	focus = {
-		id = arm2
-		text = arm2
+		id = arm22
+		text = arm22
 		icon = GFX_focus_ARG_juan_peron_elected
 		cost = 10,00
 		prerequisite = {
-			focus = arm1
+			focus = arm21
 		}
 		x = 49
 		y = 5
 
 	}
 	focus = {
-		id = arm3
-		text = arm3
+		id = arm23
+		text = arm23
 		icon = GFX_focus_FIN_suomen_ilmavoimat
 		cost = 10,00
 		prerequisite = {
-			focus = arm2
+			focus = arm22
 		}
 		x = 49
 		y = 7
@@ -204,16 +226,6 @@
 		y = 7
 
 	}
-	focus = {
-		id = arm1
-		text = arm1
-		icon = GFX_focus_FIN_parmis_devils
-		cost = 10,00
-		prerequisite = {
-			focus = startpuz
-		}
-		x = 49
-		y = 3
 
 	}
 	focus = {
