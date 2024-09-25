@@ -1,6 +1,6 @@
-﻿capital = 586 #Almaty
+﻿capital = 2 #Almaty
 
-oob = "KAZ_1936"
+oob = "IRL_1936"
 
 set_research_slots = 3
 
@@ -85,32 +85,37 @@ if = {
 }
 
 set_popularities = {
-	democratic = 60
-	communism = 40
+	democratic = 100
 }
 
 create_country_leader = {
-	name = "Nikolay Aleksandrovich Skvortsov"
+	name = "НАЗАРБАЕВ"
 	desc = ""
-	picture = GFX_portrait_Nikolay_Aleksandrovich_Skvortsov
+	picture = "gfx/leaders/KAZ/NAZAR.dds"
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = conservative
 	traits = {
 		
 	}
 }
 
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 1488
+	elections_allowed = no
+	}
 create_country_leader = {
-	name = "Ilyas Zhansugurov"
+	name = "Назарбаев"
 	desc = ""
-	picture = GFX_portrait_Ilyas_Zhansugurov
+	picture = "gfx/leaders/KAZ/NAZAR.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = conservative
 	traits = {
 		
 	}
 }
-
 recruit_character = KAZ_awt
 recruit_character = KAZ_acd2
 recruit_character = KAZ_nt

@@ -257,6 +257,45 @@ conscription = 0.05
 	land_reinforce_rate = 0.3
 			}
 		}
+														SVO_2 = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				operative_slot = 3
+				enemy_operative_detection_chance_factor = 0.1
+				root_out_resistance_effectiveness_factor = 0.1
+				enemy_operative_intel_extraction_rate = 0.1
+				enemy_operative_capture_chance_factor = 0.1
+				intelligence_agency_defense = 0.1
+			}
+		}
 		
 }}
+														SVO_3= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+war_support_weekly = 0.01
+			}
+		}
+			

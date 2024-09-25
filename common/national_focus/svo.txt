@@ -1,166 +1,85 @@
-focus_tree = {        
+focus_tree = {
       id = Svyat_focus ##Пример germen_focus
-      
+
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 10
 			tag = SVO
 		}
-	}	
+	}
 	default = no
 	reset_on_civilwar = no
-	focus = { 
-        id = sv_h1 
+	focus = {
+        id = sv_h1
         icon = GFX_goal_generic_construct_civ_factory
         x = 8 #По горизонтали
-        y = 0 #По вертикали
-        cost = 10  
-        completion_reward = { 
+        y = 1 #По вертикали
+        cost = 10
+        completion_reward = {
 		add_ideas = {
     SVO_HOR
 	}
 war_support_factor = 0.10
 	add_popularity = { ideology = fascism popularity = 0.05 }
-	}   
+	}
     }
-			focus = { 
-        id = sv_h2
-        icon = GFX_goal_generic_construct_mil_factory
-	prerequisite = { focus = sv_h1 } ##Наследование от Focus_Number_1
-        x = 0 #По горизонтали
-        y = 1 #По вертикали
-	relative_position_id = sv_h1 ##Наследование позиции
-	cost = 10 
-		
-	available_if_capitulated = yes
-		
-        completion_reward = { 
-		add_ideas = {
-    SVO_SVO
-	}
-}}
-focus = { 
-        id = sv_h3
-        icon = GFX_goal_generic_construct_mil_factory
-	prerequisite = { focus = sv_h2 } ##Наследование от Focus_Number_1
-        x = 0 #По горизонтали
-        y = 1 #По вертикали
-	relative_position_id = sv_h2 ##Наследование позиции
-	cost = 10 
-		
-	available_if_capitulated = yes
-		
-        completion_reward = { 
-						swap_ideas = {
-    remove_idea = SVO_SVO
-    add_idea = SVO_SVO2
-}
-}}
-	focus = { 
-        id = sv_h4
-        icon = GFX_goal_generic_construct_mil_factory
-	prerequisite = { focus = sv_h2 } ##Наследование от Focus_Number_1
-        x = 4 #По горизонтали
-        y = 1 #По вертикали
-	relative_position_id = sv_h2 ##Наследование позиции
-	cost = 10 
-		
-	available_if_capitulated = yes
-		
-        completion_reward = { 
-		add_ideas = {
-    SVO_GOR
-	}
-}}
-	focus = { 
-        id = sv_h5
-        icon = GFX_goal_generic_construct_mil_factory
-	prerequisite = { focus = sv_h4 } ##Наследование от Focus_Number_1
-        x = 0 #По горизонтали
-        y = 1 #По вертикали
-	relative_position_id = sv_h4 ##Наследование позиции
-	cost = 10 
-		
-	available_if_capitulated = yes
-		
-        completion_reward = { 
-						swap_ideas = {
-    remove_idea = SVO_GOR
-    add_idea = SVO_GOR2
-}
-}}
-	focus = { 
-        id = sv_h6
-        icon = GFX_goal_generic_construct_mil_factory
-	prerequisite = { focus = sv_h5  focus = sv_b3} ##Наследование от Focus_Number_1
-        x = 1 #По горизонтали
-        y = 1 #По вертикали
-	relative_position_id = sv_h5 ##Наследование позиции
-	cost = 10 
-		
-	available_if_capitulated = yes
-		
-        completion_reward = { 
-						swap_ideas = {
-    remove_idea = SVO_GOR2
-    add_idea = SVO_GOR3
-}
-}}
-	focus = { 
+		focus = {
         id = sv_b1
         icon = GFX_goal_generic_construct_mil_factory
         x = 4 #По горизонтали
         y = 1 #По вертикали
-	
-	cost = 10 
-		
+
+	cost = 10
+
 	available_if_capitulated = yes
-		
-        completion_reward = { 
+
+        completion_reward = {
 set_technology = {
-    artillery5 = 1
+    artillery6 = 1
 	medium_tank_equipment_3=1
 	medium_tank_chassis_3=1
 }
 }
 }
-	focus = { 
+		focus = {
         id = sv_b2
-			prerequisite = { focus = sv_b1 } ##Наследование от Focus_Number_1
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = sv_b1 } ##Наследование от Focus_Number_1
         x = 0 #По горизонтали
         y = 1 #По вертикали
 	relative_position_id = sv_b1 ##Наследование позиции
-        icon = GFX_goal_generic_construct_mil_factory
 
-	
-	cost = 10 
-		
+
+
+	cost = 10
+
 	available_if_capitulated = yes
-		
-        completion_reward = { 
-set_technology = {
+
+        completion_reward = {
+
 add_tech_bonus = {
     bonus = 2.5
     uses = 5
-    category = nuclear_tech
+    category = nuclear
+}
+
 }
 }
-}
-}
-	focus = { 
+	focus = {
         id = sv_b3
+		icon = GFX_goal_generic_construct_mil_factory
 			prerequisite = { focus = sv_b2 } ##Наследование от Focus_Number_1
         x = 0 #По горизонтали
         y = 1 #По вертикали
 	relative_position_id = sv_b2 ##Наследование позиции
-        icon = GFX_goal_generic_construct_mil_factory
-	cost = 10 
-		
+
+	cost = 10
+
 	available_if_capitulated = yes
-		
-        completion_reward = { 
+
+        completion_reward = {
 set_technology = {
     rocket_artillery5 = 1
 	light_tank_equipment_3=1
@@ -168,43 +87,190 @@ set_technology = {
 }
 }
 }
-	focus = { 
-        id = sv_s3
-			prerequisite = { focus = sv_s2 } ##Наследование от Focus_Number_1
+			focus = {
+        id = sv_h2
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sv_h1 } ##Наследование от Focus_Number_1
         x = 0 #По горизонтали
         y = 1 #По вертикали
-	relative_position_id = sv_s2 ##Наследование позиции
-        icon = GFX_goal_generic_construct_mil_factory
-	cost = 10 
-		
+	relative_position_id = sv_h1 ##Наследование позиции
+	cost = 10
+
 	available_if_capitulated = yes
-		
-        completion_reward = { 
-create_corps_commander = {
-	name = "PRIGOJHIN JENYA"
-	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
-	traits = { trickster brilliant_strategist }
-	skill = 14
-	attack_skill = 14
-	defense_skill = 4
-	planning_skill = 7
-	logistics_skill = 2
+
+        completion_reward = {
+		add_ideas = {
+    SVO_SVO
+	}
+}}
+focus = {
+        id = sv_h3
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sv_h2 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_h2 ##Наследование позиции
+	cost = 10
+
+	available_if_capitulated = yes
+
+        completion_reward = {
+						swap_ideas = {
+    remove_idea = SVO_SVO
+    add_idea = SVO_SVO2
+}
+}}
+	focus = {
+        id = sv_h4
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sv_h2 } ##Наследование от Focus_Number_1
+        x = 4 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_h2 ##Наследование позиции
+	cost = 10
+
+	available_if_capitulated = yes
+
+        completion_reward = {
+		add_ideas = {
+    SVO_GOR
+	}
+}}
+	focus = {
+        id = sv_h5
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sv_h4 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_h4 ##Наследование позиции
+	cost = 10
+
+	available_if_capitulated = yes
+
+        completion_reward = {
+						swap_ideas = {
+    remove_idea = SVO_GOR
+    add_idea = SVO_GOR2
+}
+}}
+	focus = {
+        id = sv_h6
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sv_h5  focus = sv_b3} ##Наследование от Focus_Number_1
+        x = -5 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_h5 ##Наследование позиции
+	cost = 10
+
+	available_if_capitulated = yes
+
+        completion_reward = {
+						swap_ideas = {
+    remove_idea = SVO_GOR2
+    add_idea = SVO_GOR3
+}
+}}
+
+
+
+	focus = {
+        id = sv_c1
+			icon = GFX_goal_generic_construct_mil_factory
+        x = 22 #По горизонтали
+        y = 1 #По вертикали
+
+
+	cost = 10
+
+	available_if_capitulated = yes
+
+        completion_reward = {
+				random_owned_controlled_state = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 7
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+			add_war_support=0.1
+}
+}
+	focus = {
+        id = sv_c2
+			prerequisite = { focus = sv_c1 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_c1 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+        completion_reward = {
+			add_war_support=0.1
 
 }
 }
-}
-	focus = { 
-        id = sv_c1
-			
+	focus = {
+        id = sv_c3
+			prerequisite = { focus = sv_c2 AND focus = sv_3} ##Наследование от Focus_Number_1
         x = 0 #По горизонтали
         y = 1 #По вертикали
-	
+	relative_position_id = sv_c2 ##Наследование позиции
         icon = GFX_goal_generic_construct_mil_factory
-	cost = 10 
-		
+	cost = 10
+
 	available_if_capitulated = yes
-		
-        completion_reward = { 
+
+        completion_reward = {
+			add_ideas = {
+			SVO_PUE
+			}
+
+}
+}
+	focus = {
+        id = sv_c3a
+			prerequisite = { focus = sv_c2 } ##Наследование от Focus_Number_1
+        x = 2 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_c2 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+				available = {
+			is_subject = no
+			has_army_manpower = { size > 949999 } #100 div
+			#Make custom trigger tooltip here
+
+
+		}
+        completion_reward = {
+			annex_country = {
+			    target = SPA
+			    transfer_troops = yes
+			}
+
+}
+}
+	focus = {
+        id = sv_c4
+			prerequisite = { focus = sv_c3 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_c3 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                completion_reward = {
 				random_owned_controlled_state = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
@@ -220,8 +286,207 @@ create_corps_commander = {
 }
 }
 
+focus = {
+        id = sv_c5
+			prerequisite = { focus = sv_c4 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_c4 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                completion_reward = {
+				random_owned_controlled_state = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 10
+				add_building_construction = {
+					type = arms_factory
+					level = 10
+					instant_build = yes
+				}
+			}
+}
+}
+focus = {
+        id = sv_c6
+			prerequisite = { focus = sv_c5 AND focus = sv_s4 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_c5 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                completion_reward = {
+				random_owned_controlled_state = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_ideas={SVO_OKU}
+}
+}
+focus = {
+        id = sv_s1
+
+        x = 25 #По горизонтали
+        y = 1 #По вертикали
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                completion_reward = {
+add_ideas={SVO_MSU}
+}
+}
+focus = {
+        id = sv_s2
+			prerequisite = { focus = sv_s1 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_s1 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                completion_reward = {
+swap_ideas={remove_idea=SVO_MSU
+add_idea=SVO_MSU2 }
+}
+}
+	focus = {
+        id = sv_s3
+			prerequisite = { focus = sv_s2 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_s2 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+        completion_reward = {
+create_corps_commander = {
+	name = "PRIGOJHIN JENYA"
+	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
+	traits = { trickster brilliant_strategist }
+	skill = 14
+	attack_skill = 14
+	defense_skill = 4
+	planning_skill = 7
+	logistics_skill = 2
 
 }
-	
-	
-	
+}
+}
+focus = {
+        id = sv_s4
+			prerequisite = { focus = sv_s3 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 2 #По вертикали
+	relative_position_id = sv_s3 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                completion_reward = {
+add_research_slot = 2
+}
+}
+focus = {
+        id = sv_b2a
+			prerequisite = { focus = sv_b1 } ##Наследование от Focus_Number_1
+        x = -3 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_b1 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                completion_reward = {
+add_ideas={SVO_FLO}
+}
+}
+
+focus = {
+        id = sv_b2c
+			prerequisite = { focus = sv_b1 } ##Наследование от Focus_Number_1
+        x = 2 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_b1 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                completion_reward = {
+add_ideas={SVO_MAR}
+}
+}
+focus = {
+        id = sv_1
+			prerequisite = { focus = sv_h1 } ##Наследование от Focus_Number_1
+        x = 10 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_h1 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                completion_reward = {
+add_war_support=0.20
+}
+}
+
+focus = {
+        id = sv_2
+			prerequisite = { focus = sv_h1 } ##Наследование от Focus_Number_1
+        x = 12 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_h1 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                completion_reward = {
+add_ideas={SVO_3}
+}
+}
+
+focus = {
+        id = sv_3
+			prerequisite = { focus = sv_h1 } ##Наследование от Focus_Number_1
+        x = 14 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_h1 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                                completion_reward = {
+add_ideas={SVO_2}
+}
+}
+}
+
+

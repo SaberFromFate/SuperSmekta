@@ -49,7 +49,7 @@ focus = {
 	available_if_capitulated = yes
 		
         completion_reward = { 
-			add_popularity = { ideology = fashism popularity = 0.15 }
+			add_popularity = { ideology = fascism popularity = 0.15 }
 			
 			add_political_power = 150
 			custom_effect_tooltip = available_political_advisor
@@ -68,7 +68,7 @@ focus = {
 	available_if_capitulated = yes
 		
         completion_reward = { 
-			add_popularity = { ideology = fashism popularity = 0.05 }
+			add_popularity = { ideology = fascism popularity = 0.05 }
 			
 					
 						set_politics = {
@@ -110,7 +110,7 @@ focus = {
 	available_if_capitulated = yes
 		
         completion_reward = { 
-			add_popularity = { ideology = fashism popularity = 0.05 }
+			add_popularity = { ideology = fascism popularity = 0.05 }
 			
 					
 						swap_ideas = {
@@ -191,9 +191,14 @@ focus = {
 		
         completion_reward = { 
 			add_tech_bonus = {
-    bonus = 148.8
+    bonus = 1488
     uses = 6
-    category = aviation_tech
+    category = light_air
+}
+add_tech_bonus = {
+    bonus = 1488
+    uses = 6
+    category = heavy_air
 }
 	}		
     }
@@ -292,7 +297,7 @@ focus = {
         icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = sane_2 }
         x = 0 #По горизонтали
-        y = 1 #По вертикали
+        y = 4 #По вертикали
 	relative_position_id = sanft_2 ##Наследование позиции
 	cost = 10 
 		

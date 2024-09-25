@@ -1,8 +1,8 @@
-﻿capital = 564 #Ulan Ude in Buryatia
+﻿capital = 257 #Ufa
 
-#oob = "BYA_1936"
+#oob = "BSK_1936"
 
-set_research_slots = 2
+set_research_slots = 3
 
 # Starting tech
 set_technology = {
@@ -20,6 +20,7 @@ set_technology = {
 	mass_assault = 1
 	fleet_in_being = 1
 }
+
 if = {
 	limit = {
 		NOT = { has_dlc = "By Blood Alone" }
@@ -32,11 +33,10 @@ if = {
 		naval_bomber1 = 1
 	}
 }
+
 if = {
 	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
+		NOT = { has_dlc = "No Step Back" }
 	}
 	set_technology = {
 		gwtank = 1
@@ -45,9 +45,7 @@ if = {
 }
 if = {
 	limit = {
-		
 		has_dlc = "No Step Back"
-		
 	}
 	set_technology = {
 		gwtank_chassis = 1
@@ -92,17 +90,22 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 50
-	fascism = 0
-	communism = 0
-	neutrality = 50
+	democratic = 60
+	fascism = 10
+	communism = 10
+	neutrality = 20
+}
+create_country_leader = {
+	name = "Вольные ковбои"
+	desc = ""
+	picture = "gfx/leaders/FER/1.dds"
+	expire = "1953.3.1"
+	ideology = socialism
+	traits = {
+		
+	}
 }
 
-recruit_character = BYA_seymon_ignatyev
-recruit_character = BYA_bidia_dandaron
-
-
-
-
+recruit_character = BSK_yakov_bykin
 
 

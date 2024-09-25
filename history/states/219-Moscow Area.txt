@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = SAN
+		owner = JMS
 		victory_points = {
 			6380 50 
 		}

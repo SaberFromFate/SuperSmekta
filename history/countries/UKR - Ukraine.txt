@@ -82,19 +82,23 @@ if = {
 		basic_torpedo = 1
 	}
 }
-
+set_politics = {
+	ruling_party = democratic ##Рулевая партия
+	last_election = "1936.1.1" ##Последние выборы (если есть)
+	election_frequency = 48 ##Через сколько проводят выборы
+	elections_allowed = no ##Есть ли выборы
+}
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 50
+	democratic = 100
+
 }
 
 create_country_leader = {
-	name = "Kost Levytsky"
+	name = "Гачи совет"
 	desc = ""
 	picture = GFX_portrait_Kost_Levytsky
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = socialism
 	traits = {
 		
 	}
@@ -103,7 +107,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Nikita Sergeyevich Khrushchyov"
 	desc = ""
-	picture = GFX_portrait_Nikita_Sergeyevich_Khrushchyov
+	picture = "gfx/leaders/UKR/uyKUm4Mty0g.dds" 
 	expire = "1953.3.1"
 	ideology = marxism
 	traits = {
@@ -121,17 +125,6 @@ create_country_leader = {
 		
 	}
 }
-
-#create_country_leader = {
-#	name = ""
-#	desc = ""
-#	picture = ""
-#	expire = "1953.3.1"
-#	ideology = oligarchism
-#	traits = {
-#		
-#	}
-#}
 
 
 

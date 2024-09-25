@@ -364,7 +364,11 @@ technologies = {
 	}
 
 	artillery5 = {
-
+		
+				path = {
+			leads_to_tech = artillery6
+			research_cost_coeff = 1
+		}
 		artillery = {
 			soft_attack = 0.1
 		}
@@ -429,7 +433,7 @@ technologies = {
 		}
 	}
 
-	artillery5 = {
+	artillery6 = {
 
 		artillery = {
 			soft_attack = 0.3
@@ -462,11 +466,11 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1946
+		start_year = 1944
 
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 16 }
+			position = { x = 0 y = 14 }
 		}
 
 		categories = {
@@ -647,7 +651,10 @@ technologies = {
 	}
 
 	rocket_artillery4 = {
-
+		path = {
+			leads_to_tech = rocket_artillery5
+			research_cost_coeff = 1
+		}
 		enable_equipments = {
 			rocket_artillery_equipment_2
 		}
@@ -682,9 +689,6 @@ technologies = {
 	}
 		rocket_artillery5 = {
 
-		enable_equipments = {
-			rocket_artillery_equipment_2
-		}
 		motorized_rocket_brigade = {
 			soft_attack = 0.3
 		}
@@ -693,11 +697,11 @@ technologies = {
 		}
 		research_cost = 1
 
-		start_year = 1946
+		start_year = 1944
 
 		folder = {
 			name = artillery_folder
-			position = { x = 3 y = 16 }
+			position = { x = 3 y = 14 }
 		}
 
 		ai_will_do = {

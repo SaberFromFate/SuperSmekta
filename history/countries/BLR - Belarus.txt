@@ -90,17 +90,23 @@ if = {
 
 set_popularities = {
 	democratic = 15
-	neutrality = 20
-	communism = 60
+	neutrality = 60
+	communism = 20
 	fascism = 5
+}
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
 }
 
 create_country_leader = {
-    name = "Vasil Zacharka"
+    name = "Картофельный ИИ"
     desc = ""
-	picture = GFX_portrait_Vasil_Zacharka
+	picture = "gfx/leaders/BLR/5.dds"
     expire = "1965.1.1"
-    ideology = centrism
+    ideology = oligarchism
     traits = {
         #
     }
