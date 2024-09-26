@@ -938,7 +938,7 @@ CJO = { ##Например GEG
 }
 
 PUZ = { ##Например GEG
-	color = rgb { 120 0 255 } 
-	color_ui = rgb { 120 0 255 } ##Цвета Границы
+	color = rgb { 0 0 0 } 
+	color_ui = rgb { 255 0 0 } ##Цвета Границы
 }
 
