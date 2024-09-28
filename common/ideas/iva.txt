@@ -1,0 +1,30 @@
+ideas = {
+
+	country = {
+	SVO_HOR = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = IVA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.15
+				attrition = 0.05
+				experience_loss_factor = 0.1
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		}}

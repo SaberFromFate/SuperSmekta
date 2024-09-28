@@ -16,6 +16,111 @@ focus_tree = {
 
 	
 	default = no
+<<<<<<< Updated upstream
+=======
+			focus = {
+		id = ge1
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 20
+		y = 0
+		
+		prerequisite = {}
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		add_stability = -0.1
+		}
+	}
+	
+			focus = {
+		
+		
+		id = ge2
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 1
+		
+				prerequisite = { focus = ge1 }
+		mutually_exclusive = { }
+		relative_position_id = ge1
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+add_offsite_building = { type = industrial_complex level = 1 }
+		}
+	}
+				focus = {
+		
+		
+		id = ge3
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 1
+		
+				prerequisite = { focus = ge2 }
+		mutually_exclusive = { }
+		relative_position_id = ge2
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {annex_country = {
+    target = TAN
+    transfer_troops = yes
+}
+}
+		}
+					focus = {
+		
+		
+		id = ge4
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 1
+		
+				prerequisite = { focus = ge3 }
+		mutually_exclusive = { }
+		relative_position_id = ge3
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {annex_country = {
+    target = BUR	
+    transfer_troops = yes
+}
+}
+		}
+							focus = {
+		
+		
+		id = ge5
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 1
+		
+				prerequisite = { focus = ge4 }
+		mutually_exclusive = { }
+		relative_position_id = ge4
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {add_tech_bonus = {
+    bonus = 5.5
+    uses = 3
+    category = nuclear_research
+}
+}
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+>>>>>>> Stashed changes
 		focus = {
 		id = g1
 		icon = GFX_focus_fra_devalue_the_franc
@@ -33,7 +138,14 @@ focus_tree = {
 			}
 		}
 	}
+<<<<<<< Updated upstream
 			focus = {
+=======
+	
+			focus = {
+		
+		
+>>>>>>> Stashed changes
 		id = g2
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 0
@@ -326,8 +438,13 @@ add_political_power = 100
 }
 add_ideas={gr1}
 start_civil_war = {
+<<<<<<< Updated upstream
     ruling_party = communism
     ideology = fascism
+=======
+    ruling_party = fascism
+    ideology = communism
+>>>>>>> Stashed changes
     size = 0.8
     only_own_territory = no
     capital = 330
@@ -356,8 +473,13 @@ start_civil_war = {
     popularity = -0.10
 }
 			swap_ideas = {
+<<<<<<< Updated upstream
     remove_idea = gri1
     add_idea = gri2
+=======
+    remove_idea = gr1
+    add_idea = gr2
+>>>>>>> Stashed changes
 }
 			}
 		}
@@ -378,10 +500,17 @@ start_civil_war = {
     popularity = 0.3
 }
 			swap_ideas = {
+<<<<<<< Updated upstream
     remove_idea = gri2
     add_idea = gri3
 }
 add_manpower = 22814880000
+=======
+    remove_idea = gr2
+    add_idea = gr3
+}
+add_manpower = 22814880
+>>>>>>> Stashed changes
 army_experience = 500
 create_field_marshal = {
 	name = "ии1"
@@ -467,8 +596,13 @@ annex_country = {
 
 		completion_reward = {
 			swap_ideas = {
+<<<<<<< Updated upstream
     remove_idea = gri3
     add_idea = gri4
+=======
+    remove_idea = gr3
+    add_idea = gr4
+>>>>>>> Stashed changes
 }
 			}
 		}

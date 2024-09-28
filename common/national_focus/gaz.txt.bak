@@ -16,6 +16,111 @@ focus_tree = {
 
 	
 	default = no
+<<<<<<< Updated upstream
+=======
+			focus = {
+		id = ge1
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 20
+		y = 0
+		
+		prerequisite = {}
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		add_stability = -0.1
+		}
+	}
+	
+			focus = {
+		
+		
+		id = ge2
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 1
+		
+				prerequisite = { focus = ge1 }
+		mutually_exclusive = { }
+		relative_position_id = ge1
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+add_offsite_building = { type = industrial_complex level = 1 }
+		}
+	}
+				focus = {
+		
+		
+		id = ge3
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 1
+		
+				prerequisite = { focus = ge2 }
+		mutually_exclusive = { }
+		relative_position_id = ge2
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {annex_country = {
+    target = TAN
+    transfer_troops = yes
+}
+}
+		}
+					focus = {
+		
+		
+		id = ge4
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 1
+		
+				prerequisite = { focus = ge3 }
+		mutually_exclusive = { }
+		relative_position_id = ge3
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {annex_country = {
+    target = BUR	
+    transfer_troops = yes
+}
+}
+		}
+							focus = {
+		
+		
+		id = ge5
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 1
+		
+				prerequisite = { focus = ge4 }
+		mutually_exclusive = { }
+		relative_position_id = ge4
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {add_tech_bonus = {
+    bonus = 5.5
+    uses = 3
+    category = nuclear_research
+}
+}
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+>>>>>>> Stashed changes
 		focus = {
 		id = g1
 		icon = GFX_focus_fra_devalue_the_franc
@@ -33,7 +138,14 @@ focus_tree = {
 			}
 		}
 	}
+<<<<<<< Updated upstream
 			focus = {
+=======
+	
+			focus = {
+		
+		
+>>>>>>> Stashed changes
 		id = g2
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 0
@@ -320,12 +432,171 @@ add_political_power = 100
 
 		completion_reward = {
 				add_popularity = {
+<<<<<<< Updated upstream
     ideology = communism
     popularity = 0.20
 }
 add_political_power = 100
 			}
 		}
+=======
+    ideology = fascism
+    popularity = 0.20
+	
+}
+add_ideas={gr1}
+start_civil_war = {
+    ruling_party = communism
+    ideology = fascism
+    size = 0.8
+    only_own_territory = no
+    capital = 330
+    states = { 
+        330
+    }
+
+}
+			}
+		}
+		
+					focus = {
+		id = r3
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = r2 }
+		mutually_exclusive = { }
+		relative_position_id = r2
+		cost = 5
+
+		completion_reward = {
+				add_popularity = {
+    ideology = fascism
+    popularity = -0.10
+}
+			swap_ideas = {
+    remove_idea = gri1
+    add_idea = gri2
+}
+			}
+		}
+					focus = {
+		id = r4
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = r3 }
+		mutually_exclusive = { }
+		relative_position_id = r3
+		cost = 20
+
+		completion_reward = {
+				add_popularity = {
+    ideology = fascism
+    popularity = 0.3
+}
+			swap_ideas = {
+    remove_idea = gri2
+    add_idea = gri3
+}
+add_manpower = 22814880000
+army_experience = 500
+create_field_marshal = {
+	name = "ии1"
+	picture = "Portrait_France_Maurice_Gamelin.dds"
+	traits = { defensive_doctrine }
+	skill = 20
+	attack_skill = 20
+	defense_skill = 20
+	planning_skill = 20
+	logistics_skill = 20
+}
+create_field_marshal = {
+	name = "ии2"
+	picture = "Portrait_France_Maurice_Gamelin.dds"
+	traits = { defensive_doctrine }
+	skill = 20
+	attack_skill = 20
+	defense_skill = 20
+	planning_skill = 20
+	logistics_skill = 20
+}
+create_field_marshal = {
+	name = "ии3"
+	picture = "Portrait_France_Maurice_Gamelin.dds"
+	traits = { defensive_doctrine }
+	skill = 20
+	attack_skill = 20
+	defense_skill = 20
+	planning_skill = 20
+	logistics_skill = 20
+}
+			}
+		}
+					focus = {
+		id = r5a
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = r4 }
+		mutually_exclusive = { }
+		relative_position_id = r4
+		cost = 10
+
+		completion_reward = {
+				add_popularity = {
+    ideology = communism
+    popularity = 0.20
+}
+add_stability = 1
+add_war_support=1
+add_political_power = 100000
+			}
+		}
+							focus = {
+		id = r5b
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 3
+		y = 2
+		
+				prerequisite = { focus = r4 }
+		mutually_exclusive = { }
+		relative_position_id = r4
+		cost = 10
+
+		completion_reward = {
+annex_country = {
+    target = BLR
+    transfer_troops = yes
+}
+			}
+		}
+									focus = {
+		id = r5b
+		icon = GFX_focus_fra_devalue_the_franc
+		x = -3
+		y = 2
+		
+				prerequisite = { focus = r4 }
+		mutually_exclusive = { }
+		relative_position_id = r4
+		cost = 10
+
+		completion_reward = {
+			swap_ideas = {
+    remove_idea = gri3
+    add_idea = gri4
+}
+			}
+		}
+		
+		
+		
+		
+>>>>>>> Stashed changes
 	
 			focus = {
 		id = e1
@@ -383,10 +654,143 @@ add_research_slot=1
 		}
 
 			}
+<<<<<<< Updated upstream
 
 	
 	
 	
+=======
+					focus = {
+		id = e3
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = e2 }
+		mutually_exclusive = { }
+		relative_position_id = e2
+		cost = 10
+
+		completion_reward = {
+		add_political_power = 150
+	add_tech_bonus = {
+    bonus = 1.5
+    uses =4
+    category = industrial_tech
+}
+		}
+
+			}
+	
+						focus = {
+		id = e4
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = e3 }
+		mutually_exclusive = { }
+		relative_position_id = e3
+		cost = 10
+
+		completion_reward = {
+add_research_slot=1
+
+		}
+			}
+								focus = {
+		id = e5
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = e4 }
+		mutually_exclusive = { }
+		relative_position_id = e4
+		cost = 10
+
+		completion_reward = {
+add_research_slot=1
+add_stability = 0.1
+		}
+
+			}
+				focus = {
+		id = e5a
+		icon = GFX_focus_fra_devalue_the_franc
+		x = -3
+		y = 2
+		
+				prerequisite = { focus = e4 }
+		mutually_exclusive = { }
+		relative_position_id = e4
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+						add_ideas = {gri1
+			}
+		}
+	}
+			
+					focus = {
+		id = e6a
+		icon = GFX_focus_fra_devalue_the_franc
+		x = -3
+		y = 2
+		
+				prerequisite = { focus = e5a }
+		mutually_exclusive = { }
+		relative_position_id = e5a
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+swap_ideas = {
+    remove_idea = gri1
+    add_idea = gri2
+}
+		}
+	}
+						focus = {
+		id = e7a
+		icon = GFX_focus_fra_devalue_the_franc
+		x = -3
+		y = 2
+		
+				prerequisite = { focus = e6a }
+		mutually_exclusive = { }
+		relative_position_id = e6a
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+swap_ideas = {
+    remove_idea = gri2
+    add_idea = gri3
+}
+		}
+	}
+						focus = {
+		id = e8a
+		icon = GFX_focus_fra_devalue_the_franc
+		x = -3
+		y = 2
+		
+				prerequisite = { focus = e7a }
+		mutually_exclusive = { }
+		relative_position_id = e7a
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+swap_ideas = {
+    remove_idea = gri3
+    add_idea = gri4
+}
+		}
+	}
+>>>>>>> Stashed changes
 	
 	
 	
@@ -430,7 +834,11 @@ add_research_slot=1
 
 		completion_reward = {
 				add_popularity = {
+<<<<<<< Updated upstream
     ideology = communism
+=======
+    ideology = fascism
+>>>>>>> Stashed changes
     popularity = 0.20
 }
 add_political_power = 100
