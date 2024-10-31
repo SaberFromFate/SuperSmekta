@@ -315,4 +315,416 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.4
 			}
 		}
+													gst5	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+					production_factory_efficiency_gain_factor = 0.25
+				production_speed_buildings_factor = 0.5
+				industrial_capacity_factory = 0.4
+				global_building_slots_factor = 0.50
+				industry_air_damage_factor = -0.2
+				production_factory_max_efficiency_factor = 0.5
+				stability_weekly = 0.005
+				political_power_gain = 0.5
+			}
+		}
+															gst6	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+					production_factory_efficiency_gain_factor = 0.25
+				production_speed_buildings_factor = 0.5
+				industrial_capacity_factory = 0.4
+				global_building_slots_factor = 0.50
+				industry_air_damage_factor = -0.2
+				production_factory_max_efficiency_factor = 0.5
+				stability_weekly = 0.005
+				political_power_gain = 0.5
+				offensive_war_stability_factor = 0.4
+				command_power_gain_mult = 0.5
+				war_support_weekly = 0.001
+				justify_war_goal_time = -0.25
+			}
+		}
+		
+		
+													gri1	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+consumer_goods_factor = -0.15
+production_speed_industrial_complex_factor = 0.1
+production_speed_arms_factory_factor = 0.1
+industrial_capacity_factory = 0.1
+industrial_capacity_dockyard = 0.1
+			}
+		}
+															gri2	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+consumer_goods_factor = -0.15
+production_speed_industrial_complex_factor = 0.1
+production_speed_arms_factory_factor = 0.1
+industrial_capacity_factory = 0.1
+industrial_capacity_dockyard = 0.1
+experience_loss_factor = -0.3
+supply_consumption_factor = -0.20
+dig_in_speed = 0.25
+max_dig_in = 4
+army_org = 5
+			}
+		}
+																	gri3	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+consumer_goods_factor = -0.45
+production_speed_industrial_complex_factor = 0.1
+production_speed_arms_factory_factor = 0.1
+industrial_capacity_factory = 0.1
+industrial_capacity_dockyard = 0.1
+experience_loss_factor = -0.3
+supply_consumption_factor = -0.20
+dig_in_speed = 0.25
+max_dig_in = 4
+army_org = 5
+army_bonus_air_superiority_factor = 0.15
+air_accidents_factor = -0.65
+max_planning = 0.95
+planning_speed = 0.60
+			}
+		}
+																			gri4	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+consumer_goods_factor = -0.45
+production_speed_industrial_complex_factor = 0.1
+production_speed_arms_factory_factor = 0.1
+industrial_capacity_factory = 0.1
+industrial_capacity_dockyard = 0.1
+experience_loss_factor = -0.3
+supply_consumption_factor = -0.20
+dig_in_speed = 0.25
+max_dig_in = 4
+army_org = 5
+army_bonus_air_superiority_factor = 0.15
+air_accidents_factor = -0.65
+max_planning = 0.95
+planning_speed = 0.60
+stability_weekly = 0.001
+war_support_weekly = 0.001
+political_power_gain = 0.25
+			}
+		}
+													gr1	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+					fascism_drift = 0.20
+			}
+		}
+		gr2	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+					MONTHLY_POPULATION = -20
+					fascism_drift = 0.40
+					civilian_factory_use = 15
+					stability_factor = -0.60
+					production_speed_buildings_factor = -1
+					industrial_capacity_factory = -1
+			}
+		}
+						gres1	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+					communism_drift = 0.10
+					research_speed_factor = 0.1
+
+			}
+		}
+				gr3	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+					fascism_drift = 0.40
+					research_speed_factor = 1488
+					global_building_slots_factor = 1488
+					industrial_capacity_factory = 2
+					consumer_goods_factor = -0.95
+					MONTHLY_POPULATION = -20
+			}
+		}
+						gr4	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+					justify_war_goal_time=-0.99
+					enemy_justify_war_goal_time = -0.99
+					fascism_drift = 0.40
+					research_speed_factor = 1488
+					global_building_slots_factor = 1488
+					industrial_capacity_factory = 2
+					consumer_goods_factor = -0.95
+					MONTHLY_POPULATION = -20
+			}
+		}
+								gco1	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+		consumer_goods_factor = -0.15
+			}
+		}
+										gco2	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+		consumer_goods_factor = -0.15
+		global_building_slots_factor = 0.50
+		production_speed_buildings_factor = 0.1
+			}
+		}
+		gin	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+resistance_tick_auto = -2
+compliance_growth = 1
+			}
+		}
+				sdo	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+send_volunteers_tension = -1
+send_volunteer_divisions_required = -0.85
+send_volunteer_size = 24
+			}
+		}
+						ak47	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+    conscription=0.4
+	non_core_manpower=0.25
+	mobilization_speed=2
+	army_attack_factor=0.4	
+	army_morale=0.2
+	land_reinforce_rate=0.8
+			}
+		}
+						pravpu	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+heat_attrition=-0.9
+attrition=-0.5
+org_loss_when_moving=-0.3
+ai_focus_war_production_factor=2
+ai_focus_aggressive_factor=5
+ai_desired_divisions_factor=2
+supply_consumption_factor=-0.6
+equipment_capture_factor=0.5
+			}
+		}
+						gla	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+production_lack_of_resource_penalty_factor=-1
+production_factory_efficiency_gain_factor=1
+required_garrison_factor=-0.7
+justify_war_goal_time=-0.3
+army_org=-0.1
+industrial_capacity_factory=1
+industry_air_damage_factor=-0.7
+army_speed_factor=0.6
+
+			}
+		}
 }}

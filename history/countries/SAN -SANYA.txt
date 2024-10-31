@@ -28,15 +28,15 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality ##Рулевая партия
+	ruling_party = democratic ##Рулевая партия
 	last_election = "1936.1.1" ##Последние выборы (если есть)
 	election_frequency = 48 ##Через сколько проводят выборы
 	elections_allowed = no ##Есть ли выборы
 }
 
 set_popularities = {
-	democratic = 10  ##Демократия
-	neutrality = 70 ##Нейтралитет
+	democratic = 70  ##Демократия
+	neutrality = 10 ##Нейтралитет
 	communism = 10 ##Коммунизм
 	fascism = 10 ##Фашизм
 }
@@ -46,7 +46,7 @@ create_country_leader = {
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
     expire = "1965.1.1"
-    ideology = centrism
+    ideology = socialism
     traits = {
         #
     }
@@ -54,11 +54,11 @@ create_country_leader = {
 
 # Лидер Страны
 create_country_leader = {
-    name = "Mega Lider"
+    name = "Саня"
     desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds" #Картинка
+    picture = "gfx/leaders/YAK/san.dds" #Картинка
     expire = "1965.1.1" #Когда умрет
-    ideology = oligarchism
+    ideology = socialism
 	##За какую Идеологию (входит в types у коммунистов)
     #conservatism, liberalism и socialism - демократия
     #marxism, leninism, stalinism, anti_revisionism, anarchist_communism - коммунизм

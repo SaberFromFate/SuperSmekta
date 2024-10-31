@@ -10,11 +10,13 @@ state={
 	}
 
 	history={
-		owner = BYA
+		owner = NEN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			indusrtial_complex=4
 		}
 		add_core_of = BYA
+		add_core_of = NEN
 	}
 
 	provinces={

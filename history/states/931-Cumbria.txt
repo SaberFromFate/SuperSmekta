@@ -9,8 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = SVO
-		add_core_of = SVO
+		owner = SCO
+		add_core_of = SCO
 		victory_points = {
 			11332 3 #Carlisle
 		}

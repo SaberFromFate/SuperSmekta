@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-	SVO_HOR = {
+	IVA_LEN = {
 			picture = generic_foreign_capital
 			allowed = {
 				original_tag = IVA
@@ -15,13 +15,96 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				army_attack_factor = 0.15
-				attrition = 0.05
-				experience_loss_factor = 0.1
+				production_speed_buildings_factor = -0.2 
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.2
+				political_power_factor = -0.2
 			}
 		}
-		
-		
+			YAS1 = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = IVA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_weekly = 0.01
+				weekly_casualties_war_support = 0.01
+				political_power_gain = 0.2
+			}
+		}
+					YAS2 = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = IVA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = -0.5
+				mobilization_speed = 0.3
+				land_reinforce_rate = 0.3
+				war_support_weekly = 0.02
+				weekly_casualties_war_support = 0.01
+				political_power_gain = 0.2
+			}
+		}
+							YASn1 = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = IVA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+	required_garrison_factor = -0.5
+	resistance_target = -0.5
+	compliance_growth = 1
+			}
+		}
+												vvya = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = IVA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+modifier = {
+				
+				naval_damage_factor = 0.4
+				naval_defense_factor = 0.4
+				convoy_raiding_efficiency_factor = 0.7
+				navy_fuel_consumption_factor = -0.8
+				navy_max_range_factor = 2.00
+				invasion_preparation = -0.69
+				amphibious_invasion = 0.10
+			}
+		}
 		
 		
 		

@@ -1,7 +1,7 @@
 state = {
 
 	id = 823
-	name = "STATE_823" #Karakalpakstan
+	name = "STATE_823" #KarakalOCCstan
 
 	history = {
 	

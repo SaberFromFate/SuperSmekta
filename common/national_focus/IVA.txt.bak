@@ -1,0 +1,69 @@
+focus_tree = {
+	id = IVA_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = IVA
+		}
+	}
+
+	
+	default = no
+	reset_on_civilwar = no
+
+
+	focus = {
+		id = iv1
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 0
+		cost = 4
+
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+leave_faction = yes
+			hidden_effect = {
+				play_song = "war"
+			}
+news_event = {
+    id = 3.1
+    days = 10
+    random = 50
+}
+		}
+	}
+	
+		focus = {
+		id = iv2
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 0
+		cost = 10
+				prerequisite = { focus = iv1 }
+		mutually_exclusive = { }
+		relative_position_id = iv1
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		news_event = {
+    id = 3.2
+    days = 10
+    random = 50
+}
+add_stability = 0.1
+add_political_power = 150
+		}
+	}
+	
+	
+	
+	
+	
+	}

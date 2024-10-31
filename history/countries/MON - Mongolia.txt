@@ -1,0 +1,273 @@
+﻿capital = 330
+
+oob = "MON_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+}
+
+recruit_character = MON_anandyn_amar
+recruit_character = MON_mingzhu_zhanshan
+recruit_character = MON_fu_shangzhi
+recruit_character = MON_songgotu_kangan
+recruit_character = MON_haidav
+recruit_character = MON_dagva
+recruit_character = MON_chimid
+recruit_character = MON_sukhbaataryn_yanjmaa
+recruit_character = MON_ganbaatar
+recruit_character = MON_ulanhu
+recruit_character = MON_vg_pyrselov
+recruit_character = MON_lee_shou_hsin
+recruit_character = MON_buyannmeh
+recruit_character = MON_horloogiyn_choybalsan
+recruit_character = MON_olziytrygyn_badrak
+recruit_character = MON_dashdorj
+recruit_character = MON_gomgchigryn_bumtsend
+recruit_character = MON_dansrabilegyin_dogsam
+recruit_character = MON_yundunwangcug
+recruit_character = MON_pai_yun_ti
+recruit_character = GER1_wilhelm_pieck
+recruit_character = GER1_konrad_adenauer
+recruit_character = GER1_adolf_hitler
+recruit_character = GER1_albert_kesselring
+recruit_character = GER1_alfred_jodl
+recruit_character = GER1_alfred_saalwachter
+recruit_character = GER1_erhard_milch
+recruit_character = GER1_erich_bey
+recruit_character = GER1_erich_raeder
+recruit_character = GER1_erich_von_manstein
+recruit_character = GER1_ernst_udet
+recruit_character = GER1_ernsteberhard_hell
+recruit_character = GER1_erwin_rommel
+recruit_character = GER1_erwin_von_witzleben
+recruit_character = GER1_ewald_von_kleist
+recruit_character = GER1_fedor_von_bock
+recruit_character = GER1_felix_steiner
+recruit_character = GER1_ferdinand_schorner
+recruit_character = GER1_franz_halder
+recruit_character = GER1_friedrich_paulus
+recruit_character = GER1_friedrich_schulz
+recruit_character = GER1_georg_von_kuchler
+recruit_character = GER1_georghans_reinhardt
+recruit_character = GER1_GER1d_von_rundstedt
+recruit_character = GER1_hermann_goring
+recruit_character = GER1_gotthard_heinrici
+recruit_character = GER1_gunther_lutjens
+recruit_character = GER1_gunther_von_kluge
+recruit_character = GER1_hasso_von_manteuffel
+recruit_character = GER1_heinz_guderian
+recruit_character = GER1_heisenberg
+recruit_character = GER1_hermann_boehm
+recruit_character = GER1_hermann_hoth
+recruit_character = GER1_hugo_sperrle
+recruit_character = GER1_johannes_blaskowitz
+recruit_character = GER1_karl_donitz
+recruit_character = GER1_kurt_student
+recruit_character = GER1_ludwig_beck
+recruit_character = GER1_maximilian_von_weichs
+recruit_character = GER1_otto_ciliax
+recruit_character = GER1_paul_hausser
+recruit_character = GER1_ritter_von_greim
+recruit_character = GER1_sepp_dietrich
+recruit_character = GER1_viktor_schutze
+recruit_character = GER1_von_braun
+recruit_character = GER1_walter_kruGER1
+recruit_character = GER1_walter_model
+recruit_character = GER1_walther_von_brauchitsch
+recruit_character = GER1_walther_wever
+recruit_character = GER1_werner_von_fritsch
+recruit_character = GER1_wilhelm_keitel
+recruit_character = GER1_wilhelm_list
+recruit_character = GER1_wilhelm_marschall
+
+recruit_character = GER1_wilhelm_ritter_von_leeb
+recruit_character = GER1_wolfram_von_richthofen
+
+recruit_character = GER1_heinrich_himmler
+recruit_character = GER1_walther_funk
+recruit_character = GER1_hjalmar_schacht
+recruit_character = GER1_julius_leber
+recruit_character = GER1_albert_speer
+recruit_character = GER1_hans_oster
+recruit_character = GER1_theodor_heuss
+recruit_character = GER1_fritz_todt
+recruit_character = GER1_joachim_von_ribbentrop
+recruit_character = GER1_ernst_thalmann
+recruit_character = GER1_rudolf_hess
+recruit_character = GER1_martin_bormann
+recruit_character = GER1_wilhelm_canaris
+recruit_character = GER1_joseph_goebbels
+recruit_character = GER1_konstantin_von_neurath
+recruit_character = GER1_alfred_hugenberg
+recruit_character = GER1_kurt_schumacher
+recruit_character = GER1_wilhelm_ii
+recruit_character = GER1_wilhelm_iii
+recruit_character = GER1_victoria
+recruit_character = GER1_august_von_mackensen
+recruit_character = SOV1_mikhail_kalinin
+recruit_character = SOV1_nikita_khrushchyov
+recruit_character = SOV1_nikolay_voznesensky
+recruit_character = SOV1_lazar_kaganovich
+recruit_character = SOV1_genrikh_yagoda
+recruit_character = SOV1_nikolay_yezhov
+recruit_character = SOV1_lavrenty_beriya
+recruit_character = SOV1_vsevolod_merkulov
+recruit_character = SOV1_vyacheslav_molotov
+recruit_character = SOV1_maksim_litvinov
+
+recruit_character = SOV1_lev_trotsky
+recruit_character = SOV1_ivan_smirnov
+recruit_character = SOV1_ivar_smilga
+recruit_character = SOV1_karl_radek
+recruit_character = SOV1_yevgeny_preobrazhensky
+recruit_character = SOV1_aleksandr_shlyapnikov
+recruit_character = SOV1_nikolay_bukharin
+recruit_character = SOV1_aleksey_rykov
+recruit_character = SOV1_mikhail_tomsky
+recruit_character = SOV1_grigory_sokolnikov
+recruit_character = SOV1_grigory_zinovyev
+recruit_character = SOV1_lev_kamenev
+recruit_character = SOV1_martemyan_ryutin
+recruit_character = SOV1_patriarch_sergy
+recruit_character = SOV1_aleksandr_kerensky
+recruit_character = SOV1_konstantin_rodzayevsky
+
+
+recruit_character = SOV1_aleksandr_vasilevsky
+recruit_character = SOV1_aleksandr_golovanov
+recruit_character = SOV1_aleksandr_gorbatov
+recruit_character = SOV1_aleksandr_novikov
+recruit_character = SOV1_aleksandr_yegorov
+recruit_character = SOV1_andrey_grechko
+recruit_character = SOV1_andrey_vlaSOV1
+recruit_character = SOV1_andrey_yeryomenko
+recruit_character = SOV1_arseny_golovko
+recruit_character = SOV1_boris_shaposhnikov
+recruit_character = SOV1_dmitry_lelyushenko
+recruit_character = SOV1_filipp_golikov
+recruit_character = SOV1_filipp_oktyabrsky
+
+recruit_character = SOV1_georgy_zakharov
+recruit_character = SOV1_georgy_zhukov
+recruit_character = SOV1_gordey_levchenko
+recruit_character = SOV1_grigory_kulik
+recruit_character = SOV1_igor_kurchatov
+recruit_character = SOV1_issa_pliyev
+recruit_character = SOV1_ivan_chernyakhovsky
+recruit_character = SOV1_ivan_fedyuninsky
+recruit_character = SOV1_ivan_konev
+recruit_character = SOV1_ivan_yumashev
+recruit_character = SOV1_kirill_meretskov
+recruit_character = SOV1_kirill_moskalenko
+recruit_character = SOV1_kliment_voroshilov
+recruit_character = SOV1_konstantin_rokosSOV1sky
+recruit_character = SOV1_konstantin_vershinin
+recruit_character = SOV1_kuzma_galitsky
+recruit_character = SOV1_leonid_govorov
+recruit_character = SOV1_maksim_purkayev
+recruit_character = SOV1_markian_popov
+recruit_character = SOV1_maks_reyter
+recruit_character = SOV1_mikhail_frinovsky
+
+recruit_character = SOV1_mikhail_tukhachevsky
+recruit_character = SOV1_nikandr_chibiSOV1
+
+recruit_character = SOV1_nikolay_berzarin
+recruit_character = SOV1_nikolay_vatutin
+
+recruit_character = SOV1_nikolay_kuznetSOV1
+
+recruit_character = SOV1_pavel_rychagov
+recruit_character = SOV1_pavel_zhigarev
+recruit_character = SOV1_pyotr_smirnov
+recruit_character = SOV1_rodion_malinovsky
+recruit_character = SOV1_semyon_budyonny
+recruit_character = SOV1_semyon_timoshenko
+recruit_character = SOV1_sergey_khudyakov
+recruit_character = SOV1_sergey_korolyov
+recruit_character = SOV1_sergey_rudenko
+recruit_character = SOV1_sergey_gorshkov
+recruit_character = SOV1_stepan_kraSOV1sky
+recruit_character = SOV1_vasily_blyukher
+recruit_character = SOV1_vasily_chuykov
+recruit_character = SOV1_vasily_kuznetSOV1
+recruit_character = SOV1_vladimir_kasatonov
+recruit_character = SOV1_vladimir_tributs
+
+recruit_character = SOV1_yakov_cherevichenko
+recruit_character = SOV1_yakov_smushkevich
+
+recruit_character = SOV1_vitaly_primakov
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	add_command_power = 100
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = construction_effort_2
+	complete_national_focus = production_effort_2
+	complete_national_focus = infrastructure_effort
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "MON_1939"
+	set_technology = {
+		support_weapons = 1
+		gw_artillery = 1
+		
+		#doctrines
+		air_superiority = 1
+		
+		mass_assault = 1
+		pocket_defence = 1
+		defence_in_depth = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		concentrated_industry = 1
+		concentrated_industry2 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascism = 30
+	communism = 50
+}
+
+1939.1.1 = {
+	add_ideas = {
+		limited_conscription
+	}
+
+	recruit_character = MON_khorloogiin_choibalsan
+	promote_character = MON_khorloogiin_choibalsan
+	retire_character = MON_anandyn_amar
+}

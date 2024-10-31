@@ -1,0 +1,119 @@
+ideas = {
+
+	country = {
+aya1	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = MEX
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+army_attack_factor = -0.5
+army_defence_factor = 0.2
+land_night_attack = 3.5
+army_org = 10
+army_org_regain = 0.3
+combat_width_factor = -0.3
+ai_focus_war_production_factor=2
+ai_focus_aggressive_factor=5
+ai_desired_divisions_factor=2
+
+			}
+		}
+		
+		aya2	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = MEX
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+army_attack_factor = -0.5
+army_defence_factor = 0.2
+land_night_attack = 3.5
+army_org = 10
+army_org_regain = 0.3
+combat_width_factor = -0.3
+compliance_gain = 0.1
+compliance_growth = 0.5
+conscription_factor = 0.3
+stability_weekly = 0.1
+ai_focus_war_production_factor=2
+ai_focus_aggressive_factor=5
+ai_desired_divisions_factor=2
+			}
+		}
+				aya3	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = MEX
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+					army_speed_factor = 1.28
+army_attack_factor = 4.28
+army_defence_factor = 2.28
+army_org = 40
+army_org_regain = 0.5
+combat_width_factor = -0.3
+compliance_gain = 0.1
+compliance_growth = 0.5
+conscription_factor = 0.3
+stability_weekly = 0.1
+ai_focus_war_production_factor=2
+ai_focus_aggressive_factor=5
+ai_desired_divisions_factor=2
+			}
+		}
+						stro1	= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = ARG
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+					modifier = {
+					army_speed_factor = 0.2
+army_attack_factor = 0.2
+army_defence_factor = 0.2
+army_org = 10
+conscription_factor = 0.3
+stability_weekly = 0.1
+production_factory_efficiency_gain_factor = 0.5 
+line_change_production_efficiency_factor = 0.3
+production_factory_max_efficiency_factor = 0.5 
+supply_consumption_factor = -0.5
+army_strength_factor = 0.2
+ai_focus_war_production_factor=0.5
+ai_focus_aggressive_factor=1
+ai_desired_divisions_factor=0.5
+			}
+		}
+}}

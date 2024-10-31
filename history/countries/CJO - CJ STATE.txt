@@ -65,6 +65,10 @@ create_country_leader = {
         #
     }
 }
-
+	set_autonomy = {
+		target = OCC
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
 # Лидер Страны
 

@@ -2,7 +2,7 @@
 state={
 	id=568
 	name="STATE_568" # Krasnoyarsk
-	manpower = 1726427
+	manpower = 6726427
 	
 	state_category = town
 
@@ -10,6 +10,7 @@ state={
 		owner = BYA
 		buildings = {
 			infrastructure = 2
+			arms_factory = 8
 		}
 		victory_points = {
 			4724 1 

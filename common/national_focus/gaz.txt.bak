@@ -13,11 +13,11 @@ focus_tree = {
 	initial_show_position = {
 		x = 0
 	}
+	continuous_focus_position = { x = 40 y = 0 }
 
 	
 	default = no
-<<<<<<< Updated upstream
-=======
+
 			focus = {
 		id = ge1
 		icon = GFX_focus_fra_devalue_the_franc
@@ -39,7 +39,7 @@ focus_tree = {
 		id = ge2
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 0
-		y = 1
+		y = 2
 		
 				prerequisite = { focus = ge1 }
 		mutually_exclusive = { }
@@ -57,7 +57,7 @@ add_offsite_building = { type = industrial_complex level = 1 }
 		id = ge3
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 0
-		y = 1
+		y = 2
 		
 				prerequisite = { focus = ge2 }
 		mutually_exclusive = { }
@@ -71,13 +71,32 @@ add_offsite_building = { type = industrial_complex level = 1 }
 }
 }
 		}
+		
+							focus = {
+		
+		
+		id = ge4a
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 3
+		y = 2
+		
+				prerequisite = { focus = ge3 }
+		mutually_exclusive = { }
+		relative_position_id = ge3
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {add_ideas=sdo
+}
+
+		}
 					focus = {
 		
 		
 		id = ge4
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 0
-		y = 1
+		y = 2
 		
 				prerequisite = { focus = ge3 }
 		mutually_exclusive = { }
@@ -86,10 +105,11 @@ add_offsite_building = { type = industrial_complex level = 1 }
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {annex_country = {
-    target = BUR	
+    target = BYA	
     transfer_troops = yes
 }
 }
+
 		}
 							focus = {
 		
@@ -97,7 +117,7 @@ add_offsite_building = { type = industrial_complex level = 1 }
 		id = ge5
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 0
-		y = 1
+		y = 2
 		
 				prerequisite = { focus = ge4 }
 		mutually_exclusive = { }
@@ -108,7 +128,7 @@ add_offsite_building = { type = industrial_complex level = 1 }
 		completion_reward = {add_tech_bonus = {
     bonus = 5.5
     uses = 3
-    category = nuclear_research
+    category = nuclear
 }
 }
 		}
@@ -117,10 +137,6 @@ add_offsite_building = { type = industrial_complex level = 1 }
 	
 	
 	
-	
-	
-	
->>>>>>> Stashed changes
 		focus = {
 		id = g1
 		icon = GFX_focus_fra_devalue_the_franc
@@ -138,14 +154,13 @@ add_offsite_building = { type = industrial_complex level = 1 }
 			}
 		}
 	}
-<<<<<<< Updated upstream
-			focus = {
-=======
+
+
 	
 			focus = {
 		
 		
->>>>>>> Stashed changes
+
 		id = g2
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 0
@@ -185,7 +200,7 @@ add_offsite_building = { type = industrial_complex level = 1 }
 		id = g4a
 		icon = GFX_focus_fra_devalue_the_franc
 		x = -5
-		y = 2
+		y = 1
 		
 				prerequisite = { focus = g3a }
 		mutually_exclusive = { }
@@ -202,7 +217,7 @@ add_offsite_building = { type = industrial_complex level = 1 }
 		id = g4b
 		icon = GFX_focus_fra_devalue_the_franc
 		x = -2
-		y = 2
+		y = 1
 		
 				prerequisite = { focus = g3a }
 		mutually_exclusive = { }
@@ -219,7 +234,7 @@ add_offsite_building = { type = industrial_complex level = 1 }
 		id = g4c
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 1
-		y = 2
+		y = 1
 		
 				prerequisite = { focus = g3a }
 		mutually_exclusive = { }
@@ -236,7 +251,7 @@ add_offsite_building = { type = industrial_complex level = 1 }
 		id = g4d
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 4
-		y = 2
+		y = 1
 		
 				prerequisite = { focus = g3a }
 		mutually_exclusive = { }
@@ -253,7 +268,7 @@ add_offsite_building = { type = industrial_complex level = 1 }
 		id = g5a
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 0
-		y = 2
+		y = 1
 		
 				prerequisite = { focus = g4a }
 		mutually_exclusive = { }
@@ -270,7 +285,7 @@ add_offsite_building = { type = industrial_complex level = 1 }
 		id = g5b
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 4
-		y = 2
+		y = 1
 		
 				prerequisite = { focus = g4a }
 		mutually_exclusive = { }
@@ -287,10 +302,10 @@ add_offsite_building = { type = industrial_complex level = 1 }
 		id = g6a
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 0
-		y = 2
+		y = 1
 		
 				prerequisite = { focus = g5a }
-		mutually_exclusive = { }
+		mutually_exclusive = { focus = g6b }
 		relative_position_id = g5a
 		cost = 10
 
@@ -304,10 +319,10 @@ add_offsite_building = { type = industrial_complex level = 1 }
 		id = g6b
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 4
-		y = 2
+		y = 1
 		
 				prerequisite = { focus = g5a }
-		mutually_exclusive = { }
+		mutually_exclusive = {focus = g6b }
 		relative_position_id = g5a
 		cost = 10
 
@@ -330,7 +345,7 @@ add_offsite_building = { type = industrial_complex level = 1 }
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			every_owned_state = {
+			random_owned_state = {
 				limit = {
 					is_controlled_by = ROOT
 				}
@@ -388,7 +403,7 @@ add_offsite_building = { type = industrial_complex level = 1 }
 		y = 2
 		
 				prerequisite = { focus = g5 }
-		mutually_exclusive = { }
+		mutually_exclusive = { focus = r1 }
 		relative_position_id = g5
 		cost = 10
 
@@ -400,13 +415,458 @@ add_offsite_building = { type = industrial_complex level = 1 }
 add_political_power = 100
 			}
 		}
+						focus = {
+		id = c2e
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = c1 }
+		mutually_exclusive = { }
+		relative_position_id = c1
+		cost = 10
+
+		completion_reward = {
+add_ideas = gco1
+			}
+		}
+								focus = {
+		id = c3e
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = c2e }
+		mutually_exclusive = { }
+		relative_position_id = c2e
+		cost = 10
+
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			}
+		}
+										focus = {
+		id = c4e
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = c3e }
+		mutually_exclusive = { }
+		relative_position_id = c3e
+		cost = 10
+
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+			}
+			}
+		}
+												focus = {
+		id = c5e
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = c4e }
+		mutually_exclusive = { }
+		relative_position_id = c4e
+		cost = 10
+
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+			}
+			}
+		}
+														focus = {
+		id = c6e
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = c5e }
+		mutually_exclusive = { }
+		relative_position_id = c5e
+		cost = 10
+
+				completion_reward = {
+			swap_ideas = {
+
+    remove_idea = gco1
+    add_idea = gco2
+
+}
+			}
+		}
+
+				focus = {
+		id = c2a
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 5
+		y = 2
+		
+				prerequisite = { focus = c1 }
+		mutually_exclusive = { }
+		relative_position_id = c1
+		cost = 10
+
+		completion_reward = {
+			custom_effect_tooltip = SPR_global_defense_council_tt
+			hidden_effect = {
+				drop_cosmetic_tag = yes
+				set_cosmetic_tag = SPC_global_defense_council
+			}
+			custom_effect_tooltip = SPR_global_defense_council_tt_2
+						custom_effect_tooltip = SPR_plant_the_seeds_of_revolution_tt
+		}
+		}
+		
+		
+		
+						focus = {
+		id = c3a
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = c2a }
+		mutually_exclusive = { }
+		relative_position_id = c2a
+		cost = 10
+
+		completion_reward = {
+add_stability = 0.15
+			}
+		}
+		
+		
+						focus = {
+		id = c4a
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = c3a }
+		mutually_exclusive = { }
+		relative_position_id = c3a
+		cost = 10
+
+		completion_reward = {
+add_war_support = 0.15
+			}
+		}
+								focus = {
+		id = c5a
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = c4a }
+		mutually_exclusive = { }
+		relative_position_id = c4a
+		cost = 10
+
+		completion_reward = {
+annex_country = {
+    target = PRC
+    transfer_troops = yes
+}
+			}
+		}
+										focus = {
+		id = c6a
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = c5a }
+		mutually_exclusive = { }
+		relative_position_id = c5a
+		cost = 10
+
+		completion_reward = {
+
+			}
+		}
+		
+						focus = {
+		id = c2
+		icon = GFX_focus_fra_devalue_the_franc
+		x = -5
+		y = 2
+		
+				prerequisite = { focus = c1 }
+		mutually_exclusive = { }
+		relative_position_id = c1
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 25
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+
+			hidden_effect = {
+				SOV_unlock_propaganda_campaign_slot_effect = yes
+			}
+			unlock_decision_category_tooltip = SOV_propaganda_campaigns
+		}}
+								focus = {
+		id = c3
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = c2 }
+		mutually_exclusive = { }
+		relative_position_id = c2
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 25
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+
+			hidden_effect = {
+				SOV_unlock_propaganda_campaign_slot_effect = yes
+			}
+			unlock_decision_category_tooltip = SOV_propaganda_campaigns
+		}}
+										focus = {
+		id = c4
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = c3 }
+		mutually_exclusive = { }
+		relative_position_id = c3
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 25
+			add_ideas = SOV_collectivist_propaganda_ns
+
+			custom_effect_tooltip = unlock_propaganda_campaign_tt
+			unlock_decision_tooltip = SOV_propaganda_for_the_motherland
+			custom_effect_tooltip = unlock_propaganda_campaign_slot_tt
+			SOV_unlock_propaganda_campaign_slot_effect = yes
+		}}
+										focus = {
+		id = c5
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = c4 }
+		mutually_exclusive = { }
+		relative_position_id = c4
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+
+			custom_effect_tooltip = unlock_propaganda_campaign_tt
+			unlock_decision_tooltip = SOV_propaganda_knowledge
+			unlock_decision_tooltip = SOV_propaganda_builders_of_communism
+			unlock_decision_tooltip = SOV_propaganda_sweep_scum_out
+			custom_effect_tooltip = unlock_propaganda_campaign_slot_tt
+			SOV_unlock_propaganda_campaign_slot_effect = yes
+		}}
+		
+												focus = {
+		id = c6
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = c5 }
+		mutually_exclusive = { }
+		relative_position_id = c5
+		cost = 10
+
+		completion_reward = {
+add_ideas=gin
+		}}
+														focus = {
+		id = c7
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 5
+		y = 2
+		
+				prerequisite = { focus = c6 focus = c6a focus = c6e }
+		prerequisite = { focus = SOV_fourth_five_year_plan}
+
+		mutually_exclusive = { }
+		relative_position_id = c6
+		cost = 10
+
+		completion_reward = {
+			swap_ideas = {
+
+    remove_idea = gst4
+    add_idea = gst5
+
+}
+		}}
+																focus = {
+		id = c8
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = c7 }
+		mutually_exclusive = { }
+		relative_position_id = c7
+		cost = 10
+
+		completion_reward = {
+			swap_ideas = {
+
+    remove_idea = gst5
+    add_idea = gst6
+
+}
+		}}
+																		focus = {
+		id = c9
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 3
+		y = 2
+		
+				prerequisite = { focus = c7 }
+		mutually_exclusive = { }
+		relative_position_id = c7
+		cost = 10
+
+		completion_reward = {
+		set_rule = {
+    can_create_factions = yes
+}
+		}}
+																		focus = {
+		id = c10
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 2
+		
+				prerequisite = { focus = c9 }
+		mutually_exclusive = { }
+		relative_position_id = c9
+		cost = 10
+
+		completion_reward = {
+annex_country = {
+    target = SAN
+    transfer_troops = yes
+}
+		}}
+						focus = {
+		id = c11
+		icon = GFX_focus_fra_devalue_the_franc
+		x = -3
+		y = 2
+		
+				prerequisite = { focus = c7 }
+		mutually_exclusive = { }
+		relative_position_id = c7
+		cost = 10
+
+		completion_reward = {
+		set_rule = {
+    can_declare_war_on_same_ideology=yes
+}
+		}}
+
+						focus = {
+		id = c12
+		icon = GFX_focus_fra_devalue_the_franc
+		x = -6
+		y = 2
+		
+				prerequisite = { focus = c7 }
+		mutually_exclusive = { }
+		relative_position_id = c7
+		cost = 10
+
+		completion_reward = {
+		add_resource = {
+    type = oil
+    amount = 1488
+    state = 330
+}
+		add_resource = {
+    type = steel
+    amount = 1488
+    state = 330
+}
+		add_resource = {
+    type = tungsten
+    amount = 1488
+    state = 330
+}
+		add_resource = {
+    type = aluminum
+    amount = 1488
+    state = 330
+}
+		}}
+														focus = {
+		id = c13
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 6
+		y = 2
+		
+				prerequisite = { focus = c7 }
+		mutually_exclusive = { }
+		relative_position_id = c7
+		cost = 10
+
+		completion_reward = {
+add_ideas=gres1
+		}}
+		
 	
 			focus = {
 		id = r1
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 15
 		y = 2
-		
+		mutually_exclusive = { focus = c1 }
 				prerequisite = { focus = g5 }
 		relative_position_id = g5
 		cost = 10
@@ -432,22 +892,16 @@ add_political_power = 100
 
 		completion_reward = {
 				add_popularity = {
-<<<<<<< Updated upstream
-    ideology = communism
-    popularity = 0.20
-}
-add_political_power = 100
-			}
-		}
-=======
     ideology = fascism
     popularity = 0.20
 	
 }
 add_ideas={gr1}
 start_civil_war = {
-    ruling_party = communism
-    ideology = fascism
+
+    ruling_party = fascism
+    ideology = communism
+
     size = 0.8
     only_own_territory = no
     capital = 330
@@ -476,8 +930,10 @@ start_civil_war = {
     popularity = -0.10
 }
 			swap_ideas = {
-    remove_idea = gri1
-    add_idea = gri2
+
+    remove_idea = gr1
+    add_idea = gr2
+
 }
 			}
 		}
@@ -498,10 +954,11 @@ start_civil_war = {
     popularity = 0.3
 }
 			swap_ideas = {
-    remove_idea = gri2
-    add_idea = gri3
+
+    remove_idea = gr2
+    add_idea = gr3
 }
-add_manpower = 22814880000
+add_manpower = 22814880
 army_experience = 500
 create_field_marshal = {
 	name = "ии1"
@@ -587,8 +1044,10 @@ annex_country = {
 
 		completion_reward = {
 			swap_ideas = {
-    remove_idea = gri3
-    add_idea = gri4
+
+    remove_idea = gr3
+    add_idea = gr4
+
 }
 			}
 		}
@@ -596,12 +1055,11 @@ annex_country = {
 		
 		
 		
->>>>>>> Stashed changes
 	
 			focus = {
 		id = e1
 		icon = GFX_focus_fra_devalue_the_franc
-		x = 0
+		x = 10
 		y = 2
 		
 				prerequisite = { focus = g5 }
@@ -621,7 +1079,7 @@ annex_country = {
 				focus = {
 		id = e2
 		icon = GFX_focus_fra_devalue_the_franc
-		x = -10
+		x = 0
 		y = 2
 		
 				prerequisite = { focus = e1 }
@@ -649,17 +1107,11 @@ add_research_slot=1
 	add_tech_bonus = {
     bonus = 0.5
     uses =3
-    category = industrial_tech
+    category = industry
 }
 		}
 
 			}
-<<<<<<< Updated upstream
-
-	
-	
-	
-=======
 					focus = {
 		id = e3
 		icon = GFX_focus_fra_devalue_the_franc
@@ -676,7 +1128,7 @@ add_research_slot=1
 	add_tech_bonus = {
     bonus = 1.5
     uses =4
-    category = industrial_tech
+    category = industry
 }
 		}
 
@@ -736,7 +1188,7 @@ add_stability = 0.1
 					focus = {
 		id = e6a
 		icon = GFX_focus_fra_devalue_the_franc
-		x = -3
+		x = 0
 		y = 2
 		
 				prerequisite = { focus = e5a }
@@ -755,7 +1207,7 @@ swap_ideas = {
 						focus = {
 		id = e7a
 		icon = GFX_focus_fra_devalue_the_franc
-		x = -3
+		x = 0
 		y = 2
 		
 				prerequisite = { focus = e6a }
@@ -774,7 +1226,7 @@ swap_ideas = {
 						focus = {
 		id = e8a
 		icon = GFX_focus_fra_devalue_the_franc
-		x = -3
+		x = 0
 		y = 2
 		
 				prerequisite = { focus = e7a }
@@ -790,7 +1242,6 @@ swap_ideas = {
 }
 		}
 	}
->>>>>>> Stashed changes
 	
 	
 	
@@ -822,28 +1273,7 @@ swap_ideas = {
 	
 	
 	
-			focus = {
-		id = c1
-		icon = GFX_focus_fra_devalue_the_franc
-		x = 20
-		y = 0
-		
-		mutually_exclusive = { }
-		relative_position_id = g1
-		cost = 10
 
-		completion_reward = {
-				add_popularity = {
-<<<<<<< Updated upstream
-    ideology = communism
-=======
-    ideology = fascism
->>>>>>> Stashed changes
-    popularity = 0.20
-}
-add_political_power = 100
-			}
-		}
 		
 		
 		
@@ -860,8 +1290,8 @@ add_political_power = 100
 		id = SOV_infrastructure_effort_nsb
 
 		icon = GFX_goal_generic_construction
-		x = 10
-		y = 0
+		x = -8
+		y = 2
 		cost = 5
 prerequisite = { focus = e1 }
 		mutually_exclusive = { }
@@ -986,7 +1416,7 @@ prerequisite = { focus = e1 }
 		id = SOV_heavy_industry
 
 		icon = GFX_goal_generic_construct_civ_factory
-		x = 2
+		x = -4
 		y = 0
 		relative_position_id = SOV_infrastructure_effort_nsb
 		cost = 5
@@ -1131,7 +1561,7 @@ prerequisite = { focus = e1 }
 		icon = GFX_focus_generic_industry_1
 		prerequisite = { focus = SOV_infrastructure_effort_nsb }
 		prerequisite = { focus = SOV_heavy_industry }
-		x = 1
+		x = -2
 		y = 1
 		relative_position_id = SOV_infrastructure_effort_nsb
 		cost = 10
@@ -1139,62 +1569,23 @@ prerequisite = { focus = e1 }
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = SOV_fyp_controlled_factories_tier_1_tt
-				NOT = { num_of_controlled_factories < SOV_fyp_factory_requirement_tier_1 }
+				NOT = { num_of_controlled_factories < 10 }
 			}
 		}
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
-		complete_tooltip = {
-			every_state = {
-				limit = { has_state_flag = SOV_finish_five_year_plan_2IC }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
 
 		completion_reward = { #TODO_Manu: This is just copy-pasted from the old focus -> Is this what we want?
-			random_owned_controlled_state = {
-				limit = {
-					industrial_complex > 0
-					free_building_slots = {
-						building = industrial_complex
-						size > 2
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-				set_state_flag = SOV_finish_five_year_plan_2IC
-			}
-			random_owned_controlled_state = {
-				limit = {
-					industrial_complex > 0
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-				set_state_flag = SOV_finish_five_year_plan_2IC
-			}
+			swap_ideas = {
 
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = SOV_lazar_kaganovich
+    remove_idea = gst1
+    add_idea = gst2
+
+}
+
+
+
 		}
 	}
 
@@ -1213,28 +1604,23 @@ prerequisite = { focus = e1 }
 			SOV_third_five_year_plan_available = yes
 			custom_trigger_tooltip = {
 				tooltip = SOV_fyp_controlled_factories_tier_2_tt
-				NOT = { num_of_controlled_factories < SOV_fyp_factory_requirement_tier_2 }
+				NOT = { num_of_controlled_factories < 15 }
 			}
-			NOT = { has_completed_focus = SOV_curtailment_of_the_collective_farms }
 		}
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 
 		completion_reward = {
-			hidden_effect = {
-				add_to_variable = { SOV_fyp_production_factory_efficiency_gain_factor = 0.05 }
-				add_to_variable = { SOV_fyp_consumer_goods_factor = 0.10 }
-			}
+			swap_ideas = {
+
+    remove_idea = gst2
+    add_idea = gst3
+
+}
 			if = {
 				limit = {
 					has_government = communism
 				}
-				hidden_effect = {
-					#Swap dynamic modifier to change icon
-					remove_dynamic_modifier = { modifier = SOV_second_five_year_plan_dynamic_modifier }
-					add_dynamic_modifier = { modifier = SOV_third_five_year_plan_dynamic_modifier }
-				}
-				custom_effect_tooltip = SOV_third_five_year_plan_ns_tt
 
 				add_tech_bonus = {
 					name = SOV_third_five_year_plan_default
@@ -1243,21 +1629,10 @@ prerequisite = { focus = e1 }
 					category = construction_tech
 				}
 			}
-			else = {
-				custom_effect_tooltip = SOV_third_five_year_plan_ns_alt_tt
-				hidden_effect = {
-					#Swap dynamic modifier to change icon
-					remove_dynamic_modifier = { modifier = SOV_second_five_year_plan_dynamic_modifier }
-					add_dynamic_modifier = { modifier = SOV_third_five_year_plan_dynamic_modifier_alt }
-				}
 
-				add_tech_bonus = {
-					name = SOV_third_five_year_plan_alt
-					bonus = 0.75
-					uses = 2
-					category = construction_tech
-				}
-			}
+
+
+			
 		}
 	}
 
@@ -1579,17 +1954,12 @@ prerequisite = { focus = e1 }
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
-			set_variable = { SOV_fyp_industrial_capacity_factory = 0.05 }
-			set_variable = { SOV_fyp_industrial_capacity_dockyard = 0.05 }
 
 			custom_effect_tooltip = SOV_steel_casting_industry_ns_tt
 
 			random_owned_controlled_state = {
 				limit = {
-					has_resources_amount = {
-						resource = steel
-						amount > 0
-					}
+
 					free_building_slots = {
 						building = industrial_complex
 						size > 0
@@ -1604,7 +1974,7 @@ prerequisite = { focus = e1 }
 				}
 				add_resource = {
 					type = steel
-					amount = 5
+					amount = 69
 				}
 				set_state_flag = SOV_steel_casting_industry_flag
 			}
@@ -1700,14 +2070,14 @@ prerequisite = { focus = e1 }
 		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = SOV_restoration_and_development }
 		x = 0
-		y = 1
+		y = 3
 		relative_position_id = SOV_restoration_and_development
 		cost = 10
 
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = SOV_fyp_controlled_factories_tier_5_tt
-				NOT = { num_of_controlled_factories < SOV_fyp_factory_requirement_tier_5 }
+				NOT = { num_of_controlled_factories < 30 }
 			}
 			NOT = { has_completed_focus = SOV_curtailment_of_the_collective_farms }
 		}
@@ -1716,8 +2086,7 @@ prerequisite = { focus = e1 }
 
 		completion_reward = {
 			hidden_effect = {
-				add_to_variable = { SOV_fyp_consumer_goods_factor = -0.02 } #Bonus to CG
-				add_to_variable = { SOV_fyp_production_factory_max_efficiency_factor = 0.05 } #Bonus to max efficicency
+
 				if = {
 					limit = {
 						has_government = communism
@@ -1766,7 +2135,12 @@ prerequisite = { focus = e1 }
 					add_dynamic_modifier = { modifier = SOV_fourth_five_year_plan_dynamic_modifier_alt }
 				}
 			}
-			custom_effect_tooltip = SOV_fourth_five_year_plan_ns_tt
+			swap_ideas = {
+
+    remove_idea = gst3
+    add_idea = gst4
+
+}
 		}
 	}
 

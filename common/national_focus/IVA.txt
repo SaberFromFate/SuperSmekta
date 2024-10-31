@@ -18,7 +18,7 @@ focus_tree = {
 	focus = {
 		id = iv1
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 2
+		x = 1
 		y = 0
 		cost = 4
 
@@ -28,8 +28,11 @@ focus_tree = {
 		completion_reward = {
 		
 leave_faction = yes
+			hidden_effect = {
+				play_song = "war"
+			}
 news_event = {
-    id = iva.1
+    id = 3.1
     days = 10
     random = 50
 }
@@ -39,7 +42,7 @@ news_event = {
 		focus = {
 		id = iv2
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 2
+		x = 1
 		y = 0
 		cost = 10
 				prerequisite = { focus = iv1 }
@@ -49,12 +52,239 @@ news_event = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+		news_event = {
+    id = 3.2
+    days = 10
+    random = 50
+}
 add_stability = 0.1
 add_political_power = 150
 		}
 	}
 	
 	
+	
+	
+		focus = {
+		id = yas1
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 0
+		cost = 4
+
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		set_politics = {
+    ruling_party = fascism
+    elections_allowed = no
+    last_election = "1935.12.17"
+    election_frequency = 48
+
+}
+add_stability = -0.2
+	add_popularity = {
+    ideology = fascism
+    popularity = 0.1
+}
+			hidden_effect = {
+				play_song = "war"
+			}
+news_event = {
+    id = 3.3
+    days = 10
+    random = 50
+}
+		}
+	}
+			focus = {
+		id = yas2
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 0
+		cost = 10
+				prerequisite = { focus =yas1 }
+		mutually_exclusive = { }
+		relative_position_id = yas1
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+add_war_support = 0.1
+add_political_power = 100
+add_popularity = {
+    ideology = fascism
+    popularity = 0.05
+}
+		}
+	}
+				focus = {
+		id = yas3
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 0
+		cost = 10
+				prerequisite = { focus =yas2 }
+		mutually_exclusive = { }
+		relative_position_id = yas2
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+add_ideas={YAS1}
+		}
+	}
+					focus = {
+		id = yas30
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 0
+		cost = 10
+				prerequisite = { focus =yas3 }
+		mutually_exclusive = { }
+		relative_position_id = yas3
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+    add_stability = 0.1
+    add_war_support = 0.1
+	add_popularity = {
+    ideology = fascism
+    popularity = -0.5
+}
+		}
+	}
+				focus = {
+		id = yas4
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 0
+		cost = 10
+				prerequisite = { focus =yas30 }
+		mutually_exclusive = { }
+		relative_position_id = yas30
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+			swap_ideas = {
+
+    remove_idea = YAS1
+    add_idea = YAS2
+
+}
+		}
+	}
+	focus = {
+		id = yas2c
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 4
+		cost = 10
+				prerequisite = { focus =yas2 }
+		mutually_exclusive = { }
+		relative_position_id = yas2
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		} 
+	}
+									focus = {
+		id = yas3e
+		icon = GFX_focus_fra_devalue_the_franc
+		x = -3
+		y = 1
+		
+				prerequisite = { focus = yas2 }
+		mutually_exclusive = { }
+		relative_position_id = yas2
+		cost = 10
+
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			}
+		}
+										focus = {
+		id = yas4e
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 1
+		
+				prerequisite = { focus = yas3e }
+		mutually_exclusive = { }
+		relative_position_id = yas3e
+		cost = 10
+
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+			}
+			}
+		}
+		focus = {
+		id = yas5e
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = 1
+		
+				prerequisite = { focus = yas4e }
+		mutually_exclusive = { }
+		relative_position_id = yas4e
+		cost = 10
+
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+			}
+			add_stability=0.1
+			}
+		}
+				focus = {
+		id = yasfl
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 0
+		y = -8
+		
+				prerequisite = { focus = yas2 }
+		mutually_exclusive = { }
+		relative_position_id = yas2
+		cost = 10
+
+		completion_reward = {
+add_ideas={vvya}
+			}
+		}
+		
 	
 	
 	

@@ -105,7 +105,7 @@ create_country_leader = {
 		
 	}
 }
-
+add_ideas={bas1}
 recruit_character = BSK_yakov_bykin
 
 

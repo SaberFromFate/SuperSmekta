@@ -38,7 +38,7 @@ focus_tree = {
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 1
 		y = 0
-		cost = 10
+		cost = 15
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
 		available_if_capitulated = yes
@@ -51,10 +51,12 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
-			declare_war_on = {
-    target = KOM
-    type = annex_everything
-}
+
+		}
+				ai_will_do = {
+		base = 10.5
+			factor = 1
+			
 		}
 	}
 
@@ -307,9 +309,7 @@ focus_tree = {
 			}
 }
 		completion_reward = {
-		declare_war_on = {
-    target = KOM
-    type = annex_everything}
+
 			air_experience = 25
 
 			if = {
@@ -967,10 +967,7 @@ focus_tree = {
 				bonus = 1.0
 				uses = 1
 				category = industry
-				declare_war_on = {
-    target = KOM
-    type = annex_everything
-			}
+
 		}}
 
 		ai_will_do = {
@@ -1750,10 +1747,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 120
-			declare_war_on = {
-    target = KOM
-    type = annex_everything
-		}
+
 	}
 	}
 

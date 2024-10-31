@@ -12,7 +12,7 @@ state= {
 
 	history=
 	{
-		owner = SVO
+		owner = WLS
 		victory_points = {
 			407 3 #Swansea
 		}
@@ -27,7 +27,7 @@ state= {
 				naval_base = 3
 			}
 		}
-		add_core_of = SVO
+		add_core_of = SCO
 		add_core_of = WLS
 	}
 

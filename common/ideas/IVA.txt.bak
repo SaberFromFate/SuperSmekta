@@ -1,0 +1,71 @@
+ideas = {
+
+	country = {
+	SVO_HOR = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = IVA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.15
+				attrition = 0.05
+				experience_loss_factor = 0.1
+			}
+		}
+			YAS1 = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = IVA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_weekly = 0.01
+				weekly_casualties_war_support = 0.01
+				monthly_population = 0.5
+				political_power_gain = 0.2
+			}
+		}
+					YAS2 = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = IVA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = -0.5
+				mobilization_speed = 0.3
+				land_reinforce_rate = 0.3
+				war_support_weekly = 0.02
+				weekly_casualties_war_support = 0.01
+				monthly_population = 0.5
+				political_power_gain = 0.2
+			}
+		}
+		
+		
+		
+		
+		
+		}}

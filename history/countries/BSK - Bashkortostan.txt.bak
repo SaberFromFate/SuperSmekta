@@ -95,7 +95,16 @@ set_popularities = {
 	communism = 20
 	neutrality = 60
 }
-
+create_country_leader = {
+	name = "Мальчик"
+	desc = ""
+	picture = "gfx/leaders/BSK/4.dds"
+	expire = "1953.3.1"
+	ideology = moderatism
+	traits = {
+		
+	}
+}
 
 recruit_character = BSK_yakov_bykin
 
