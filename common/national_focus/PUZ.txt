@@ -26,7 +26,7 @@
 			add_political_power = 200
 			add_popularity = {
     			ideology = fascism
-    			popularity = +0.5
+    			popularity = +0.7
 			}
 			
 		}
@@ -45,7 +45,7 @@
 	focus = {
 		id = am
 		text = am
-		icon = GFX_goal_unknown
+		icon = puz_am
 		cost = 10,00
 		prerequisite = {
 			focus = startpuz
