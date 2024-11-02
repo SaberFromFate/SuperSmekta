@@ -7204,11 +7204,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_generic_construction2.dds"			
 	}
 	SpriteType = {
-		name = "puz_am"
+		name = "GFX_PUZ_am"
 		texturefile = "gfx/interface/goals/puz_am.dds"			
 	}
 	SpriteType = {
-		name = "PUZ_servit"
+		name = "GFX_PUZ_servit"
 		texturefile = "gfx/interface/goals/PUZ_servit.dds"			
+	}
+	SpriteType = {
+		name = "GFX_PUZ_am2"
+		texturefile = "gfx/interface/goals/puz_am2.dds"			
 	}
 }

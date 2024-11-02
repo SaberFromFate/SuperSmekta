@@ -46,7 +46,7 @@
 	focus = {
 		id = PUZ_am
 		text = PUZ_am
-		icon = puz_am
+		icon = GFX_PUZ_am
 		cost = 5,00
 		prerequisite = {
 			focus = PUZ_startpuz
@@ -63,7 +63,7 @@
 	focus = {
 		id = PUZ_am2
 		text = PUZ_am2
-		icon = GFX_goal_unknown
+		icon = GFX_PUZ_am2
 		cost = 5,00
 		prerequisite = {
 			focus = PUZ_am
@@ -72,8 +72,119 @@
 			swap_ideas = {
     			remove_idea = PUZ_TB
     			add_idea = PUZ_TB1
-			}			
-		}
+			}
+			division_template = {
+					name = "Skitarii"
+					division_names_group = PUZ_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						artillery_brigade = { x = 2 y = 0 }
+						artillery_brigade = { x = 2 y = 1 }
+					}
+					support = {
+						artillery = { x = 0 y = 0 }
+						engineer = { x = 0 y = 1 }
+						military_police = { x = 0 y = 2 }
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 58 }
+					create_unit = {
+						division = "division_template = \"Skitarii\" start_experience_factor = 1"
+						owner = PUZ
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 58 }
+					create_unit = {
+						division = "division_template = \"Skitarii\" start_experience_factor = 1"
+						owner = PUZ
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 58 }
+					create_unit = {
+						division = "division_template = \"Skitarii\" start_experience_factor = 1"
+						owner = PUZ
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 58 }
+					create_unit = {
+						division = "division_template = \"Skitarii\" start_experience_factor = 1"
+						owner = PUZ
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 58 }
+					create_unit = {
+						division = "division_template = \"Skitarii\" start_experience_factor = 1"
+						owner = PUZ
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 58 }
+					create_unit = {
+						division = "division_template = \"Skitarii\" start_experience_factor = 1"
+						owner = PUZ
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 58 }
+					create_unit = {
+						division = "division_template = \"Skitarii\" start_experience_factor = 1"
+						owner = PUZ
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 58 }
+					create_unit = {
+						division = "division_template = \"Skitarii\" start_experience_factor = 1"
+						owner = PUZ
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 58 }
+					create_unit = {
+						division = "division_template = \"Skitarii\" start_experience_factor = 1"
+						owner = PUZ
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 58 }
+					create_unit = {
+						division = "division_template = \"Skitarii\" start_experience_factor = 1"
+						owner = PUZ
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 58 }
+					create_unit = {
+						division = "division_template = \"Skitarii\" start_experience_factor = 1"
+						owner = PUZ
+					}
+				}
+
+			}
+		
+		
 		x = 40
 		y = 5
 
@@ -81,7 +192,7 @@
 	focus = {
 		id = PUZ_am3
 		text = PUZ_am3
-		icon = GFX_goal_PUZ_servit
+		icon = GFX_PUZ_servit
 		cost = 5,00
 		prerequisite = {
 			focus = PUZ_am
@@ -103,6 +214,15 @@
 		prerequisite = {
 			focus = PUZ_am
 		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = USA_escort_fighters
+				bonus = 5.0
+				uses = 18
+				category = mio_cat_tech_all_armor_and_modules
+			}
+		}
+		
 		x = 46
 		y = 5
 
