@@ -8919,4 +8919,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/PUZ_TB.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_PUZ_servit"
+		texturefile = "gfx/interface/ideas/PUZ_SERVIT.dds"
+	}
+
 }

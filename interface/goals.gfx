@@ -7207,4 +7207,8 @@ spriteTypes = {
 		name = "puz_am"
 		texturefile = "gfx/interface/goals/puz_am.dds"			
 	}
+	SpriteType = {
+		name = "PUZ_servit"
+		texturefile = "gfx/interface/goals/PUZ_servit.dds"			
+	}
 }

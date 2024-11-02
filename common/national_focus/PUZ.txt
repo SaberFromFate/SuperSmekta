@@ -68,6 +68,12 @@
 		prerequisite = {
 			focus = PUZ_am
 		}
+		completion_reward = {
+			swap_ideas = {
+    			remove_idea = PUZ_TB
+    			add_idea = PUZ_TB1
+			}			
+		}
 		x = 40
 		y = 5
 
@@ -75,10 +81,15 @@
 	focus = {
 		id = PUZ_am3
 		text = PUZ_am3
-		icon = GFX_goal_unknown
+		icon = GFX_goal_PUZ_servit
 		cost = 5,00
 		prerequisite = {
 			focus = PUZ_am
+		}
+		completion_reward = {
+			add_ideas = {
+				PUZ_serv
+			}			
 		}
 		x = 43
 		y = 5
