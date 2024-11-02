@@ -1,6 +1,7 @@
 ideas = {
 	country = {
 		PUZ_WT ={
+			picture = PUZ_WT
 			allowed = {
 				always = no # Added via focus
 			}
@@ -52,6 +53,17 @@ ideas = {
 				navy_fuel_consumption_factor = -0.3
 			}
 			
+		}
+	}
+	country = {
+		PUZ_TB={
+			picture = PUZ_TB
+			allowed = {
+				always = no # Added via focus
+			}
+			modifier={
+				research_speed_factor = 0.3
+			}
 		}
 
 	}

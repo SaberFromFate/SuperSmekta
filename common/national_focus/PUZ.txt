@@ -3,7 +3,7 @@
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
+			add = 5
 			tag = PUZ
 		}
 	}
@@ -15,10 +15,10 @@
 
 	default = no
 	focus = {
-		id = startpuz
-		text = startpuz
+		id = PUZ_startpuz
+		text = PUZ_startpuz
 		icon = GFX_focus_generic_conspiracy
-		cost = 10,00
+		cost = 5,00
 		x = 49
 		y = 1
 
@@ -28,6 +28,7 @@
     			ideology = fascism
     			popularity = +0.7
 			}
+			add_stability = 0.1
 			
 		}
 
@@ -43,66 +44,71 @@
 
 
 	focus = {
-		id = am
-		text = am
+		id = PUZ_am
+		text = PUZ_am
 		icon = puz_am
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = startpuz
+			focus = PUZ_startpuz
+		}
+		completion_reward = {
+			add_ideas = {
+				PUZ_TB
+			}			
 		}
 		x = 43
 		y = 3
 
 	}
 	focus = {
-		id = am2
-		text = am2
+		id = PUZ_am2
+		text = PUZ_am2
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = am
+			focus = PUZ_am
 		}
 		x = 40
 		y = 5
 
 	}
 	focus = {
-		id = am3
-		text = am3
+		id = PUZ_am3
+		text = PUZ_am3
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = am
+			focus = PUZ_am
 		}
 		x = 43
 		y = 5
 
 	}
 	focus = {
-		id = am4
-		text = am4
+		id = PUZ_am4
+		text = PUZ_am4
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = am
+			focus = PUZ_am
 		}
 		x = 46
 		y = 5
 
 	}
 	focus = {
-		id = am5
-		text = am5
+		id = PUZ_am5
+		text = PUZ_am5
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = am3
+			focus = PUZ_am3
 		}
 		prerequisite = {
-			focus = am4
+			focus = PUZ_am4
 		}
 		prerequisite = {
-			focus = am2
+			focus = PUZ_am2
 		}
 		x = 43
 		y = 7
@@ -116,12 +122,12 @@
 
 
 	focus = {
-		id = arm21
-		text = arm21
+		id = PUZ_arm21
+		text = PUZ_arm21
 		icon = GFX_focus_FIN_parmis_devils
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = startpuz
+			focus = PUZ_startpuz
 		}
 		completion_reward = {
 			if = {
@@ -136,7 +142,7 @@
 			else = {
 				add_political_power = 150
 			}
-			set_war_support = 0.6			
+			add_war_support = 0.1			
 		}
 		x = 49
 		y = 3
@@ -152,84 +158,328 @@
 
 
 	focus = {
-		id = arm22
-		text = arm22
+		id = PUZ_arm22
+		text = PUZ_arm22
 		icon = GFX_focus_ARG_juan_peron_elected
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = arm21
+			focus = PUZ_arm21
 		}
 		x = 49
 		y = 5
 
+		complete_tooltip = {
+			air_experience = 50
+			if = { limit = { has_country_flag = aviation_effort_AB }
+				add_building_construction = {
+					type = air_base
+					level = 5
+					instant_build = yes
+				}
+			}			
+			add_doctrine_cost_reduction = {
+				name = air_doc_bonus
+				cost_reduction = 0.9 
+				uses = 4
+				category = air_doctrine
+			}			
+		}
+
+		completion_reward = {
+			air_experience = 50
+			add_war_support = 0.1
+
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 5
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+					
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 5
+						instant_build = yes
+					}
+					
+					add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 8
+				}
+			}
+			add_doctrine_cost_reduction = {
+				name = air_doc_bonus
+				cost_reduction = 0.9
+				uses = 4
+				category = air_doctrine
+			}
+		}
+	
+
 	}
 	focus = {
-		id = arm23
-		text = arm23
+		id = PUZ_arm23
+		text = PUZ_arm23
 		icon = GFX_focus_FIN_suomen_ilmavoimat
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = arm22
+			focus = PUZ_arm22
 		}
+		available = {
+			has_idea = PUZ_TB
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = USA_escort_fighters
+				bonus = 4.0
+				uses = 6
+				category = mio_cat_all_light_fighter_and_modules
+			}
+			add_tech_bonus = {
+				name = USA_escort_fighters
+				bonus = 4.0
+				uses = 6
+				category = mio_cat_all_medium_aircraft_and_modules
+			}
+		}
+
+		
 		x = 49
 		y = 7
 
 	}
 	focus = {
-		id = eco1
-		text = eco1
+		id = PUZ_eco1
+		text = PUZ_eco1
 		icon = GFX_goal_generic_construct_civilian
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = startpuz
+			focus = PUZ_startpuz
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = GER_four_year_plan
+				bonus = 4.0
+				uses = 4
+				category = industry
+			}
 		}
 		x = 55
 		y = 3
 
 	}
 	focus = {
-		id = ecom
-		text = ecom
+		id = PUZ_ecom
+		text = PUZ_ecom
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = eco1
+			focus = PUZ_eco1
 		}
+		completion_reward = {
+			add_war_support = 0.1
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+				
+			}
+		}
+
 		x = 52
 		y = 5
 
 	}
 	focus = {
-		id = ecom1
-		text = ecom1
+		id = PUZ_ecom1
+		text = PUZ_ecom1
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = ecom
+			focus = PUZ_ecom
+		}
+		completion_reward = {
+			add_war_support = 0.1
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+				
+			}
 		}
 		x = 52
 		y = 7
 
 	}
 	focus = {
-		id = ecoc
-		text = ecoc
+		id = PUZ_ecoc
+		text = PUZ_ecoc
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = eco1
+			focus = PUZ_eco1
 		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+
+
 		x = 55
 		y = 5
 
 	}
 	focus = {
-		id = ecoc1
-		text = ecoc1
+		id = PUZ_ecoc1
+		text = PUZ_ecoc1
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = ecoc
+			focus = PUZ_ecoc
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
 		}
 		x = 55
 		y = 7
@@ -237,24 +487,51 @@
 	}
 
 	focus = {
-		id = ecoi
-		text = ecoi
+		id = PUZ_ecoi
+		text = PUZ_ecoi
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = eco1
+			focus = PUZ_eco1
+		}
+		completion_reward = {
+				58 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 8
+				}		
 		}
 		x = 58
 		y = 5
 
 	}
 	focus = {
-		id = ecoi1
-		text = ecoi1
+		id = PUZ_ecoi1
+		text = PUZ_ecoi1
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = ecoi
+			focus = PUZ_ecoi
+		}
+		completion_reward = {
+			909 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+						
+					}
+				}
+				add_extra_state_shared_building_slots = 8
+			}		
 		}
 		x = 58
 		y = 7
@@ -263,24 +540,24 @@
 
 
 	focus = {
-		id = finp
-		text = finp
+		id = PUZ_finp
+		text = PUZ_finp
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
-			focus = arm3
+			focus = PUZ_arm23
 		}
 		prerequisite = {
-			focus = ecoc1
+			focus = PUZ_ecoc1
 		}
 		prerequisite = {
-			focus = ecoi1
+			focus = PUZ_ecoi1
 		}
 		prerequisite = {
-			focus = ecom1
+			focus = PUZ_ecom1
 		}
 		prerequisite = {
-			focus = am5
+			focus = PUZ_am5
 		}
 		x = 49
 		y = 9

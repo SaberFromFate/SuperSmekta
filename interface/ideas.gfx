@@ -8909,4 +8909,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_sea_focused_navy.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_PUZ_WT"
+		texturefile = "gfx/interface/ideas/PUZ_WT.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PUZ_TB"
+		texturefile = "gfx/interface/ideas/PUZ_TB.dds"
+	}
+
 }
