@@ -19,13 +19,13 @@
 		text = PUZ_startpuz
 		icon = GFX_focus_generic_conspiracy
 		cost = 5,00
-		x = 49
+		x = 19
 		y = 1
 
 		completion_reward = {
 			add_political_power = 200
 			add_popularity = {
-    			ideology = fascism
+    			ideology = tech
     			popularity = +0.7
 			}
 			add_stability = 0.1
@@ -56,7 +56,7 @@
 				PUZ_TB
 			}			
 		}
-		x = 43
+		x = 13
 		y = 3
 
 	}
@@ -186,7 +186,7 @@
 			}
 		
 		
-		x = 40
+		x = 10
 		y = 5
 
 	}
@@ -203,14 +203,14 @@
 				PUZ_serv
 			}			
 		}
-		x = 43
+		x = 13
 		y = 5
 
 	}
 	focus = {
 		id = PUZ_am4
 		text = PUZ_am4
-		icon = GFX_goal_unknown
+		icon = GFX_PUZ_co
 		cost = 5,00
 		prerequisite = {
 			focus = PUZ_am
@@ -224,14 +224,14 @@
 			}
 		}
 		
-		x = 46
+		x = 16
 		y = 5
 
 	}
 	focus = {
 		id = PUZ_am5
 		text = PUZ_am5
-		icon = GFX_goal_unknown
+		icon = GFX_PUZ_am5
 		cost = 5,00
 		prerequisite = {
 			focus = PUZ_am3
@@ -242,7 +242,53 @@
 		prerequisite = {
 			focus = PUZ_am2
 		}
-		x = 43
+		completion_reward = {
+			add_stability = 0.2
+			set_party_name = { ideology = tech long_name = PUZ_tech_am_long name = PUZ_tech_am_party }
+			swap_ideas = {
+    			remove_idea = PUZ_TB1
+    			add_idea = PUZ_TB2
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				
+			}
+		}
+		
+
+		x = 13
 		y = 7
 	}
 
@@ -276,7 +322,7 @@
 			}
 			add_war_support = 0.1			
 		}
-		x = 49
+		x = 19
 		y = 3
 	}
 
@@ -297,7 +343,7 @@
 		prerequisite = {
 			focus = PUZ_arm21
 		}
-		x = 49
+		x = 19
 		y = 5
 
 		complete_tooltip = {
@@ -409,7 +455,7 @@
 		}
 
 		
-		x = 49
+		x = 19
 		y = 7
 
 	}
@@ -429,7 +475,7 @@
 				category = industry
 			}
 		}
-		x = 55
+		x = 25
 		y = 3
 
 	}
@@ -476,7 +522,7 @@
 			}
 		}
 
-		x = 52
+		x = 22
 		y = 5
 
 	}
@@ -522,7 +568,7 @@
 				
 			}
 		}
-		x = 52
+		x = 22
 		y = 7
 
 	}
@@ -569,7 +615,7 @@
 		}
 
 
-		x = 55
+		x = 25
 		y = 5
 
 	}
@@ -613,7 +659,7 @@
 				}
 			}
 		}
-		x = 55
+		x = 25
 		y = 7
 
 	}
@@ -639,7 +685,7 @@
 					add_extra_state_shared_building_slots = 8
 				}		
 		}
-		x = 58
+		x = 28
 		y = 5
 
 	}
@@ -665,7 +711,7 @@
 				add_extra_state_shared_building_slots = 8
 			}		
 		}
-		x = 58
+		x = 28
 		y = 7
 
 	}
@@ -691,7 +737,7 @@
 		prerequisite = {
 			focus = PUZ_am5
 		}
-		x = 49
+		x = 19
 		y = 9
 
 	}

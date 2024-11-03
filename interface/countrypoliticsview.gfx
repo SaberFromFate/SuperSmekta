@@ -485,6 +485,27 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ideology_tech_group"
+		texturefile = "gfx/interface/ideologies/tech_group.dds"
+
+		
+	}
+	spriteType = {
+		name = "GFX_ttech_ideology"
+		texturefile = "gfx/interface/ideologies/tech_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ctech_ideology"
+		texturefile = "gfx/interface/ideologies/tech_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_stech_ideology"
+		texturefile = "gfx/interface/ideologies/tech_group.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_anarchism"
 		texturefile = "gfx/interface/ideologies/anarchism.dds"
 	}

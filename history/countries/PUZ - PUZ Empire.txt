@@ -28,17 +28,20 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = fascism ##Рулевая партия
+	ruling_party = tech ##Рулевая партия
 	last_election = "1936.1.1" ##Последние выборы (если есть)
 	election_frequency = 48 ##Через сколько проводят выборы
 	elections_allowed = no ##Есть ли выборы
 }
 
+set_party_name = { ideology = tech long_name = PUZ_tech_long name = PUZ_tech_party }
+
+
 set_popularities = {
 	democratic = 25  ##Демократия
 	neutrality = 20 ##Нейтралитет
-	communism = 5 ##Коммунизм
-	fascism = 50 ##Фашизм
+	fascism = 5 ##Коммунизм
+	tech = 50 ##Фашизм
 }
 
 add_ideas = {
@@ -51,12 +54,7 @@ create_country_leader = {
     desc = ""
     picture = "gfx/leaders/PUZ/RiderFromFate.dds" #Картинка
     expire = "1965.1.1" #Когда умрет
-    ideology = falangism
-	##За какую Идеологию (входит в types у коммунистов)
-    #conservatism, liberalism и socialism - демократия
-    #marxism, leninism, stalinism, anti_revisionism, anarchist_communism - коммунизм
-    #nazism, fascism_ideology, falangism, rexism - национализм 
-    #despotism, oligarchism, moderatism и moderatism - нейтралитет 
+    ideology = ttech
     traits = {
         #
     }

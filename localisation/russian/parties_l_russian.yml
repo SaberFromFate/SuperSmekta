@@ -1124,3 +1124,8 @@
  BRA_imperial_house_long: "Движение за восстановление империи"
  BRA_cangaco_party_long: "Движение кангасу"
  BRA_cangaco_party: "Кангасу"
+ tech: "Технократия"
+ PUZ_tech_long: "Технократическая партия северной германии"
+ PUZ_tech_party: "ТПСГ"
+ PUZ_tech_am_long: "Adeptus Mechanicus"
+ PUZ_tech_am_party: "Adeptus Mechanicus"
