@@ -1,14 +1,298 @@
 focus_tree = {
 	id = PUZ2
-
-
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PUZ2
+		}
+	}
 	default = no
 	focus = {
-		id = PUZ2start
+		id = PUZ_start
 		icon = GFX_focus_SOV_mobilization_plan
 		cost = 10,00
-		x = 13
+		x = 26
 		y = 0
+
+	}
+	focus = {
+		id = PUZ_north
+		icon = GFX_focus_generic_attack_nordic_territory
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_start
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = PUZ_den_p
+		icon = GFX_focus_generic_befriend_denmark
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_north
+		}
+		mutually_exclusive = {
+			focus = PUZ_den
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = PUZ_den
+		icon = GFX_focus_generic_attack_denmark
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_north
+		}
+		mutually_exclusive = {
+			focus = PUZ_den_p
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = PUZ_swe
+		icon = GFX_focus_generic_attack_sweden
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_den_p
+			focus = PUZ_den
+		}
+		mutually_exclusive = {
+			focus = PUZ_swe_p
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = PUZ_swe_p
+		icon = GFX_focus_generic_befriend_sweden
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_den_p
+			focus = PUZ_den
+		}
+		mutually_exclusive = {
+			focus = PUZ_swe
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = PUZ_fin
+		icon = GFX_focus_generic_attack_finland
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_swe
+			focus = PUZ_swe_p
+		}
+		mutually_exclusive = {
+			focus = PUZ_fin_p
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = PUZ_nor_p
+		icon = GFX_focus_generic_befriend_norway
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_den
+			focus = PUZ_den_p
+		}
+		mutually_exclusive = {
+			focus = PUZ_nor
+		}
+		x = 21
+		y = 6
+
+	}
+	focus = {
+		id = PUZ_nor
+		icon = GFX_focus_generic_attack_norway
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_den
+			focus = PUZ_den_p
+		}
+		mutually_exclusive = {
+			focus = PUZ_nor_p
+		}
+		x = 25
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_17
+		icon = GFX_focus_NOR_weathering_the_storm_to_come
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_nor_p
+			focus = PUZ_nor
+		}
+		x = 21
+		y = 8
+
+	}
+	focus = {
+		id = PUZ_resn
+		icon = GFX_goal_tfv_generic_tech_sharing
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_nor_p
+			focus = PUZ_nor
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = PUZ_ros
+		icon = GFX_focus_generic_improve_the_administration
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_start
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = PUZ_ros2
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_ros
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = PUZ_fin_p
+		icon = GFX_focus_generic_attack_finland
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_swe
+			focus = PUZ_swe_p
+		}
+		mutually_exclusive = {
+			focus = PUZ_fin
+		}
+		x = 13
+		y = 8
+
+	}
+	focus = {
+		id = PUZ_nuke
+		icon = GFX_focus_wonderweapons
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_resn
+		}
+		x = 25
+		y = 10
+
+	}
+	focus = {
+		id = PUZ_swem
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_fin
+			focus = PUZ_fin_p
+		}
+		x = 13
+		y = 10
+
+	}
+	focus = {
+		id = PUZ_finm
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_fin
+			focus = PUZ_fin_p
+		}
+		x = 17
+		y = 10
+
+	}
+	focus = {
+		id = PUZ_norm
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_17
+		}
+		x = 21
+		y = 10
+
+	}
+	focus = {
+		id = PUZ_south
+		icon = GFX_focus_POL_ban_nazi_party
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_start
+		}
+		x = 33
+		y = 2
+
+	}
+	focus = {
+		id = PUZ_ger
+		icon = GFX_focus_attack_germany
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_south
+		}
+		x = 33
+		y = 4
+
+	}
+	focus = {
+		id = PUZ_aus
+		icon = GFX_goal_generic_major_war
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_cze
+		}
+		prerequisite = {
+			focus = PUZ_sil
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = PUZ_cze
+		icon = GFX_goal_generic_major_war
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_ger
+		}
+		x = 29
+		y = 6
+
+	}
+	focus = {
+		id = PUZ_sil
+		icon = GFX_goal_generic_major_war
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_ger
+		}
+		x = 33
+		y = 6
 
 	}
 }
