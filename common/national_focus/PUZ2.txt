@@ -1,0 +1,14 @@
+focus_tree = {
+	id = PUZ2
+
+
+	default = no
+	focus = {
+		id = PUZ2start
+		icon = GFX_focus_SOV_mobilization_plan
+		cost = 10,00
+		x = 13
+		y = 0
+
+	}
+}

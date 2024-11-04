@@ -1,0 +1,18 @@
+add_namespace = PUZ_am5_e
+news_event = {
+	id = PUZ_am5_e.1
+	title = PUZ_am5_e.1t
+	desc = PUZ_am5_e.1d
+	picture = GFX_news_event_PUZ_am5_e
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PUZ_am5_e.1a
+		trigger = {
+			tag = IVA
+		}
+	}
+}

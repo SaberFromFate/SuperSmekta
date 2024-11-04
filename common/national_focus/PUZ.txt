@@ -249,6 +249,15 @@
     			remove_idea = PUZ_TB1
     			add_idea = PUZ_TB2
 			}
+			
+			PUZ_rider ={
+				set_portraits={
+					civilian = { large = GFX_portrait_PUZ_rider2 }
+				}
+				add_country_leader_trait = magos
+
+			}
+
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -285,6 +294,12 @@
 				}
 				
 			}
+			
+			news_event = { id = PUZ_am5_e.1 hours = 6 }
+			hidden_effect = {
+				play_song = "coo"
+			}
+			
 		}
 		
 
@@ -437,7 +452,12 @@
 			focus = PUZ_arm22
 		}
 		available = {
-			has_idea = PUZ_TB
+			OR = {
+				has_idea = PUZ_TB
+				has_idea = PUZ_TB1
+				has_idea = PUZ_TB2
+			}
+			
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -459,6 +479,9 @@
 		y = 7
 
 	}
+
+
+	
 	focus = {
 		id = PUZ_eco1
 		text = PUZ_eco1
@@ -720,7 +743,7 @@
 	focus = {
 		id = PUZ_finp
 		text = PUZ_finp
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_build_tank
 		cost = 10
 		prerequisite = {
 			focus = PUZ_arm23
@@ -739,6 +762,10 @@
 		}
 		x = 19
 		y = 9
+
+		completion_reward = {
+			load_focus_tree = {tree = PUZ2}
+		}
 
 	}
 }

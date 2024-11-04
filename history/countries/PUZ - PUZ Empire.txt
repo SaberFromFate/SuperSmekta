@@ -49,13 +49,5 @@ add_ideas = {
 }
 
 # Лидер Страны
-create_country_leader = {
-    name = "RiderFromFate"
-    desc = ""
-    picture = "gfx/leaders/PUZ/RiderFromFate.dds" #Картинка
-    expire = "1965.1.1" #Когда умрет
-    ideology = ttech
-    traits = {
-        #
-    }
-}
+
+recruit_character = PUZ_rider

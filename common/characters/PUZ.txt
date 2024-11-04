@@ -1,0 +1,30 @@
+characters = {
+	
+
+  ####    ####   #    #  #    #  #####  #####   #   #      #       ######    ##    #####   ######  #####    ####  
+ #    #  #    #  #    #  ##   #    #    #    #   # #       #       #        #  #   #    #  #       #    #  #      
+ #       #    #  #    #  # #  #    #    #    #    #        #       #####   #    #  #    #  #####   #    #   ####  
+ #       #    #  #    #  #  # #    #    #####     #        #       #       ######  #    #  #       #####        # 
+ #    #  #    #  #    #  #   ##    #    #   #     #        #       #       #    #  #    #  #       #   #   #    # 
+  ####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
+
+
+	PUZ_rider = {
+		name = PUZ_rider
+		portraits = {
+			civilian = {
+				large = GFX_portrait_PUZ_rider
+			}
+		}
+
+		country_leader = {
+			ideology = ttech
+			traits = {
+                technocrat
+                technocrat2
+            }
+			expire = "40000.1.1.1"
+			id = -1
+		}
+	}
+}

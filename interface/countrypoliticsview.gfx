@@ -486,7 +486,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ideology_tech_group"
-		texturefile = "gfx/interface/ideologies/tech_group.dds"
+		texturefile = "gfx/interface/ideologies/tech_ideology_group.dds"
 
 		
 	}

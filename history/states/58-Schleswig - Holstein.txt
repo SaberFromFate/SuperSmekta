@@ -3,7 +3,14 @@ state = {
 	name = "STATE_58"
 	manpower = 3095630 
 	state_category = large_city
-	
+	resources={
+		steel=40
+		chromium=20 # was: 10
+		tungsten= 32
+		rubber = 40
+		tungsten = 30
+		oil=50
+	}
 	history = {
 		victory_points = {
 			6389 10 
@@ -11,6 +18,7 @@ state = {
 		victory_points = {
 			9347 20
 		}
+		
 		owner = PUZ
 		buildings = {
 			infrastructure = 3
@@ -34,7 +42,7 @@ state = {
 	}
 
 	provinces = {
-		 3368 6257 6389 9320 9347 11331 
+		3368 6257 6389 9320 9347 11331 
  	}
 
 	local_supplies = 8.0 

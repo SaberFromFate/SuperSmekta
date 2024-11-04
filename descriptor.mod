@@ -7,5 +7,6 @@ tags={
 	"Sound"
 }
 name="Smekta"
-supported_version="1.14.8"
+picture="600x600.png"
+supported_version="1.14.10"
 remote_file_id="3329420560"

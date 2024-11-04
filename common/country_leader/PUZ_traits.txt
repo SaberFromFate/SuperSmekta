@@ -1,0 +1,22 @@
+leader_traits ={
+    technocrat2={
+        random = no
+        tech_drift = 0.1
+        stability_factor = 0.1
+    }
+    magos = {
+        random = no
+        add_stability = 0.2
+        political_advisor_cost_factor = -0.15
+        consumer_goods_factor = -0.2
+		economy_cost_factor = -0.15
+		trade_laws_cost_factor = -0.15
+        war_support_factor = 0.1
+        production_speed_arms_factory_factor = 0.1
+		mobilization_laws_cost_factor = -0.2
+        air_advisor_cost_factor = -0.15
+		army_advisor_cost_factor = -0.15
+		navy_advisor_cost_factor = -0.15
+
+    }
+}
