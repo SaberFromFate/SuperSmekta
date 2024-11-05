@@ -1,0 +1,45 @@
+capital = 46 #Ufa
+
+#oob = "BSK_1936"
+
+set_research_slots = 3
+
+
+set_technology = {
+	infantry_weapons = 3
+	infantry_weapons1 = 3
+	tech_recon = 3
+	tech_support = 3		
+	tech_engineers = 3
+	tech_military_police = 3
+	tech_mountaineers = 3
+	motorised_infantry = 3
+	paratroopers = 3
+	gw_artillery = 3
+	gwtank = 3
+	basic_light_tank = 3  # PLACEHOLDER
+	early_fighter = 3
+	fighter1 = 3
+	early_bomber = 3
+	strategic_bomber1 = 3
+	naval_bomber1 = 3
+	mass_assault = 3
+	fleet_in_being = 3
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	neutrality = 70
+	fascism = 10
+	communism = 10
+	democratic = 10
+}
+
+
+recruit_character = BSK_yakov_bykin
