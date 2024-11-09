@@ -298,4 +298,19 @@ conscription = 0.05
 war_support_weekly = 0.01
 			}
 		}
+
+																	ebosh= {
+			picture = generic_foreign_capital
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+war_support_weekly = 0.001
+			}
+		}	
+		
 			
