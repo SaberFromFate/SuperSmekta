@@ -11,8 +11,26 @@ news_event = {
 	
 	option = {
 		name = PUZ_am5_e.1a
-		trigger = {
-			tag = IVA
-		}
+		
 	}
+}
+
+country_event = {
+	id = PUZ_denp_e.1
+	title = PUZ_denp_e.1t
+	desc = PUZ_denp_e.1d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	major = yes
+	
+
+	option = { # Side with the Rebels
+		name = PUZ_denp_e.1.a
+		PUZ = {
+			annex_country = { target = DEN }
+		}
+		
+	}
+
 }

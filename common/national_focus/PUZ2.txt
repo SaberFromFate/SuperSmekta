@@ -11,11 +11,18 @@ focus_tree = {
 	focus = {
 		id = PUZ_start
 		icon = GFX_focus_SOV_mobilization_plan
-		cost = 5,00
+		cost = 1,00
 		x = 26
 		y = 0
+		completion_reward = {
+			add_war_support = 0.1
+		}
 
 	}
+
+
+
+
 	focus = {
 		id = PUZ_north
 		icon = GFX_focus_generic_attack_nordic_territory
@@ -39,6 +46,13 @@ focus_tree = {
 		}
 		x = 15
 		y = 4
+
+		completion_reward = {
+			DEN = {
+				country_event = { id = PUZ_denp_e.1 hours = 6 }
+				
+			}
+		}
 
 	}
 	focus = {
@@ -158,7 +172,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_17
+		id = PUZ_norb
 		icon = GFX_focus_NOR_weathering_the_storm_to_come
 		cost = 5,00
 		prerequisite = {
@@ -174,7 +188,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 5,00
 		prerequisite = {
-			focus = newfocus_17
+			focus = PUZ_norb
 		}
 		x = 21
 		y = 10
