@@ -1,31 +1,26 @@
 add_namespace = PUZ_am5_e
 news_event = {
 	id = PUZ_am5_e.1
-	title = Paaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-	desc = PUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-	picture = GFX_report_event_soviet_soldiers
+	title = PUZ_am5_e.1.t
+	desc = PUZ_am5_e.1.d
+	picture = GFX_news_event_PUZ_am5_e
 	
 	major = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = PUZ_am5_e.1a
-		
-	}
 }
 
 add_namespace = PUZ_denp_e
 country_event = {
 	id = PUZ_denp_e.1
-	title = Paaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-	desc = Paaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	title = PUZ_denp_e.1t
+	desc = PUZ_denp_e.1d
 	picture = GFX_report_event_soviet_soldiers
 	
 	is_triggered_only = yes
 	major = yes
 
-	trigg
 	
 
 	option = { # Side with the Rebels

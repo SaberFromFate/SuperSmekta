@@ -296,6 +296,7 @@
 			}
 			
 			news_event = { id = PUZ_am5_e.1 hours = 6 }
+			
 			hidden_effect = {
 				play_song = "coo"
 			}

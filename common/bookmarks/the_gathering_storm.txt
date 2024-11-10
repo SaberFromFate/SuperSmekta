@@ -36,12 +36,26 @@ bookmarks = {
 		}
 
 		"PUZ"={
-			history = "GER_GATHERING_STORM_DESC"
+			history = "PUZ_HIST"
 			ideology = fascism
+			ideas = {
+				PUZ_WT
+			}
+			focuses = {
+				PUZ_am5
+				PUZ_arm22
+				PUZ_arm21
+
+			}
+		}
+
+		"SIM"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
-			}
+			}	
 		}
 
 		"MON"={
@@ -70,7 +84,7 @@ bookmarks = {
 			focuses = {
 			}	
 		}
-}
+	}
 
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
