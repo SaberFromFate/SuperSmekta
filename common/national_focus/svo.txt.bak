@@ -218,7 +218,7 @@ focus = {
 }
 	focus = {
         id = sv_c3
-			prerequisite = { focus = sv_c2 } ##Наследование от Focus_Number_1
+			prerequisite = { focus = sv_c2 AND focus = sv_3} ##Наследование от Focus_Number_1
         x = 0 #По горизонтали
         y = 1 #По вертикали
 	relative_position_id = sv_c2 ##Наследование позиции

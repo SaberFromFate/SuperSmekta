@@ -487,6 +487,24 @@ focus = {
 add_ideas={SVO_2}
 }
 }
+
+focus = {
+        id = m1
+        x = -20 #По горизонтали
+        y = 0 #По вертикали
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                                completion_reward = {
+add_ideas={SVO_2}
+}
+}
+
+
+
+
 }
 
 

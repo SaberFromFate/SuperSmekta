@@ -1420,7 +1420,7 @@ prerequisite = { focus = e1 }
 		y = 0
 		relative_position_id = SOV_infrastructure_effort_nsb
 		cost = 5
-
+prerequisite = { focus = e1 }
 		ai_will_do = {
 			factor = 1
 		}

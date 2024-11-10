@@ -55,6 +55,13 @@ stability_weekly = 0.1
 ai_focus_war_production_factor=2
 ai_focus_aggressive_factor=5
 ai_desired_divisions_factor=2
+				naval_damage_factor = 0.4
+				naval_defense_factor = 0.4
+				convoy_raiding_efficiency_factor = 0.7
+				navy_fuel_consumption_factor = -0.8
+				navy_max_range_factor = 2.00
+				invasion_preparation = -0.69
+				amphibious_invasion = 0.10
 			}
 		}
 				aya3	= {

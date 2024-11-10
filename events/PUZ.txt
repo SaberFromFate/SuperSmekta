@@ -1,9 +1,9 @@
 add_namespace = PUZ_am5_e
 news_event = {
 	id = PUZ_am5_e.1
-	title = PUZ_am5_e.1t
-	desc = PUZ_am5_e.1d
-	picture = GFX_news_event_PUZ_am5_e
+	title = Paaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	desc = PUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	picture = GFX_report_event_soviet_soldiers
 	
 	major = yes
 	
@@ -17,8 +17,8 @@ news_event = {
 
 country_event = {
 	id = PUZ_denp_e.1
-	title = PUZ_denp_e.1t
-	desc = PUZ_denp_e.1d
+	title = Paaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	desc = Paaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 	picture = GFX_report_event_soviet_soldiers
 	
 	is_triggered_only = yes
