@@ -15,6 +15,7 @@ news_event = {
 	}
 }
 
+add_namespace = PUZ_denp_e
 country_event = {
 	id = PUZ_denp_e.1
 	title = Paaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -23,12 +24,30 @@ country_event = {
 	
 	is_triggered_only = yes
 	major = yes
+
+	trigg
 	
 
 	option = { # Side with the Rebels
 		name = PUZ_denp_e.1.a
-		PUZ = {
-			annex_country = { target = DEN }
+		effect_tooltips = {
+			PUZ = {
+				annex_country = { target = DEN }
+			}
+		}
+		
+	}
+	option = { # Side with the Rebels
+		name = PUZ_denp_e.1.b
+		effect_tooltips = {
+			PUZ = {
+				annex_country = {
+					create_wargoal = {
+						type = annex_everything
+						target = DEN
+					}
+				}
+			}
 		}
 		
 	}
