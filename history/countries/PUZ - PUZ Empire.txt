@@ -51,3 +51,5 @@ add_ideas = {
 # Лидер Страны
 
 recruit_character = PUZ_rider
+
+DEN = {country_event = { id = PUZ_denp_e.1 hours = 6 }}

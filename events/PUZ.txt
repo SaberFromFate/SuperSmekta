@@ -14,34 +14,34 @@ news_event = {
 add_namespace = PUZ_denp_e
 country_event = {
 	id = PUZ_denp_e.1
-	title = PUZ_denp_e.1t
-	desc = PUZ_denp_e.1d
+	title = PUZ_denp_e.1.t
+	desc = PUZ_denp_e.1.d
 	picture = GFX_report_event_soviet_soldiers
 	
 	is_triggered_only = yes
 	major = yes
 
+	trigger = {
+		tag = DEN
+	}
+
 	
 
 	option = { # Side with the Rebels
 		name = PUZ_denp_e.1.a
-		effect_tooltips = {
-			PUZ = {
-				annex_country = { target = DEN }
-			}
+		PUZ = {
+			annex_country = { target = DEN }
 		}
 		
+		
 	}
+
 	option = { # Side with the Rebels
 		name = PUZ_denp_e.1.b
-		effect_tooltips = {
 			PUZ = {
-				annex_country = {
-					create_wargoal = {
-						type = annex_everything
-						target = DEN
-					}
-				}
+			create_wargoal = {
+				type = annex_everything
+				target = DEN
 			}
 		}
 		

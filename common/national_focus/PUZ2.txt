@@ -48,10 +48,10 @@ focus_tree = {
 		y = 4
 
 		completion_reward = {
-			DEN = {
-				country_event = { id = PUZ_denp_e.1 hours = 6 }
+			
+			country_event = { id = PUZ_denp_e.1 hours = 6 }
 				
-			}
+			
 		}
 
 	}
