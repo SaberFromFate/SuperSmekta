@@ -19,7 +19,6 @@ country_event = {
 	picture = GFX_report_event_soviet_soldiers
 	
 	is_triggered_only = yes
-	major = yes
 
 	trigger = {
 		tag = DEN
