@@ -16,7 +16,7 @@ country_event = {
 	id = PUZ_denp_e.1
 	title = PUZ_denp_e.1.t
 	desc = PUZ_denp_e.1.d
-	picture = GFX_report_event_soviet_soldiers
+	picture = GFX_country_event_PUZ_am_ev
 	
 	is_triggered_only = yes
 
@@ -30,6 +30,14 @@ country_event = {
 		name = PUZ_denp_e.1.a
 		PUZ = {
 			annex_country = { target = DEN }
+			add_state_core = 912
+			add_state_core = 99
+			add_state_core = 911
+			add_state_core = 37
+			add_state_core = 910
+			add_state_core = 337
+			add_state_core = 101
+			news_event = {id = PUZ_denp_e.2 hours = 6}
 		}
 		
 		
@@ -45,5 +53,79 @@ country_event = {
 		}
 		
 	}
+
+}
+
+news_event = {
+	id = PUZ_denp_e.2
+	title = PUZ_denp_e.2.t
+	desc = PUZ_denp_e.2.d
+	picture = GFX_country_event_PUZ_am_ev
+	
+	is_triggered_only = yes
+
+}
+
+
+
+add_namespace = PUZ_swep_e
+country_event = {
+	id = PUZ_swep_e.1
+	title = PUZ_swep_e.1.t
+	desc = PUZ_swep_e.1.d
+	picture = GFX_country_event_PUZ_am_ev
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = DEN
+	}
+
+	
+
+	option = { # Side with the Rebels
+		name = PUZ_swep_e.1.a
+		PUZ = {
+			annex_country = { target = SWE }
+			add_state_core = 38
+			add_state_core = 124
+			add_state_core = 138
+			add_state_core = 139
+			add_state_core = 140
+			add_state_core = 141
+			add_state_core = 666
+			add_state_core = 913
+			add_state_core = 915
+			add_state_core = 916
+			add_state_core = 917
+			add_state_core = 918
+			add_state_core = 919
+			news_event = {id = PUZ_swep_e.2 hours = 6}
+		}
+		
+		
+	}
+
+	option = { # Side with the Rebels
+		name = PUZ_swep_e.1.b
+		PUZ = {
+			create_wargoal = {
+				type = annex_everything
+				target = SWE
+			}
+		}
+		
+	}
+
+}
+
+news_event = {
+	id = PUZ_denp_e.2
+	title = PUZ_denp_e.2.t
+	desc = PUZ_denp_e.2.d
+	picture = GFX_country_event_PUZ_am_ev
+	
+	is_triggered_only = yes
+
 
 }

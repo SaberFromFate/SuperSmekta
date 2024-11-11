@@ -199,4 +199,8 @@ spriteTypes ={
 		name = "GFX_news_event_PUZ_am5_e"
 		texturefile = "gfx/event_pictures/news_event_PUZ_am5_e.dds"
 	}
+	spriteType = {
+		name = "GFX_country_event_PUZ_am_ev"
+		texturefile = "gfx/event_pictures/country_event_PUZ_am_ev.dds"
+	}
 }

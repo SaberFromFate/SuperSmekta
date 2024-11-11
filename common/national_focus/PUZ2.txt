@@ -68,6 +68,13 @@ focus_tree = {
 		x = 23
 		y = 4
 
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = DEN
+			}
+		}
+
 	}
 	focus = {
 		id = PUZ_swe
@@ -82,6 +89,12 @@ focus_tree = {
 		}
 		x = 17
 		y = 6
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = SWE
+			}
+		}
 
 	}
 	focus = {
@@ -97,6 +110,12 @@ focus_tree = {
 		}
 		x = 13
 		y = 6
+		completion_reward = {
+			
+			SWE ={country_event = { id = PUZ_swep_e.1 hours = 6 }}
+				
+			
+		}
 
 	}
 	focus = {
