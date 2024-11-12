@@ -18,6 +18,8 @@ focus_tree = {
 	
 	default = no
 shared_focus = SMEKTA_army_effort
+shared_focus = SMEKTA_equipment_effort
+shared_focus = SMEKTA_aviation_effort
 			focus = {
 		id = ge1
 		icon = GFX_focus_fra_devalue_the_franc
