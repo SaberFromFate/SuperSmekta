@@ -1,0 +1,74 @@
+leader_traits = {
+	GOYDA = {
+		random = no
+		weekly_casualties_war_support = 0.003
+		weekly_war_support = 0.001
+		war_support_factor = 0.05
+	}
+		birka = {
+		random = no
+experience_gain_navy_factor = 0.2
+monthly_population=-0.2
+consumer_goods_factor = -0.15
+	}
+	major = {
+			random = no
+	experience_gain_navy_factor = 0.2
+	mobilization_laws_cost_factor = -0.75
+	}
+	syn={
+			random = no
+	navy_max_range_factor = 0.10
+	experience_gain_navy_factor = 0.05
+			equipment_bonus = {
+			capital_ship = {
+				armor_value = 0.15
+				hg_attack = 0.15
+			}
+			screen_ship = {
+				torpedo_attack = 0.25
+				sub_detection = 0.25
+			}
+		}
+	}
+		pornsold={
+			random = no
+			gachism_drift=0.01
+					equipment_bonus = {
+			medium_plane_airframe = {
+				air_range = 0.1
+			}
+			small_plane_airframe = {
+				air_range = 0.1
+			}
+			experience_gain_air_factor = 0.1
+		}
+	}
+			gos={
+			random = no
+			gachism_drift=0.01
+			army_breakthrough_against_minor_factor = 0.15
+			army_speed_factor = 0.3
+		}
+			fryaz = {
+		random = no
+		sprite = 15
+		operative_slot = 1
+		agency_upgrade_time = -0.2
+		civilian_intel_factor = 0.8
+		stability_factor = 0.05
+		intel_network_gain_factor = 0.2
+	}
+	shoigu={
+	sprite = 15
+	random = no
+		experience_gain_army_factor = 0.1
+		supply_factor = -0.3
+		out_of_supply_factor = 0.2
+		consumer_goods_factor = -0.2
+		
+	}
+	
+	
+
+}

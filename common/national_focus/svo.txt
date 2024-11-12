@@ -176,7 +176,7 @@ focus = {
 	focus = {
         id = sv_c1
 			icon = GFX_goal_generic_construct_mil_factory
-        x = 22 #По горизонтали
+        x = 12 #По горизонтали
         y = 1 #По вертикали
 
 
@@ -502,7 +502,61 @@ add_ideas={SVO_2}
 }
 }
 
-
+	focus = {
+		id = ENG_unite_the_svyatosphere
+		prerequisite = { focus = c6 }
+		prerequisite = { focus = h6 }
+		will_lead_to_war_with = USA
+				available = {
+			owns_state = 113
+			owns_state = 120
+		}
+		icon = GFX_focus_eng_unite_the_anglosphere
+		x = 5
+		y = 3
+		relative_position_id = h6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}	
+		completion_reward = {
+				113 = { add_core_of = ENG }
+				134 = { add_core_of = ENG }
+				135 = { add_core_of = ENG }
+			
+			create_wargoal = {
+				type = annex_everything
+				target = USA
+				expire = 0
+			}
+						create_wargoal = {
+				type = annex_everything
+				target = RAJ
+				expire = 0
+			}
+						create_wargoal = {
+				type = annex_everything
+				target = CAN
+				expire = 0
+			}
+									create_wargoal = {
+				type = annex_everything
+				target = AST
+				expire = 0
+			}
+				every_state = {
+					limit = {
+						is_core_of = SCO
+					}
+					add_core_of = ENG
+				}
+				132= { add_core_of = ENG }
+		}
+	}
 
 
 }

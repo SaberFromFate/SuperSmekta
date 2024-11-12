@@ -1,5 +1,6 @@
+characters={
 	IB1={
-		name=IB2
+		name=IB1
 		portraits={
 			army={
 				small="GFX_idea_EST_august_rei"
@@ -71,4 +72,5 @@
 				popular_figurehead 
 			}
 		}
+	}
 	}
