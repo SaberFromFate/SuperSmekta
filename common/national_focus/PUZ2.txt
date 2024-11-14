@@ -97,6 +97,12 @@ focus_tree = {
 		}
 		x = 13
 		y = 6
+		completion_reward = {
+			
+			SWE = { country_event = { id = PUZ_swep_e.1 hours = 6 }}
+				
+			
+		}
 
 	}
 	focus = {
@@ -109,6 +115,12 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = PUZ_fin_p
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = FIN
+			}
 		}
 		x = 17
 		y = 8
@@ -124,6 +136,12 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = PUZ_fin
+		}
+		completion_reward = {
+			
+			FIN = { country_event = { id = PUZ_finp_e.1 hours = 6 }}
+				
+			
 		}
 		x = 13
 		y = 8
@@ -152,6 +170,12 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = PUZ_nor
 		}
+		completion_reward = {
+			
+			NOR = { country_event = { id = PUZ_norp_e.1 hours = 6 }}
+				
+			
+		}
 		x = 21
 		y = 6
 
@@ -166,6 +190,12 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = PUZ_nor_p
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = NOR
+			}
 		}
 		x = 25
 		y = 6
@@ -235,6 +265,13 @@ focus_tree = {
 		prerequisite = {
 			focus = PUZ_south
 		}
+		completion_reward = {
+			add_war_support = 0.05
+			create_wargoal = {
+				type = annex_everything
+				target = GER
+			}
+		}
 		x = 33
 		y = 4
 
@@ -245,6 +282,12 @@ focus_tree = {
 		cost = 5,00
 		prerequisite = {
 			focus = PUZ_ger
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = CZE
+			}
 		}
 		x = 29
 		y = 6
@@ -259,6 +302,12 @@ focus_tree = {
 		}
 		x = 33
 		y = 6
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = SIL
+			}
+		}
 
 	}
 	focus = {
@@ -273,6 +322,12 @@ focus_tree = {
 		}
 		x = 33
 		y = 8
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = AUS
+			}
+		}
 
 	}
 	focus = {
@@ -380,6 +435,8 @@ focus_tree = {
 		}
 		x = 26
 		y = 12
-
+		completion_reward = {
+			
+		}
 	}
 }
