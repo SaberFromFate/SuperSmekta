@@ -60,7 +60,7 @@ if = {
 
 set_research_slots = 2
 
-set_stability = 0.1
+set_stability = 0.25
 set_war_support = 0.4
 add_command_power = 20
 
@@ -148,13 +148,12 @@ if = {
 set_convoys = 1000
 
 # DIPLOMACY
-
-
-if = {
-	limit = { has_dlc = "Together for Victory" }
-
-	add_to_tech_sharing_group = commonwealth_research
+add_ideas={
+smekta
+svo_brop
 }
+
+
 
 
 
@@ -162,12 +161,12 @@ set_politics = {
 	ruling_party = fascism
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
+	elections_allowed = no ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-
-	fascism =50
-
+	fascism = 50
+	democratic = 30
+	communism = 20
 }
 
 

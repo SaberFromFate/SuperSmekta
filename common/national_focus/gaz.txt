@@ -17,9 +17,7 @@ focus_tree = {
 
 	
 	default = no
-shared_focus = SMEKTA_army_effort
-shared_focus = SMEKTA_equipment_effort
-shared_focus = SMEKTA_aviation_effort
+shared_focus = RUS_russian_army
 			focus = {
 		id = ge1
 		icon = GFX_focus_fra_devalue_the_franc
@@ -1034,7 +1032,7 @@ annex_country = {
 			}
 		}
 									focus = {
-		id = r5b
+		id = r5c
 		icon = GFX_focus_fra_devalue_the_franc
 		x = -3
 		y = 2

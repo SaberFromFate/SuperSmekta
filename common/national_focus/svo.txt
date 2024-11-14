@@ -11,11 +11,13 @@ focus_tree = {
 	}
 	default = no
 	reset_on_civilwar = no
+	shared_focus = RUS_russian_army
 	focus = {
         id = sv_h1
         icon = GFX_goal_generic_construct_civ_factory
-        x = 8 #По горизонтали
+        x = 4 #По горизонтали
         y = 1 #По вертикали
+		prerequisite = { focus = sv_c1 }
         cost = 10
         completion_reward = {
 		add_ideas = {
@@ -28,9 +30,9 @@ war_support_factor = 0.10
 		focus = {
         id = sv_b1
         icon = GFX_goal_generic_construct_mil_factory
-        x = 4 #По горизонтали
+        x = 0 #По горизонтали
         y = 1 #По вертикали
-
+		prerequisite = { focus = sv_c1 }
 	cost = 10
 
 	available_if_capitulated = yes
@@ -120,13 +122,33 @@ focus = {
     add_idea = SVO_SVO2
 }
 }}
+focus = {
+        id = sv_h3c
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sv_h3 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_h3 ##Наследование позиции
+	cost = 10
+
+	available_if_capitulated = yes
+
+        completion_reward = {
+
+
+    add_ideas = {ebosh}
+
+}}
+
 	focus = {
         id = sv_h4
         icon = GFX_goal_generic_construct_mil_factory
-	prerequisite = { focus = sv_h2 } ##Наследование от Focus_Number_1
-        x = 4 #По горизонтали
+	prerequisite = { focus = sv_h3 }
+prerequisite = { focus = sv_b3}
+prerequisite = { focus = sv_c4 }	##Наследование от Focus_Number_1
+        x = 3 #По горизонтали
         y = 1 #По вертикали
-	relative_position_id = sv_h2 ##Наследование позиции
+	relative_position_id = sv_h3 ##Наследование позиции
 	cost = 10
 
 	available_if_capitulated = yes
@@ -136,6 +158,9 @@ focus = {
     SVO_GOR
 	}
 }}
+
+	
+	
 	focus = {
         id = sv_h5
         icon = GFX_goal_generic_construct_mil_factory
@@ -150,14 +175,14 @@ focus = {
         completion_reward = {
 						swap_ideas = {
     remove_idea = SVO_GOR
-    add_idea = SVO_GOR2
+    add_idea = SVO_GOR25
 }
 }}
 	focus = {
         id = sv_h6
         icon = GFX_goal_generic_construct_mil_factory
-	prerequisite = { focus = sv_h5  focus = sv_b3} ##Наследование от Focus_Number_1
-        x = -5 #По горизонтали
+	prerequisite = { focus = sv_h5} ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
         y = 1 #По вертикали
 	relative_position_id = sv_h5 ##Наследование позиции
 	cost = 10
@@ -166,18 +191,70 @@ focus = {
 
         completion_reward = {
 						swap_ideas = {
-    remove_idea = SVO_GOR2
+    remove_idea = SVO_GOR25
+    add_idea = SVO_GOR2
+}
+}}
+	focus = {
+        id = sv_h7
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sv_h6} ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_h6 ##Наследование позиции
+	cost = 10
+
+	available_if_capitulated = yes
+
+        completion_reward = {
+						swap_ideas = {
+    remove_idea = SVO_GOR25
     add_idea = SVO_GOR3
 }
 }}
+	focus = {
+        id = sv_h8
+        icon = GFX_goal_generic_construct_mil_factory
+	mutually_exclusive = {focus = sv_h9}
+	prerequisite = { focus = sv_h7} ##Наследование от Focus_Number_1
+        x = -1 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_h7 ##Наследование позиции
+	cost = 10
 
+	available_if_capitulated = yes
+
+        completion_reward = {
+						swap_ideas = {
+    remove_idea = SVO_GOR3
+    add_idea = SVO_GOR4
+}
+}}
+	focus = {
+        id = sv_h9
+        icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = sv_h7} ##Наследование от Focus_Number_1
+	mutually_exclusive = {focus = sv_h8}
+        x = 1 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_h7 ##Наследование позиции
+	cost = 10
+
+	available_if_capitulated = yes
+
+        completion_reward = {
+						swap_ideas = {
+    remove_idea = SVO_GOR3
+    add_idea = SVO_GOR4a
+}
+}}
 
 
 	focus = {
         id = sv_c1
 			icon = GFX_goal_generic_construct_mil_factory
         x = 12 #По горизонтали
-        y = 1 #По вертикали
+        y = 0 #По вертикали
 
 
 	cost = 10
@@ -185,19 +262,10 @@ focus = {
 	available_if_capitulated = yes
 
         completion_reward = {
-				random_owned_controlled_state = {
-				limit = {
-					ROOT = { has_full_control_of_state = PREV }
-					is_core_of = ROOT
-				}
-				add_extra_state_shared_building_slots = 7
-				add_building_construction = {
-					type = arms_factory
-					level = 4
-					instant_build = yes
-				}
-			}
-			add_war_support=0.1
+		set_power_balance = {
+    id = SVO_power_balance
+}
+			add_popularity = { ideology = fascism popularity = 0.05 }
 }
 }
 	focus = {
@@ -218,7 +286,7 @@ focus = {
 }
 	focus = {
         id = sv_c3
-			prerequisite = { focus = sv_c2 AND focus = sv_3} ##Наследование от Focus_Number_1
+			prerequisite = { focus = sv_c2} ##Наследование от Focus_Number_1
         x = 0 #По горизонтали
         y = 1 #По вертикали
 	relative_position_id = sv_c2 ##Наследование позиции
@@ -246,7 +314,7 @@ focus = {
 	available_if_capitulated = yes
 				available = {
 			is_subject = no
-			has_army_manpower = { size > 949999 } #100 div
+			has_army_manpower = { size > 249999 } #100 div
 			#Make custom trigger tooltip here
 
 
@@ -276,10 +344,10 @@ focus = {
 					ROOT = { has_full_control_of_state = PREV }
 					is_core_of = ROOT
 				}
-				add_extra_state_shared_building_slots = 11
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
-					level = 11
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -303,10 +371,10 @@ focus = {
 					ROOT = { has_full_control_of_state = PREV }
 					is_core_of = ROOT
 				}
-				add_extra_state_shared_building_slots = 10
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
-					level = 10
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -314,7 +382,7 @@ focus = {
 }
 focus = {
         id = sv_c6
-			prerequisite = { focus = sv_c5 AND focus = sv_s4 } ##Наследование от Focus_Number_1
+			prerequisite = { focus = sv_c5  }		##Наследование от Focus_Number_1
         x = 0 #По горизонтали
         y = 1 #По вертикали
 	relative_position_id = sv_c5 ##Наследование позиции
@@ -341,7 +409,7 @@ focus = {
 }
 focus = {
         id = sv_s1
-
+prerequisite = { focus = sv_c1 }
         x = 25 #По горизонтали
         y = 1 #По вертикали
         icon = GFX_goal_generic_construct_mil_factory
@@ -369,6 +437,7 @@ swap_ideas={remove_idea=SVO_MSU
 add_idea=SVO_MSU2 }
 }
 }
+
 	focus = {
         id = sv_s3
 			prerequisite = { focus = sv_s2 } ##Наследование от Focus_Number_1
@@ -396,9 +465,10 @@ create_corps_commander = {
 }
 focus = {
         id = sv_s4
-			prerequisite = { focus = sv_s3 } ##Наследование от Focus_Number_1
+			prerequisite = { focus = sv_s3 }
+prerequisite = { focus = sv_3 }			##Наследование от Focus_Number_1
         x = 0 #По горизонтали
-        y = 2 #По вертикали
+        y = 1 #По вертикали
 	relative_position_id = sv_s3 ##Наследование позиции
         icon = GFX_goal_generic_construct_mil_factory
 	cost = 10
@@ -406,13 +476,13 @@ focus = {
 	available_if_capitulated = yes
 
                 completion_reward = {
-add_research_slot = 2
+add_research_slot = 1
 }
 }
 focus = {
         id = sv_b2a
 			prerequisite = { focus = sv_b1 } ##Наследование от Focus_Number_1
-        x = -3 #По горизонтали
+        x = -2 #По горизонтали
         y = 1 #По вертикали
 	relative_position_id = sv_b1 ##Наследование позиции
         icon = GFX_goal_generic_construct_mil_factory
@@ -441,9 +511,24 @@ add_ideas={SVO_MAR}
 }
 }
 focus = {
+        id = sv_m1
+        x = 7 #По горизонтали
+        y = 1 #По вертикали
+		relative_position_id = sv_c1
+		prerequisite = { focus = sv_c1 }
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                                completion_reward = {
+add_ideas={SVO_1}
+}
+}
+focus = {
         id = sv_1
 			prerequisite = { focus = sv_h1 } ##Наследование от Focus_Number_1
-        x = 10 #По горизонтали
+        x = 6 #По горизонтали
         y = 1 #По вертикали
 	relative_position_id = sv_h1 ##Наследование позиции
         icon = GFX_goal_generic_construct_mil_factory
@@ -453,68 +538,208 @@ focus = {
 
                 completion_reward = {
 add_war_support=0.20
-}
-}
 
+				add_tech_bonus = {
+					name = Svogoui
+					bonus = 0.75
+					uses = 3
+					category = construction_tech
+				}
+}
+}
 focus = {
-        id = sv_2
-			prerequisite = { focus = sv_h1 } ##Наследование от Focus_Number_1
-        x = 12 #По горизонтали
+        id = sv_baff1
+			prerequisite = { focus = sv_1 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
         y = 1 #По вертикали
-	relative_position_id = sv_h1 ##Наследование позиции
+	relative_position_id = sv_1 ##Наследование позиции
         icon = GFX_goal_generic_construct_mil_factory
 	cost = 10
 
 	available_if_capitulated = yes
 
                 completion_reward = {
-add_ideas={SVO_3}
+add_stability=0.2
+				add_tech_bonus = {
+					name = SOV_reorganize_the_pc_of_heavy_industry_name_default
+					bonus = 1.0
+					uses = 3
+					category = electronics
+				}
+}
+}
+focus = {
+        id = sv_baff2
+			prerequisite = { focus = sv_baff1 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_baff1 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                completion_reward = {
+add_war_support=0.15
+add_stability=0.15
+	add_tech_bonus = {
+    bonus = 0.5
+    uses =3
+    category = industry
+}
+}
+}
+
+focus = {
+        id = sv_2
+			prerequisite = { focus = sv_m1 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_m1 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                completion_reward = {
+swap_ideas={remove_idea=SVO_1
+add_idea=SVO_2 }
 }
 }
 
 focus = {
         id = sv_3
-			prerequisite = { focus = sv_h1 } ##Наследование от Focus_Number_1
-        x = 14 #По горизонтали
+			prerequisite = { focus = sv_2 } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
         y = 1 #По вертикали
-	relative_position_id = sv_h1 ##Наследование позиции
+	relative_position_id = sv_2 ##Наследование позиции
         icon = GFX_goal_generic_construct_mil_factory
 	cost = 10
 
 	available_if_capitulated = yes
 
                                 completion_reward = {
-add_ideas={SVO_2}
+swap_ideas={remove_idea=SVO_2
+add_idea=SVO_3 }
 }
+}
+focus = {
+        id = m2
+			prerequisite = { focus = sv_m1 } ##Наследование от Focus_Number_1
+        x = 2 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_m1 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                                completion_reward = {
+remove_ideas=svo_brop
+}
+}
+focus = {
+        id = m3
+			prerequisite = { focus = sv_m1 } ##Наследование от Focus_Number_1
+        x = -2 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_m1 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+completion_reward = {
+			division_template = { 
+				name = "Dayz_goydovichki"
+				division_names_group = EST_INF_01
+				is_locked = no
+				regiments = { 
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 3 y = 0 }
+
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 2 y = 1 }
+					infantry = { x = 3 y = 1 }
+
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 2 y = 2 }
+					infantry = { x = 3 y = 2 }
+				}
+				support = {
+				}
+			}
+			random_owned_controlled_state = {
+				create_unit = { 
+					division = "name = \"1. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"2. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"3. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"4. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+		}
 }
 
 focus = {
-        id = m1
-        x = -20 #По горизонтали
-        y = 0 #По вертикали
+        id = m4
+        x = 2 #По горизонтали
+        y = 1 #По вертикали
+		relative_position_id = sv_2
+		prerequisite = { focus = sv_2 }
         icon = GFX_goal_generic_construct_mil_factory
 	cost = 10
 
 	available_if_capitulated = yes
 
                                 completion_reward = {
-add_ideas={SVO_2}
+puppet = {
+    target = NGR
+    end_wars = yes
 }
 }
+}
+focus = {
+        id = sv_c6a
+        x = 2 #По горизонтали
+        y = 1 #По вертикали
+		relative_position_id = sv_c5
+		prerequisite = { focus = sv_c5 }
+		prerequisite = { focus = sv_3 }		
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
 
+	available_if_capitulated = yes
+
+                                completion_reward = {
+add_research_slot = 1
+}
+}
 	focus = {
 		id = ENG_unite_the_svyatosphere
-		prerequisite = { focus = c6 }
-		prerequisite = { focus = h6 }
+		prerequisite = { focus = sv_c6 }
 		will_lead_to_war_with = USA
 				available = {
 			owns_state = 113
 			owns_state = 120
 		}
 		icon = GFX_focus_eng_unite_the_anglosphere
-		x = 5
-		y = 3
-		relative_position_id = h6
+		x = 0
+		y = 6
+		relative_position_id = sv_c6
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -524,9 +749,9 @@ add_ideas={SVO_2}
 			}
 		}	
 		completion_reward = {
-				113 = { add_core_of = ENG }
-				134 = { add_core_of = ENG }
-				135 = { add_core_of = ENG }
+				113 = { add_core_of = SVO }
+				134 = { add_core_of = SVO }
+				135 = { add_core_of = SVO }
 			
 			create_wargoal = {
 				type = annex_everything
@@ -552,11 +777,243 @@ add_ideas={SVO_2}
 					limit = {
 						is_core_of = SCO
 					}
-					add_core_of = ENG
+					add_core_of = SVO
 				}
-				132= { add_core_of = ENG }
+				132= { add_core_of = SVO }
 		}
 	}
+	
+	
+
+focus = {
+        id = sv_c8
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+		relative_position_id = ENG_unite_the_svyatosphere
+		prerequisite = { focus = ENG_unite_the_svyatosphere }
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                                completion_reward = {
+	set_rule = {
+    desc = TAG_my_rule_description
+    can_create_factions = yes
+}
+}
+}
+focus = {
+        id = sv_c9
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+		relative_position_id = sv_c8
+		prerequisite = { focus = sv_c8 }
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                                completion_reward = {
+add_research_slot = 1
+}
+}
+focus = {
+        id = sv_gb
+        x = -10 #По горизонтали
+        y = 1 #По вертикали
+		relative_position_id = ENG_unite_the_svyatosphere
+		prerequisite = { focus = ENG_unite_the_svyatosphere }
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                                completion_reward = {
+set_cosmetic_tag = SVO_GB
+add_stability=0.1
+}
+}
+focus = {
+        id = sv_usa1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+		relative_position_id = sv_gb
+		prerequisite = { focus = sv_gb }
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+				available = {
+			owns_state = 361
+			owns_state = 378
+			NOT={	
+has_idea = integr	}
+		}
+	available_if_capitulated = yes
+
+                                completion_reward = {
+								add_timed_idea = {
+    idea = integr
+    days = 200
+}
+				every_state = {
+					limit = {
+						is_core_of = USA
+					}
+					add_core_of = SVO
+				}
+		}
+}
+focus = {
+        id = sv_AFR
+        x = -3 #По горизонтали
+        y = 1 #По вертикали
+		relative_position_id = sv_gb
+		prerequisite = { focus = sv_gb }
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+				available = {
+			owns_state = 459
+			owns_state = 378
+			NOT={	
+has_idea = integr	}
+		}
+	available_if_capitulated = yes
+
+                                completion_reward = {
+								add_timed_idea = {
+    idea = integr
+    days = 200
+}
+
+		every_state = {
+					limit = {
+						is_core_of = GHA
+					}
+					add_core_of = SVO
+				}
+		}
+}
+focus = {
+        id = sv_IND
+        x = 3 #По горизонтали
+        y = 1 #По вертикали
+		relative_position_id = sv_gb
+		prerequisite = { focus = sv_gb }
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+				available = {
+			owns_state = 439
+			owns_state = 423
+			NOT={	
+has_idea = integr	}
+		}
+	available_if_capitulated = yes
+
+                                completion_reward = {
+								add_timed_idea = {
+    idea = integr
+    days = 200
+}
+				every_state = {
+					limit = {
+						is_core_of = RAJ
+					}
+					add_core_of = SVO
+				}
+		}
+}
+
+focus = {
+        id = sv_pisa
+			prerequisite = { focus = sv_IND } ##Наследование от Focus_Number_1
+        x = 0 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_IND ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                completion_reward = {
+swap_ideas={remove_idea=SVO_OKU
+add_idea=SVO_OKU2 }
+}
+}
+focus = {
+        id = sv_goi
+			prerequisite = { focus = sv_s2 } ##Наследование от Focus_Number_1
+        x = -2 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_s2 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                completion_reward = {
+add_war_support=0.12
+	
+army_experience = 100
+}
+}
+focus = {
+        id = sv_AUS
+        x = -6 #По горизонтали
+        y = 1 #По вертикали
+		relative_position_id = sv_gb
+		prerequisite = { focus = sv_gb }
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+				available = {
+			owns_state = 517
+			owns_state = 870
+			NOT={	
+has_idea = integr	}
+		}
+	available_if_capitulated = yes
+
+                                completion_reward = {
+								add_timed_idea = {
+    idea = integr
+    days = 150
+}
+				every_state = {
+					limit = {
+						is_core_of = AST
+					}
+					add_core_of = SVO
+				}
+		}
+}
+focus = {
+        id = sv_CAN
+        x = 0 #По горизонтали
+        y = 8 #По вертикали
+		relative_position_id = sv_gb
+		prerequisite = { focus = sv_gb }
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+				available = {
+			owns_state = 473
+			owns_state = 276
+			NOT={	
+has_idea = integr	}
+		}
+	available_if_capitulated = yes
+
+                                completion_reward = {
+								add_timed_idea = {
+    idea = integr
+    days = 150
+}
+				every_state = {
+					limit = {
+						is_core_of = CAN
+					}
+					add_core_of = SVO
+				}
+		}
+}
 
 
 }

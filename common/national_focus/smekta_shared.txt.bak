@@ -1,102 +1,1284 @@
+
 shared_focus = {
-		id = SMEKTA_army_effort
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 0
-		cost = 5
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		available_if_capitulated = yes
+	id = RUS_russian_army
+	icon = GFX_goal_RUS_army
+	x = 30
+	y = 0
+	
+	cost = 1
 
-		completion_reward = {
-		add_political_power= 50
-			army_experience = 5
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 3
-				category = land_doctrine
-				
-			}
-			swap_ideas={remove_idea=ag1
-add_idea=ag2 }
-		}
+	ai_will_do = {
+		factor = 90
 	}
-
-	shared_focus = {
-		id = SMEKTA_equipment_effort
-		icon = GFX_goal_generic_small_arms
-		prerequisite = { shared_focus = SMEKTA_army_effort }
-		x = -1
-		y = 1
-		relative_position_id = SMEKTA_army_effort
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_russian_army"
+		add_stability = 0.075
+		army_experience = 50
+		country_event = russia.54
+	}
 		
-		available_if_capitulated = yes
+}
+shared_focus = {
+	id = RUS_Reintroduce_Okhranka
+	icon = GFX_RUS_Reintroduce_Okhrannoye_Otdeleniye
+	relative_position_id = RUS_russian_army
+	x = -3
+	y = 1
+	cost = 2
 
-		completion_reward = {
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Reintroduce_Okhranka"
+		if = {
+			limit = { has_dlc = "La Resistance" }
+			if = {
+				limit = { has_intelligence_agency = no }
+				create_intelligence_agency = yes
+			}
+			else_if = {
+				limit = {
+					NOT = { has_done_agency_upgrade = upgrade_army_department }
+				}
+				upgrade_intelligence_agency = upgrade_army_department
+			}
+			else = {
+				add_political_power = 50
+			}
+			add_ideas = RUS_okhrannoye_otdeleniye_1_lar
+		}
+		else = {
+			add_ideas = rus_okhrana_focus
+		}		
+	}
+}
+
+shared_focus = {
+	id = RUS_Equipment_Modernisation
+	icon = GFX_RUS_Equipment_Modernisation
+	relative_position_id = RUS_russian_army
+	x = -1
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = RUS_russian_army
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {	 
+		}			
+	}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 4
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}		
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Equipment_Modernisation"
+		add_tech_bonus = {
+			name = RUS_Equipment_Modernisation 
+			bonus = 1
+			uses = 4
+			category = infantry_weapons
+			category = artillery
+		}
+		if = {
+			limit = {
+				has_completed_focus = RUS_Overwhelming_Firepower
+			}
 			add_tech_bonus = {
-				name = infantry_artillery_bonus
-				bonus = 1.0
-				uses = 3
-				category = infantry_weapons
-				category = artillery
-			}
-		}
-	}
-
-	shared_focus = {
-		id = SMEKTA_motorization_effort
-		icon = GFX_goal_generic_army_motorized
-		prerequisite = { shared_focus = SMEKTA_army_effort }
-		bypass = { has_tech = motorised_infantry }
-		x = 1
-		y = 1
-		relative_position_id = SMEKTA_army_effort
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = motorized_bonus
-				bonus = 3.0
-				technology = motorised_infantry
-			}
-		}
-	}
-
-	shared_focus = {
-		id = SMEKTA_doctrine_effort
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { shared_focus = SMEKTA_army_effort }
-		x = 0
-		y = 2
-		relative_position_id = SMEKTA_army_effort
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			army_experience = 5
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
+				name = RUS_Equipment_Modernisation
+				bonus = 1
 				uses = 4
-				category = land_doctrine
+				category = support_tech
 			}
 		}
 	}
+}
+shared_focus = {
+	id = RUS_Electronic_Warfare
+	icon = GFX_RUS_Electronic_Warfare
+	relative_position_id = RUS_Reintroduce_Okhranka
+	x = 2
+	y = 2
+	cost = 5
+	prerequisite = {
+		focus = RUS_Equipment_Modernisation
+	}
+	prerequisite = {
+		focus = RUS_Reintroduce_Okhranka
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}			
+	}
+	ai_will_do = {
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Electronic_Warfare"
+		add_tech_bonus = {
+			name = RUS_Electronic_Warfare
+			bonus = 1
+			uses = 3
+			category = computing_tech
+		}
+		if = {
+			limit = { has_dlc = "La Resistance" }
+			if = {
+				limit = { has_idea = RUS_okhrannoye_otdeleniye_2a_lar }
+				swap_ideas = {
+					remove_idea = RUS_okhrannoye_otdeleniye_2a_lar
+					add_idea = RUS_okhrannoye_otdeleniye_3_lar
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = RUS_okhrannoye_otdeleniye_1_lar
+					add_idea = RUS_okhrannoye_otdeleniye_2b_lar
+				}
+			}
+		}
+		else_if = {
+			limit = { has_idea = RUS_okhrannoye_otdeleniye_2a }
+			swap_ideas = {
+				remove_idea = RUS_okhrannoye_otdeleniye_2a
+				add_idea = RUS_okhrannoye_otdeleniye_3
+			}
+		}
+		else = {
+			swap_ideas = {
+				remove_idea = rus_okhrana_focus
+				add_idea = RUS_okhrannoye_otdeleniye_2b
+			}
+		}
+	}
+}
+shared_focus = {
+	id = RUS_Front_Line_Commissars
+	icon = GFX_RUS_Front_Line_Commisars
+	relative_position_id = RUS_Reintroduce_Okhranka
+	x = 1
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = RUS_Reintroduce_Okhranka
+	}
+	prerequisite = {
+		focus = RUS_Equipment_Modernisation
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}			
+	}
+	
+	ai_will_do = {
+		factor = 3
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Front_Line_Commissars"
+		if = {
+			limit = { has_dlc = "La Resistance" }
+			if = {
+				limit = { has_idea = RUS_okhrannoye_otdeleniye_2b_lar }
+				swap_ideas = {
+					remove_idea = RUS_okhrannoye_otdeleniye_2b_lar
+					add_idea = RUS_okhrannoye_otdeleniye_3_lar
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = RUS_okhrannoye_otdeleniye_1_lar
+					add_idea = RUS_okhrannoye_otdeleniye_2a_lar
+				}
+			}
+		}
+		else_if = {
+			limit = { has_idea = RUS_okhrannoye_otdeleniye_2b }
+			swap_ideas = {
+				remove_idea = RUS_okhrannoye_otdeleniye_2b
+				add_idea = RUS_okhrannoye_otdeleniye_3
+			}
+		}
+		else = {
+			swap_ideas = {
+				remove_idea = rus_okhrana_focus
+				add_idea = RUS_okhrannoye_otdeleniye_2a
+			}
+		}
+		RUS_reduce_army_debuff = yes
+	}
+	search_filters = { FOCUS_FILTER_ARMY_BONUS }
+}
+shared_focus = {
+	id = RUS_Special_Forces_Office
+	icon = GFX_RUS_Special_Forces_Office
+	relative_position_id = RUS_russian_army
+	x = 4
+	y = 3
+	cost = 5
+	prerequisite = {
+		focus = RUS_Spearhead_Doctrine
+		focus = RUS_Overwhelming_Firepower
+		focus = RUS_Extensive_Planning
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}	
+		RUS_focus_blocked_for_non_decided_socialists = yes
+	}
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Special_Forces_Office"
+		add_tech_bonus = {
+			name = RUS_Special_Forces_Office
+			bonus = 1
+			uses = 4
+			category = mountaineers_tech
+			category = marine_tech
+		}
+		if = {
+			limit = { has_dlc_aat = yes }
+			add_doctrine_cost_reduction = {
+				name = RUS_Special_Forces_Office
+				cost_reduction = 1
+				uses = 4
+				category = special_forces_doctrine
+			}
+		}
+		RUS_reduce_army_debuff = yes
+	}
+}
+
+shared_focus = {
+	id = RUS_Army_Motorisation
+	icon = GFX_RUS_Expand_AMO
+	relative_position_id = RUS_russian_army
+	x = 1
+	y = 2
+	cost = 5
+	prerequisite = {
+		focus = RUS_Equipment_Modernisation
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}			
+	}
+	
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Army_Motorisation"
+		add_tech_bonus = {
+			name = RUS_Army_Motorisation
+			bonus = 1
+			uses = 3
+			category = cat_mechanized_equipment
+		}
+		RUS_reduce_army_debuff = yes
+	}
+}
+shared_focus = {
+	id = RUS_High_Command_Reforms
+	icon = GFX_goal_generic_army_high_command
+	relative_position_id = RUS_russian_army
+	x = 9
+	y = 2
+	cost = 5
+	prerequisite = {
+		focus = RUS_Spearhead_Doctrine
+		focus = RUS_Overwhelming_Firepower
+		focus = RUS_Extensive_Planning
+		focus = RUS_War_Of_Numbers
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}	
+		RUS_focus_blocked_for_non_decided_socialists = yes
+	}
+	ai_will_do = {
+		factor = 7
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_High_Command_Reforms"
+		add_doctrine_cost_reduction = {
+			name = RUS_High_Command_Reforms
+			cost_reduction = 0.5
+			uses = 4
+			category = land_doctrine
+		}
+		RUS_reduce_army_debuff = yes
+	}
+}
+
+shared_focus = {
+	id = RUS_Extensive_Planning
+	icon = GFX_RUS_Wrangel_Plan
+	prerequisite = {
+		focus = RUS_russian_army
+	}
+	mutually_exclusive = {
+		focus = RUS_Spearhead_Doctrine
+		focus = RUS_Overwhelming_Firepower
+		focus = RUS_War_Of_Numbers
+	}
+
+	relative_position_id = RUS_russian_army
+	x = 2
+	y = 1
+	cost = 5
+
+	available = {
+ always=yes
+		hidden_trigger = {
+			has_country_flag = RUS_Extensive_Planning_chosen
+		}
+	}
+	ai_will_do = {
+		factor = 3000
+		modifier = {
+			factor = 0.16
+			RUS_savinkov_in_power = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Extensive_Planning"
+		RUS_reduce_army_debuff = yes
+		add_doctrine_cost_reduction = {
+			name = RUS_Extensive_Planning
+			cost_reduction = 0.5
+			uses = 4
+			category = land_doctrine
+		}
+	}
+}
+
+shared_focus = {
+	id = RUS_Military_Infrastructure
+	icon = GFX_goal_ATH_logistics
+	relative_position_id = RUS_russian_army
+	x = 2
+	y = 3
+	cost = 5
+	prerequisite = {
+		focus = RUS_Extensive_Planning
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}	
+		RUS_focus_blocked_for_non_decided_socialists = yes
+	}
+
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Military_Infrastructure"
+		if = {
+			limit = { has_idea = planning_school }
+			swap_ideas = {
+				remove_idea = planning_school
+				add_idea = planning_school_2
+			}
+		}
+		else = {
+			add_ideas = RUS_military_infrastructure_focus
+		}
+		if = {
+			limit = { 
+				NOT = { has_tech = tech_logistics_company }
+			}	
+			set_technology = { tech_logistics_company = 1 }
+		}
+		else = {
+			add_tech_bonus = {
+				name = RUS_Military_Infrastructure
+				bonus = 1
+				uses = 3
+				category = logistics_tech
+			}
+		}
+		if = {
+			limit = { 
+				NOT = { has_tech = tech_maintenance_company }
+			}	
+			set_technology = { tech_maintenance_company = 1 }
+		}
+		else = {
+			add_tech_bonus = {
+				name = RUS_Military_Infrastructure
+				bonus = 1
+				uses = 3
+				category = maintenance_company_tech
+			}
+			
+		}
+		RUS_reduce_army_debuff = yes
+	}	
+}
+
+shared_focus = {
+	id = RUS_Mechanised_Divisions
+	icon = GFX_focus_rus_mechanised
+	relative_position_id = RUS_russian_army
+	x = 1
+	y = 4
+	cost = 5
+	prerequisite = {
+		focus = RUS_Army_Motorisation
+	}
+	prerequisite = {
+		focus = RUS_Military_Infrastructure
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}	
+		RUS_focus_blocked_for_non_decided_socialists = yes
+	}
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Mechanised_Divisions"
+		add_tech_bonus = {
+			name = RUS_Mechanised_Divisions
+			bonus = 1
+			uses = 4
+			category = cat_mechanized_equipment
+			category = motorized_equipment
+		}
+		RUS_reduce_army_debuff = yes
+	}
+}
+
+shared_focus = {
+	id = RUS_National_Planning_School
+	icon = GFX_goal_CAN_Expand_Training_Facilities
+	relative_position_id = RUS_russian_army
+	x = 3
+	y = 2
+	cost = 5
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}	
+		RUS_focus_blocked_for_non_decided_socialists = yes
+	}
+	prerequisite = {
+		focus = RUS_Extensive_Planning
+	}
+
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_National_Planning_School"
+		if = {
+			limit = { has_idea = RUS_military_infrastructure_focus }
+			swap_ideas = {
+				remove_idea = RUS_military_infrastructure_focus
+				add_idea = planning_school_2
+			}
+		}
+		else = {
+			add_ideas = planning_school
+		}
+		RUS_reduce_army_debuff = yes
+	}
+}
+
+shared_focus = {
+	id = RUS_Overwhelming_Firepower
+	icon = GFX_RUS_Shatilov_Plan
+	prerequisite = {
+		focus = RUS_russian_army
+	}
+	mutually_exclusive = {
+		focus = RUS_Spearhead_Doctrine
+		focus = RUS_Extensive_Planning
+		focus = RUS_War_Of_Numbers
+	}
+
+	relative_position_id = RUS_russian_army
+	x = 5
+	y = 1
+	cost = 5
+
+	available = {
+ always=yes
+		hidden_trigger = {
+			has_country_flag = RUS_Overwhelming_Firepower_chosen
+		}
+	}
+	ai_will_do = {
+		factor = 2000
+		modifier = {
+			factor = 2
+			RUS_savinkov_in_power = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Overwhelming_Firepower"
+		add_doctrine_cost_reduction = {
+			name = RUS_Overwhelming_Firepower
+			cost_reduction = 0.5
+			uses = 4
+			category = land_doctrine
+		}
+		RUS_reduce_army_debuff = yes
+	}
+}
+
+shared_focus = {
+	id = RUS_Commander_Initiative
+	icon = GFX_RUS_Commander_Initiative
+	relative_position_id = RUS_russian_army
+	x = 5
+	y = 2
+	cost = 5
+	prerequisite = {
+		focus = RUS_Overwhelming_Firepower
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}	
+		RUS_focus_blocked_for_non_decided_socialists = yes
+	}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Commander_Initiative"
+		army_experience = 30
+		add_ideas = rus_army_experience_focus
+		RUS_reduce_army_debuff = yes
+	}
+}
+
+shared_focus = {
+	id = RUS_National_High_Command_Formation_School
+	icon = GFX_RUS_National_High_Command_Formation_School
+	relative_position_id = RUS_russian_army
+	x = 5
+	y = 4
+	cost = 5
+	prerequisite = {
+		focus = RUS_Commander_Initiative
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}	
+		RUS_focus_blocked_for_non_decided_socialists = yes
+	}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_National_High_Command_Formation_School"
+		add_ideas = general_school
+		RUS_reduce_army_debuff = yes
+	}
+}
+
+shared_focus = {
+	id = RUS_Spearhead_Doctrine
+	icon = GFX_RUS_Markov_Plan
+	prerequisite = {
+		focus = RUS_russian_army
+	}
+	mutually_exclusive = {
+		focus = RUS_Overwhelming_Firepower
+		focus = RUS_Extensive_Planning
+		focus = RUS_War_Of_Numbers
+	}
+	available = {
+ always=yes
+		hidden_trigger = {
+			has_country_flag = RUS_Spearhead_Doctrine_chosen
+		}
+	}
+	relative_position_id = RUS_russian_army
+	x = 7
+	y = 1
+	cost = 5
+
+	ai_will_do = {
+		factor = 2000
+		modifier = {
+			factor = 0.25
+			RUS_savinkov_in_power = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Spearhead_Doctrine"
+		add_doctrine_cost_reduction = {
+			name = RUS_Spearhead_Doctrine
+			cost_reduction = 0.5
+			uses = 4
+			category = land_doctrine
+		}
+		add_ai_strategy = {
+			type = role_ratio
+			id = infantry
+			value = -10
+		}
+		add_ai_strategy = {
+			type = role_ratio
+			id = armor
+			value = 30
+		}
+		RUS_reduce_army_debuff = yes
+	}
+}
+
+shared_focus = {
+	id = RUS_Armour_Modernisation
+	icon = GFX_goal_POL_light_tanks
+	relative_position_id = RUS_Spearhead_Doctrine
+	x = 0
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = RUS_Spearhead_Doctrine
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}	
+		RUS_focus_blocked_for_non_decided_socialists = yes
+	}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Armour_Modernisation"
+		add_tech_bonus = {
+			name = RUS_Armour_Modernisation
+			bonus = 0.5
+			uses = 4
+			category = armor
+		}
+		RUS_reduce_army_debuff = yes
+	}
+}
+
+shared_focus = {
+	id = RUS_National_Armoured_School
+	icon = GFX_goal_TEX_maneuver_excersices
+	relative_position_id = RUS_Spearhead_Doctrine
+	x = -1
+	y = 2
+	cost = 5
+	prerequisite = {
+		focus = RUS_Armour_Modernisation
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}	
+		RUS_focus_blocked_for_non_decided_socialists = yes
+	}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_National_Armoured_School"
+		add_ideas = tank_academy
+		RUS_reduce_army_debuff = yes
+	}
+}
+
+shared_focus = {
+	id = RUS_Import_Foreign_Specialists
+	icon = GFX_goal_TEX_a_better_tank
+	relative_position_id = RUS_Spearhead_Doctrine
+	x = 1
+	y = 2
+	cost = 5
+	prerequisite = {
+		focus = RUS_Armour_Modernisation
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}	
+		RUS_focus_blocked_for_non_decided_socialists = yes
+	}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Import_Foreign_Specialists"
+		add_tech_bonus = {
+			name = RUS_Import_Foreign_Specialists
+			bonus = 0.5
+			uses = 4
+			ahead_reduction = 2
+			category = armor
+		}
+		RUS_reduce_army_debuff = yes
+	}
+}
+
+shared_focus = {
+	id = RUS_War_Of_Numbers
+	icon = GFX_RUS_Denikin_Plan
+	prerequisite = {
+		focus = RUS_russian_army
+	}
+	mutually_exclusive = {
+		focus = RUS_Spearhead_Doctrine
+		focus = RUS_Overwhelming_Firepower
+		focus = RUS_Extensive_Planning
+	}
+
+	relative_position_id = RUS_russian_army
+	x = 10
+	y = 1
+	cost = 5
+
+	available = {
+ always=yes
+		hidden_trigger = {
+			has_country_flag = RUS_War_Of_Numbers_chosen
+		}
+	}
+	ai_will_do = {
+		factor = 3000
+		modifier = {
+			factor = 0.16
+			RUS_savinkov_in_power = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_War_Of_Numbers"
+		RUS_reduce_army_debuff = yes
+		add_doctrine_cost_reduction = {
+			name = RUS_War_Of_Numbers
+			cost_reduction = 0.5
+			uses = 4
+			category = land_doctrine
+		}
+	}
+}
+
+shared_focus = {
+	id = RUS_Mass_Mobilisation
+	icon = GFX_goal_mass_concentration_of_army
+	relative_position_id = RUS_War_Of_Numbers
+	x = 0
+	y = 2
+	cost = 5
+	prerequisite = {
+		focus = RUS_War_Of_Numbers
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}	
+		RUS_focus_blocked_for_non_decided_socialists = yes
+	}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Mass_Mobilisation"
+		add_ideas = rus_more_MP_focus
+		RUS_reduce_army_debuff = yes
+	}
+}
+
+shared_focus = {
+	id = RUS_Equipment_Standardisation
+	icon = GFX_goal_generic_design_equipment_standards
+	relative_position_id = RUS_War_Of_Numbers
+	x = 1
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = RUS_War_Of_Numbers
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}	
+		RUS_focus_blocked_for_non_decided_socialists = yes
+	}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Equipment_Standardisation"
+		add_ideas = rus_better_infantry_production_focus			
+	}
+}
+
+shared_focus = {
+	id = RUS_A_Well_Equipped_Force
+	icon = GFX_goal_OTT_arms_purchase
+	relative_position_id = RUS_War_Of_Numbers
+	x = 2
+	y = 2
+	cost = 5
+	prerequisite = {
+		focus = RUS_Equipment_Standardisation
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}	
+		RUS_focus_blocked_for_non_decided_socialists = yes
+	}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_A_Well_Equipped_Force"
+		add_tech_bonus = {
+			name = RUS_A_Well_Equipped_Force
+			bonus = 0.5
+			uses = 4
+			category = infantry_weapons
+			category = artillery
+		}
+		swap_ideas = {
+			remove_idea = rus_better_infantry_production_focus
+			add_idea = rus_better_infantry_production_focus_2
+		}
+	}
+}
+
+shared_focus = {
+	id = RUS_Local_Training_Barracks
+	icon = GFX_goal_generic_army_training
+	relative_position_id = RUS_War_Of_Numbers
+	x = 1
+	y = 3
+	cost = 5
+	prerequisite = {
+		focus = RUS_Mass_Mobilisation
+	}
+	prerequisite = {
+		focus = RUS_Equipment_Standardisation
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {
+			 
+			 
+		}	
+		RUS_focus_blocked_for_non_decided_socialists = yes
+	}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Local_Training_Barracks"
+		add_ideas = training_barracks
+		RUS_reduce_army_debuff = yes
+	}
+}
+	
+
+
 		shared_focus = {
 		id = SMEKTA_bicycle_battalions
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { shared_focus = SMEKTA_army_effort }
+		prerequisite = {focus = SMEKTA_army_effort }
 		x = -3
 		y = 1
 		relative_position_id = SMEKTA_army_effort
@@ -108,15 +1290,13 @@ add_idea=ag2 }
 		}
 
 		available = {
+ always=yes
 
 		}
 
 		bypass = {
 
 		}
-
-		cancel_if_invalid = SMEKTA_yes
-		continue_if_invalid = SMEKTA_no
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -127,7 +1307,7 @@ add_idea=ag2 }
 			shared_focus = {
 		id = SMEKTA_cam_battalions
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { shared_focus = SMEKTA_bicycle_battalions }
+		prerequisite = {focus = SMEKTA_bicycle_battalions }
 		x = 0
 		y = 1
 		relative_position_id = SMEKTA_bicycle_battalions
@@ -139,6 +1319,7 @@ add_idea=ag2 }
 		}
 
 		available = {
+ always=yes
 
 		}
 
@@ -157,130 +1338,14 @@ add_idea=ag2 }
 	}
 	
 
-	shared_focus = {
-		id = SMEKTA_equipment_effort_2
-		icon = GFX_goal_generic_army_artillery
-		prerequisite = { shared_focus = SMEKTA_equipment_effort }
-		x = 0
-		y = 2
-		relative_position_id = SMEKTA_equipment_effort
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = infantry_artillery_bonus
-				bonus = 1.0
-				uses = 3
-				category = infantry_weapons
-				category = artillery
-			}
-		}
-	}
-
-	shared_focus = {
-		id = SMEKTA_mechanization_effort
-		icon = GFX_goal_generic_build_tank
-		prerequisite = { shared_focus = SMEKTA_motorization_effort }
-		x = 0
-		y = 2
-		relative_position_id = SMEKTA_motorization_effort
-		cost = 5
-		
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = motorized_bonus
-				ahead_reduction = 2
-				uses = 3
-				category = motorized_equipment
-			}
-		}
-	}
-
-	shared_focus = {
-		id = SMEKTA_doctrine_effort_2
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { shared_focus = SMEKTA_doctrine_effort }
-		x = 0
-		y = 2
-		relative_position_id = SMEKTA_doctrine_effort
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			army_experience = 5
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 3
-				category = land_doctrine
-			}
-		}
-	}
-
-	shared_focus = {
-		id = SMEKTA_equipment_effort_3
-		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { shared_focus = SMEKTA_equipment_effort_2 }
-		x = 0
-		y = 2
-		relative_position_id = SMEKTA_equipment_effort_2
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = infantry_artillery_bonus
-				ahead_reduction = 2
-				uses = 3
-				category = infantry_weapons
-				category = artillery
-			}
-		}
-	}
-
-	shared_focus = {
-		id = SMEKTA_armor_effort
-		icon = GFX_goal_generic_army_tanks
-		prerequisite = { shared_focus = SMEKTA_mechanization_effort }
-		x = 0
-		y = 2
-		relative_position_id = SMEKTA_mechanization_effort
-		cost = 5
-
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = armor_bonus
-				bonus = 1.0
-				uses = 4
-				category = armor
-			}
-		}
-	}
+	
 
 	shared_focus = {
 		id = SMEKTA_special_forces
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { shared_focus = SMEKTA_equipment_effort_3 }
-		prerequisite = { shared_focus = SMEKTA_doctrine_effort_2 }
-		prerequisite = { shared_focus = SMEKTA_armor_effort }
+		prerequisite = {focus = SMEKTA_equipment_effort_3 }
+		prerequisite = {focus = SMEKTA_doctrine_effort_2 }
+		prerequisite = {focus = SMEKTA_armor_effort }
 		x = 1
 		y = 1
 		relative_position_id = SMEKTA_equipment_effort_3
@@ -310,15 +1375,15 @@ add_idea=ag2 }
 	shared_focus = {
 		id = SMEKTA_aviation_effort
 		icon = GFX_goal_generic_build_airforce
-		x = 5
-		y = 0
+		x = -10
+		y = 1
 		cost = 5
-		
+		relative_position_id = RUS_russian_army
 		search_filters = {   FOCUS_FILTER_RESEARCH }
 
 		available_if_capitulated = yes
 
-
+prerequisite = { focus = RUS_russian_army }
 		complete_tooltip = {
 			air_experience = 25
 			if = { limit = { has_country_flag = aviation_effort_AB }
@@ -395,8 +1460,8 @@ add_idea=ag2 }
 	shared_focus = {
 		id = SMEKTA_fighter_focus
 		icon = GFX_goal_generic_air_fighter
-		prerequisite = { shared_focus = SMEKTA_aviation_effort }
-		mutually_exclusive = { shared_focus = SMEKTA_bomber_focus }
+		prerequisite = {focus = SMEKTA_aviation_effort }
+		mutually_exclusive = {focus = SMEKTA_bomber_focus }
 		x = -1
 		y = 1
 		relative_position_id = SMEKTA_aviation_effort
@@ -420,8 +1485,8 @@ add_idea=ag2 }
 	shared_focus = {
 		id = SMEKTA_bomber_focus
 		icon = GFX_goal_generic_air_bomber
-		prerequisite = { shared_focus = SMEKTA_aviation_effort }
-		mutually_exclusive = { shared_focus = SMEKTA_fighter_focus }
+		prerequisite = {focus = SMEKTA_aviation_effort }
+		mutually_exclusive = {focus = SMEKTA_fighter_focus }
 		x = 1
 		y = 1
 		relative_position_id = SMEKTA_aviation_effort
@@ -445,7 +1510,7 @@ add_idea=ag2 }
 	shared_focus = {
 		id = SMEKTA_aviation_effort_2
 		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { shared_focus = SMEKTA_bomber_focus shared_focus = SMEKTA_fighter_focus }
+		prerequisite = {focus = SMEKTA_bomber_focus shared_focus = SMEKTA_fighter_focus }
 		x = -1
 		y = 1
 		relative_position_id = SMEKTA_bomber_focus
@@ -534,8 +1599,8 @@ add_idea=ag2 }
 	shared_focus = {
 		id = SMEKTA_CAS_effort
 		icon = GFX_goal_generic_CAS
-		prerequisite = { shared_focus = SMEKTA_aviation_effort_2 }
-		prerequisite = { shared_focus = SMEKTA_motorization_effort }
+		prerequisite = {focus = SMEKTA_aviation_effort_2 }
+		prerequisite = {focus = SMEKTA_motorization_effort }
 		x = -1
 		y = 1
 		relative_position_id = SMEKTA_aviation_effort_2
@@ -559,8 +1624,8 @@ add_idea=ag2 }
 	shared_focus = {
 		id = SMEKTA_rocket_effort
 		icon = GFX_focus_rocketry
-		prerequisite = { shared_focus = SMEKTA_aviation_effort_2 }
-		prerequisite = { shared_focus = SMEKTA_infrastructure_effort }
+		prerequisite = {focus = SMEKTA_aviation_effort_2 }
+		prerequisite = {focus = SMEKTA_infrastructure_effort }
 		x = 0
 		y = 2
 		relative_position_id = SMEKTA_aviation_effort_2
@@ -592,8 +1657,8 @@ add_idea=ag2 }
 	shared_focus = {
 		id = SMEKTA_NAV_effort
 		icon = GFX_goal_generic_air_naval_bomber
-		prerequisite = { shared_focus = SMEKTA_aviation_effort_2 }
-		prerequisite = { shared_focus = SMEKTA_flexible_navy }
+		prerequisite = {focus = SMEKTA_aviation_effort_2 }
+		prerequisite = {focus = SMEKTA_flexible_navy }
 		x = 1
 		y = 1
 		relative_position_id = SMEKTA_aviation_effort_2
@@ -617,16 +1682,18 @@ add_idea=ag2 }
 	shared_focus = {
 		id = SMEKTA_naval_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 9
-		y = 0
+		x = -5
+		y = 1
 		cost = 5
-
+prerequisite = { focus = RUS_russian_army }
+relative_position_id =RUS_russian_army
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		
 		available_if_capitulated = yes
 
 
 		available = {
+ always=yes
 			any_state = {
 				is_coastal = yes
 				is_controlled_by = ROOT
@@ -745,8 +1812,8 @@ add_idea=ag2 }
 	shared_focus = {
 		id = SMEKTA_flexible_navy
 		icon = GFX_goal_generic_build_navy
-		prerequisite = { shared_focus = SMEKTA_naval_effort }
-		mutually_exclusive = { shared_focus = SMEKTA_large_navy }
+		prerequisite = {focus = SMEKTA_naval_effort }
+		mutually_exclusive = {focus = SMEKTA_large_navy }
 		x = -1
 		y = 1
 		relative_position_id = SMEKTA_naval_effort
@@ -787,8 +1854,8 @@ add_idea=ag2 }
 	shared_focus = {
 		id = SMEKTA_large_navy
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { shared_focus = SMEKTA_naval_effort }
-		mutually_exclusive = { shared_focus = SMEKTA_flexible_navy }
+		prerequisite = {focus = SMEKTA_naval_effort }
+		mutually_exclusive = {focus = SMEKTA_flexible_navy }
 		x = 1
 		y = 1
 		relative_position_id = SMEKTA_naval_effort
@@ -825,7 +1892,7 @@ add_idea=ag2 }
 	shared_focus = {
 		id = SMEKTA_submarine_effort
 		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { shared_focus = SMEKTA_flexible_navy shared_focus = SMEKTA_large_navy }
+		prerequisite = {focus = SMEKTA_flexible_navy shared_focus = SMEKTA_large_navy }
 		x = 0
 		y = 1
 		relative_position_id = SMEKTA_flexible_navy
@@ -863,7 +1930,7 @@ add_idea=ag2 }
 	shared_focus = {
 		id = SMEKTA_cruiser_effort
 		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { shared_focus = SMEKTA_large_navy shared_focus = SMEKTA_flexible_navy }
+		prerequisite = {focus = SMEKTA_large_navy shared_focus = SMEKTA_flexible_navy }
 		x = 0
 		y = 1
 		relative_position_id = SMEKTA_large_navy
@@ -902,7 +1969,7 @@ add_idea=ag2 }
 	shared_focus = {
 		id = SMEKTA_destroyer_effort
 		icon = GFX_goal_generic_wolf_pack
-		prerequisite = { shared_focus = SMEKTA_submarine_effort }
+		prerequisite = {focus = SMEKTA_submarine_effort }
 		x = 0
 		y = 1
 		relative_position_id = SMEKTA_submarine_effort
@@ -941,7 +2008,7 @@ add_idea=ag2 }
 	shared_focus = {
 		id = SMEKTA_capital_ships_effort
 		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { shared_focus = SMEKTA_cruiser_effort }
+		prerequisite = {focus = SMEKTA_cruiser_effort }
 		x = 0
 		y = 1
 		relative_position_id = SMEKTA_cruiser_effort
