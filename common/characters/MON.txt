@@ -26,7 +26,7 @@ characters={
 				original_tag = MON
 			}
 			traits = {
-				popular_figurehead 
+				fryaz
 			}
 		}
 	}
@@ -45,7 +45,7 @@ characters={
 				has_completed_focus = ge1
 			}
 			traits = {
-				popular_figurehead 
+				major
 			}
 		}
 	}
