@@ -1,4 +1,4 @@
-version="1.14.8"
+version="1.15.0"
 tags={
 	"Alternative History"
 	"Events"
@@ -8,5 +8,5 @@ tags={
 }
 name="Smekta"
 picture="600x600.png"
-supported_version="1.14.10"
+supported_version="1.15.0"
 remote_file_id="3329420560"
