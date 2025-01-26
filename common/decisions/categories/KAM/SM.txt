@@ -46,7 +46,6 @@ KAM_category = {
         }
         available = {
 		has_government = communism
-			has_government = democratic	
         }
         icon = generic_industry
         priority = 10

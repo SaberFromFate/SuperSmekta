@@ -1,0 +1,110 @@
+shared_focus = {
+	id = gachi_1
+	icon = GFX_goal_RUS_army
+	x = -40
+	y = 20
+	
+	cost = 10
+
+	completion_reward = {
+		set_politics = {
+    ruling_party = gachism
+    elections_allowed = no
+    last_election = "1935.12.17"
+    election_frequency = 48
+    long_name = TAG_party_long
+    name = TAG_party
+}
+add_stability=0.05
+add_popularity = {
+    ideology = gachism
+    popularity = 0.05
+}
+set_power_balance = {
+    id = my_bop
+    left_side = my_bop_left_side
+    right_side = my_bop_right_side
+}
+		
+	}
+		
+}
+shared_focus = {
+	id = gachi_2
+	icon = GFX_RUS_Reintroduce_Okhrannoye_Otdeleniye
+	relative_position_id = gachi_1
+	x = -3
+	y = 1
+	cost = 2
+
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+set_rule = {
+    can_create_factions = yes
+	can_join_factions=yes
+}		
+	}
+}
+
+shared_focus = {
+	id = gachi_3
+	icon = GFX_RUS_Equipment_Modernisation
+	relative_position_id = gachi_2
+	x = 0
+	y = 1
+	cost = 5
+	prerequisite = {
+		focus = gachi_2
+	}
+	available = {
+ always=yes
+		custom_trigger_tooltip = {	 
+		}			
+	}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 2
+			is_in_faction = yes # = started foreign tree
+		}
+		modifier = {
+			factor = 4
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			date > 1937.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1938.1.1
+		}
+		modifier = {
+			factor = 1.5
+			date > 1939.1.1
+		}		
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_Equipment_Modernisation"
+		add_tech_bonus = {
+			name = RUS_Equipment_Modernisation 
+			bonus = 1
+			uses = 4
+			category = infantry_weapons
+			category = artillery
+		}
+		if = {
+			limit = {
+				has_completed_focus = RUS_Overwhelming_Firepower
+			}
+			add_tech_bonus = {
+				name = RUS_Equipment_Modernisation
+				bonus = 1
+				uses = 4
+				category = support_tech
+			}
+		}
+	}
+}

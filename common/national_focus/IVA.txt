@@ -40,10 +40,30 @@ news_event = {
 	}
 	
 		focus = {
-		id = iv2
+		id = iv2a
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 1
-		y = 0
+		y = 1
+		cost = 5
+				prerequisite = { focus = iv1 }
+		mutually_exclusive = { }
+		relative_position_id = iv1
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			hidden_effect = {
+				play_song = "war"
+			}
+add_stability = 0.05
+add_war_support = 0.3
+		}
+	}
+			focus = {
+		id = iv2
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -1
+		y = 1
 		cost = 10
 				prerequisite = { focus = iv1 }
 		mutually_exclusive = { }
@@ -52,15 +72,45 @@ news_event = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-		news_event = {
-    id = 3.2
-    days = 10
-    random = 50
-}
-add_stability = 0.1
+
+add_stability = 0.2
 add_political_power = 150
 		}
 	}
+				focus = {
+		id = iv3d
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -1
+		y = 1
+		cost = 10
+				prerequisite = { focus = iv2a }
+		mutually_exclusive = { }
+		relative_position_id = iv2a
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+	add_political_power = 8
+	add_political_power = 8
+	add_political_power = 0
+	add_political_power = 0
+	add_political_power = 5
+	add_political_power = 5
+	add_political_power = 5
+			add_political_power = 3
+	add_political_power = 5
+add_political_power = 3
+add_political_power = 5
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

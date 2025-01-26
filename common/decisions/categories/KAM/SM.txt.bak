@@ -1,14 +1,15 @@
 KAM_category = {
     FAS_example = {
         allowed = {
-			has_government = fascism
-			has_government = neutrality
+			always = yes
 		}
         visible = {
             country_exists = FER
         }
         available = {
-			always = yes
+			
+			has_government = fascism
+			has_government = neutrality
         }
         icon = generic_industry
         priority = 10
@@ -38,14 +39,14 @@ KAM_category = {
     }
 	    COM_example = {
         allowed = {
-			has_government = communism
-			has_government = democratic
+			always = yes
 		}
         visible = {
             country_exists = FER
         }
         available = {
-			always = yes
+		has_government = communism
+			has_government = democratic	
         }
         icon = generic_industry
         priority = 10
@@ -70,7 +71,7 @@ KAM_category = {
 				add_extra_state_shared_building_slots = 1
 			}
             }
-			var_dovka=var_dovka+10
+			
 
         }
     }
