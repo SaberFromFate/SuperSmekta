@@ -20,6 +20,23 @@ spriteTypes ={
 		texturefile = "gfx/interface/goals/PUZ_am5.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_ideology_tech_group"
+		texturefile = "gfx/interface/ideologies/tech_group.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_PUZ_rider"
+		texturefile = "gfx/leaders/PUZ/RiderFromFate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_PUZ_rider2"
+		texturefile = "gfx/leaders/PUZ/RiderFromFate2.dds"
+	}
+	
+
+
     SpriteType = {
 		name = "GFX_PUZ_am_shine"
 		texturefile = "gfx/interface/goals/puz_am.dds"		
