@@ -22,7 +22,6 @@ focus_tree = {
 
 
 
-
 	focus = {
 		id = PUZ_north
 		icon = GFX_focus_generic_attack_nordic_territory
@@ -53,6 +52,7 @@ focus_tree = {
 				
 			
 		}
+
 
 	}
 	focus = {
@@ -155,8 +155,46 @@ focus_tree = {
 			focus = PUZ_fin
 			focus = PUZ_fin_p
 		}
+		available = {
+			OR = {
+				AND = {
+					owns_state = 111
+					owns_state = 926
+					owns_state = 927
+				}
+				FIN = { is_subject_of = PUZ }
+			}
+		}
+
 		x = 17
 		y = 10
+
+		completion_reward = {
+			111 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			926 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			927 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -209,6 +247,54 @@ focus_tree = {
 			focus = PUZ_nor_p
 			focus = PUZ_nor
 		}
+		available = {
+			OR = {
+				AND = {
+					owns_state = 142
+					owns_state = 922
+					owns_state = 921
+					owns_state = 110
+					owns_state = 143
+					owns_state = 923
+					owns_state = 144
+					owns_state = 924
+					owns_state = 925
+
+				}
+				NOR = { is_subject_of = PUZ }
+			}
+		}
+		completion_reward = {
+			every_state = {
+					limit = { 
+						is_coastal = yes 
+						coastal_bunker < 10
+						OR = { #Atlantic Coast from Brittany to Sevilla
+							state = 142
+							state = 922
+							state = 921
+							state = 110
+							state = 143
+							state = 923
+							state = 144
+							state = 924
+							state = 925
+						}
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						level = 2
+						instant_build = yes
+						province = {
+							all_provinces = yes
+							limit_to_naval_base = yes
+						}
+					}
+					
+			}
+			
+		}	
+
 		x = 21
 		y = 8
 
@@ -220,8 +306,49 @@ focus_tree = {
 		prerequisite = {
 			focus = PUZ_norb
 		}
+		available = {
+			OR = {
+				AND = {
+					owns_state = 142
+					owns_state = 922
+					owns_state = 921
+					owns_state = 110
+					owns_state = 143
+					owns_state = 923
+					owns_state = 144
+					owns_state = 924
+					owns_state = 925
+
+				}
+				NOR = { is_subject_of = PUZ }
+			}
+		}
 		x = 21
 		y = 10
+		completion_reward = {
+			every_state = {
+					limit = { 
+						
+						OR = { #Atlantic Coast from Brittany to Sevilla
+							state = 142
+							state = 922
+							state = 921
+							state = 110
+							state = 143
+							state = 923
+							state = 144
+							state = 924
+							state = 925
+						}
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+					
+			}
+		}
 
 	}
 	focus = {
@@ -234,6 +361,31 @@ focus_tree = {
 		}
 		x = 25
 		y = 8
+		available = {
+			OR = {
+				AND = {
+					owns_state = 142
+					owns_state = 922
+					owns_state = 921
+					owns_state = 110
+					owns_state = 143
+					owns_state = 923
+					owns_state = 144
+					owns_state = 924
+					owns_state = 925
+
+				}
+				NOR = { is_subject_of = PUZ }
+			}
+		}
+
+		completion_reward = {
+			swap_ideas = {
+    			remove_idea = PUZ_TB2
+    			add_idea = PUZ_TB3
+
+			}
+		}
 
 	}
 	focus = {
@@ -243,6 +395,47 @@ focus_tree = {
 		prerequisite = {
 			focus = PUZ_resn
 		}
+		available = {
+			OR = {
+				AND = {
+					owns_state = 142
+					owns_state = 922
+					owns_state = 921
+					owns_state = 110
+					owns_state = 143
+					owns_state = 923
+					owns_state = 144
+					owns_state = 924
+					owns_state = 925
+
+				}
+				NOR = { is_subject_of = PUZ }
+			}
+		}
+		completion_reward = {
+
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 3
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 3
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 3
+			}
+
+			add_tech_bonus = {
+				name = nuclear_bonus
+				ahead_reduction = 3 # was 2
+				category = nuclear
+			}
+			
+
+		}
+
 		x = 25
 		y = 10
 
@@ -404,8 +597,52 @@ focus_tree = {
 			focus = PUZ_fin
 			focus = PUZ_fin_p
 		}
+		available = {
+			OR = {
+				AND = {
+					owns_state = 138
+					owns_state = 139
+					owns_state = 140
+					owns_state = 141
+					owns_state = 913
+					owns_state = 915
+					owns_state = 916
+					owns_state = 38
+					owns_state = 918
+					owns_state = 666
+					owns_state = 917
+				}
+				SWE = { is_subject_of = PUZ }
+			}
+		}
 		x = 13
 		y = 10
+		completion_reward = {
+			every_state = {
+					limit = { 
+						
+						OR = { #Atlantic Coast from Brittany to Sevilla
+							state = 138
+							state = 139
+							state = 140
+							state = 141
+							state = 913
+							state = 915
+							state = 916
+							state = 38
+							state = 918
+							state = 666
+							state = 917
+						}
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+					
+			}
+		}
 
 	}
 	focus = {

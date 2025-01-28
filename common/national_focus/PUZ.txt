@@ -257,7 +257,6 @@
 				add_country_leader_trait = magos
 
 			}
-
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
