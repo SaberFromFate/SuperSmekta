@@ -286,3 +286,101 @@ news_event = {
 
 }
 
+add_namespace = PUZ_ukr_e
+country_event = {
+	id = PUZ_ukr_e.1
+	title = PUZ_ukr_e.1.t
+	desc = PUZ_ukr_e.1.d
+	picture = GFX_country_event_PUZ_am_ev
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = LES
+	}
+
+	
+
+	option = { # Side with the Rebels
+		name = PUZ_ukr_e.1.a
+		LES = {
+			create_wargoal = {
+				type = annex_everything
+				target = UKR
+			}
+		}
+		PUZ = {
+			country_event = PUZ_ukr_e.2
+			create_wargoal = {
+				type = annex_everything
+				target = UKR
+			}
+
+		}
+		
+		
+		
+	}
+
+	option = { # Side with the Rebels
+		name = PUZ_ukr_e.1.b
+		major = yes
+		PUZ = {
+			country_event = PUZ_ukr_e.3
+		}
+		
+	}
+
+}
+
+country_event = {
+	id = PUZ_ukr_e.2
+	title = PUZ_ukr_e.2.t
+	desc = PUZ_ukr_e.2.d
+	picture = GFX_country_event_PUZ_am_ev
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = PUZ
+	}
+
+}
+
+add_namespace = PUZ_ukr_e
+country_event = {
+	id = PUZ_ukr_e.3
+	title = PUZ_ukr_e.3.t
+	desc = PUZ_ukr_e.3.d
+	picture = GFX_country_event_PUZ_am_ev
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = PUZ
+	}
+
+	
+
+	option = { # Side with the Rebels
+		name = PUZ_ukr_e.3.a
+		PUZ = {
+			country_event = PUZ_ukr_e.3
+			create_wargoal = {
+				type = annex_everything
+				target = UKR
+			}
+
+		}
+		
+		
+		
+	}
+
+	option = { # Side with the Rebels
+		name = PUZ_ukr_e.3.b
+		major = yes
+		add_stability = 0.1		
+	}
+
+}
