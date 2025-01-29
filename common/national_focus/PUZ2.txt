@@ -506,6 +506,48 @@ focus_tree = {
 		x = 33
 		y = 2
 
+		completion_reward = {
+			   # Германия (GER)
+   	   # Германия (GER)
+   add_state_claim = 56    # Ostpreußen
+   add_state_claim = 57    # Danzig (после аннексии)
+   add_state_claim = 58    # Pommern
+   add_state_claim = 59    # Brandenburg
+   add_state_claim = 60    # Mecklenburg
+   add_state_claim = 61    # Hannover
+   add_state_claim = 62    # Thüringen
+   add_state_claim = 63    # Sachsen
+   add_state_claim = 64    # Westfalen
+   add_state_claim = 65    # Hessen
+   add_state_claim = 66    # Rheinland
+   add_state_claim = 67    # Württemberg
+   add_state_claim = 68    # Baden
+   add_state_claim = 69    # Franken
+   add_state_claim = 70    # Bayern
+   add_state_claim = 71    # Schwaben
+
+   # Чехословакия (CZE)
+   add_state_claim = 87    # Sudetenland
+   add_state_claim = 88    # Bohemia
+   add_state_claim = 89    # Moravia
+   add_state_claim = 90    # Slovakia
+   add_state_claim = 91    # Ruthenia
+
+   # Австрия (AUS)
+   add_state_claim = 92    # Vienna (Wien)
+   add_state_claim = 93    # Lower Austria (Niederösterreich)
+   add_state_claim = 94    # Upper Austria (Oberösterreich)
+   add_state_claim = 95    # Styria (Steiermark)
+   add_state_claim = 96    # Tyrol (Tirol)
+   add_state_claim = 97    # Salzburg
+   add_state_claim = 98    # Carinthia (Kärnten)
+   add_state_claim = 99    # Vorarlberg
+
+
+						
+		}
+
+
 	}
 	focus = {
 		id = PUZ_ger
