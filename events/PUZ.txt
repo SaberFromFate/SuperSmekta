@@ -240,7 +240,7 @@ country_event = {
 		name = PUZ_finp_e.1.a
 		PUZ = {
 			annex_country = { target = FIN }
-			add_state_core = 	145	
+			add_state_core = 145	
 			add_state_core = 927
 			add_state_core = 146
 			add_state_core = 150
