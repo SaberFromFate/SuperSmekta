@@ -41,5 +41,14 @@ set_popularities = {
 	democratic = 10
 }
 
+create_country_leader = {
+	name = SIM_sima
+	picture = GFX_portrait_SIM_sim
+	ideology = despotism
+	expire = "3000.1.1.1"
 
-recruit_character = SIM_sim
+	traits = { 
+	}
+}
+
+#recruit_character = SIM_sim

@@ -10,7 +10,7 @@ characters = {
 
 
 	SIM_sim = {
-		name = SIM_sim
+		name = SIM_sima
 		portraits = {
 			civilian = {
 				large = GFX_portrait_SIM_sim
@@ -18,11 +18,8 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = neutrality
-            traits = {
-                
-            }
-			expire = "3000.1.1"
+			ideology = despotism
+			expire = "3000.1.1.1"
 			id = -1
 		}
 	}
