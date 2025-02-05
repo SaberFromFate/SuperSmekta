@@ -2,7 +2,7 @@ capital = 46 #Ufa
 
 #oob = "BSK_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 
 
 set_technology = {
@@ -29,9 +29,9 @@ set_technology = {
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1936.1.1"
+	last_election = "1936.1.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
@@ -42,4 +42,4 @@ set_popularities = {
 }
 
 
-recruit_character = BSK_yakov_bykin
+recruit_character = SIM_sim

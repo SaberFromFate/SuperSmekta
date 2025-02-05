@@ -1,0 +1,6 @@
+spriteTypes ={
+    SpriteType = {
+		name = "GFX_portrait_SIM_sim"
+		texturefile = "gfx/leaders/SIM/Sim.dds"
+	}
+}
