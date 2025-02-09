@@ -1,1 +1,90 @@
-focus_tree = {}
+focus_tree = {
+	id = SIM
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SIM
+		}
+	}
+	default = no
+	focus = {
+		id = SIM_start
+		text = SIM_start
+		icon = GFX_goal_unknown
+		cost = 5,00
+		x = 24
+		y = 0
+
+	}
+	focus = {
+		id = SIM_com
+		icon = GFX_goal_support_communism
+		cost = 10,00
+		prerequisite = {
+			focus = SIM_start
+		}
+		mutually_exclusive = {
+			focus = SIM_dem
+			focus = SIM_fash
+			focus = SIM_desp
+			focus = SIM_fash
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = SIM_dem
+		icon = GFX_goal_support_democracy
+		cost = 10,00
+		prerequisite = {
+			focus = SIM_start
+		}
+		mutually_exclusive = {
+			focus = SIM_com
+			focus = SIM_fash
+			focus = SIM_desp
+			focus = SIM_fash
+			focus = SIM_desp
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = SIM_fash
+		icon = GFX_goal_support_fascism
+		cost = 10,00
+		prerequisite = {
+			focus = SIM_start
+		}
+		mutually_exclusive = {
+			focus = SIM_dem
+			focus = SIM_desp
+			focus = SIM_com
+			focus = SIM_dem
+			focus = SIM_com
+		}
+		x = 21
+		y = 2
+
+	}
+	focus = {
+		id = SIM_desp
+		icon = GFX_goal_generic_political_pressure
+		cost = 10,00
+		prerequisite = {
+			focus = SIM_start
+		}
+		mutually_exclusive = {
+			focus = SIM_fash
+			focus = SIM_com
+			focus = SIM_dem
+			focus = SIM_dem
+		}
+		x = 27
+		y = 2
+
+	}
+}
