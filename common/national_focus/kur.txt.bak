@@ -17,11 +17,13 @@
 
 focus_tree = {
 	id = gla_focus
-	        factor = 1
-			modifier = {
+	country = {
+		factor = 0
+				modifier = {
 			add = 10
 			tag = KUR
 		}
+	}
 	
 	default = no
 	reset_on_civilwar = no

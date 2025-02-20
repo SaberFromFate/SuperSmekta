@@ -105,6 +105,7 @@ set_politics = {
 	last_election = "1936.1.1"
 	election_frequency = 1488
 	elections_allowed = no
+	}
 create_country_leader = {
 	name = "Назарбаев"
 	desc = ""

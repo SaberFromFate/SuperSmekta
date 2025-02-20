@@ -29,7 +29,7 @@ if = {
 			iw_medium_airframe = 1
 			basic_medium_airframe = 1
 			iw_large_airframe = 1
-			air_torpedoe_1 = 1
+			
 		}
 	else = {
 		set_air_oob = "GER_1936_air_legacy"
@@ -58,7 +58,7 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
-	tech_trucks = 1
+	
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1

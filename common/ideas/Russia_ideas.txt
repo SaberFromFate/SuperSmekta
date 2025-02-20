@@ -1,0 +1,474 @@
+### Russian Ideas by soclibdictator
+
+ideas = {
+
+	hidden_ideas = {
+		RUS_aftermath_of_nep = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_scars_of_russian_revolution"}
+			on_remove = {
+				remove_dynamic_modifier = { modifier = RUS_Aftermath_Of_NEP_modifier }
+			}
+		}
+	}
+##############
+# Country ideas
+##############
+	country = {
+	
+
+	rus_divided_staff = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea rus_divided_staff"}
+			allowed = { always = no }
+		modifier = {
+				war_support_factor = -0.15
+				army_morale_factor = -0.2
+				conscription_factor = -0.25
+				training_time_army_factor = 0.2
+				surrender_limit = -0.1
+				land_doctrine_cost_factor = 0.75
+			}
+		picture = RUS_divided_army
+	}
+	rus_divided_staff1 = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea rus_divided_staff1"}
+		name = rus_divided_staff
+			allowed = { always = no }
+		modifier = {
+				war_support_factor = -0.12
+				army_morale_factor = -0.15
+				conscription_factor = -0.2
+				training_time_army_factor = 0.15
+				surrender_limit = -0.05
+			}
+		picture = RUS_divided_army
+	}
+	rus_divided_staff2 = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea rus_divided_staff2"}
+		name = rus_divided_staff
+			allowed = { always = no }
+		modifier = {
+				war_support_factor = -0.1
+				army_morale_factor = -0.12
+				conscription_factor = -0.15
+				training_time_army_factor = 0.12
+				surrender_limit = -0.025
+			}
+		picture = RUS_divided_army
+	}
+	rus_divided_staff3 = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea rus_divided_staff3"}
+		name = rus_divided_staff
+			allowed = { always = no }
+		modifier = {
+				war_support_factor = -0.07
+				army_morale_factor = -0.1
+				conscription_factor = -0.12
+				training_time_army_factor = 0.1
+			}
+		picture = RUS_divided_army
+	}
+	rus_divided_staff4 = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea rus_divided_staff4"}
+		name = rus_divided_staff
+			allowed = { always = no }
+		modifier = {
+				war_support_factor = -0.05
+				army_morale_factor = -0.07
+				conscription_factor = -0.1
+				training_time_army_factor = 0.05
+			}
+		picture = RUS_divided_army
+	}
+	rus_divided_staff5 = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea rus_divided_staff5"}
+		name = rus_divided_staff
+			allowed = { always = no }
+		modifier = {
+				army_morale_factor = -0.05
+				conscription_factor = -0.05
+				training_time_army_factor = 0.05
+				experience_gain_army = 0.05
+			}
+		picture = RUS_divided_army
+	}
+	rus_divided_staff6 = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea rus_divided_staff6"}
+		name = rus_divided_staff
+			allowed = { always = no }
+		modifier = {
+				army_morale_factor = -0.05
+				conscription_factor = -0.05
+				training_time_army_factor = 0.05
+				experience_gain_army = 0.1
+			}
+		picture = RUS_divided_army
+	}
+	rus_experienced_military = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea rus_experienced_military"}
+			allowed = { always = no }
+		modifier = {
+			training_time_army_factor = -0.1
+			experience_gain_army = 0.15
+			local_org_regain = 0.1
+			no_supply_grace = 24
+			combat_width_factor = -0.1
+		}
+		picture = rus_experienced_military
+	}
+
+	rus_divided_marine = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea rus_divided_marine"}
+			allowed = { always = no }
+		modifier = {
+			production_speed_dockyard_factor = -0.1
+			naval_doctrine_cost_factor = 0.75
+		}
+		picture = RUS_divided_navy
+	}
+	
+	
+	
+	RUS_okhrannoye_otdeleniye_1_lar = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_okhrannoye_otdeleniye_1_lar" }
+		name = rus_okhrana_focus
+		picture = RUS_okhrannoye_otdeleniye
+		modifier = {
+			political_power_gain = 0.05
+			operative_slot = 1
+			intel_network_gain_factor = 0.1
+		}
+	}
+	RUS_okhrannoye_otdeleniye_2a = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_okhrannoye_otdeleniye_2a" }
+		name = rus_okhrana_focus
+		picture = RUS_okhrannoye_otdeleniye
+		research_bonus = {
+			decryption_tech = 0.15
+			encryption_tech = 0.15
+		}
+		modifier = {
+			political_power_gain = 0.05
+			army_morale_factor = 0.1
+		}
+	}
+	RUS_okhrannoye_otdeleniye_2a_lar = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_okhrannoye_otdeleniye_2a_lar" }
+		name = rus_okhrana_focus
+		picture = RUS_okhrannoye_otdeleniye
+		modifier = {
+			political_power_gain = 0.05
+			operative_slot = 1
+			intel_network_gain_factor = 0.1
+			army_morale_factor = 0.1
+		}
+	}
+	RUS_okhrannoye_otdeleniye_2b = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_okhrannoye_otdeleniye_2b" }
+		name = rus_okhrana_focus
+		picture = RUS_okhrannoye_otdeleniye
+		research_bonus = {
+			decryption_tech = 0.15
+			encryption_tech = 0.15
+		}
+		modifier = {
+			political_power_gain = 0.1
+			resistance_growth = -0.1
+		}
+	}
+	RUS_okhrannoye_otdeleniye_2b_lar = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_okhrannoye_otdeleniye_2b_lar" }
+		name = rus_okhrana_focus
+		picture = RUS_okhrannoye_otdeleniye
+		modifier = {
+			political_power_gain = 0.1
+			operative_slot = 1
+			resistance_growth = -0.1
+			intel_network_gain_factor = 0.2
+		}
+	}
+	RUS_okhrannoye_otdeleniye_3 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_okhrannoye_otdeleniye_3" }
+		name = rus_okhrana_focus
+		picture = RUS_okhrannoye_otdeleniye
+		research_bonus = {
+			decryption_tech = 0.20
+			encryption_tech = 0.20
+		}
+		modifier = {
+			political_power_gain = 0.1
+			army_morale_factor = 0.1
+			resistance_growth = -0.1
+		}
+	}
+	RUS_okhrannoye_otdeleniye_3_lar = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_okhrannoye_otdeleniye_3_lar" }
+		name = rus_okhrana_focus
+		picture = RUS_okhrannoye_otdeleniye
+		modifier = {
+			political_power_gain = 0.1
+			operative_slot = 1
+			intel_network_gain_factor = 0.1
+			army_morale_factor = 0.1
+			resistance_growth = -0.1
+		}
+	}
+	rus_okhrana_focus = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea rus_okhrana_focus"}
+		allowed = { always = no }
+		research_bonus = {
+			decryption_tech = 0.10
+			encryption_tech = 0.10
+		}
+		modifier = {
+			political_power_cost = -0.05
+			compliance_growth = 0.1
+		}
+		picture = RUS_okhrannoye_otdeleniye
+	}
+	rus_mechanization_focus = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea rus_mechanization_focus"}
+			allowed = { always = no }
+		modifier = {
+			local_resources_factor = 0.15
+			production_factory_max_efficiency_factor = 0.10
+		}
+		picture = generic_production_bonus
+	}
+		rus_party_land = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea rus_party_land"}
+			allowed = { always = no }
+			modifier = {
+				local_resources_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+			}
+			picture = generic_production_bonus
+		}
+		rus_military_industrial = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea rus_military_industrial"}
+			allowed = { always = no }
+			modifier = {
+				conversion_cost_civ_to_mil_factor = -0.2
+				production_speed_arms_factory_factor = 0.1
+			}
+			picture = generic_production_bonus
+		}
+		rus_korporatsiya_yusupova_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea rus_korporatsiya_yusupova_idea"}
+			allowed = { always = no }
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+			}
+			research_bonus = {
+				industry = 0.1
+				electronics = 0.1
+			}
+		}
+		rus_more_MP_focus = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea rus_more_MP_focus"}
+			allowed = { always = no }
+
+			modifier = {
+				conscription = 0.03
+			}
+			picture = BBR_citizen_conscription_idea
+		}
+		training_barracks = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea training_barracks"}
+			allowed = { always = no }
+			modifier = {
+				training_time_army_factor = -0.2
+			}
+			research_bonus = {
+				infantry_weapons = 0.1
+			}
+			picture = RUS_training_barracks
+		}
+		rus_better_infantry_production_focus = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea rus_better_infantry_production_focus"}
+			allowed = { always = no }
+
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+
+			
+			picture = generic_infantry_bonus
+		}
+		rus_better_infantry_production_focus_2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea rus_better_infantry_production_focus"}
+			allowed = { always = no }
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+			research_bonus = {
+				infantry_weapons = 0.1
+			}
+			picture = MEX_politicised_army
+			name = rus_better_infantry_production_focus
+		}
+		rus_army_experience_focus = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea rus_army_experience_focus"}
+			allowed = { always = no }
+
+			modifier = {
+				army_morale_factor = 0.05
+				army_org_factor = 0.05
+				planning_speed = 0.05
+				max_command_power = 50
+				experience_gain_army = 0.35
+			}
+
+			
+			picture = generic_manpower_bonus
+		}
+		tank_academy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tank_academy"}
+			allowed = { always = no }
+			equipment_bonus = {
+				armor = {
+					maximum_speed = 0.1
+					reliability = 0.1
+					instant = yes
+				}
+			}
+			research_bonus = {
+				armor = 0.1
+			}
+			picture = RUS_tank_academy
+		}
+		speed_cult = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea speed_cult"}
+			allowed = { always = no }
+			equipment_bonus = {
+				armor = {
+					maximum_speed = 0.1
+					instant = yes
+				}
+			}
+			research_bonus = {
+				armor = 0.05
+			}
+		}
+		armoured_cavalry = {
+			allowed = { always = no }
+			modifier = {
+				planning_speed = 0.25
+				army_org_factor = 0.05
+			}
+				
+			equipment_bonus = {
+				armor = {
+					reliability = 0.1
+					instant = yes
+				}
+			}
+			
+			picture = FRA_national_mobilization_focus
+		}
+		general_school = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea general_school"}
+			allowed = { always = no }
+			modifier = {
+				max_command_power = 50
+				command_power_gain_mult = 0.25
+				experience_gain_factor = 0.25
+				land_doctrine_cost_factor = -0.1
+			}
+			picture = RUS_general_school
+		}
+		RUS_military_infrastructure_focus = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea rus_military_infrastructure_focus"}
+			allowed = { always = no }
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.3
+				production_speed_rail_way_factor = 0.15
+				production_speed_supply_node_factor = 0.12
+			}
+
+			
+			picture = generic_exploit_mines
+		}
+		planning_school = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea planning_school"}
+			allowed = { always = no }
+			modifier = {
+				max_planning = 0.25
+				planning_speed = 0.25
+				supply_consumption_factor = -0.05
+				land_doctrine_cost_factor = -0.1
+			}
+			picture = RUS_general_school
+		}
+		planning_school_2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea planning_school"}
+			name = planning_school
+			allowed = { always = no }
+			modifier = {
+				max_planning = 0.25
+				planning_speed = 0.25
+				supply_consumption_factor = -0.05
+				production_speed_infrastructure_factor = 0.3
+				production_speed_rail_way_factor = 0.15
+				production_speed_supply_node_factor = 0.12
+				land_doctrine_cost_factor = -0.1
+			}
+			picture = RUS_general_school
+		}
+		
+		military_high_command = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea military_high_command"}
+			allowed = { always = no }
+
+			modifier = {
+				army_org_factor = 0.05
+				combat_width_factor = -0.25
+				supply_combat_penalties_on_core_factor = -0.1
+			}
+
+			
+			picture = RUS_general_school
+		}
+		rus_fight_corruption = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea rus_fight_corruption"}
+			allowed = { always = no }
+			on_remove = { add_ideas = rus_no_corruption }
+			modifier = {
+				political_power_cost = 0.25
+				consumer_goods_factor = 0.13
+			}
+			
+			picture = PER_Corruption
+		}
+		rus_no_corruption = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea rus_no_corruption"}
+			allowed = { always = no }
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+			
+			picture = MON_russian_help_icon
+		}
+		combat_squads = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea combat_squads"}
+			allowed = { always = no }
+			modifier = {
+				resistance_growth = -0.25
+				resistance_growth_on_our_occupied_states = -0.15
+			}
+			
+			picture = rus_combat_squads
+		}
+		
+		
+	
+}
+
+}

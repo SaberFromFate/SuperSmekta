@@ -162,6 +162,49 @@ ideas = {
 			}
 			
 		}
-		
+						SAN_TY = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				democracy_drift = -0.075
+				neutrality_drift=-0.075
+				conscription_factor = 0.1
+				army_morale_factor = 0.1
+			}
+			
+		}
+								SAN_TY = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				democracy_drift = -0.075
+				neutrality_drift=-0.075
+				conscription_factor = 0.1
+				army_morale_factor = 0.1
+			}
+			
+		}
 		}
 		}

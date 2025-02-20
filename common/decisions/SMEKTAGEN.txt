@@ -1,0 +1,569 @@
+political_actions = {
+		gazn = {
+
+		name = gazn
+
+		icon = generic_nationalism
+
+		allowed = {always = yes
+		}
+
+		available = {
+			FROM = {
+				compliance > 10
+				NOT = {
+					is_island_state = yes
+					any_neighbor_state = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		state_target = yes
+
+		on_map_mode = map_only
+
+		#targets = {  }
+
+		target_array = controlled_states
+
+		target_trigger = {
+			has_completed_focus = c2a
+			FROM = {
+				NOT = {
+					is_core_of = ROOT
+				}
+				NOT = {
+					is_island_state = yes
+					any_neighbor_state = {
+						is_core_of = ROOT
+					}
+				}
+				OR = {
+					NOT = {
+						is_owned_by = ROOT
+					}
+					NOT = {
+						state = 41
+						state = 165
+						state = 166
+						state = 167
+						state = 168
+						state = 169
+						state = 170
+						state = 171
+						state = 172
+						state = 173
+						state = 174
+						state = 175
+						state = 176
+						state = 788
+						state = 789
+						state = 790
+						state = 791
+						state = 792
+						state = 793
+						state = 794
+					}
+				}
+				compliance > 10
+			}
+		}
+
+		cost = 150
+
+		fire_only_once = yes
+
+		days_remove = 90
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		visible = {
+			tag = MON
+			has_completed_focus = c2a
+			always = yes
+		}
+
+		complete_effect = {
+
+		}
+
+		remove_effect = {
+			FROM = {
+				add_core_of = ROOT
+			}
+			transfer_state = FROM
+		}
+	}
+			svos = {
+
+		name = svos
+
+		icon = generic_nationalism
+
+		allowed = {always = yes
+		}
+
+		available = {
+			FROM = {
+				compliance > 10
+				NOT = {
+					is_island_state = yes
+					any_neighbor_state = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		state_target = yes
+
+		on_map_mode = map_only
+
+		#targets = {  }
+
+		target_array = controlled_states
+
+		target_trigger = {
+			has_completed_focus = c2a
+			FROM = {
+				NOT = {
+					is_core_of = ROOT
+				}
+				NOT = {
+					is_island_state = yes
+					any_neighbor_state = {
+						is_core_of = ROOT
+					}
+				}
+				OR = {
+					NOT = {
+						is_owned_by = ROOT
+					}
+					NOT = {
+						state = 41
+						state = 165
+						state = 166
+						state = 167
+						state = 168
+						state = 169
+						state = 170
+						state = 171
+						state = 172
+						state = 173
+						state = 174
+						state = 175
+						state = 176
+						state = 788
+						state = 789
+						state = 790
+						state = 791
+						state = 792
+						state = 793
+						state = 794
+					}
+				}
+				
+			}
+		}
+
+		cost = 150
+
+		fire_only_once = yes
+
+		days_remove = 90
+
+		modifier = {
+			weekly_manpower = -100
+			stability_weekly = -0.02
+		}
+
+		visible = {
+			tag = 	IVA
+			has_completed_focus = c2a
+			always = yes
+		}
+
+		complete_effect = {
+
+		}
+
+		remove_effect = {
+			FROM = {
+				add_core_of = ROOT
+			}
+			transfer_state = FROM
+		}
+	}
+	COM_example = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = communism
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.1 }
+        remove_effect = {
+            
+            random = {
+                chance = 80 
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+		fas_example = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = fascism
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.1 }
+        remove_effect = {
+            
+            random = {
+                chance = 40 
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+		dem_example = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = democratic
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.1 }
+        remove_effect = {
+            
+            random = {
+                chance = 70
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+		ne_example = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = neutrality
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.1 }
+        remove_effect = {
+            
+            random = {
+                chance = 55 
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+			COM1_example = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = communism
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.15 }
+        remove_effect = {
+            
+            random = {
+                chance = 80 
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+		fas_example1 = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = fascism
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.15 }
+        remove_effect = {
+            
+            random = {
+                chance = 40 
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+		dem_example1 = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = democratic
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.15 }
+        remove_effect = {
+            
+            random = {
+                chance = 70
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+		ne_example1 = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = neutrality
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.15 }
+        remove_effect = {
+            
+            random = {
+                chance = 55 
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+			naeb_example = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            country_exists = FER
+        }
+        available = {
+		always = yes
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 30
+        fixed_random_seed = no
+		days_remove = 30
+        remove_effect = {
+            
+            random = {
+                chance = 45 
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			            random = {
+                chance = 40 
+				add_political_power=-200
+				add_command_power = -15
+			}
+            }
+			
+
+        }
+		Hire_dor = {
+    allowed = {
+        always = yes
+    }
+	        visible  = {
+		always = yes
+        }
+		cost = 100
+		days_re_enable = 5
+    priority = 10
+    icon = POL_category
+
+			complete_effect = {
+generate_character = { token_base = mocha }
+    generate_character = { token_base = biruk }
+generate_character = { token_base = svo }
+		}
+}
+	
+	
+
+}
+
+

@@ -1,0 +1,51 @@
+
+RUS_reduce_army_debuff = {
+	if = {
+		limit = { has_idea = rus_divided_staff6 }
+		swap_ideas = {
+			remove_idea = rus_divided_staff6
+			add_idea = rus_experienced_military
+		}
+		clr_country_flag = rus_divided_army
+	}
+	else_if = {
+		limit = { has_idea = rus_divided_staff4 }
+		swap_ideas = {
+			remove_idea = rus_divided_staff4
+			add_idea = rus_divided_staff6
+		}
+	}
+	else_if = {
+		limit = { has_idea = rus_divided_staff3 }
+		swap_ideas = {
+			remove_idea = rus_divided_staff3
+			add_idea = rus_divided_staff4
+		}
+	}
+	else_if = {
+		limit = { has_idea = rus_divided_staff2 }
+		swap_ideas = {
+			remove_idea = rus_divided_staff2
+			add_idea = rus_divided_staff3
+		}
+	}
+	else_if = {
+		limit = { has_idea = rus_divided_staff1 }
+		swap_ideas = {
+			remove_idea = rus_divided_staff1
+			add_idea = rus_divided_staff2
+		}
+	}
+	else_if = {
+		limit = { has_idea = rus_divided_staff }
+		swap_ideas = {
+			remove_idea = rus_divided_staff
+			add_idea = rus_divided_staff1
+		}
+	}
+}
+
+
+
+
+

@@ -11,7 +11,7 @@ focus_tree = {
 	focus = {
 		id = PUZ_start
 		icon = GFX_focus_SOV_mobilization_plan
-		cost = 1,00
+		cost = 1.00
 		x = 26
 		y = 0
 		completion_reward = {
@@ -22,13 +22,63 @@ focus_tree = {
 
 
 
-
 	focus = {
 		id = PUZ_north
 		icon = GFX_focus_generic_attack_nordic_territory
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_start
+		}
+		completion_reward = {
+			add_war_support = 0.1
+
+			add_state_claim = 912
+			add_state_claim = 99
+			add_state_claim = 911
+			add_state_claim = 37
+			add_state_claim = 910
+			add_state_claim = 337
+			add_state_claim = 101
+
+			add_state_claim = 922
+			add_state_claim = 925	
+			add_state_claim = 923
+			add_state_claim = 914
+			add_state_claim = 144	
+			add_state_claim = 920
+			add_state_claim = 110
+			add_state_claim = 921
+			add_state_claim = 924
+			add_state_claim = 143
+			add_state_claim = 142
+
+			add_state_claim = 38
+			add_state_claim = 124
+			add_state_claim = 138
+			add_state_claim = 139
+			add_state_claim = 140
+			add_state_claim = 141
+			add_state_claim = 666
+			add_state_claim = 913
+			add_state_claim = 915
+			add_state_claim = 916
+			add_state_claim = 917
+			add_state_claim = 918
+			add_state_claim = 919
+
+			add_state_claim = 145	
+			add_state_claim = 927
+			add_state_claim = 146
+			add_state_claim = 150
+			add_state_claim = 928
+			add_state_claim = 148
+			add_state_claim = 930
+			add_state_claim = 929
+			add_state_claim = 722
+			add_state_claim = 147
+			add_state_claim = 926
+			add_state_claim = 111
+			add_state_claim = 149
 		}
 		x = 19
 		y = 2
@@ -37,7 +87,7 @@ focus_tree = {
 	focus = {
 		id = PUZ_den_p
 		icon = GFX_focus_generic_befriend_denmark
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_north
 		}
@@ -49,21 +99,28 @@ focus_tree = {
 
 		completion_reward = {
 			
-			FIN ={country_event = PUZ_denp_e.1 }
+			DEN ={country_event = PUZ_denp_e.1 }
 				
 			
 		}
+
 
 	}
 	focus = {
 		id = PUZ_den
 		icon = GFX_focus_generic_attack_denmark
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_north
 		}
 		mutually_exclusive = {
 			focus = PUZ_den_p
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = DEN
+			}
 		}
 		x = 23
 		y = 4
@@ -72,13 +129,19 @@ focus_tree = {
 	focus = {
 		id = PUZ_swe
 		icon = GFX_focus_generic_attack_sweden
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_den_p
 			focus = PUZ_den
 		}
 		mutually_exclusive = {
 			focus = PUZ_swe_p
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = SWE
+			}
 		}
 		x = 17
 		y = 6
@@ -87,7 +150,7 @@ focus_tree = {
 	focus = {
 		id = PUZ_swe_p
 		icon = GFX_focus_generic_befriend_sweden
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_den_p
 			focus = PUZ_den
@@ -97,18 +160,30 @@ focus_tree = {
 		}
 		x = 13
 		y = 6
+		completion_reward = {
+			
+			SWE = { country_event = { id = PUZ_swep_e.1 hours = 6 }}
+				
+			
+		}
 
 	}
 	focus = {
 		id = PUZ_fin
 		icon = GFX_focus_generic_attack_finland
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_swe
 			focus = PUZ_swe_p
 		}
 		mutually_exclusive = {
 			focus = PUZ_fin_p
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = FIN
+			}
 		}
 		x = 17
 		y = 8
@@ -117,13 +192,19 @@ focus_tree = {
 	focus = {
 		id = PUZ_fin_p
 		icon = GFX_focus_generic_attack_finland
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_swe
 			focus = PUZ_swe_p
 		}
 		mutually_exclusive = {
 			focus = PUZ_fin
+		}
+		completion_reward = {
+			
+			FIN = { country_event = { id = PUZ_finp_e.1 hours = 6 }}
+				
+			
 		}
 		x = 13
 		y = 8
@@ -132,25 +213,69 @@ focus_tree = {
 	focus = {
 		id = PUZ_finm
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_fin
 			focus = PUZ_fin_p
 		}
+		available = {
+			OR = {
+				AND = {
+					owns_state = 111
+					owns_state = 926
+					owns_state = 927
+				}
+				FIN = { is_subject_of = PUZ }
+			}
+		}
+
 		x = 17
 		y = 10
+
+		completion_reward = {
+			111 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			926 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			927 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
 		id = PUZ_nor_p
 		icon = GFX_focus_generic_befriend_norway
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_den
 			focus = PUZ_den_p
 		}
 		mutually_exclusive = {
 			focus = PUZ_nor
+		}
+		completion_reward = {
+			
+			NOR = { country_event = { id = PUZ_norp_e.1 hours = 6 }}
+				
+			
 		}
 		x = 21
 		y = 6
@@ -159,13 +284,19 @@ focus_tree = {
 	focus = {
 		id = PUZ_nor
 		icon = GFX_focus_generic_attack_norway
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_den
 			focus = PUZ_den_p
 		}
 		mutually_exclusive = {
 			focus = PUZ_nor_p
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = NOR
+			}
 		}
 		x = 25
 		y = 6
@@ -174,11 +305,59 @@ focus_tree = {
 	focus = {
 		id = PUZ_norb
 		icon = GFX_focus_NOR_weathering_the_storm_to_come
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_nor_p
 			focus = PUZ_nor
 		}
+		available = {
+			OR = {
+				AND = {
+					owns_state = 142
+					owns_state = 922
+					owns_state = 921
+					owns_state = 110
+					owns_state = 143
+					owns_state = 923
+					owns_state = 144
+					owns_state = 924
+					owns_state = 925
+
+				}
+				NOR = { is_subject_of = PUZ }
+			}
+		}
+		completion_reward = {
+			every_state = {
+					limit = { 
+						is_coastal = yes 
+						coastal_bunker < 10
+						OR = { #Atlantic Coast from Brittany to Sevilla
+							state = 142
+							state = 922
+							state = 921
+							state = 110
+							state = 143
+							state = 923
+							state = 144
+							state = 924
+							state = 925
+						}
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						level = 2
+						instant_build = yes
+						province = {
+							all_provinces = yes
+							limit_to_naval_base = yes
+						}
+					}
+					
+			}
+			
+		}	
+
 		x = 21
 		y = 8
 
@@ -186,33 +365,133 @@ focus_tree = {
 	focus = {
 		id = PUZ_norm
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_norb
 		}
+		available = {
+			OR = {
+				AND = {
+					owns_state = 142
+					owns_state = 922
+					owns_state = 921
+					owns_state = 110
+					owns_state = 143
+					owns_state = 923
+					owns_state = 144
+					owns_state = 924
+					owns_state = 925
+
+				}
+				NOR = { is_subject_of = PUZ }
+			}
+		}
 		x = 21
 		y = 10
+		completion_reward = {
+			every_state = {
+					limit = { 
+						
+						OR = { #Atlantic Coast from Brittany to Sevilla
+							state = 142
+							state = 922
+							state = 921
+							state = 110
+							state = 143
+							state = 923
+							state = 144
+							state = 924
+							state = 925
+						}
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+					
+			}
+		}
 
 	}
 	focus = {
 		id = PUZ_resn
 		icon = GFX_goal_tfv_generic_tech_sharing
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_nor_p
 			focus = PUZ_nor
 		}
 		x = 25
 		y = 8
+		available = {
+			OR = {
+				AND = {
+					owns_state = 142
+					owns_state = 922
+					owns_state = 921
+					owns_state = 110
+					owns_state = 143
+					owns_state = 923
+					owns_state = 144
+					owns_state = 924
+					owns_state = 925
+
+				}
+				NOR = { is_subject_of = PUZ }
+			}
+		}
+
+		completion_reward = {
+			swap_ideas = {
+    			remove_idea = PUZ_TB2
+    			add_idea = PUZ_TB3
+
+			}
+		}
 
 	}
 	focus = {
 		id = PUZ_nuke
 		icon = GFX_focus_wonderweapons
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_resn
 		}
+		available = {
+			OR = {
+				AND = {
+					owns_state = 142
+					owns_state = 922
+					owns_state = 921
+					owns_state = 110
+					owns_state = 143
+					owns_state = 923
+					owns_state = 144
+					owns_state = 924
+					owns_state = 925
+
+				}
+				NOR = { is_subject_of = PUZ }
+			}
+		}
+		completion_reward = {
+
+
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 3
+			}
+
+			add_tech_bonus = {
+				name = nuclear_bonus
+				ahead_reduction = 3 # was 2
+				category = nuclear
+			}
+			
+
+		}
+
 		x = 25
 		y = 10
 
@@ -220,20 +499,69 @@ focus_tree = {
 	focus = {
 		id = PUZ_south
 		icon = GFX_focus_POL_ban_nazi_party
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_start
 		}
 		x = 33
 		y = 2
 
+		completion_reward = {
+			   # Германия (GER)
+   	   # Германия (GER)
+   add_state_claim = 56    # Ostpreußen
+   add_state_claim = 57    # Danzig (после аннексии)
+   add_state_claim = 58    # Pommern
+   add_state_claim = 59    # Brandenburg
+   add_state_claim = 60    # Mecklenburg
+   add_state_claim = 61    # Hannover
+   add_state_claim = 62    # Thüringen
+   add_state_claim = 63    # Sachsen
+   add_state_claim = 64    # Westfalen
+   add_state_claim = 65    # Hessen
+   add_state_claim = 66    # Rheinland
+   add_state_claim = 67    # Württemberg
+   add_state_claim = 68    # Baden
+   add_state_claim = 69    # Franken
+   add_state_claim = 70    # Bayern
+   add_state_claim = 71    # Schwaben
+
+   # Чехословакия (CZE)
+   add_state_claim = 87    # Sudetenland
+   add_state_claim = 88    # Bohemia
+   add_state_claim = 89    # Moravia
+   add_state_claim = 90    # Slovakia
+   add_state_claim = 91    # Ruthenia
+
+   # Австрия (AUS)
+   add_state_claim = 92    # Vienna (Wien)
+   add_state_claim = 93    # Lower Austria (Niederösterreich)
+   add_state_claim = 94    # Upper Austria (Oberösterreich)
+   add_state_claim = 95    # Styria (Steiermark)
+   add_state_claim = 96    # Tyrol (Tirol)
+   add_state_claim = 97    # Salzburg
+   add_state_claim = 98    # Carinthia (Kärnten)
+   add_state_claim = 99    # Vorarlberg
+
+
+						
+		}
+
+
 	}
 	focus = {
 		id = PUZ_ger
 		icon = GFX_focus_attack_germany
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_south
+		}
+		completion_reward = {
+			add_war_support = 0.05
+			create_wargoal = {
+				type = annex_everything
+				target = GER
+			}
 		}
 		x = 33
 		y = 4
@@ -242,9 +570,15 @@ focus_tree = {
 	focus = {
 		id = PUZ_cze
 		icon = GFX_goal_generic_major_war
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_ger
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = CZE
+			}
 		}
 		x = 29
 		y = 6
@@ -253,18 +587,24 @@ focus_tree = {
 	focus = {
 		id = PUZ_sil
 		icon = GFX_goal_generic_major_war
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_ger
 		}
 		x = 33
 		y = 6
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = SIL
+			}
+		}
 
 	}
 	focus = {
 		id = PUZ_aus
 		icon = GFX_goal_generic_major_war
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_cze
 		}
@@ -273,14 +613,25 @@ focus_tree = {
 		}
 		x = 33
 		y = 8
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = AUS
+			}
+		}
 
 	}
 	focus = {
 		id = PUZ_ukr_cw
 		icon = GFX_focus_POL_ukrainian_army
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_aus
+		}
+		completion_reward = {
+			LES = {
+				country_event = { id = PUZ_ukr_e.1 hours = 6 }
+			}
 		}
 		x = 33
 		y = 10
@@ -289,10 +640,43 @@ focus_tree = {
 	focus = {
 		id = PUZ_ger_c
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_ger
 		}
+		
+
+		available = {
+			AND = {
+				owns_state = 59
+				owns_state = 64
+				owns_state = 60
+				owns_state = 61
+				owns_state = 65
+			}
+		}
+
+		completion_reward ={
+			every_state = {
+					limit = { 
+						
+						OR = { #Atlantic Coast from Brittany to Sevilla
+							state = 59
+							state = 64
+							state = 60
+							state = 61
+							state = 65
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					
+			}
+		}
+
 		x = 37
 		y = 6
 
@@ -300,10 +684,42 @@ focus_tree = {
 	focus = {
 		id = PUZ_ger_m
 		icon = GFX_focus_generic_reorient_production
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_ger_c
 		}
+
+		available = {
+			AND = {
+				owns_state = 59
+				owns_state = 64
+				owns_state = 60
+				owns_state = 61
+				owns_state = 65
+			}
+		}
+
+		completion_reward ={
+			every_state = {
+					limit = { 
+						
+						OR = { #Atlantic Coast from Brittany to Sevilla
+							state = 59
+							state = 64
+							state = 60
+							state = 61
+							state = 65
+						}
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+					
+			}
+		}
+
 		x = 37
 		y = 8
 
@@ -311,52 +727,97 @@ focus_tree = {
 	focus = {
 		id = PUZ_ger_tech
 		icon = GFX_goal_tfv_generic_tech_sharing
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_ger_m
 		}
+		available = {
+			AND = {
+				owns_state = 59
+				owns_state = 64
+				owns_state = 60
+				owns_state = 61
+				owns_state = 65
+			}
+		}
 		x = 37
 		y = 10
+		completion_reward = {
 
-	}
-	focus = {
-		id = PUZ_ros
-		icon = GFX_focus_generic_improve_the_administration
-		cost = 5,00
-		prerequisite = {
-			focus = PUZ_start
+
+			add_tech_bonus = {
+				name = USA_escort_fighters
+				bonus = 3.0
+				uses = 4
+				category = mio_cat_tech_all_armor_and_modules
+			}
 		}
-		x = 41
-		y = 2
 
 	}
-	focus = {
-		id = PUZ_ros2
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		cost = 5,00
-		prerequisite = {
-			focus = PUZ_ros
-		}
-		x = 41
-		y = 10
-
-	}
+	
+	
 	focus = {
 		id = PUZ_swem
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_fin
 			focus = PUZ_fin_p
 		}
+
+		available = {
+			OR = {
+				AND = {
+					owns_state = 138
+					owns_state = 139
+					owns_state = 140
+					owns_state = 141
+					owns_state = 913
+					owns_state = 915
+					owns_state = 916
+					owns_state = 38
+					owns_state = 918
+					owns_state = 666
+					owns_state = 917
+				}
+				SWE = { is_subject_of = PUZ }
+			}
+		}
 		x = 13
 		y = 10
+		completion_reward = {
+			every_state = {
+					limit = { 
+						
+						OR = { #Atlantic Coast from Brittany to Sevilla
+							state = 138
+							state = 139
+							state = 140
+							state = 141
+							state = 913
+							state = 915
+							state = 916
+							state = 38
+							state = 918
+							state = 666
+							state = 917
+						}
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+					
+			}
+		}
 
 	}
+	
 	focus = {
 		id = PUZ_cet
 		icon = GFX_focus_generic_baltic_sea_fleet
-		cost = 5,00
+		cost = 5.00
 		prerequisite = {
 			focus = PUZ_finm
 		}
@@ -372,14 +833,99 @@ focus_tree = {
 		prerequisite = {
 			focus = PUZ_ukr_cw
 		}
-		prerequisite = {
-			focus = PUZ_ros2
-		}
+
 		prerequisite = {
 			focus = PUZ_ger_tech
 		}
 		x = 26
 		y = 12
+		completion_reward = {
 
+			add_state_core = 912
+			add_state_core = 99
+			add_state_core = 911
+			add_state_core = 37
+			add_state_core = 910
+			add_state_core = 337
+			add_state_core = 101
+
+			add_state_core = 922
+			add_state_core = 925	
+			add_state_core = 923
+			add_state_core = 914
+			add_state_core = 144	
+			add_state_core = 920
+			add_state_core = 110
+			add_state_core = 921
+			add_state_core = 924
+			add_state_core = 143
+			add_state_core = 142
+
+			add_state_core = 38
+			add_state_core = 124
+			add_state_core = 138
+			add_state_core = 139
+			add_state_core = 140
+			add_state_core = 141
+			add_state_core = 666
+			add_state_core = 913
+			add_state_core = 915
+			add_state_core = 916
+			add_state_core = 917
+			add_state_core = 918
+			add_state_core = 919
+
+			add_state_core = 145	
+			add_state_core = 927
+			add_state_core = 146
+			add_state_core = 150
+			add_state_core = 928
+			add_state_core = 148
+			add_state_core = 930
+			add_state_core = 929
+			add_state_core = 722
+			add_state_core = 147
+			add_state_core = 926
+			add_state_core = 111
+			add_state_core = 149
+			add_state_core = 56
+			add_state_core = 59
+			add_state_core = 61
+			add_state_core = 62
+			add_state_core = 63
+			add_state_core = 68
+			add_state_core = 64
+			add_state_core = 57
+			add_state_core = 66
+			add_state_core = 67
+			add_state_core = 65
+			add_state_core = 60
+			add_state_core = 55
+			add_state_core = 54
+			add_state_core = 42
+			add_state_core = 978
+			add_state_core = 50
+			add_state_core = 52
+			add_state_core = 53
+
+			add_state_core = 69
+			add_state_core = 972
+			add_state_core = 9
+			add_state_core = 75
+			add_state_core = 74
+			add_state_core = 72
+			add_state_core = 70
+			add_state_core = 664
+			add_state_core = 71
+			add_state_core = 73
+
+			add_state_core = 152
+			add_state_core = 4
+			add_state_core = 975
+			add_state_core = 976
+			add_state_core = 153
+			add_state_core = 848
+
+		}
 	}
 }

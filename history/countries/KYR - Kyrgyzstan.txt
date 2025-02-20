@@ -87,7 +87,86 @@ if = {
 set_popularities = {
 	fascism = 100
 }
+every_possible_country = {
+    limit = {
+        always = no
+    }
+    
+    generate_character = { #create + recruit
+        token_base = mocha # Mandatory, character token will be token_base
+        name = "Охлобыстин" # Optional, no name provided means random name for each generated character
+        # Then whatever you would put when writing character
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_hans_vogel
+				small = GFX_portrait_GER_hans_vogel_small
+			}
+		}
+        advisor = {
+            idea_token = ac # Full idea token will be token_base_idea_token (to ensure unicity). In this case will be army_chief_defensive_1_ac. Optional, slot will be used if missing, as in army_chief_defensive_1_army_chief.
+            slot = political_advisor
+            traits = { GOYDA }
+        }
+    }
+	
+	    generate_character = { #create + recruit
+        token_base = biruk # Mandatory, character token will be token_base
+        name = "Ильябир" # Optional, no name provided means random name for each generated character
+        # Then whatever you would put when writing character
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_hans_vogel
+				small = GFX_portrait_GER_hans_vogel_small
+			}
+		}
+        advisor = {
+            idea_token = ca # Full idea token will be token_base_idea_token (to ensure unicity). In this case will be army_chief_defensive_1_ac. Optional, slot will be used if missing, as in army_chief_defensive_1_army_chief.
+            slot = political_advisor
+            traits = { birka }
+        }
+    }
+	
+	    generate_character = { #create + recruit
+        token_base = svo # Mandatory, character token will be token_base
+        name = "Электрик_хач" # Optional, no name provided means random name for each generated character
+        # Then whatever you would put when writing character
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_hans_vogel
+				small = GFX_portrait_GER_hans_vogel_small
+			}
+		}
+        advisor = {
+            idea_token = el # Full idea token will be token_base_idea_token (to ensure unicity). In this case will be army_chief_defensive_1_ac. Optional, slot will be used if missing, as in army_chief_defensive_1_army_chief.
+            slot = political_advisor
+            traits = { el_hach }
+        }
+    }
+}
 
+
+every_country = {
+    limit = { OR = { original_tag = MON original_tag = SER original_tag = SVO original_tag = CJO} }
+    generate_character = { #create + recruit
+        token_base = army_chief_iva # Mandatory, character token will be token_base
+        name = "Iваныч" # Optional, no name provided means random name for each generated character
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_iosif_stalin
+			}
+			army = {
+				large = GFX_portrait_SOV_iosif_stalin
+				small = GFX_portrait_SOV_iosif_stalin_small
+			}
+		}
+        # Then whatever you would put when writing character
+        advisor = {
+            idea_token = iva # Full idea token will be token_base_idea_token (to ensure unicity). In this case will be army_chief_defensive_1_ac. Optional, slot will be used if missing, as in army_chief_defensive_1_army_chief.
+            slot = theorist
+            traits = { smekta_ivanich }
+        }
+    }
+}
 create_country_leader = {
 	name = "злой назарбаев"
 	desc = ""
@@ -106,26 +185,6 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 
-recruit_character = KAZ_awt
-recruit_character = KAZ_acd2
-recruit_character = KAZ_nt
-recruit_character = KAZ_aco2
-recruit_character = KAZ_acas
-recruit_character = KAZ_acr
-recruit_character = KAZ_mt
-recruit_character = KAZ_stc
-recruit_character = KAZ_aa2
-recruit_character = KAZ_ncm
-recruit_character = KAZ_communist_guy
-recruit_character = KAZ_ncs
-recruit_character = KAZ_pot
-recruit_character = KAZ_nccr
-recruit_character = KAZ_fascist_guy
-recruit_character = KAZ_coi
-recruit_character = KAZ_ai2
-recruit_character = KAZ_democratic_guy
-recruit_character = KAZ_ar
-recruit_character = KAZ_acgs
 
 
 

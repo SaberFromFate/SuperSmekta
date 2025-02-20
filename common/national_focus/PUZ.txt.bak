@@ -18,7 +18,7 @@
 		id = PUZ_startpuz
 		text = PUZ_startpuz
 		icon = GFX_focus_generic_conspiracy
-		cost = 5
+		cost = 5,00
 		x = 19
 		y = 1
 
@@ -47,7 +47,7 @@
 		id = PUZ_am
 		text = PUZ_am
 		icon = GFX_PUZ_am
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_startpuz
 		}
@@ -64,7 +64,7 @@
 		id = PUZ_am2
 		text = PUZ_am2
 		icon = GFX_PUZ_am2
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_am
 		}
@@ -194,7 +194,7 @@
 		id = PUZ_am3
 		text = PUZ_am3
 		icon = GFX_PUZ_servit
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_am
 		}
@@ -211,7 +211,7 @@
 		id = PUZ_am4
 		text = PUZ_am4
 		icon = GFX_PUZ_co
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_am
 		}
@@ -233,7 +233,7 @@
 		id = PUZ_am5
 		text = PUZ_am5
 		icon = GFX_PUZ_am5
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_am3
 		}
@@ -319,7 +319,7 @@
 		id = PUZ_arm21
 		text = PUZ_arm21
 		icon = GFX_focus_FIN_parmis_devils
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_startpuz
 		}
@@ -355,7 +355,7 @@
 		id = PUZ_arm22
 		text = PUZ_arm22
 		icon = GFX_focus_ARG_juan_peron_elected
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_arm21
 		}
@@ -448,7 +448,7 @@
 		id = PUZ_arm23
 		text = PUZ_arm23
 		icon = GFX_focus_FIN_suomen_ilmavoimat
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_arm22
 		}
@@ -487,7 +487,7 @@
 		id = PUZ_eco1
 		text = PUZ_eco1
 		icon = GFX_goal_generic_construct_civilian
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_startpuz
 		}
@@ -507,7 +507,7 @@
 		id = PUZ_ecom
 		text = PUZ_ecom
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_eco1
 		}
@@ -554,7 +554,7 @@
 		id = PUZ_ecom1
 		text = PUZ_ecom1
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_ecom
 		}
@@ -600,7 +600,7 @@
 		id = PUZ_ecoc
 		text = PUZ_ecoc
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_eco1
 		}
@@ -647,7 +647,7 @@
 		id = PUZ_ecoc1
 		text = PUZ_ecoc1
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_ecoc
 		}
@@ -692,7 +692,7 @@
 		id = PUZ_ecoi
 		text = PUZ_ecoi
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_eco1
 		}
@@ -717,7 +717,7 @@
 		id = PUZ_ecoi1
 		text = PUZ_ecoi1
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_ecoi
 		}
