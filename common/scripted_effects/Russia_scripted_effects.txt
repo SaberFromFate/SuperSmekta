@@ -6,7 +6,6 @@ RUS_reduce_army_debuff = {
 			remove_idea = rus_divided_staff6
 			add_idea = rus_experienced_military
 		}
-		clr_country_flag = rus_divided_army
 	}
 	else_if = {
 		limit = { has_idea = rus_divided_staff4 }
@@ -44,7 +43,131 @@ RUS_reduce_army_debuff = {
 		}
 	}
 }
+gachi_ind = {
+	if = {
+		limit = { has_idea = gachie1 }
+		swap_ideas = {
+			remove_idea = gachie1
+			add_idea = gachie2
+		}
+	}
+	else_if = {
+		limit = { has_idea = gachie2 }
+		swap_ideas = {
+			remove_idea = gachie2
+			add_idea = gachie3
+		}
+	}
+	else_if = {
+		limit = { has_idea = gachie3 }
+		swap_ideas = {
+			remove_idea = gachie3
+			add_idea = gachie4
+		}
+	}
+else={add_ideas = gachie1}
+}
 
+
+gachi_arm = {
+	if = {
+		limit = { has_idea = gachimil1 }
+		swap_ideas = {
+			remove_idea = gachimil1
+			add_idea = gachimil2
+		}
+	}
+	else_if = {
+		limit = { has_idea = gachimil2 }
+		swap_ideas = {
+			remove_idea = gachimil2
+			add_idea = gachimil3
+		}
+	}
+	else_if = {
+		limit = { has_idea = gachimil3 }
+		swap_ideas = {
+			remove_idea = gachimil3
+			add_idea = gachimil4
+		}
+	}
+	else={add_ideas = gachimil1}
+	}
+gachi_dip = {
+	if = {
+		limit = { has_idea = gachip1 }
+		swap_ideas = {
+			remove_idea = gachip1
+			add_idea = gachip2
+		}
+	}
+	else_if = {
+		limit = { has_idea = gachip2 }
+		swap_ideas = {
+			remove_idea = gachip2
+			add_idea = gachip3
+		}
+	}
+	else_if = {
+		limit = { has_idea = gachip3 }
+		swap_ideas = {
+			remove_idea = gachip3
+			add_idea = gachip4
+		}
+	}
+	else={add_ideas = gachip1}
+	}
+	
+	
+	
+gachi_ip = {
+	if = {
+		limit = { has_idea = gachiip1 }
+		swap_ideas = {
+			remove_idea = gachiip1
+			add_idea = gachiip2
+		}
+	}
+	else_if = {
+		limit = { has_idea = gachiip2 }
+		swap_ideas = {
+			remove_idea = gachiip2
+			add_idea = gachiip3
+		}
+	}
+	else_if = {
+		limit = { has_idea = gachiip3 }
+		swap_ideas = {
+			remove_idea = gachiip3
+			add_idea = gachiip4
+		}
+	}
+	else={add_ideas = gachiip1}
+	}
+	gachi_an = {
+	if = {
+		limit = { has_idea = gachian1 }
+		swap_ideas = {
+			remove_idea = gachian1
+			add_idea = gachian2
+		}
+	}
+	else_if = {
+		limit = { has_idea = gachian2 }
+		swap_ideas = {
+			remove_idea = gachian2
+			add_idea = gachian3
+		}
+	}
+	else_if = {
+		limit = { has_idea = gachian3 }
+		swap_ideas = {
+			remove_idea = gachian3
+			add_idea = gachian4
+		}
+	}
+	else={add_ideas = gachian1}
+	}
 
 
 

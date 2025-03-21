@@ -150,11 +150,20 @@ every_country = {
     generate_character = { #create + recruit
         token_base = army_chief_iva # Mandatory, character token will be token_base
         name = "Iваныч" # Optional, no name provided means random name for each generated character
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_iosif_stalin
+			}
+			army = {
+				large = GFX_portrait_SOV_iosif_stalin
+				small = GFX_portrait_SOV_iosif_stalin_small
+			}
+		}
         # Then whatever you would put when writing character
         advisor = {
             idea_token = iva # Full idea token will be token_base_idea_token (to ensure unicity). In this case will be army_chief_defensive_1_ac. Optional, slot will be used if missing, as in army_chief_defensive_1_army_chief.
             slot = theorist
-            traits = { smekta_ivanich }
+            traits = { USTALIN }
         }
     }
 }

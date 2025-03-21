@@ -54,7 +54,12 @@ set_popularities = {
 	communism = 60 ##Коммунизм
 	fascism = 5 ##Фашизм
 }
-
+recruit_character = gzi_sidjei
+recruit_character =svo_sidjei
+recruit_character =ivn_sidjei
+recruit_character =cjo_sidjei
+recruit_character =van_sidjei
+recruit_character =pash_sidjei
 create_country_leader = {
     name = "Vasil Zacharka"
     desc = ""

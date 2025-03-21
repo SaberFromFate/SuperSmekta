@@ -1,0 +1,48 @@
+ideas = {
+
+	country = {
+		svo_brop= {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = SVO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				command_power_gain = -0.4
+				fascism_drift=-0.15
+				stability_factor = -0.2
+			}
+		}
+		smekta = {
+					picture = generic_foreign_capital
+			allowed = {
+				always = yes
+			}
+		cancel = {
+    has_global_flag = no_smekta
+}
+			modifier = {
+	
+generate_wargoal_tension_against = 1
+		
+party_popularity_stability_factor = 0.5
+production_speed_arms_factory_factor = -0.8 
+			}
+		}
+iva_len={
+
+
+
+}
+
+
+
+}
+}

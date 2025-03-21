@@ -1,76 +1,550 @@
 characters={
-	IB1={
-		name=IB1
-		portraits={
-			army={
-				small="GFX_idea_EST_august_rei"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = EST_august_rei
-			allowed = {
-				original_tag = MON
-			}
-			traits = {
-				popular_figurehead 
-			}
-		}
-	}
-		IB2={
-		name=IB2
-		portraits={
-			army={
-				small="GFX_idea_EST_august_rei"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = IB2
-			allowed = {
-				original_tag = MON
-			}
-			traits = {
-				popular_figurehead 
-			}
-		}
-	}
-			IB3={
-		name=IB3
-		portraits={
-			army={
-				small="GFX_idea_EST_august_rei"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = IB3
-			allowed = {
-				original_tag = MON
-				has_completed_focus = ge1
-			}
-			traits = {
-				popular_figurehead 
-			}
-		}
-	}
-			IB4={
-		name=IB4
-		portraits={
-			army={
-				small="GFX_idea_EST_august_rei"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = EST_august_rei
-			allowed = {
-				original_tag = MON
-				has_completed_focus = ge1
-			}
-			traits = {
-				popular_figurehead 
-			}
-		}
-	}
+
+
+
+    gzi_svyat = {
+        name = gazik
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\GAZ.dds"
+                large = "gfx\leaders\CJO\GAZ.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = gzi_svyat
+            ledger = army
+            available = {
+                has_completed_focus = RUS_War_Of_Numbers
+            }
+            traits = { smekta_mass_assault_expert }
+        }
+    }
+	    svo_svyat = {
+        name = svo
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\SVO.dds"
+                large = "gfx\leaders\CJO\SVO.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = svo_svyat
+            ledger = army
+            available = {
+                has_completed_focus = RUS_Extensive_Planning
+            }
+            traits = { smekta_grand_battle_plan_expert }
+        }
+    }
+
+		    ivn_svyat = {
+        name = ivn
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\IVA.dds"
+                large = "gfx\leaders\CJO\IVA.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = ivn_svyat
+            ledger = army
+            available = {
+                has_completed_focus = SMEKTA_special_forces
+            }
+            traits = { smekta_ivanich }
+        }
+    }
+			    cjo_svyat = {
+        name = cjo
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\CJO.dds"
+                large = "gfx\leaders\CJO\CJO.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = cjo_svyat
+            ledger = army
+            available = {
+                has_completed_focus = RUS_Spearhead_Doctrine
+            }
+            traits = { smekta_mobile_warfare_expert }
+        }
+    }
+	
+			    lok_svyat = {
+        name = lok
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\SAN.dds"
+                large = "gfx\leaders\CJO\SAN.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = lok_svyat
+            ledger = army
+            available = {
+                has_completed_focus = RUS_Overwhelming_Firepower
+            }
+            traits = { smekta_superior_firepower_expert }
+        }
+    }	
+				    pash_svyat = {
+        name = pash
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\PAS.dds"
+                large = "gfx\leaders\CJO\PAS.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = pash_svyat
+            ledger = army
+            available = {
+                has_completed_focus = SMEKTA_aviation_effort
+            }
+            traits = { smekta_air_warfare_theorist }
+        }
+    }
+				    van_svyat = {
+        name = van
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\VAN.dds"
+                large = "gfx\leaders\CJO\VAN.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = van_svyat
+            ledger = army
+            available = {
+                has_completed_focus = SMEKTA_naval_effort
+            }
+            traits = { smekta_naval_warfare_theorist }
+        }
+    }	
+	##################################################
+	    gzi_gazik = {
+        name = gazik
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\GAZ.ddsik"
+                large = "gfx\leaders\CJO\GAZ.ddsik"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = gzi_gazik
+            ledger = army
+            available = {
+                has_completed_focus = RUS_War_Of_Numbers
+            }
+            traits = { smekta_mass_assault_expert }
+        }
+    }
+
+		    svo_gazik = {
+        name = svo
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\SVO.dds"
+                large = "gfx\leaders\CJO\SVO.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = svo_gazik
+            ledger = army
+            available = {
+                has_completed_focus = RUS_Extensive_Planning
+            }
+            traits = { smekta_grand_battle_plan_expert }
+        }
+    }
+		    ivn_gazik = {
+        name = ivn
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\IVA.dds"
+                large = "gfx\leaders\CJO\IVA.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = ivn_gazik
+            ledger = army
+            available = {
+                has_completed_focus = SMEKTA_special_forces
+            }
+            traits = { smekta_ivanich }
+        }
+    }
+			    cjo_gazik = {
+        name = cjo
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\CJO.dds"
+                large = "gfx\leaders\CJO\CJO.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = cjo_gazik
+            ledger = army
+            available = {
+                has_completed_focus = RUS_Spearhead_Doctrine
+            }
+            traits = { smekta_mobile_warfare_expert }
+        }
+    }
+	
+			    lok_gazik = {
+        name = lok
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\SAN.dds"
+                large = "gfx\leaders\CJO\SAN.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = lok_gazik
+            ledger = army
+            available = {
+                has_completed_focus = RUS_Overwhelming_Firepower
+            }
+            traits = { smekta_superior_firepower_expert }
+        }
+    }	
+				    pash_gazik = {
+        name = pash
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\PAS.dds"
+                large = "gfx\leaders\CJO\PAS.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = pash_gazik
+            ledger = army
+            available = {
+                has_completed_focus = SMEKTA_aviation_effort
+            }
+            traits = { smekta_air_warfare_theorist }
+        }
+    }
+				    van_gazik = {
+        name = van
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\VAN.dds"
+                large = "gfx\leaders\CJO\VAN.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = van_gazik
+            ledger = army
+            available = {
+                has_completed_focus = SMEKTA_naval_effort
+            }
+            traits = { smekta_naval_warfare_theorist }
+        }
+    }	
+	#######################################
+	    gzi_sanya = {
+        name = gazik
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\GAZ.ddsik"
+                large = "gfx\leaders\CJO\GAZ.ddsik"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = gzi_sanya
+            ledger = army
+            available = {
+                has_completed_focus = RUS_War_Of_Numbers
+            }
+            traits = { smekta_mass_assault_expert }
+        }
+    }
+	    svo_sanya = {
+        name = svo
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\SVO.dds"
+                large = "gfx\leaders\CJO\SVO.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = svo_sanya
+            ledger = army
+            available = {
+                has_completed_focus = RUS_Extensive_Planning
+            }
+            traits = { smekta_grand_battle_plan_expert }
+        }
+    }
+
+		    ivn_sanya = {
+        name = ivn
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\IVA.dds"
+                large = "gfx\leaders\CJO\IVA.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = ivn_sanya
+            ledger = army
+            available = {
+                has_completed_focus = SMEKTA_special_forces
+            }
+            traits = { smekta_ivanich }
+        }
+    }
+			    cjo_sanya = {
+        name = cjo
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\CJO.dds"
+                large = "gfx\leaders\CJO\CJO.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = cjo_sanya
+            ledger = army
+            available = {
+                has_completed_focus = RUS_Spearhead_Doctrine
+            }
+            traits = { smekta_mobile_warfare_expert }
+        }
+    }
+	
+			    lok_sanya = {
+        name = lok
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\SAN.dds"
+                large = "gfx\leaders\CJO\SAN.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = lok_sanya
+            ledger = army
+            available = {
+                has_completed_focus = RUS_Overwhelming_Firepower
+            }
+            traits = { smekta_superior_firepower_expert }
+        }
+    }	
+				    pash_sanya = {
+        name = pash
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\PAS.dds"
+                large = "gfx\leaders\CJO\PAS.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = pash_sanya
+            ledger = army
+            available = {
+                has_completed_focus = SMEKTA_aviation_effort
+            }
+            traits = { smekta_air_warfare_theorist }
+        }
+    }
+				    van_sanya = {
+        name = van
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\VAN.dds"
+                large = "gfx\leaders\CJO\VAN.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = van_sanya
+            ledger = army
+            available = {
+                has_completed_focus = SMEKTA_naval_effort
+            }
+            traits = { smekta_naval_warfare_theorist }
+        }
+    }	
+	##################################################
+	
+	    gzi_sidjei = {
+        name = gazik
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\GAZ.ddsik"
+                large = "gfx\leaders\CJO\GAZ.ddsik"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = gzi_sidjei
+            ledger = army
+            available = {
+                has_completed_focus = RUS_War_Of_Numbers
+            }
+            traits = { smekta_mass_assault_expert }
+        }
+    }
+
+		    svo_sidjei = {
+        name = svo
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\SVO.dds"
+                large = "gfx\leaders\CJO\SVO.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = svo_sidjei
+            ledger = army
+            available = {
+                has_completed_focus = RUS_Extensive_Planning
+            }
+            traits = { smekta_grand_battle_plan_expert }
+        }
+    }
+		    ivn_sidjei = {
+        name = ivn
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\IVA.dds"
+                large = "gfx\leaders\CJO\IVA.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = ivn_sidjei
+            ledger = army
+            available = {
+                has_completed_focus = SMEKTA_special_forces
+            }
+            traits = { smekta_ivanich }
+        }
+    }
+			    cjo_sidjei = {
+        name = cjo
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\CJO.dds"
+                large = "gfx\leaders\CJO\CJO.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = cjo_sidjei
+            ledger = army
+            available = {
+                has_completed_focus = RUS_Spearhead_Doctrine
+            }
+            traits = { smekta_mobile_warfare_expert }
+        }
+    }
+	
+			    lok_sidjei = {
+        name = lok
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\SAN.dds"
+                large = "gfx\leaders\CJO\SAN.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = lok_sidjei
+            ledger = army
+            available = {
+                has_completed_focus = RUS_Overwhelming_Firepower
+            }
+            traits = { smekta_superior_firepower_expert }
+        }
+    }	
+				    pash_sidjei = {
+        name = pash
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\PAS.dds"
+                large = "gfx\leaders\CJO\PAS.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = pash_sidjei
+            ledger = army
+            available = {
+                has_completed_focus = SMEKTA_aviation_effort
+            }
+            traits = { smekta_air_warfare_theorist }
+        }
+    }
+				    van_sidjei = {
+        name = van
+        portraits = {
+            army = {
+                small = "gfx\leaders\CJO\VAN.dds"
+                large = "gfx\leaders\CJO\VAN.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = van_sidjei
+            ledger = army
+            available = {
+                has_completed_focus = SMEKTA_naval_effort
+            }
+            traits = { smekta_naval_warfare_theorist }
+        }
+    }	
+	##################################################
 	}

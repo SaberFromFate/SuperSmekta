@@ -2,7 +2,8 @@
 
 oob = "BLR_1936"
 
-set_research_slots = 3
+set_research_slots = 8
+
 
 # Starting tech
 set_technology = {
@@ -89,10 +90,7 @@ if = {
 }
 
 set_popularities = {
-	democratic = 15
-	neutrality = 60
-	communism = 20
-	fascism = 5
+robots=100
 }
 set_politics = {
 	ruling_party = neutrality

@@ -1,12 +1,16 @@
-shared_focus = {
-	id = gachi_1
-	icon = GFX_goal_RUS_army
-	x = -40
-	y = 20
-	
-	cost = 10
 
-	completion_reward = {
+	shared_focus = {
+		id = gachi16
+		text = gachi16
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+available={has_completed_focus = g5
+not={has_completed_focus = c1}
+not={has_completed_focus = r1}
+		}
+		x = 8
+		y = 0
+			completion_reward = {
 		set_politics = {
     ruling_party = gachism
     elections_allowed = no
@@ -25,86 +29,829 @@ set_power_balance = {
     left_side = my_bop_left_side
     right_side = my_bop_right_side
 }
-		
-	}
-		
-}
-shared_focus = {
-	id = gachi_2
-	icon = GFX_RUS_Reintroduce_Okhrannoye_Otdeleniye
-	relative_position_id = gachi_1
-	x = -3
-	y = 1
-	cost = 2
-
-	ai_will_do = {
-		factor = 100
-	}
-	completion_reward = {
-set_rule = {
-    can_create_factions = yes
-	can_join_factions=yes
-}		
-	}
 }
 
-shared_focus = {
-	id = gachi_3
-	icon = GFX_RUS_Equipment_Modernisation
-	relative_position_id = gachi_2
-	x = 0
-	y = 1
-	cost = 5
-	prerequisite = {
-		focus = gachi_2
 	}
-	available = {
- always=yes
-		custom_trigger_tooltip = {	 
-		}			
-	}
-	ai_will_do = {
-		factor = 5
-		modifier = {
-			factor = 2
-			is_in_faction = yes # = started foreign tree
+	shared_focus = {
+		id = gachi13
+		text = gachi13
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi16
 		}
-		modifier = {
-			factor = 4
-			has_war = yes
-		}
-		modifier = {
-			factor = 1.5
-			date > 1937.1.1
-		}
-		modifier = {
-			factor = 1.5
-			date > 1938.1.1
-		}
-		modifier = {
-			factor = 1.5
-			date > 1939.1.1
-		}		
-	}
+		x = 8
+		y = 1
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus RUS_Equipment_Modernisation"
 		add_tech_bonus = {
-			name = RUS_Equipment_Modernisation 
+			name = Gachi_zavody 
 			bonus = 1
 			uses = 4
-			category = infantry_weapons
-			category = artillery
+			category = industry
 		}
-		if = {
-			limit = {
-				has_completed_focus = RUS_Overwhelming_Firepower
-			}
-			add_tech_bonus = {
-				name = RUS_Equipment_Modernisation
-				bonus = 1
-				uses = 4
-				category = support_tech
-			}
+		add_ideas=fist_theory
+	}
+
+
+	}
+	shared_focus = {
+		id = gachi12
+		text = gachi12
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi13
 		}
+		x = 2
+		y = 2
+			completion_reward = {
+	gachi_ip=yes
+				random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+}
+
+	}
+	shared_focus = {
+		id = newfocus_20
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = gachi12
+		}
+		x = 0
+		y = 3
+			completion_reward = {
+	gachi_an=yes
+						random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+}
+	}
+	shared_focus = {
+		id = newfocus_26
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = newfocus_20
+		}
+		x = 1
+		y = 5
+		completion_reward={  		swap_ideas = {
+			remove_idea = fist_theory
+			add_idea = fist_theory2
+		}}
+
+	}
+	shared_focus = {
+		id = gachi17
+		text = gachi17
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi13
+		}
+		x = 5
+		y = 2
+			completion_reward = {
+						random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+gachi_ip=yes
+}
+
+	}
+	shared_focus = {
+		id = gachi10
+		text = gachi10
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi12
+		}
+		prerequisite = {
+			focus = gachi17
+		}
+		x = 2
+		y = 3
+			completion_reward = {
+gachi_dip = yes
+add_research_slot=1
+}
+
+	}
+	shared_focus = {
+		id = gachi14
+		text = gachi14
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi13
+		}
+		x = 8
+		y = 2
+			completion_reward = {
+						random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		set_technology = {
+
+    gyms1 = 1
+}
+}
+
+	}
+	shared_focus = {
+		id = gachi9
+		text = gachi9
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi12
+		}
+		prerequisite = {
+			focus = gachi17
+		}
+		prerequisite = {
+			focus = gachi14
+		}
+		x = 5
+		y = 3
+			completion_reward = {
+								random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+gachi_an=yes
+}
+
+	}
+	shared_focus = {
+		id = gachi6
+		text = gachi6
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi10
+		}
+		prerequisite = {
+			focus = gachi9
+		}
+		x = 3
+		y = 4
+			completion_reward = {
+gachi_ind=yes
+}
+
+	}
+	shared_focus = {
+		id = gachi15
+		text = gachi15
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi13
+		}
+		x = 11
+		y = 2
+			completion_reward = {
+gachi_arm = yes
+}
+
+	}
+	shared_focus = {
+		id = gachi18
+		text = gachi18
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi14
+		}
+		prerequisite = {
+			focus = gachi15
+		}
+		prerequisite = {
+			focus = gachi17
+		}
+		x = 8
+		y = 3
+			completion_reward = {
+						random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+gachi_dip = yes
+}}
+
+	
+	shared_focus = {
+		id = gachi4
+		text = gachi4
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi9
+		}
+		prerequisite = {
+			focus = gachi18
+		}
+		x = 7
+		y = 4
+			completion_reward = {
+gachi_ind=yes
+}
+
+	}
+	shared_focus = {
+		id = gachi11
+		text = gachi11
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi13
+		}
+		x = 14
+		y = 2
+			completion_reward = {
+								random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+gachi_ip=yes
+}}
+
+	
+	shared_focus = {
+		id = gachi8
+		text = gachi8
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi11
+		}
+		prerequisite = {
+			focus = gachi15
+		}
+		prerequisite = {
+			focus = gachi14
+		}
+		x = 11
+		y = 3
+			completion_reward = {
+gachi_arm = yes
+}
+
+	}
+	shared_focus = {
+		id = gachi3
+		text = gachi3
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi18
+		}
+		prerequisite = {
+			focus = gachi8
+		}
+		x = 9
+		y = 4
+			completion_reward = {
+						random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+gachi_dip = yes
+}
+
+	}
+	shared_focus = {
+		id = gachi7
+		text = gachi7
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi11
+		}
+		prerequisite = {
+			focus = gachi15
+		}
+		x = 14
+		y = 3
+			completion_reward = {
+gachi_arm = yes
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+}
+
+	}
+	shared_focus = {
+		id = gachi2
+		text = gachi2
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi8
+		}
+		prerequisite = {
+			focus = gachi7
+		}
+		x = 12
+		y = 4
+			completion_reward = {
+gachi_dip = yes
+}
+
+	}
+	shared_focus = {
+		id = newfocus_19
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = gachi11
+		}
+		x = 16
+		y = 3
+			completion_reward = {
+	gachi_an=yes
+}
+	}
+	shared_focus = {
+		id = newfocus_21
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = gachi2
+			focus = newfocus_19
+			focus = newfocus_19
+		}
+		x = 12
+		y = 5
+completion_reward={gachi_ind=yes}
+	}
+	shared_focus = {
+		id = newfocus_25
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = gachi7
+			focus = newfocus_19
+		}
+		x = 15
+		y = 5
+	completion_reward = {
+
+gachi_arm = yes
+	}}
+	shared_focus = {
+		id = newfocus_24
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = newfocus_21
+			focus = newfocus_25
+		}
+		x = 13
+		y = 6
+	completion_reward = {
+		set_technology = {
+    gyms2 = 1
+}
+	}}
+	shared_focus = {
+		id = newfocus_28
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = gachi13
+		}
+		x = 18
+		y = 2
+	completion_reward = {
+		set_technology = {
+    gachiwar = 1
+}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+	}}
+	shared_focus = {
+		id = fisting_mashine
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = newfocus_28
+		}
+		prerequisite = {
+			focus = newfocus_19
+		}
+		x = 18
+		y = 4
+	completion_reward = {
+		set_technology = {
+    fistmashine = 1
+}
+	}}
+	shared_focus = {
+		id = newfocus_18
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = gachi3
+			focus = gachi2
+			focus = newfocus_19
+		}
+		x = 9
+		y = 5
+			completion_reward = {
+	gachi_ip=yes
+}
+	}
+	shared_focus = {
+		id = newfocus_18_Copy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = newfocus_18
+		}
+		prerequisite = {
+			focus = gachi1_Copy
+		}
+		x = 8
+		y = 7
+			completion_reward = {
+add_ideas=billy
+}
+	}
+	shared_focus = {
+		id = gachi1_Copy
+		text = gachi1
+		icon = GFX_focus_generic_conspiracy
+		cost = 5
+		prerequisite = {
+			focus = gachi4
+			focus = gachi6
+			focus = newfocus_20
+		}
+		x = 7
+		y = 5
+			completion_reward = {
+gachi_an=yes
+}
+
+	}
+	shared_focus = {
+		id = newfocus_22
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = gachi9
+			focus = gachi10
+		}
+		x = 3
+		y = 5
+	completion_reward = {
+		set_technology = {
+    gyms3 = 1
+}
+	}}
+	shared_focus = {
+		id = newfocus_23
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = newfocus_22
+			focus = newfocus_26
+		}
+		x = 2
+		y = 6
+completion_reward={gachi_ind=yes}
+	}
+	shared_focus = {
+		id = newfocus_27
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = newfocus_23
+		}
+		prerequisite = {
+			focus = gachi1_Copy
+		}
+		x = 4
+		y = 7
+	completion_reward = {
+		set_technology = {
+    gymsa = 1
+}
+	}}
+	shared_focus = {
+		id = flge
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = newfocus_28
+		}
+		prerequisite = {
+			focus = newfocus_19
+		}
+		x = 20
+		y = 4
+	completion_reward = {
+		set_technology = {
+    flug = 1
+}
 	}
 }
+	shared_focus = {
+		id = techgachi
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = gachi13
+		}
+
+		x = -3
+		y = 3
+	completion_reward = {
+add_to_tech_sharing_group = continuous_tech_share
+
+	}
+}
+	shared_focus = {
+		id = techgachi1
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = techgachi
+		}
+
+		x = -2
+		y = 4
+	completion_reward = {
+	all_allied_country = { limit={has_government = gachism}
+	puppet = THIS}
+	
+	
+}
+
+
+
+ }
+

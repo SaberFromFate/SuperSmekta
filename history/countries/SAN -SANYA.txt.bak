@@ -51,12 +51,17 @@ create_country_leader = {
         #
     }
 }
-
+recruit_character = gzi_sanya
+recruit_character =svo_sanya
+recruit_character =ivn_sanya
+recruit_character =cjo_sanya
+recruit_character =van_sanya
+recruit_character =pash_sanya
 # Лидер Страны
 create_country_leader = {
-    name = "Mega Lider"
+    name = "Саня"
     desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds" #Картинка
+    picture = "gfx/leaders/YAK/san.dds" #Картинка
     expire = "1965.1.1" #Когда умрет
     ideology = socialism
 	##За какую Идеологию (входит в types у коммунистов)

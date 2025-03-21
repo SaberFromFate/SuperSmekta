@@ -11,7 +11,8 @@ focus_tree = {
 	}
 	default = no
 	reset_on_civilwar = no
-	shared_focus = RUS_russian_army
+shared_focus = RUS_russian_army
+shared_focus = gachi16
 	focus = {
         id = sv_h1
         icon = GFX_goal_generic_construct_civ_factory
@@ -937,6 +938,23 @@ focus = {
                 completion_reward = {
 swap_ideas={remove_idea=SVO_OKU
 add_idea=SVO_OKU2 }
+}
+}
+focus = {
+        id = sv_goi
+			prerequisite = { focus = sv_s2 } ##Наследование от Focus_Number_1
+        x = -2 #По горизонтали
+        y = 1 #По вертикали
+	relative_position_id = sv_s2 ##Наследование позиции
+        icon = GFX_goal_generic_construct_mil_factory
+	cost = 10
+
+	available_if_capitulated = yes
+
+                completion_reward = {
+add_war_support=0.12
+	
+army_experience = 100
 }
 }
 focus = {

@@ -60,9 +60,9 @@ if = {
 
 set_research_slots = 2
 
-set_stability = 0.1
+set_stability = 0
 set_war_support = 0.3
-add_command_power = 20
+add_command_power = 120
 
 # Starting tech
 set_technology = {
@@ -151,6 +151,8 @@ set_convoys = 1000
 add_ideas={
 smekta
 svo_brop
+rus_divided_staff
+
 }
 
 
@@ -164,10 +166,22 @@ set_politics = {
 	elections_allowed = no ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-	fascism = 50
+	fascism = 30
 	democratic = 30
 	communism = 20
+	gachism=10
+	neutrality = 10
 }
+recruit_character = gzi_svyat
+recruit_character =svo_svyat
+recruit_character =ivn_svyat
+recruit_character =cjo_svyat
+recruit_character =van_svyat
+recruit_character =pash_svyat
+recruit_character=lok_svyat
+
+
+
 
 
 

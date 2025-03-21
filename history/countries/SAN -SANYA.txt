@@ -51,7 +51,13 @@ create_country_leader = {
         #
     }
 }
-
+recruit_character = gzi_sanya
+recruit_character =svo_sanya
+recruit_character =ivn_sanya
+recruit_character =cjo_sanya
+recruit_character =van_sanya
+recruit_character =pash_sanya
+recruit_character=lok_sanya
 # Лидер Страны
 create_country_leader = {
     name = "Саня"

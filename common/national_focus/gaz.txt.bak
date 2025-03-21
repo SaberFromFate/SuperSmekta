@@ -13,15 +13,16 @@ focus_tree = {
 	initial_show_position = {
 		x = 0
 	}
-	continuous_focus_position = { x = 40 y = 0 }
+	continuous_focus_position = { x = 40 y = 20 }
 
 	
 	default = no
 shared_focus = RUS_russian_army
+shared_focus = gachi16
 			focus = {
 		id = ge1
 		icon = GFX_focus_fra_devalue_the_franc
-		x = 20
+		x = 23
 		y = 0
 		
 		prerequisite = {}
@@ -140,7 +141,7 @@ add_offsite_building = { type = industrial_complex level = 1 }
 		focus = {
 		id = g1
 		icon = GFX_focus_fra_devalue_the_franc
-		x = 0
+		x = -10
 		y = 0
 		
 		prerequisite = {}
@@ -1032,7 +1033,7 @@ annex_country = {
 			}
 		}
 									focus = {
-		id = r5b
+		id = r5c
 		icon = GFX_focus_fra_devalue_the_franc
 		x = -3
 		y = 2

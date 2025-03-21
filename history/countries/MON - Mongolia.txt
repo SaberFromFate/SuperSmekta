@@ -36,6 +36,14 @@ recruit_character = MON_yundunwangcug
 recruit_character = MON_pai_yun_ti
 
 
+recruit_character = gzi_gazik
+recruit_character =svo_gazik
+recruit_character =ivn_gazik
+recruit_character =cjo_gazik
+recruit_character =van_gazik
+recruit_character =pash_gazik
+recruit_character=lok_gazik
+
 
 
 set_politics = {

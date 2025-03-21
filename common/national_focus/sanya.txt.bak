@@ -298,7 +298,7 @@ focus = {
 		prerequisite = { focus = sane_2 }
         x = 0 #По горизонтали
         y = 4 #По вертикали
-	relative_position_id = sanft_2 ##Наследование позиции
+	relative_position_id = sane_2 ##Наследование позиции
 	cost = 10 
 		
 	available_if_capitulated = yes
@@ -325,7 +325,7 @@ focus = {
 		prerequisite = { focus = sane_2 }
         x = 4 #По горизонтали
         y = 1 #По вертикали
-	relative_position_id = sanft_2 ##Наследование позиции
+	relative_position_id = sane_2 ##Наследование позиции
 	cost = 10 
 		
 	available_if_capitulated = yes
@@ -353,7 +353,7 @@ focus = {
 		prerequisite = { focus = sane_1 }
         x = 0 #По горизонтали
         y = 1 #По вертикали
-	relative_position_id = sanft_1 ##Наследование позиции
+	relative_position_id = sane_1 ##Наследование позиции
 	cost = 10 
 		
 	available_if_capitulated = yes

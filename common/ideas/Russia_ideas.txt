@@ -25,7 +25,7 @@ ideas = {
 				conscription_factor = -0.25
 				training_time_army_factor = 0.2
 				surrender_limit = -0.1
-				land_doctrine_cost_factor = 0.75
+				land_doctrine_cost_factor = 1.1
 			}
 		picture = RUS_divided_army
 	}
@@ -39,6 +39,7 @@ ideas = {
 				conscription_factor = -0.2
 				training_time_army_factor = 0.15
 				surrender_limit = -0.05
+				land_doctrine_cost_factor = 1.1
 			}
 		picture = RUS_divided_army
 	}
@@ -52,6 +53,7 @@ ideas = {
 				conscription_factor = -0.15
 				training_time_army_factor = 0.12
 				surrender_limit = -0.025
+				land_doctrine_cost_factor = 1.1
 			}
 		picture = RUS_divided_army
 	}
@@ -64,6 +66,7 @@ ideas = {
 				army_morale_factor = -0.1
 				conscription_factor = -0.12
 				training_time_army_factor = 0.1
+				land_doctrine_cost_factor = 1.1
 			}
 		picture = RUS_divided_army
 	}
@@ -76,6 +79,7 @@ ideas = {
 				army_morale_factor = -0.07
 				conscription_factor = -0.1
 				training_time_army_factor = 0.05
+				land_doctrine_cost_factor = 1.1
 			}
 		picture = RUS_divided_army
 	}
@@ -88,6 +92,7 @@ ideas = {
 				conscription_factor = -0.05
 				training_time_army_factor = 0.05
 				experience_gain_army = 0.05
+				land_doctrine_cost_factor = 1.05
 			}
 		picture = RUS_divided_army
 	}
@@ -100,6 +105,7 @@ ideas = {
 				conscription_factor = -0.05
 				training_time_army_factor = 0.05
 				experience_gain_army = 0.1
+				land_doctrine_cost_factor = 1
 			}
 		picture = RUS_divided_army
 	}
@@ -112,6 +118,7 @@ ideas = {
 			local_org_regain = 0.1
 			no_supply_grace = 24
 			combat_width_factor = -0.1
+			land_doctrine_cost_factor = 0.9
 		}
 		picture = rus_experienced_military
 	}
