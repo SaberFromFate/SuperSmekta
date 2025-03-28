@@ -16,11 +16,12 @@ state={
 		}
 		buildings = {
 			infrastructure = 4 #was: 8
-			arms_factory = 7
+			arms_factory = 3
 			industrial_complex = 3
 			air_base = 10
 		}
 		add_core_of = SAN
+		add_core_of = JMS
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4

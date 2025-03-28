@@ -1,0 +1,19 @@
+
+music_station = "PUZ_ms"
+
+
+music = {
+	song = "coo"
+
+	chance = {
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music = {
+	song = "cj.1"
+}
+music = {
+	song = "cj.4"
+}

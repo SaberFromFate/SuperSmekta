@@ -11,3 +11,12 @@ music = {
 		}
 	}
 }
+music = {
+	song = "cj.1"
+}
+music = {
+	song = "cj.4"
+}
+music = {
+	song = "cj.2"
+}

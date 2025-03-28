@@ -55,13 +55,13 @@ set_popularities = {
 
 }
 
-#create_country_leader = {
-#	
-#	name = "Тимоха"
-#	picture = "gfx/leaders/TIM/9.dds"
-#	expire = "1965.1.1"
-#	ideology = rexism
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Тимоха"
+picture = "gfx/leaders/TIM/9.dds"
+	expire = "1965.1.1"
+	ideology = rexism
+	traits = {
+		#
+}
+}

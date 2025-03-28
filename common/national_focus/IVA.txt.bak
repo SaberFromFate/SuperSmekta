@@ -13,7 +13,8 @@ focus_tree = {
 	
 	default = no
 	reset_on_civilwar = no
-
+shared_focus = RUS_russian_army
+shared_focus = gachi16
 
 	focus = {
 		id = iv1
@@ -28,13 +29,17 @@ focus_tree = {
 		completion_reward = {
 		
 leave_faction = yes
-			hidden_effect = {
-				play_song = "war"
-			}
+
 news_event = {
-    id = 3.1
-    days = 10
-    random = 50
+    id = cj.1
+    days = 1
+}
+hidden_effect={
+news_event = {
+    id = cj.2
+    days = 15
+}
+
 }
 		}
 	}

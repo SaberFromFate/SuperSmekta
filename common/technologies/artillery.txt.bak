@@ -463,7 +463,9 @@ technologies = {
 		enable_equipment_modules = {
 			tank_medium_howitzer_3
 		}
-
+		enable_subunits = {
+			engineer
+		}
 		research_cost = 1
 
 		start_year = 1944
@@ -563,10 +565,7 @@ technologies = {
 	}
 
 	rocket_artillery2 = {
-		path = {
-			leads_to_tech = rocket_artillery3
-			research_cost_coeff = 1
-		}
+
 		rocket_artillery = {
 			soft_attack = 0.15
 		}
@@ -654,7 +653,10 @@ technologies = {
 	}
 
 	rocket_artillery4 = {
-
+		path = {
+			leads_to_tech = rocket_artillery5
+			research_cost_coeff = 1
+		}
 		enable_equipments = {
 			rocket_artillery_equipment_2
 		}

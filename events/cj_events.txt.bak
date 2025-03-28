@@ -1,0 +1,100 @@
+add_namespace = cj
+news_event = {
+	id = cj.1
+	title = cj.1.t
+	desc = cj.1.d
+	picture = GFX_CJ_1
+	
+	major = yes
+	
+	is_triggered_only = yes
+		immediate = {
+		hidden_effect={
+				play_song = "cj.1"
+			}}
+	option = {
+		name = cj.1.a
+		trigger = {
+			tag = IVA
+		}
+	}
+	option = {
+		name = cj.1.b
+		trigger = {
+			NOT = { tag = IVA }
+		}
+	}
+}
+news_event = {
+	id = cj.2
+	title = cj.2.t 
+	desc = cj.2.d
+	picture = GFX_CJ_2
+	
+	major = yes
+
+	is_triggered_only = yes
+		immediate = {
+		hidden_effect={
+				play_song = "cj.2"
+				set_global_flag=no_smekta
+			}}
+	option = {
+		name = cj.2.a
+		trigger = {
+			tag = IVA
+		}
+	}
+	option = {
+		name = cj.2.b
+		trigger = {
+			NOT = { tag = IVA }
+		}
+	}
+}
+news_event = {
+	id = cj.3
+	title = cj.3.t 
+	desc = cj.3.d
+	picture = GFX_CJ_3
+	
+	major = yes
+
+	is_triggered_only = yes
+	option = {
+		name = cj.3.a
+		ai_chance = {base=100}
+	}
+
+}
+news_event = {
+	id = cj.4
+	title = cj.4.t 
+	desc = cj.4.d
+	picture = GFX_news_event_generic_parliament
+	
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "cj.4"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.4.a
+	}
+
+	
+	option = {
+		name = cj.4.b
+		trigger = {
+			 tag = MON 
+		}
+		MON={puppet= BYA
+		    declare_war_on = {
+                target = NEN
+                type = annex_everything
+            }}
+		
+	}
+}

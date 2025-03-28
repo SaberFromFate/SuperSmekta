@@ -1,0 +1,14 @@
+spriteTypes ={
+	SpriteType = {
+		name = "GFX_CJ_3"
+		texturefile = "gfx/event_pictures/cj.3.dds"			
+	}
+	SpriteType = {
+		name = "GFX_CJ_2"
+		texturefile = "gfx/event_pictures/cj.2.dds"			
+	}
+		SpriteType = {
+		name = "GFX_CJ_1"
+		texturefile = "gfx/event_pictures/cj.1.dds"			
+	}
+	}

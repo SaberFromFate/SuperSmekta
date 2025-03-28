@@ -11,3 +11,18 @@ music = {
 	file = "coo.ogg"
 	volume = 0.65
 }
+music = {
+	name = "cj.1"
+	file = "cj.1.ogg"
+	volume = 0.5
+}
+music = {
+	name = "cj.2"
+	file = "cj.2.ogg"
+	volume = 0.5
+}
+music = {
+	name = "cj.4"
+	file = "cj.4.ogg"
+	volume = 0.5
+}

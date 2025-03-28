@@ -561,9 +561,286 @@ generate_character = { token_base = mocha }
 generate_character = { token_base = svo }
 		}
 }
-	
-	
 
+
+
+
+
+
+
+
+sealex_offer={
+    allowed = {
+        always = yes
+    }
+	        visible  = {
+		tag=CJO
+        }
+		cost = 1
+		days_re_enable = 5
+    priority = 10
+    icon = POL_category
+
+			complete_effect = {
+		news_event = {
+    id = cj.3
+    days = 1
+}
+		}
+}
+	svo_port1={
+    allowed = {
+        always = yes
+    }
+	        visible  = {
+		tag=SVO
+        }
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+    icon = POL_category
+
+			complete_effect = {
+set_portraits = {
+    character = svo
+    civilian = { large ="gfx/leaders/CJO/SVO.dds" }
+}
+		}
+}
+	svo_port2={
+	allowed = {always = yes}
+	    visible  = {tag=SVO}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = svo
+    civilian = { large ="gfx/leaders/CJO/SVO2.dds" }
+}}}
+	svo_port3={
+	allowed = {always = yes}
+	    visible  = {tag=SVO}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = svo
+    civilian = { large ="gfx/leaders/CJO/SVO3.dds" }
+}}}
+	svo_port4={
+	allowed = {always = yes}
+	    visible  = {tag=SVO}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = svo
+    civilian = { large ="gfx/leaders/CJO/SVO4.dds" }
+}}}
+	svo_port5={
+	allowed = {always = yes}
+	    visible  = {tag=SVO}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = svo
+    civilian = { large ="gfx/leaders/CJO/SVO6.dds" }
+}}}
+
+	iva_port1={
+	allowed = {always = yes}
+	    visible  = {tag=IVA}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = ivanch
+    civilian = { large ="gfx/leaders/MON/IVA5.dds" }
+}}}
+	iva_port2={
+	allowed = {always = yes}
+	    visible  = {tag=IVA}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = ivanch
+    civilian = { large ="gfx/leaders/MON/IVA6.dds" }
+}}}
+	iva_port3={
+	allowed = {always = yes}
+	    visible  = {tag=IVA}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = ivanch
+    civilian = { large ="gfx/leaders/MON/IVA3.dds" }
+}}}
+	iva_port4={
+	allowed = {always = yes}
+	    visible  = {tag=IVA}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = ivanch
+    civilian = { large ="gfx/leaders/MON/IVA4.dds" }
+	
+}}}
+	iva_port5={
+	allowed = {always = yes}
+	    visible  = {tag=IVA}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = ivanch
+    civilian = { large ="gfx/leaders/MON/IVA1.dds" }
+}}}
+	iva_port6={
+	allowed = {always = yes}
+	    visible  = {tag=IVA}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = ivanch
+    civilian = { large ="gfx/leaders/MON/IVA2.dds" }
+}}}
+	gaz_port1={
+	allowed = {always = yes}
+	    visible  = {tag=MON}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = gazik
+    civilian = { large ="gfx/leaders/MON/portrait_mon_anandyn_amar.dds" }
+}}}
+	gaz_port2={
+	allowed = {always = yes}
+	    visible  = {tag=MON}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = gazik
+    civilian = { large ="gfx/leaders/MON/GAZ2.dds" }
+}}}
+	gaz_port3={
+	allowed = {always = yes}
+	    visible  = {tag=MON}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = gazik
+    civilian = { large ="gfx/leaders/MON/GAZ3.dds" }
+}}}
+	gaz_port4={
+	allowed = {always = yes}
+	    visible  = {tag=MON}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = gazik
+    civilian = { large ="gfx/leaders/MON/GAZ4.dds" }
+}}}
+	gaz_port5={
+	allowed = {always = yes}
+	    visible  = {tag=MON}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = gazik
+    civilian = { large ="gfx/leaders/MON/GAZ1.dds" }
+}}}
+
+	gaz_port6={
+	allowed = {always = yes}
+	    visible  = {tag=MON}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = gazik
+    civilian = { large ="gfx/leaders/MON/GAZNEMALYY.dds" }
+}}}
+		san_port1={
+	allowed = {always = yes}
+	    visible  = {tag=SAN}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = sanya
+    civilian = { large ="gfx/leaders/TIM/SAN3.dds" }
+}}}
+		san_port2={
+	allowed = {always = yes}
+	    visible  = {tag=SAN}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = sanya
+    civilian = { large ="gfx/leaders/TIM/SAN1.dds" }
+}}}
+		san_port3={
+	allowed = {always = yes}
+	    visible  = {tag=SAN}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = sanya
+    civilian = { large ="gfx/leaders/TIM/SAN2.dds" }
+}}}
+		san_port4={
+	allowed = {always = yes}
+	    visible  = {tag=SAN}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = sanya
+    civilian = { large ="gfx/leaders/TIM/SAN4.dds" }
+}}}
+		san_port5={
+	allowed = {always = yes}
+	    visible  = {tag=SAN}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = sanya
+    civilian = { large ="gfx/leaders/TIM/8.dds" }
+}}}
 }
 
 

@@ -1311,8 +1311,6 @@ shared_focus = {
 
 		}
 
-		cancel_if_invalid = SMEKTA_yes
-		continue_if_invalid = SMEKTA_no
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_RESEARCH }

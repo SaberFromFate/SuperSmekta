@@ -26,7 +26,13 @@ set_technology = {
 	mass_assault = 1
 	fleet_in_being = 1
 }
-
+recruit_character = gzi_sanya
+recruit_character =svo_sanya
+recruit_character =ivn_sanya
+recruit_character =cjo_sanya
+recruit_character =van_sanya
+recruit_character =pash_sanya
+recruit_character=lok_sanya
 set_politics = {
 	ruling_party = democratic ##Рулевая партия
 	last_election = "1936.1.1" ##Последние выборы (если есть)
@@ -41,36 +47,4 @@ set_popularities = {
 	fascism = 10 ##Фашизм
 }
 
-create_country_leader = {
-    name = "Vasil Zacharka"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-    expire = "1965.1.1"
-    ideology = socialism
-    traits = {
-        #
-    }
-}
-recruit_character = gzi_sanya
-recruit_character =svo_sanya
-recruit_character =ivn_sanya
-recruit_character =cjo_sanya
-recruit_character =van_sanya
-recruit_character =pash_sanya
-# Лидер Страны
-create_country_leader = {
-    name = "Саня"
-    desc = ""
-    picture = "gfx/leaders/YAK/san.dds" #Картинка
-    expire = "1965.1.1" #Когда умрет
-    ideology = socialism
-	##За какую Идеологию (входит в types у коммунистов)
-    #conservatism, liberalism и socialism - демократия
-    #marxism, leninism, stalinism, anti_revisionism, anarchist_communism - коммунизм
-    #nazism, fascism_ideology, falangism, rexism - национализм 
-    #despotism, oligarchism, moderatism и moderatism - нейтралитет 
-    traits = {
-        #
-    }
-}
-}
+

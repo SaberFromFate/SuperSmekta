@@ -2,7 +2,8 @@
 
 oob = "BLR_1936"
 
-set_research_slots = 3
+set_research_slots = 8
+
 
 # Starting tech
 set_technology = {
@@ -92,7 +93,7 @@ set_popularities = {
 robots=100
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = robot
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -103,7 +104,7 @@ create_country_leader = {
     desc = ""
 	picture = "gfx/leaders/BLR/5.dds"
     expire = "1965.1.1"
-    ideology = oligarchism
+    ideology = robot
     traits = {
         #
     }

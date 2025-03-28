@@ -1,0 +1,228 @@
+characters={
+	sealex={
+		name="Сеалекс"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAZNYE/sealex.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+		ivanch={
+		name="Иваныч"
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/IVA5.dds"
+			}
+		}
+		country_leader={
+			ideology=rexism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+        charism_iva
+		lazy_iva
+    }
+		}
+						country_leader={
+			ideology=gachism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+        charism_iva
+		lazy_iva
+    }
+		}
+						country_leader={
+			ideology=stalinism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+        charism_iva
+		lazy_iva
+    }
+		}
+								country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+        charism_iva
+		lazy_iva
+    }
+		}
+	}
+	svo={
+		name="Святослав"
+		portraits={
+			civilian={
+				large="gfx/leaders/CJO/SVO.dds"
+			}
+		}
+		country_leader={
+			ideology=rexism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+        dictator
+		prince_of_terror
+    }
+		}
+country_leader={
+			ideology=gachism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+        dictator
+		prince_of_terror
+    }
+		}
+	}
+
+	pasha={
+		name="Паша"
+		portraits={
+			civilian={
+				large="gfx/leaders/TIM/pasha.dds"
+			}
+		}
+				country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+	feminist_ultranationalist
+	pan_turkic_doyen
+	avid_turanist
+	the_bloody_professor
+	nationalist_lutheran_priest
+    }
+		}
+		country_leader={
+			ideology=rexism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+	feminist_ultranationalist
+	pan_turkic_doyen
+	avid_turanist
+	the_bloody_professor
+	nationalist_lutheran_priest
+    }
+		}
+				country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+	feminist_ultranationalist
+	pan_turkic_doyen
+	avid_turanist
+	the_bloody_professor
+	nationalist_lutheran_priest
+    }
+		}
+	}
+sanya={
+		name="Саня"
+		portraits={
+			civilian={
+				large="gfx/leaders/TIM/SAN3.dds"
+			}
+		}
+		country_leader={
+			ideology=rexism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+        marxist_priest
+    }
+		}
+		country_leader={
+			ideology=gachism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+        marxist_priest
+		socialist_autocrat
+    }
+		}
+
+				country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+        marxist_priest
+		socialist_autocrat
+    }
+		}
+
+
+
+
+}
+gazik={
+		name="Газик"
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/portrait_mon_anandyn_amar.dds"
+			}
+		}
+		country_leader={
+			ideology=rexism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+        veteran_communist
+spirit_of_genghis
+    }
+		}
+		country_leader={
+			ideology=gachism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+veteran_communist
+spirit_of_genghis
+    }
+		}
+				country_leader={
+			ideology=stalinism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+veteran_communist
+spirit_of_genghis
+    }
+		}
+				country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+veteran_communist
+spirit_of_genghis
+    }
+		}
+						country_leader={
+			ideology=robot
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+veteran_communist
+spirit_of_genghis
+    }
+		}
+
+
+
+
+
+}
+
+}

@@ -1323,38 +1323,6 @@ shared_focus = {
 	
 
 	shared_focus = {
-		id = SMEKTA_special_forces
-		icon = GFX_goal_generic_special_forces
-		prerequisite = {focus = SMEKTA_equipment_effort_3 }
-		prerequisite = {focus = SMEKTA_doctrine_effort_2 }
-		prerequisite = {focus = SMEKTA_armor_effort }
-		x = 1
-		y = 1
-		relative_position_id = SMEKTA_equipment_effort_3
-		cost = 5
-
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = special_forces
-			add_tech_bonus = {
-				name = special_forces_bonus
-				bonus = 1.0
-				uses = 3
-				technology = paratroopers
-				technology = paratroopers2
-				technology = marines
-				technology = marines2
-				technology = tech_mountaineers
-				technology = tech_mountaineers2
-			}
-			remove_ideas=ag1
-		}
-	}
-
-	shared_focus = {
 		id = SMEKTA_aviation_effort
 		icon = GFX_goal_generic_build_airforce
 		x = -10

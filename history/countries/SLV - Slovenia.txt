@@ -63,14 +63,4 @@ set_popularities = {
 	neutrality = 70
 	communism = 10
 }
-create_country_leader = {
-	name = "Паша"
-	desc = ""
-	picture = "gfx/leaders/TIM/pasha.dds" 
-    expire = "1965.1.1"
-    ideology = oligarchism
-
-	traits = {
-		
-	}
-}
+recruit_character=pasha

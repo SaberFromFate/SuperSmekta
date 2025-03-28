@@ -83,22 +83,23 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = democratic ##Рулевая партия
+	ruling_party = gachism ##Рулевая партия
 	last_election = "1936.1.1" ##Последние выборы (если есть)
 	election_frequency = 48 ##Через сколько проводят выборы
 	elections_allowed = no ##Есть ли выборы
 }
 set_popularities = {
-	democratic = 100
+	gachism = 70
+	fascism=30
 
 }
 
 create_country_leader = {
-	name = "Гачи совет"
+	name = "Гачи рада"
 	desc = ""
-	picture = GFX_portrait_Kost_Levytsky
+	picture = "gfx/leaders/UKR/uyKUm4Mty0g.dds" 
 	expire = "1953.3.1"
-	ideology = socialism
+	ideology = gachism
 	traits = {
 		
 	}
@@ -116,9 +117,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Stepan Bandera"
+	name = "Slavesская рада"
 	desc = ""
-	picture = GFX_portrait_Stepan_Bandera
+	picture = "gfx/leaders/UKR/uyKUm4Mty0g.dds" 
 	expire = "1953.3.1"
 	ideology = fascism_ideology
 	traits = {

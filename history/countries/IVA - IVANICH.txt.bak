@@ -84,63 +84,21 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 10
-	democratic = 30
+	fascism = 20
+	democratic = 20
 	communism = 20
 	gachism=10
 	neutrality = 30
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1939.1.1"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-}
-set_stability = 0.6
+set_stability = 0.3
 
-create_country_leader = {
-	name = "Draza Mihailovic"
-	desc = ""
-	picture = GFX_portrait_Draza_Mihailovic
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Milan Nedic"
-	desc = ""
-	picture = GFX_portrait_Milan_Nedic
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Peter Karadordevic"
-	desc = ""
-	picture = GFX_portrait_Peter_Karadordevic
-	expire = "1965.1.1"
-	ideology = Despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Zivorad Jovanovic"
-	desc = ""
-	picture = GFX_portrait_Zivorad_Jovanovic
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
+recruit_character = gzi_ivanov
+recruit_character =svo_ivanov
+recruit_character =ivn_ivanov
+recruit_character =cjo_ivanov
+recruit_character =van_ivanov
+recruit_character =pash_ivanov
+recruit_character=lok_ivanov
+recruit_character=ivanch
+recruit_character=ivanov

@@ -1,0 +1,576 @@
+
+focus_tree = {
+    id = "AUS_biomass_focus"
+    country = "AUS"
+
+    focus = {
+        id = "AUS_biomass_awakening"
+        icon = GFX_goal_generic_major_war
+        x = 10
+        y = 0
+        cost = 10
+        available = { has_government = democratic }
+        completion_reward = {
+            add_national_spirit = AUS_biomass_awakened
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    focus = {
+        id = "AUS_hive_mind_established"
+        icon = GFX_goal_generic_construct_industry
+        x = 10
+        y = 1
+        cost = 10
+        prerequisite = { focus = "AUS_biomass_awakening" }
+        completion_reward = {
+            add_national_spirit = AUS_hive_mind
+            add_tech_bonus = {
+                category = { industry }
+                bonus = 0.5
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    focus = {
+        id = "AUS_assimilation_of_new_zealand"
+        icon = GFX_goal_generic_war_goal
+        x = 8
+        y = 2
+        cost = 10
+        prerequisite = { focus = "AUS_hive_mind_established" }
+        available = { NOT = { has_war_with = NZL } }
+        completion_reward = {
+            add_war_goal = {
+                type = annexation
+                target = NZL
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    focus = {
+        id = "AUS_spread_to_indonesia"
+        icon = GFX_goal_generic_war_goal
+        x = 12
+        y = 2
+        cost = 10
+        prerequisite = { focus = "AUS_hive_mind_established" }
+        available = { NOT = { has_war_with = INS } }
+        completion_reward = {
+            add_war_goal = {
+                type = annexation
+                target = INS
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    focus = {
+        id = "AUS_biomass_superior_army"
+        icon = GFX_goal_generic_army_effort
+        x = 10
+        y = 3
+        cost = 10
+        prerequisite = { focus = "AUS_hive_mind_established" }
+        completion_reward = {
+            add_national_spirit = AUS_biomass_army
+        }
+        ai_will_do = { factor = 1 }
+    }
+	
+	   focus = {
+        id = "AUS_biofactories"
+        icon = GFX_goal_generic_industry
+        x = 8
+        y = 2
+        cost = 10
+        prerequisite = { focus = "AUS_hive_mind_established" }
+        completion_reward = {
+            add_national_spirit = AUS_biofactories
+            add_building_construction = {
+                type = arms_factory
+                amount = 2
+                state = 500 # NSW
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    focus = {
+        id = "AUS_organic_terraforming"
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 12
+        y = 2
+        cost = 10
+        prerequisite = { focus = "AUS_hive_mind_established" }
+        completion_reward = {
+            add_national_spirit = AUS_organic_terraforming
+            add_building_construction = {
+                type = infrastructure
+                amount = 3
+                state = 500
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    ### ВОЕННЫЕ ФОКУСЫ ###
+
+    focus = {
+        id = "AUS_biomass_soldiers"
+        icon = GFX_goal_generic_army_effort
+        x = 10
+        y = 3
+        cost = 10
+        prerequisite = { focus = "AUS_hive_mind_established" }
+        completion_reward = {
+            add_national_spirit = AUS_biomass_army
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    focus = {
+        id = "AUS_mutant_legions"
+        icon = GFX_goal_generic_army_effort
+        x = 10
+        y = 4
+        cost = 10
+        prerequisite = { focus = "AUS_biomass_soldiers" }
+        completion_reward = {
+            add_national_spirit = AUS_mutant_legions
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    ### ДИПЛОМАТИЯ БИОМАССЫ ###
+
+    focus = {
+        id = "AUS_assimilate_new_zealand"
+        icon = GFX_goal_generic_war_goal
+        x = 8
+        y = 5
+        cost = 10
+        prerequisite = { focus = "AUS_biomass_soldiers" }
+        completion_reward = {
+            add_war_goal = {
+                type = annexation
+                target = NZL
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    focus = {
+        id = "AUS_spread_to_indonesia"
+        icon = GFX_goal_generic_war_goal
+        x = 12
+        y = 5
+        cost = 10
+        prerequisite = { focus = "AUS_biomass_soldiers" }
+        completion_reward = {
+            add_war_goal = {
+                type = annexation
+                target = INS
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+	    focus = {
+        id = "AUS_genetic_purification"
+        icon = GFX_goal_generic_science
+        x = 8
+        y = 2
+        cost = 10
+        prerequisite = { focus = "AUS_collective_mind" }
+        completion_reward = {
+            add_national_spirit = AUS_genetic_purification
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    focus = {
+        id = "AUS_adaptive_mutations"
+        icon = GFX_goal_generic_army_effort
+        x = 7
+        y = 3
+        cost = 10
+        prerequisite = { focus = "AUS_genetic_purification" }
+        completion_reward = {
+            add_national_spirit = AUS_adaptive_mutations
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    ### 🌍 ЭКОЛОГИЧЕСКАЯ ЭКСПАНСИЯ ###
+
+    focus = {
+        id = "AUS_biological_terraforming"
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 12
+        y = 2
+        cost = 10
+        prerequisite = { focus = "AUS_collective_mind" }
+        completion_reward = {
+            add_national_spirit = AUS_biological_terraforming
+            add_building_construction = {
+                type = infrastructure
+                amount = 3
+                state = 500
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    focus = {
+        id = "AUS_green_union"
+        icon = GFX_goal_generic_diplomacy
+        x = 13
+        y = 3
+        cost = 10
+        prerequisite = { focus = "AUS_biological_terraforming" }
+        completion_reward = {
+            add_national_spirit = AUS_green_union
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    ### 🦠 БИОЛОГИЧЕСКАЯ ДИПЛОМАТИЯ ###
+
+    focus = {
+        id = "AUS_integrate_new_zealand"
+        icon = GFX_goal_generic_diplomacy
+        x = 8
+        y = 4
+        cost = 10
+        prerequisite = { focus = "AUS_green_union" }
+        completion_reward = {
+            add_opinion_modifier = {
+                target = NZL
+                modifier = AUS_biomass_influence
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    focus = {
+        id = "AUS_assimilate_indonesia"
+        icon = GFX_goal_generic_diplomacy
+        x = 12
+        y = 4
+        cost = 10
+        prerequisite = { focus = "AUS_green_union" }
+        completion_reward = {
+            add_opinion_modifier = {
+                target = INS
+                modifier = AUS_biomass_influence
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    ### 🦾 ГИБРИДНЫЕ ВОЙНЫ ###
+
+    focus = {
+        id = "AUS_hybrid_warriors"
+        icon = GFX_goal_generic_army_effort
+        x = 10
+        y = 5
+        cost = 10
+        prerequisite = { focus = "AUS_adaptive_mutations" }
+        completion_reward = {
+            add_national_spirit = AUS_hybrid_warriors
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    focus = {
+        id = "AUS_organic_warfare"
+        icon = GFX_goal_generic_war_goal
+        x = 10
+        y = 6
+        cost = 10
+        prerequisite = { focus = "AUS_hybrid_warriors" }
+        completion_reward = {
+            add_national_spirit = AUS_organic_warfare
+        }
+        ai_will_do = { factor = 1 }
+    }
+	   focus = {
+        id = "AUS_organic_factories"
+        icon = GFX_goal_generic_industry
+        x = 8
+        y = 2
+        cost = 10
+        prerequisite = { focus = "AUS_collective_mind" }
+        completion_reward = {
+            add_national_spirit = AUS_organic_factories
+            add_building_construction = {
+                type = arms_factory
+                amount = 2
+                state = 500
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    focus = {
+        id = "AUS_biotech_farms"
+        icon = GFX_goal_generic_agriculture
+        x = 7
+        y = 3
+        cost = 10
+        prerequisite = { focus = "AUS_organic_factories" }
+        completion_reward = {
+            add_national_spirit = AUS_biotech_farms
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    focus = {
+        id = "AUS_biomass_trade_network"
+        icon = GFX_goal_generic_trade
+        x = 9
+        y = 3
+        cost = 10
+        prerequisite = { focus = "AUS_organic_factories" }
+        completion_reward = {
+            add_national_spirit = AUS_biomass_trade_network
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    ### ⚔️ ЭКСПАНСИЯ СОЗНАНИЯ ###
+
+    focus = {
+        id = "AUS_integrate_new_zealand"
+        icon = GFX_goal_generic_war_goal
+        x = 8
+        y = 4
+        cost = 10
+        prerequisite = { focus = "AUS_collective_mind" }
+        completion_reward = {
+            add_war_goal = {
+                type = annexation
+                target = NZL
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    focus = {
+        id = "AUS_assimilate_philippines"
+        icon = GFX_goal_generic_war_goal
+        x = 12
+        y = 4
+        cost = 10
+        prerequisite = { focus = "AUS_collective_mind" }
+        completion_reward = {
+            add_war_goal = {
+                type = annexation
+                target = PHI
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    focus = {
+        id = "AUS_assimilate_indonesia"
+        icon = GFX_goal_generic_war_goal
+        x = 10
+        y = 5
+        cost = 10
+        prerequisite = { focus = "AUS_collective_mind" }
+        completion_reward = {
+            add_war_goal = {
+                type = annexation
+                target = INS
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    ### 🚀 БУДУЩЕЕ ОРГАНИКИ ###
+
+    focus = {
+        id = "AUS_biological_singularity"
+        icon = GFX_goal_generic_science
+        x = 10
+        y = 6
+        cost = 10
+        prerequisite = { focus = "AUS_assimilate_philippines" }
+        completion_reward = {
+            add_national_spirit = AUS_biological_singularity
+        }
+        ai_will_do = { factor = 1 }
+    }
+}
+
+
+
+
+
+ideas = {
+    AUS_organic_factories = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_industry
+        modifier = {
+            production_speed_buildings_factor = 0.1
+        }
+    }
+
+    AUS_biotech_farms = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_agriculture
+        modifier = {
+            resources_gain_factor = 0.1
+        }
+    }
+
+    AUS_biomass_trade_network = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_trade
+        modifier = {
+            trade_opinion_factor = 0.15
+        }
+    }
+
+    AUS_biological_singularity = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_science
+        modifier = {
+            research_speed_factor = 0.2
+        }
+    }
+	    AUS_collective_mind = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_political
+        modifier = {
+            stability_factor = 0.1
+            political_power_gain = -0.2
+        }
+    }
+
+    AUS_genetic_purification = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_science
+        modifier = {
+            recruitable_population_factor = 0.15
+        }
+    }
+
+    AUS_adaptive_mutations = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_army_effort
+        modifier = {
+            division_attack = 0.1
+            division_recovery_rate = 0.05
+        }
+    }
+
+    AUS_biological_terraforming = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_construct_infrastructure
+        modifier = {
+            infrastructure_construction_speed = 0.2
+        }
+    }
+
+    AUS_hybrid_warriors = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_army_effort
+        modifier = {
+            division_attack = 0.2
+            infantry_speed = 0.05
+        }
+    }
+
+    AUS_organic_warfare = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_war_goal
+        modifier = {
+            special_forces_attack = 0.15
+        }
+    }
+	    AUS_biomass_awakened = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_science
+        modifier = {
+            research_speed_factor = 0.05
+            stability_factor = -0.1
+        }
+    }
+
+    AUS_hive_mind = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_mass_mobilization
+        modifier = {
+            recruitable_population_factor = 0.2
+            construction_speed_factor = 0.15
+        }
+    }
+
+    AUS_biofactories = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_industry
+        modifier = {
+            production_speed_buildings_factor = 0.1
+        }
+    }
+
+    AUS_organic_terraforming = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_construct_infrastructure
+        modifier = {
+            infrastructure_construction_speed = 0.2
+        }
+    }
+
+    AUS_biomass_army = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_army_effort
+        modifier = {
+            division_attack = 0.1
+            division_defense = 0.1
+        }
+    }
+
+    AUS_mutant_legions = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_army_effort
+        modifier = {
+            division_attack = 0.2
+            division_recovery_rate = 0.05
+        }
+    }
+	    AUS_biomass_awakened = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_electrification
+        modifier = {
+            stability_factor = -0.1
+            war_support_factor = 0.1
+            research_speed_factor = 0.05
+        }
+    }
+
+    AUS_hive_mind = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_mass_mobilization
+        modifier = {
+            recruitable_population_factor = 0.2
+            construction_speed_factor = 0.15
+            political_power_gain = -0.1
+        }
+    }
+
+    AUS_biomass_army = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_army_effort
+        modifier = {
+            land_reinforce_rate = 0.05
+            division_attack = 0.1
+            division_defense = 0.1
+        }
+    }
+}

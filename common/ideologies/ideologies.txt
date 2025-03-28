@@ -46,7 +46,7 @@ ideologies = {
 	robot = {
 		types = {
 
-			robot_a={
+			robot={
 
 			}
 		}
@@ -79,7 +79,7 @@ ideologies = {
 	gachism= {
 		types = {
 
-			gachi={
+			gachism={
 
 			}
 		}

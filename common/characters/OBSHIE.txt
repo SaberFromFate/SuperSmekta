@@ -6,8 +6,8 @@ characters={
         name = gazik
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\GAZ.dds"
-                large = "gfx\leaders\CJO\GAZ.dds"
+                small = "gfx/leaders/CJO/GAZ.dds"
+                large = "gfx/leaders/CJO/GAZ.dds"
             }
         }
 
@@ -25,8 +25,8 @@ characters={
         name = svo
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\SVOT.dds"
-                large = "gfx\leaders\CJO\SVOT.dds"
+                small = "gfx/leaders/CJO/SVOT.dds"
+                large = "gfx/leaders/CJO/SVOT.dds"
             }
         }
 
@@ -45,8 +45,8 @@ characters={
         name = ivn
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\IVA.dds"
-                large = "gfx\leaders\CJO\IVA.dds"
+                small = "gfx/leaders/CJO/IVA.dds"
+                large = "gfx/leaders/CJO/IVA.dds"
             }
         }
 
@@ -64,8 +64,8 @@ characters={
         name = cjo
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\CJO.dds"
-                large = "gfx\leaders\CJO\CJO.dds"
+                small = "gfx/leaders/CJO/CJO.dds"
+                large = "gfx/leaders/CJO/CJO.dds"
             }
         }
 
@@ -84,8 +84,8 @@ characters={
         name = lok
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\SAN.dds"
-                large = "gfx\leaders\CJO\SAN.dds"
+                small = "gfx/leaders/CJO/SAN.dds"
+                large = "gfx/leaders/CJO/SAN.dds"
             }
         }
 
@@ -103,8 +103,8 @@ characters={
         name = pash
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\PAS.dds"
-                large = "gfx\leaders\CJO\PAS.dds"
+                small = "gfx/leaders/CJO/PAS.dds"
+                large = "gfx/leaders/CJO/PAS.dds"
             }
         }
 
@@ -122,8 +122,8 @@ characters={
         name = van
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\VAN.dds"
-                large = "gfx\leaders\CJO\VAN.dds"
+                small = "gfx/leaders/CJO/VAN.dds"
+                large = "gfx/leaders/CJO/VAN.dds"
             }
         }
 
@@ -142,8 +142,8 @@ characters={
         name = gazik
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\GAZ.ddsik"
-                large = "gfx\leaders\CJO\GAZ.ddsik"
+                small = "gfx/leaders/CJO/GAZ.dds"
+                large = "gfx/leaders/CJO/GAZ.dds"
             }
         }
 
@@ -162,8 +162,8 @@ characters={
         name = svo
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\SVOT.dds"
-                large = "gfx\leaders\CJO\SVOT.dds"
+                small = "gfx/leaders/CJO/SVOT.dds"
+                large = "gfx/leaders/CJO/SVOT.dds"
             }
         }
 
@@ -181,8 +181,8 @@ characters={
         name = ivn
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\IVA.dds"
-                large = "gfx\leaders\CJO\IVA.dds"
+                small = "gfx/leaders/CJO/IVA.dds"
+                large = "gfx/leaders/CJO/IVA.dds"
             }
         }
 
@@ -200,8 +200,8 @@ characters={
         name = cjo
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\CJO.dds"
-                large = "gfx\leaders\CJO\CJO.dds"
+                small = "gfx/leaders/CJO/CJO.dds"
+                large = "gfx/leaders/CJO/CJO.dds"
             }
         }
 
@@ -220,8 +220,8 @@ characters={
         name = lok
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\SAN.dds"
-                large = "gfx\leaders\CJO\SAN.dds"
+                small = "gfx/leaders/CJO/SAN.dds"
+                large = "gfx/leaders/CJO/SAN.dds"
             }
         }
 
@@ -239,8 +239,8 @@ characters={
         name = pash
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\PAS.dds"
-                large = "gfx\leaders\CJO\PAS.dds"
+                small = "gfx/leaders/CJO/PAS.dds"
+                large = "gfx/leaders/CJO/PAS.dds"
             }
         }
 
@@ -258,8 +258,8 @@ characters={
         name = van
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\VAN.dds"
-                large = "gfx\leaders\CJO\VAN.dds"
+                small = "gfx/leaders/CJO/VAN.dds"
+                large = "gfx/leaders/CJO/VAN.dds"
             }
         }
 
@@ -278,8 +278,8 @@ characters={
         name = gazik
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\GAZ.ddsik"
-                large = "gfx\leaders\CJO\GAZ.ddsik"
+                small = "gfx/leaders/CJO/GAZ.dds"
+                large = "gfx/leaders/CJO/GAZ.dds"
             }
         }
 
@@ -297,8 +297,8 @@ characters={
         name = svo
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\SVOT.dds"
-                large = "gfx\leaders\CJO\SVOT.dds"
+                small = "gfx/leaders/CJO/SVOT.dds"
+                large = "gfx/leaders/CJO/SVOT.dds"
             }
         }
 
@@ -317,8 +317,8 @@ characters={
         name = ivn
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\IVA.dds"
-                large = "gfx\leaders\CJO\IVA.dds"
+                small = "gfx/leaders/CJO/IVA.dds"
+                large = "gfx/leaders/CJO/IVA.dds"
             }
         }
 
@@ -336,8 +336,8 @@ characters={
         name = cjo
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\CJO.dds"
-                large = "gfx\leaders\CJO\CJO.dds"
+                small = "gfx/leaders/CJO/CJO.dds"
+                large = "gfx/leaders/CJO/CJO.dds"
             }
         }
 
@@ -356,8 +356,8 @@ characters={
         name = lok
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\SAN.dds"
-                large = "gfx\leaders\CJO\SAN.dds"
+                small = "gfx/leaders/CJO/SAN.dds"
+                large = "gfx/leaders/CJO/SAN.dds"
             }
         }
 
@@ -375,8 +375,8 @@ characters={
         name = pash
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\PAS.dds"
-                large = "gfx\leaders\CJO\PAS.dds"
+                small = "gfx/leaders/CJO/PAS.dds"
+                large = "gfx/leaders/CJO/PAS.dds"
             }
         }
 
@@ -394,8 +394,8 @@ characters={
         name = van
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\VAN.dds"
-                large = "gfx\leaders\CJO\VAN.dds"
+                small = "gfx/leaders/CJO/VAN.dds"
+                large = "gfx/leaders/CJO/VAN.dds"
             }
         }
 
@@ -415,8 +415,8 @@ characters={
         name = gazik
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\GAZ.ddsik"
-                large = "gfx\leaders\CJO\GAZ.ddsik"
+                small = "gfx/leaders/CJO/GAZ.dds"
+                large = "gfx/leaders/CJO/GAZ.dds"
             }
         }
 
@@ -435,8 +435,8 @@ characters={
         name = svo
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\SVOT.dds"
-                large = "gfx\leaders\CJO\SVOT.dds"
+                small = "gfx/leaders/CJO/SVOT.dds"
+                large = "gfx/leaders/CJO/SVOT.dds"
             }
         }
 
@@ -454,8 +454,8 @@ characters={
         name = ivn
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\IVA.dds"
-                large = "gfx\leaders\CJO\IVA.dds"
+                small = "gfx/leaders/CJO/IVA.dds"
+                large = "gfx/leaders/CJO/IVA.dds"
             }
         }
 
@@ -473,8 +473,8 @@ characters={
         name = cjo
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\CJO.dds"
-                large = "gfx\leaders\CJO\CJO.dds"
+                small = "gfx/leaders/CJO/CJO.dds"
+                large = "gfx/leaders/CJO/CJO.dds"
             }
         }
 
@@ -493,8 +493,8 @@ characters={
         name = lok
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\SAN.dds"
-                large = "gfx\leaders\CJO\SAN.dds"
+                small = "gfx/leaders/CJO/SAN.dds"
+                large = "gfx/leaders/CJO/SAN.dds"
             }
         }
 
@@ -512,8 +512,8 @@ characters={
         name = pash
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\PAS.dds"
-                large = "gfx\leaders\CJO\PAS.dds"
+                small = "gfx/leaders/CJO/PAS.dds"
+                large = "gfx/leaders/CJO/PAS.dds"
             }
         }
 
@@ -531,8 +531,8 @@ characters={
         name = van
         portraits = {
             army = {
-                small = "gfx\leaders\CJO\VAN.dds"
-                large = "gfx\leaders\CJO\VAN.dds"
+                small = "gfx/leaders/CJO/VAN.dds"
+                large = "gfx/leaders/CJO/VAN.dds"
             }
         }
 
@@ -547,4 +547,166 @@ characters={
         }
     }	
 	##################################################
+		    gzi_ivanov = {
+        name = gazik
+        portraits = {
+            army = {
+                small = "gfx/leaders/CJO/GAZ.dds"
+                large = "gfx/leaders/CJO/GAZ.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = gzi_ivanov
+            ledger = army
+            available = {
+                has_completed_focus = RUS_War_Of_Numbers
+            }
+            traits = { smekta_mass_assault_expert }
+        }
+    }
+	    svo_ivanov = {
+        name = svo
+        portraits = {
+            army = {
+                small = "gfx/leaders/CJO/SVOT.dds"
+                large = "gfx/leaders/CJO/SVOT.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = svo_ivanov
+            ledger = army
+            available = {
+                has_completed_focus = RUS_Extensive_Planning
+            }
+            traits = { smekta_grand_battle_plan_expert }
+        }
+    }
+
+		    ivn_ivanov = {
+        name = ivn
+        portraits = {
+            army = {
+                small = "gfx/leaders/CJO/IVA.dds"
+                large = "gfx/leaders/CJO/IVA.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = ivn_ivanov
+            ledger = army
+            available = {
+                has_completed_focus = SMEKTA_special_forces
+            }
+            traits = { smekta_ivanich }
+        }
+    }
+			    cjo_ivanov = {
+        name = cjo
+        portraits = {
+            army = {
+                small = "gfx/leaders/CJO/CJO.dds"
+                large = "gfx/leaders/CJO/CJO.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = cjo_ivanov
+            ledger = army
+            available = {
+                has_completed_focus = RUS_Spearhead_Doctrine
+            }
+            traits = { smekta_mobile_warfare_expert }
+        }
+    }
+	
+			    lok_ivanov = {
+        name = lok
+        portraits = {
+            army = {
+                small = "gfx/leaders/CJO/SAN.dds"
+                large = "gfx/leaders/CJO/SAN.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = lok_ivanov
+            ledger = army
+            available = {
+                has_completed_focus = RUS_Overwhelming_Firepower
+            }
+            traits = { smekta_superior_firepower_expert }
+        }
+    }	
+				    pash_ivanov = {
+        name = pash
+        portraits = {
+            army = {
+                small = "gfx/leaders/CJO/PAS.dds"
+                large = "gfx/leaders/CJO/PAS.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = pash_ivanov
+            ledger = army
+            available = {
+                has_completed_focus = SMEKTA_aviation_effort
+            }
+            traits = { smekta_air_warfare_theorist }
+        }
+    }
+				    van_ivanov = {
+        name = van
+        portraits = {
+            army = {
+                small = "gfx/leaders/CJO/VAN.dds"
+                large = "gfx/leaders/CJO/VAN.dds"
+            }
+        }
+
+        advisor = {
+            slot = theorist
+            idea_token = van_ivanov
+            ledger = army
+            available = {
+                has_completed_focus = SMEKTA_naval_effort
+            }
+            traits = { smekta_naval_warfare_theorist }
+        }
+    }
+		ivanov={
+		name="Святослав"
+		portraits={
+			civilian={
+				large="gfx/leaders/CJO/SVO.dds"
+			}
+		}
+		country_leader={
+			ideology=rexism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+        dictator
+		prince_of_terror
+    }
+		}
+country_leader={
+			ideology=gachism
+			expire="1965.1.1.1"
+			id=-1
+			    traits = {
+        dictator
+		prince_of_terror
+    }
+		}
+	}
+	
 	}

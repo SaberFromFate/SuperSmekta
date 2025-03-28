@@ -1,0 +1,46 @@
+﻿capital = 294
+
+oob = "OMA_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_trucks = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
+recruit_character= sealex
+create_country_leader = {
+    name = "Сеалекс"
+    desc = ""
+    picture = "gfx/leaders/RAZNYE/sealex.dds" #Картинка
+    expire = "1965.1.1" #Когда умрет
+    ideology = despotism
+	##За какую Идеологию (входит в types у коммунистов)
+    #conservatism, liberalism и socialism - демократия
+    #marxism, leninism, stalinism, anti_revisionism, anarchist_communism - коммунизм
+    #nazism, fascism_ideology, falangism, rexism - национализм 
+    #despotism, oligarchism, moderatism и moderatism - нейтралитет 
+    traits = {
+
+    }
+}
+
+set_convoys = 10
+set_war_support = 0.1
+set_stability = 0.8
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}

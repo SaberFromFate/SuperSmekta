@@ -1,0 +1,8 @@
+spriteTypes ={
+	SpriteType = {
+		name = "GFX_CJ_3"
+		texturefile = "gfx/event_pictures/cj.3.dds"			
+	}
+
+	
+	}

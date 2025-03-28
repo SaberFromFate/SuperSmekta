@@ -29,13 +29,17 @@ shared_focus = gachi16
 		completion_reward = {
 		
 leave_faction = yes
-			hidden_effect = {
-				play_song = "war"
-			}
+
 news_event = {
-    id = 3.1
-    days = 10
-    random = 50
+    id = cj.1
+    days = 1
+}
+hidden_effect={
+news_event = {
+    id = cj.2
+    days = 15
+}
+
 }
 		}
 	}
@@ -485,7 +489,7 @@ add_stability=0.02
 		relative_position_id = ivslav
 		available_if_capitulated = yes
 		completion_reward = {
-        add_timed_idea = {
+
 random_controlled_state={				
 add_extra_state_shared_building_slots = 4
 				add_building_construction = {
@@ -495,7 +499,7 @@ add_extra_state_shared_building_slots = 4
 				}}
 add_stability=0.02
 
-		}
+
 	}}
 
 													focus = {
