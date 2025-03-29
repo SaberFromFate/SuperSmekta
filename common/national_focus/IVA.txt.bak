@@ -489,7 +489,7 @@ add_stability=0.02
 		relative_position_id = ivslav
 		available_if_capitulated = yes
 		completion_reward = {
-        add_timed_idea = {
+
 random_controlled_state={				
 add_extra_state_shared_building_slots = 4
 				add_building_construction = {
@@ -499,7 +499,7 @@ add_extra_state_shared_building_slots = 4
 				}}
 add_stability=0.02
 
-		}
+
 	}}
 
 													focus = {

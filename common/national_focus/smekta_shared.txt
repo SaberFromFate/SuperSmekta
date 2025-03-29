@@ -1,14 +1,222 @@
-
 shared_focus = {
-	id = RUS_russian_army
+	id = STARTDIP
 	icon = GFX_goal_RUS_army
-	x = 40
+	x = 48
 	y = 0
 	
 	cost = 1
 
 	ai_will_do = {
-		factor = 90
+		factor = 1
+	}
+	completion_reward = {
+
+	}		
+}
+shared_focus = {
+	id = STARTDIP1
+	icon = GFX_goal_RUS_army
+	x = 10
+	y = 1
+	
+	cost = 5
+		relative_position_id = STARTDIP
+	prerequisite = {
+		focus = STARTDIP
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+add_ideas=interdim1
+	}
+}
+shared_focus = {
+	id = STARTDIP2
+	icon = GFX_goal_RUS_army
+	x = 0
+	y = 1
+	
+	cost = 5
+		relative_position_id = STARTDIP1
+	prerequisite = {
+		focus = STARTDIP1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	swap_ideas={
+						remove_idea = interdim1
+					add_idea = interdim2
+	}
+	}
+}
+shared_focus = {
+	id = STARTDIP3
+	icon = GFX_goal_RUS_army
+	x = 0
+	y = 1
+	
+	cost = 5
+		relative_position_id = STARTDIP2
+	prerequisite = {
+		focus = STARTDIP2
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	swap_ideas={
+						remove_idea = interdim2
+					add_idea = interdim3
+	}
+	}
+}
+shared_focus = {
+	id = STARTDIP4
+	icon = GFX_goal_RUS_army
+	x = 0
+	y = 1
+			available = {
+tag=SVO
+			}
+		
+	cost = 5
+		relative_position_id = STARTDIP3
+	prerequisite = {
+		focus = STARTDIP3
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	swap_ideas={
+							remove_idea = vol_sm3
+					add_idea = vol_sm4
+	}
+	}
+}
+
+shared_focus = {
+	id = STARTDIP1A
+	icon = GFX_goal_RUS_army
+	x = 6
+	y = 1
+	
+	cost = 5
+		relative_position_id = STARTDIP
+	prerequisite = {
+		focus = STARTDIP
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+add_ideas=vol_sm1
+	}
+}
+shared_focus = {
+	id = STARTDIP2A
+	icon = GFX_goal_RUS_army
+	x = 0
+	y = 1
+	
+	cost = 5
+		relative_position_id = STARTDIP1A
+	prerequisite = {
+		focus = STARTDIP1A
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	swap_ideas={
+						remove_idea = vol_sm1
+					add_idea = vol_sm2
+	}
+	}
+}
+shared_focus = {
+	id = STARTDIP3A
+	icon = GFX_goal_RUS_army
+	x = 0
+	y = 1
+	
+	cost = 5
+		relative_position_id = STARTDIP2A
+	prerequisite = {
+		focus = STARTDIP2A
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	swap_ideas={
+						remove_idea = vol_sm2
+					add_idea = vol_sm3
+	}
+	}
+}
+shared_focus = {
+	id = STARTDIP4A
+	icon = GFX_goal_RUS_army
+	x = 2
+	y = 1
+	
+	cost = 6
+		relative_position_id = STARTDIP3A
+	prerequisite = {
+		focus = STARTDIP3A
+	}
+		prerequisite = {
+		focus = STARTDIP3
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	swap_ideas={						remove_idea = interdim3
+					add_idea = interdim4
+
+	
+	}
+	}
+}
+shared_focus = {
+	id = STARTDIP5A
+	icon = GFX_goal_RUS_army
+	x = -2
+	y = 2
+	
+	cost = 6
+		relative_position_id = STARTDIP3A
+	prerequisite = {
+		focus = STARTDIP3A
+	}
+	prerequisite = {
+		focus = RUS_Electronic_Warfare
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+add_ideas=goooool
+	}
+}
+shared_focus = {
+	id = RUS_russian_army
+	icon = GFX_goal_RUS_army
+	x = -10
+	y = 1
+	
+	cost = 2
+		relative_position_id = STARTDIP
+	prerequisite = {
+		focus = STARTDIP
+	}
+	ai_will_do = {
+		factor = 1
 	}
 	completion_reward = {
 
@@ -21,15 +229,16 @@ shared_focus = {
 shared_focus = {
 	id = RUS_Reintroduce_Okhranka
 	icon = GFX_RUS_Reintroduce_Okhrannoye_Otdeleniye
-	relative_position_id = RUS_russian_army
-	x = 17
+
+	x = 12
 	y = 1
-	cost = 2
+	cost = 5
+		relative_position_id = RUS_russian_army
 	prerequisite = {
 		focus = RUS_russian_army
 	}
 	ai_will_do = {
-		factor = 100
+		factor = 1
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus RUS_Reintroduce_Okhranka"

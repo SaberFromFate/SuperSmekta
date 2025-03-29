@@ -17,7 +17,7 @@ focus_tree = {
 
 	
 	default = no
-shared_focus = RUS_russian_army
+shared_focus = STARTDIP
 shared_focus = gachi16
 			focus = {
 		id = ge1

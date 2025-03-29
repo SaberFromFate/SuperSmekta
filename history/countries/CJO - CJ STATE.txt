@@ -71,7 +71,7 @@ create_country_leader = {
         #
     }
 }
-	create_faction = СЕКТА_ПОЕДАТЕЛЕЙ_СМЕКТЫ
+	create_faction = смекта
 	add_to_faction = MON 
 	add_to_faction = SLV
 	add_to_faction = IVA

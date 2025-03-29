@@ -71,14 +71,15 @@ create_country_leader = {
         #
     }
 }
+	create_faction = СЕКТА_ПОЕДАТЕЛЕЙ_СМЕКТЫ
+	add_to_faction = MON 
+	add_to_faction = SLV
+	add_to_faction = IVA
 	set_autonomy = {
 		target = OCC
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
 	}
-	create_faction = СЕКТА_ПОЕДАТЕЛЕЙ_СМЕКТЫ
-	add_to_faction = MON 
-	add_to_faction = SLV
-	add_to_faction = IVA
+
 # Лидер Страны
 

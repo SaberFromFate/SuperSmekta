@@ -31,7 +31,7 @@ ideas = {
 			modifier = {
 	
 generate_wargoal_tension_against = 1
-		
+consumer_goods_factor = 0.5
 party_popularity_stability_factor = 0.5
 production_speed_arms_factory_factor = -0.8 
 			}
@@ -50,8 +50,265 @@ supply_consumption_factor = -0.05
 			}
 
 }
+interdim1={
+			modifier = {
+        political_advisor_cost_factor = -0.15
+        air_advisor_cost_factor = -0.15
+		army_advisor_cost_factor = -0.15
+		navy_advisor_cost_factor = -0.15
+			}
+
+}
+interdim2={
+			modifier = {
+        political_advisor_cost_factor = -0.2
+        air_advisor_cost_factor = -0.2
+		army_advisor_cost_factor = -0.2
+		navy_advisor_cost_factor = -0.2
+			}
+
+}
+interdim3={
+			modifier = {
+					mobilization_laws_cost_factor = -0.2
+        political_advisor_cost_factor = -0.4
+        air_advisor_cost_factor = -0.4
+		army_advisor_cost_factor = -0.4
+		navy_advisor_cost_factor = -0.4
+			}
+
+}
+interdim4={
+			modifier = {
+army_morale = 5
+political_power_gain = 0.15
+					mobilization_laws_cost_factor = -0.2
+        political_advisor_cost_factor = -0.4
+        air_advisor_cost_factor = -0.4
+		army_advisor_cost_factor = -0.4
+		navy_advisor_cost_factor = -0.4
+		stability_factor=0.07
+			}
+
+}
 
 
+vol_sm1={
+modifier = {
+send_volunteer_divisions_required = -0.3
+send_volunteer_factor = 0.3
+send_volunteer_size = 5
+send_volunteers_tension = -0.5
+air_volunteer_cap = 100
 
+}
+}
+vol_sm2={
+modifier = {
+send_volunteer_divisions_required = -0.5
+send_volunteer_size = 10
+send_volunteers_tension = -1
+air_volunteer_cap = 300
+
+}
+}
+vol_sm3={
+modifier = {
+send_volunteer_divisions_required = -1
+send_volunteer_factor = 0.3
+send_volunteer_size = 24
+send_volunteers_tension = -1
+air_volunteer_cap = 1000
+
+}
+}
+vol_sm4={
+modifier = {
+send_volunteer_divisions_required = -1
+send_volunteer_factor = 0.3
+send_volunteer_size = 228
+send_volunteers_tension = -1
+air_volunteer_cap = 1000
+
+}
+}
+goooool={
+modifier = {
+send_volunteer_divisions_required = -1
+send_volunteer_factor = 0.3
+send_volunteer_size = 228
+send_volunteers_tension = -1
+air_volunteer_cap = 1000
+
+}
+}
+coordination_bonus = 0.2
+cas_damage_reduction = 0.2
+	
+initiative_factor = 0.1
+recon_factor = 0.2
+
+
+    AUS_organic_factories = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_industry
+        modifier = {
+            production_speed_buildings_factor = 0.1
+        }
+    }
+
+    AUS_biotech_farms = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_agriculture
+        modifier = {
+            resources_gain_factor = 0.1
+        }
+    }
+
+    AUS_biomass_trade_network = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_trade
+        modifier = {
+            trade_opinion_factor = 0.15
+        }
+    }
+
+    AUS_biological_singularity = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_science
+        modifier = {
+            research_speed_factor = 0.2
+        }
+    }
+	    AUS_collective_mind = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_political
+        modifier = {
+            stability_factor = 0.1
+            political_power_gain = -0.2
+        }
+    }
+
+    AUS_genetic_purification = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_science
+        modifier = {
+            recruitable_population_factor = 0.15
+        }
+    }
+
+    AUS_adaptive_mutations = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_army_effort
+        modifier = {
+            division_attack = 0.1
+            division_recovery_rate = 0.05
+        }
+    }
+
+    AUS_biological_terraforming = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_construct_infrastructure
+        modifier = {
+            infrastructure_construction_speed = 0.2
+        }
+    }
+
+    AUS_hybrid_warriors = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_army_effort
+        modifier = {
+            division_attack = 0.2
+            infantry_speed = 0.05
+        }
+    }
+
+    AUS_organic_warfare = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_war_goal
+        modifier = {
+            special_forces_attack = 0.15
+        }
+    }
+	    AUS_biomass_awakened = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_science
+        modifier = {
+            research_speed_factor = 0.05
+            stability_factor = -0.1
+        }
+    }
+
+    AUS_hive_mind = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_mass_mobilization
+        modifier = {
+            recruitable_population_factor = 0.2
+            construction_speed_factor = 0.15
+        }
+    }
+
+    AUS_biofactories = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_industry
+        modifier = {
+            production_speed_buildings_factor = 0.1
+        }
+    }
+
+    AUS_organic_terraforming = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_construct_infrastructure
+        modifier = {
+            infrastructure_construction_speed = 0.2
+        }
+    }
+
+    AUS_biomass_army = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_army_effort
+        modifier = {
+            division_attack = 0.1
+            division_defense = 0.1
+        }
+    }
+
+    AUS_mutant_legions = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_army_effort
+        modifier = {
+            division_attack = 0.2
+            division_recovery_rate = 0.05
+        }
+    }
+	    AUS_biomass_awakened = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_electrification
+        modifier = {
+            stability_factor = -0.1
+            war_support_factor = 0.1
+            research_speed_factor = 0.05
+        }
+    }
+
+    AUS_hive_mind = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_mass_mobilization
+        modifier = {
+            recruitable_population_factor = 0.2
+            construction_speed_factor = 0.15
+            political_power_gain = -0.1
+        }
+    }
+
+    AUS_biomass_army = {
+        allowed = { tag = AUS }
+        picture = GFX_idea_generic_army_effort
+        modifier = {
+            land_reinforce_rate = 0.05
+            division_attack = 0.1
+            division_defense = 0.1
+        }
+    }
 }
 }

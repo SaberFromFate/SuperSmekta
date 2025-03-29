@@ -254,8 +254,8 @@ prerequisite = { focus = sv_c4 }	##Наследование от Focus_Number_1
 	focus = {
         id = sv_c1
 			icon = GFX_goal_generic_construct_mil_factory
-        x = 12 #По горизонтали
-        y = 0 #По вертикали
+        x = 32 #По горизонтали
+        y = 10 #По вертикали
 
 
 	cost = 10
