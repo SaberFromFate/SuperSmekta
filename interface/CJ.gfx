@@ -11,4 +11,96 @@ spriteTypes ={
 		name = "GFX_CJ_1"
 		texturefile = "gfx/event_pictures/cj.1.dds"			
 	}
+			SpriteType = {
+		name = "GFX_CJ_4"
+		texturefile = "gfx/event_pictures/ivakov1.dds"			
+	}
+				SpriteType = {
+		name = "GFX_CJ_5"
+		texturefile = "gfx/event_pictures/2025-03-29_19-20-31.dds"			
+	}
+				SpriteType = {
+		name = "GFX_CJ_6"
+		texturefile = "gfx/event_pictures/cj.5.dds"			
+	}			SpriteType = {
+		name = "GFX_CJ_7"
+		texturefile = "gfx/event_pictures/fisting_mashine.dds"			
+	}			SpriteType = {
+		name = "GFX_CJ_8"
+		texturefile = "gfx/event_pictures/MON1.dds"			
+	}
+				SpriteType = {
+		name = "GFX_CJ_9"
+		texturefile = "gfx/event_pictures/kam1.dds"			
+	}
+				SpriteType = {
+		name = "GFX_CJ_10"
+		texturefile = "gfx/event_pictures/lgbtin.dds"			
+	}
+				SpriteType = {
+		name = "GFX_CJ_11"
+		texturefile = "gfx/event_pictures/pol_attack.dds"			
+	}
+				SpriteType = {
+		name = "GFX_CJ_12"
+		texturefile = "gfx/event_pictures/pol_puz1.dds"			
+	}
+				SpriteType = {
+		name = "GFX_CJ_13"
+		texturefile = "gfx/event_pictures/pol_vic.dds"			
+	}
+					SpriteType = {
+		name = "GFX_CJ_14"
+		texturefile = "gfx/event_pictures/pol_peace.dds"			
+	}
+						SpriteType = {
+		name = "GFX_CJ_15"
+		texturefile = "gfx/event_pictures/IVA_SRB.dds"			
+	}
+						SpriteType = {
+		name = "GFX_CJ_16"
+		texturefile = "gfx/event_pictures/cj.6.dds"			
+	}
+						SpriteType = {
+		name = "GFX_CJ_17"
+		texturefile = "gfx/event_pictures/ZHEPA.dds"			
+	}					SpriteType = {
+		name = "GFX_CJ_18"
+		texturefile = "gfx/event_pictures/ivan1.dds"			
+	}					SpriteType = {
+		name = "GFX_CJ_19"
+		texturefile = "gfx/event_pictures/iva_rasputie.dds"			
+	}
+						SpriteType = {
+		name = "GFX_CJ_20"
+		texturefile = "gfx/event_pictures/gaz_gachi.dds"			
+	}
+						SpriteType = {
+		name = "GFX_CJ_21"
+		texturefile = "gfx/event_pictures/san_gachi.dds"			
+	}
+						SpriteType = {
+		name = "GFX_CJ_22"
+		texturefile = "gfx/event_pictures/svo_gachi1.dds"			
+	}
+						SpriteType = {
+		name = "GFX_CJ_23"
+		texturefile = "gfx/event_pictures/burg_bunt.dds"			
+	}
+						SpriteType = {
+		name = "GFX_CJ_24"
+		texturefile = "gfx/event_pictures/tambov.dds"			
+	}
+						SpriteType = {
+		name = "GFX_CJ_14"
+		texturefile = "gfx/event_pictures/pol_peace.dds"			
+	}
+						SpriteType = {
+		name = "GFX_CJ_14"
+		texturefile = "gfx/event_pictures/pol_peace.dds"			
+	}
+						SpriteType = {
+		name = "GFX_CJ_14"
+		texturefile = "gfx/event_pictures/pol_peace.dds"			
+	}
 	}

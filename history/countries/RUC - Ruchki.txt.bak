@@ -82,7 +82,12 @@ if = {
 		basic_torpedo = 1
 	}
 }
-
+set_politics = {
+	ruling_party = democratic ##Рулевая партия
+	last_election = "1936.1.1" ##Последние выборы (если есть)
+	election_frequency = 48 ##Через сколько проводят выборы
+	elections_allowed = no ##Есть ли выборы
+}
 set_popularities = {
 	democratic = 50
 	fascism = 30
@@ -90,7 +95,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Никита Сабзиро"
+	name = "Никита топ 1 Шао Кан мира"
 	desc = ""
 	picture = "gfx/leaders/RUC/33.dds"
 	expire = "1953.3.1"

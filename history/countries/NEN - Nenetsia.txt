@@ -83,7 +83,7 @@ if = {
 	}
 }
 create_country_leader = {
-    name = "Правая_рука"
+    name = "Левая рука"
     desc = ""
     picture = "gfx/leaders/RAZNYE/CJ.dds" #Картинка
     expire = "1965.1.1" #Когда умрет

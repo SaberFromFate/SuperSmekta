@@ -72,7 +72,7 @@ news_event = {
 	id = cj.4
 	title = cj.4.t 
 	desc = cj.4.d
-	picture = GFX_news_event_generic_parliament
+	picture = GFX_CJ_4
 	
 	major = yes
 		immediate = {
@@ -84,18 +84,422 @@ news_event = {
 	option = {
 		name = cj.4.a
 	}
-
-	
+}
+news_event = {
+	id = cj.5
+	title = cj.5.t 
+	desc = cj.5.d
+	picture = GFX_CJ_5
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "the-ventures-ghost-riders-in-the-sky"
+				
+			}}
+	is_triggered_only = yes
 	option = {
-		name = cj.4.b
-		trigger = {
-			 tag = MON 
-		}
-		MON={puppet= BYA
-		    declare_war_on = {
-                target = NEN
-                type = annex_everything
-            }}
-		
+		name = cj.5.a
 	}
 }
+news_event = {
+	id = cj.6
+	title = cj.6.t 
+	desc = cj.6.d
+	picture = GFX_CJ_6
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "Marty_Robbins_-_Big_Iron_48399041"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.6.a
+	}
+}
+news_event = {
+	id = cj.7
+	title = cj.7.t 
+	desc = cj.7.d
+	picture = GFX_CJ_7
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "fist_mashine"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.7.a
+	}
+}
+news_event = {
+	id = cj.8
+	title = cj.8.t 
+	desc = cj.8.d
+	picture = GFX_CJ_8
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "gaz_mon"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.8.a
+	}
+}
+news_event = {
+	id = cj.9
+	title = cj.9.t 
+	desc = cj.9.d
+	picture = GFX_CJ_9
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "jap1"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.9.a
+	}
+}
+news_event = {
+	id = cj.10
+	title = cj.10.t 
+	desc = cj.10.d
+	picture = GFX_CJ_10
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "сj.lgbt"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.10.a
+	}
+}
+news_event = {
+	id = cj.11
+	title = cj.11.t 
+	desc = cj.11.d
+	picture = GFX_CJ_11
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "cj.lgbt_attack2"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.11.a
+	}
+}
+news_event = {
+	id = cj.12
+	title = cj.12.t 
+	desc = cj.12.d
+	picture = GFX_CJ_12
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "lgbt_attack1"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.12.a
+	}
+}
+news_event = {
+	id = cj.13
+	title = cj.13.t 
+	desc = cj.13.d
+	picture = GFX_CJ_13
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "cj.lgbt_peace"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.13.a
+	}
+}
+news_event = {
+	id = cj.14
+	title = cj.14.t 
+	desc = cj.14.d
+	picture = GFX_CJ_14
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "cj.lgbt_peace"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.14.a
+	}
+}
+news_event = {
+	id = cj.15
+	title = cj.15.t 
+	desc = cj.15.d
+	picture = GFX_CJ_15
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "iva_srb2"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.15.a
+	}
+}
+news_event = {
+	id = cj.16
+	title = cj.16.t 
+	desc = cj.16.d
+	picture = GFX_CJ_16
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "iva_srb1"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.16.a
+	}
+}
+news_event = {
+	id = cj.17
+	title = cj.17.t 
+	desc = cj.17.d
+	picture = GFX_CJ_17
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "iva_bos"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.17.a
+	}
+}
+news_event = {
+	id = cj.18
+	title = cj.18.t 
+	desc = cj.18.d
+	picture = GFX_CJ_18
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "iva_srb4"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.18.a
+	}
+}
+news_event = {
+	id = cj.19
+	title = cj.19.t 
+	desc = cj.19.d
+	picture = GFX_CJ_19
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "cj.iva_choice"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.19.a
+	}
+}
+news_event = {
+	id = cj.20
+	title = cj.20.t 
+	desc = cj.20.d
+	picture = GFX_CJ_20
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "cj.gaz_gachi"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.20.a
+	}
+}
+news_event = {
+	id = cj.21
+	title = cj.21.t 
+	desc = cj.21.d
+	picture = GFX_CJ_21
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "cj.san_gachi"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.21.a
+	}
+}
+news_event = {
+	id = cj.22
+	title = cj.22.t 
+	desc = cj.22.d
+	picture = GFX_CJ_22
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "cj.svyat_gachi"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.22.a
+	}
+}
+news_event = {
+	id = cj.24
+	title = cj.24.t 
+	desc = cj.24.d
+	picture = GFX_CJ_24
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "tambov"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.24.a
+	}
+}
+news_event = {
+	id = cj.2
+	title = cj.2.t 
+	desc = cj.2.d
+	picture = GFX_CJ_2
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "Marty_Robbins_-_Big_Iron_48399041"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.2.a
+	}
+}
+news_event = {
+	id = cj.2
+	title = cj.2.t 
+	desc = cj.2.d
+	picture = GFX_CJ_2
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "Marty_Robbins_-_Big_Iron_48399041"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.2.a
+	}
+}
+news_event = {
+	id = cj.2
+	title = cj.2.t 
+	desc = cj.2.d
+	picture = GFX_CJ_2
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "Marty_Robbins_-_Big_Iron_48399041"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.2.a
+	}
+}
+news_event = {
+	id = cj.2
+	title = cj.2.t 
+	desc = cj.2.d
+	picture = GFX_CJ_2
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "Marty_Robbins_-_Big_Iron_48399041"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.2.a
+	}
+}
+news_event = {
+	id = cj.2
+	title = cj.2.t 
+	desc = cj.2.d
+	picture = GFX_CJ_2
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "Marty_Robbins_-_Big_Iron_48399041"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.2.a
+	}
+}
+news_event = {
+	id = cj.2
+	title = cj.2.t 
+	desc = cj.2.d
+	picture = GFX_CJ_2
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "Marty_Robbins_-_Big_Iron_48399041"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.2.a
+	}
+}
+news_event = {
+	id = cj.2
+	title = cj.2.t 
+	desc = cj.2.d
+	picture = GFX_CJ_2
+	major = yes
+		immediate = {
+		hidden_effect={
+				play_song = "Marty_Robbins_-_Big_Iron_48399041"
+				
+			}}
+	is_triggered_only = yes
+	option = {
+		name = cj.2.a
+	}
+}
+
+

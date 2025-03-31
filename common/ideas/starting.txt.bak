@@ -134,19 +134,15 @@ air_volunteer_cap = 1000
 }
 goooool={
 modifier = {
-send_volunteer_divisions_required = -1
-send_volunteer_factor = 0.3
-send_volunteer_size = 228
-send_volunteers_tension = -1
-air_volunteer_cap = 1000
-
-}
-}
 coordination_bonus = 0.2
 cas_damage_reduction = 0.2
 	
 initiative_factor = 0.1
 recon_factor = 0.2
+
+}
+}
+
 
 
     AUS_organic_factories = {

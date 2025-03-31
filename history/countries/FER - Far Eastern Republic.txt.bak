@@ -107,3 +107,4 @@ create_country_leader = {
     }
 }
 
+set_variable = { var_dovka = 50 }

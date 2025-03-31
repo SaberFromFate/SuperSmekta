@@ -20,3 +20,127 @@ music = {
 music = {
 	song = "cj.2"
 }
+music = {
+	song = "5yeargaz"
+}
+music = {
+	song = "5year_1"
+}
+music = {
+	song = "burg1"
+}
+music = {
+	song = "cj.arg"
+}
+music = {
+	song = "cj.dissolve"
+}
+music = {
+	song = "cj.gaz_gachi"
+}
+music = {
+	song = "cj.gaz_mach"
+}
+music = {
+	song = "cj.iva_choice"
+}
+music = {
+	song = "cj.lgbt_attack2"
+}
+music = {
+	song = "cj.lgbt_peace"
+}
+music = {
+	song = "cj.lgbt_puppet"
+}
+music = {
+	song = "cj.pash_int"
+}
+music = {
+	song = "cj.pillar1"
+}
+music = {
+	song = "cj.pillar2"
+}
+music = {
+	song = "cj.san_gachi"
+}
+music = {
+	song = "cj.svyat_gachi"
+}
+music = {
+	song = "fist_mashine"
+}
+music = {
+	song = "gaz_com1"
+}
+music = {
+	song = "gaz_com3"
+}
+music = {
+	song = "gaz_com_chi"
+}
+music = {
+	song = "gaz_mon"
+}
+music = {
+	song = "gaz_san_war"
+}
+music = {
+	song = "gla_idle"
+}
+music = {
+	song = "gla_whistle"
+}
+music = {
+	song = "gla_whistle1"
+}
+music = {
+	song = "hoi4mainthemeallies"
+}
+music = {
+	song = "iva_bos"
+}
+music = {
+	song = "iva_srb1"
+}
+music = {
+	song = "iva_srb2"
+}
+music = {
+	song = "iva_srb4"
+}
+music = {
+	song = "jap1"
+}
+music = {
+	song = "lgbt_attack1"
+}
+music = {
+	song = "Marty_Robbins_-_Big_Iron_48399041"
+}
+music = {
+	song = "nazar"
+}
+music = {
+	song = "san_tim1"
+}
+music = {
+	song = "san_tim2"
+}
+music = {
+	song = "san_tim3"
+}
+music = {
+	song = "sigmaboy"
+}
+music = {
+	song = "tambov"
+}
+music = {
+	song = "the-ventures-ghost-riders-in-the-sky"
+}
+music = {
+	song = "сj.lgbt"
+}
+

@@ -94,7 +94,8 @@ create_country_leader = {
     #nazism, fascism_ideology, falangism, rexism - национализм 
     #despotism, oligarchism, moderatism и moderatism - нейтралитет 
     traits = {
-        #
+        political_chameleon,
+		prince_of_terror
     }
 }
 set_politics = {

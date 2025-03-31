@@ -90,7 +90,7 @@ if = {
 }
 
 set_popularities = {
-robots=100
+robot=100
 }
 set_politics = {
 	ruling_party = robot

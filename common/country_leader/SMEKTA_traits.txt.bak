@@ -158,7 +158,7 @@ fascism_acceptance = 50
 communism_acceptance = 50
 democratic_acceptance = 50
 neutrality_acceptance = 50
-robots_acceptance = 50
+robot_acceptance = 50
 terrain_penalty_reduction = 0.1
 army_speed_factor = 0.1
 }
@@ -332,6 +332,56 @@ DEFENCE=0.01
 	lazy_iva={
 	political_power_gain=-0.2
 	stability_weekly=-0.001
+initiative_factor = -0.2
 	}
+	les_snip={
+		static_anti_air_hit_chance_factor = 1488
+		naval_critical_score_chance_factor = 1488
+		coordination_bonus = 2.28
+	}
+	les_kush={
+	consumer_goods_factor = -0.5
+	supply_factor = 2.28
 	
+	}
+	nesov_ii={
+	research_speed_factor = 14.88
+		industrial_capacity_factory = 0.3
+		production_speed_buildings_factor = 0.2
+stability_factor = -0.5
+decryption = 666
+	}
+	pryg={
+	army_attack_speed_factor = 0.2
+		
+army_speed_factor = 0.3
+terrain_penalty_reduction = 0.3
+	
+	}
+	cowboy={
+cas_damage_reduction = 0.3
+equipment_bonus = {
+    infantry_equipment = {
+                instant = yes
+        build_cost_ic = -0.99
+    }
+}
+}
+hleb={
+consumer_goods_factor = 0.5
+production_speed_buildings_factor = 2.28
+	defence = 0.2
+		
+army_strength_factor = 0.5
+}
+greatnaz={
+political_power_gain=14.88
+stability_weekly=1.488
+}
+chlennaz={
+breakthrough_factor = 0.228
+army_strength_factor = 0.228
+	
+air_defence_factor = 2.28
+}
 }

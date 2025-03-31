@@ -26,3 +26,211 @@ music = {
 	file = "cj.4.ogg"
 	volume = 0.5
 }
+music = {
+	name = "5yeargaz"
+	file = "5yeargaz.ogg"
+	volume = 0.5
+}
+music = {
+	name = "5year_1"
+	file = "5year_1.ogg"
+	volume = 0.5
+}
+music = {
+	name = "burg1"
+	file = "burg1.ogg"
+	volume = 0.5
+}
+music = {
+	name = "cj.arg"
+	file = "cj.arg.ogg"
+	volume = 0.5
+}
+music = {
+	name = "cj.dissolve"
+	file = "cj.dissolve.ogg"
+	volume = 0.5
+}
+music = {
+	name = "cj.gaz_gachi"
+	file = "cj.gaz_gachi.ogg"
+	volume = 0.4
+}
+music = {
+	name = "cj.gaz_mach"
+	file = "cj.gaz_mach.ogg"
+	volume = 0.5
+}
+music = {
+	name = "cj.iva_choice"
+	file = "cj.iva_choice.ogg"
+	volume = 0.5
+}
+music = {
+	name = "cj.lgbt_attack2"
+	file = "cj.lgbt_attack2.ogg"
+	volume = 0.5
+}
+music = {
+	name = "cj.lgbt_peace"
+	file = "cj.lgbt_peace.ogg"
+	volume = 0.5
+}
+music = {
+	name = "cj.lgbt_puppet"
+	file = "cj.lgbt_puppet.ogg"
+	volume = 0.5
+}
+music = {
+	name = "cj.pash_int"
+	file = "cj.pash_int.ogg"
+	volume = 0.5
+}
+music = {
+	name = "cj.pillar1"
+	file = "cj.pillar1.ogg"
+	volume = 0.5
+}
+music = {
+	name = "cj.pillar2"
+	file = "cj.pillar2.ogg"
+	volume = 0.5
+}
+music = {
+	name = "cj.san_gachi"
+	file = "cj.san_gachi.ogg"
+	volume = 0.5
+}
+music = {
+	name = "cj.svyat_gachi"
+	file = "cj.svyat_gachi.ogg"
+	volume = 0.5
+}
+music = {
+	name = "fist_mashine"
+	file = "fist_mashine.ogg"
+	volume = 0.5
+}
+music = {
+	name = "gaz_com1"
+	file = "gaz_com1.ogg"
+	volume = 0.5
+}
+music = {
+	name = "gaz_com3"
+	file = "gaz_com3.ogg"
+	volume = 0.5
+}
+music = {
+	name = "gaz_com_chi"
+	file = "gaz_com_chi.ogg"
+	volume = 0.5
+}
+music = {
+	name = "gaz_mon"
+	file = "gaz_mon.ogg"
+	volume = 0.5
+}
+music = {
+	name = "gaz_san_war"
+	file = "gaz_san_war.ogg"
+	volume = 0.7
+}
+music = {
+	name = "gla_idle"
+	file = "gla_idle.ogg"
+	volume = 0.5
+}
+music = {
+	name = "gla_whistle"
+	file = "gla_whistle.ogg"
+	volume = 0.5
+}
+music = {
+	name = "gla_whistle1"
+	file = "gla_whistle1.ogg"
+	volume = 0.5
+}
+music = {
+	name = "hoi4mainthemeallies"
+	file = "hoi4mainthemeallies.ogg"
+	volume = 0.5
+}
+music = {
+	name = "iva_bos"
+	file = "iva_bos.ogg"
+	volume = 0.5
+}
+music = {
+	name = "iva_srb1"
+	file = "iva_srb1.ogg"
+	volume = 0.5
+}
+music = {
+	name = "iva_srb2"
+	file = "iva_srb2.ogg"
+	volume = 0.8
+}
+music = {
+	name = "iva_srb4"
+	file = "iva_srb4.ogg"
+	volume = 0.5
+}
+music = {
+	name = "jap1"
+	file = "jap1.ogg"
+	volume = 0.5
+}
+music = {
+	name = "lgbt_attack1"
+	file = "lgbt_attack1.ogg"
+	volume = 0.7
+}
+music = {
+	name = "Marty_Robbins_-_Big_Iron_48399041"
+	file = "Marty_Robbins_-_Big_Iron_48399041.ogg"
+	volume = 0.5
+}
+music = {
+	name = "nazar"
+	file = "nazar.ogg"
+	volume = 0.5
+}
+music = {
+	name = "san_tim1"
+	file = "san_tim1.ogg"
+	volume = 0.5
+}
+music = {
+	name = "san_tim2"
+	file = "san_tim2.ogg"
+	volume = 0.5
+}
+music = {
+	name = "san_tim3"
+	file = "san_tim3.ogg"
+	volume = 0.5
+}
+music = {
+	name = "sigmaboy"
+	file = "sigmaboy.ogg"
+	volume = 0.5
+}
+music = {
+	name = "tambov"
+	file = "tambov.ogg"
+	volume = 0.5
+}
+music = {
+	name = "the-ventures-ghost-riders-in-the-sky"
+	file = "the-ventures-ghost-riders-in-the-sky.ogg"
+	volume = 0.5
+}
+music = {
+	name = "сj.lgbt"
+	file = "сj.lgbt.ogg"
+	volume = 0.5
+}
+
+
+

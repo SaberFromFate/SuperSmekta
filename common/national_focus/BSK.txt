@@ -13,10 +13,80 @@ focus_tree = {
 	
 	default = no
 	reset_on_civilwar = no
+	
+	
+	    	focus = {
+		id = tam1
+		icon = GFX_focus_research
+
+		available = {
+			date > 1936.04.01
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = -16
+		y = 0
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+news_event = {
+    id = cj.24
+    days = 1
+}
+add_war_support=0.3
+		}
+		ai_will_do = {
+		base = 100.5
+			factor = 1
+			
+		}
+	}
+		    	focus = {
+		id = tam2
+		icon = GFX_focus_research
+				prerequisite = { focus =tam1 }
+		relative_position_id = tam1
+		available = {
+			date > 1936.04.01
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 0
+		y = 2
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+random_list = {
+    10 = {
+        		declare_war_on = {
+    target = KOM
+    type = annex_everything
+}
+    }
+    10 = {
+        puppet=KOM
+    }
+}
+		}
+		ai_will_do = {
+		base = 100.5
+			factor = 1
+			
+		}
+	}
+
 		focus = {
 		id = bashkiria_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 30
+		x = 0
 		y = 0
 		cost = 10
 		search_filters = {  FOCUS_FILTER_RESEARCH }

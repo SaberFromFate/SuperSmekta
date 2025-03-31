@@ -104,11 +104,12 @@ set_politics = {
 create_country_leader = {
     name = "ЛЕШИЙ"
     desc = ""
-	picture = 4
+	picture = "gfx/leaders/LES/4.dds"
     expire = "1965.1.1"
     ideology = oligarchism
     traits = {
-        #
+        iva_len
+		les_snip
     }
 }
 
