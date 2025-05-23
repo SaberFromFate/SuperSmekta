@@ -34,6 +34,9 @@ focus_tree = {
 		y = 2
 
 	}
+
+
+	
 	focus = {
 		id = SIM_dem
 		icon = GFX_goal_support_democracy
