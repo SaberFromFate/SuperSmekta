@@ -1,0 +1,217 @@
+focus_tree = {
+	id = IVA_zelenyu
+	country = {
+		factor = 1
+	}
+	default = yes
+	focus = {
+		id = popast_na_gubu
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = kto_vy_ya_odin
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = popast_na_gubu
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = ty_zhivi
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = popast_na_gubu
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = kalovyu_lommunism
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = kto_vy_ya_odin
+			focus = ty_zhivi
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = vyuchitsya_v_6
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = kalovyu_lommunism
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = more_tam_ya_sral
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vyuchitsya_v_6
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = znat_yaponskiy_flot
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vyuchitsya_v_6
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = tigr_
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vyuchitsya_v_6
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = zero
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vyuchitsya_v_6
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = ya_kogda_otzhum
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = kalovyu_lommunism
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = nasrat_v_tapky
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ya_kogda_otzhum
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = po_vsemy_souzy_3_semerki
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = nasrat_v_tapky
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = ob_malafit_steny
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ya_kogda_otzhum
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = nosi_zvezd_zhrat_kall
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ob_malafit_steny
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = davai_pokushaem_posidim
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = more_tam_ya_sral
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = znat_yaponskiy_grnshtab
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = znat_yaponskiy_flot
+		}
+		x = 4
+		y = 5
+
+	}
+	focus = {
+		id = v_derevnyah_to_eli_vse
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ob_malafit_steny
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = y_menya_tozhe_chirey
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = znat_yaponskiy_grnshtab
+		}
+		prerequisite = {
+			focus = tigr_
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = semerochka
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = po_vsemy_souzy_3_semerki
+		}
+		x = 10
+		y = 7
+
+	}
+}

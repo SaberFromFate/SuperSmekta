@@ -1,0 +1,79 @@
+focus_tree = {
+	id = IVA_SKUF
+	country = {
+		factor = 1
+	}
+	default = yes
+	focus = {
+		id = vypit_pivasik
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 8
+		y = 0
+
+	}
+	focus = {
+		id = pit_vodky_v_odinochest
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = shodit_na_lenin
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = daleko_ehat
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = drochit_3_raza_v_den
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = zanyatsa_rybalkoi
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = world_of_tanks
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = pivoprovod
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = vypit_s_druzyami
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 6
+		y = 1
+
+	}
+}

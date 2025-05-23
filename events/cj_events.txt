@@ -110,7 +110,17 @@ news_event = {
 		immediate = {
 		hidden_effect={
 				play_song = "Marty_Robbins_-_Big_Iron_48399041"
-				
+				MON= {annex_country = {
+    target = BYA
+    transfer_troops = yes
+}}
+				every_state = {
+					limit = {
+						is_core_of = BYA
+					}
+					set_compliance = 30
+				}
+
 			}}
 	is_triggered_only = yes
 	option = {
@@ -390,19 +400,19 @@ news_event = {
 	}
 }
 news_event = {
-	id = cj.2
-	title = cj.2.t 
-	desc = cj.2.d
-	picture = GFX_CJ_2
+	id = cj.25
+	title = cj.25.t 
+	desc = cj.25.d
+	picture = GFX_CJ_25
 	major = yes
 		immediate = {
 		hidden_effect={
-				play_song = "Marty_Robbins_-_Big_Iron_48399041"
+				play_song = "Ystyk_pishter"
 				
 			}}
 	is_triggered_only = yes
 	option = {
-		name = cj.2.a
+		name = cj.25.a
 	}
 }
 news_event = {

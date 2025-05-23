@@ -1,0 +1,663 @@
+focus_tree = {
+	id = IVA_PASHA
+	country = {
+		factor = 1
+	}
+	default = yes
+	focus = {
+		id = matcad
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = skachat_bary
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 11
+		y = 0
+
+	}
+	focus = {
+		id = proiti_mgr
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 15
+		y = 0
+
+	}
+	focus = {
+		id = skachat_warthunder
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = skachat_bary
+			focus = matcad
+			focus = proiti_mgr
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = pochinit_torrent
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = skachat_warthunder
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = cjfrost
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = pochinit_torrent
+		}
+		mutually_exclusive = {
+			focus = happywolf
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = happywolf
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = pochinit_torrent
+		}
+		mutually_exclusive = {
+			focus = cjfrost
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = metro
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = pochinit_torrent
+		}
+		mutually_exclusive = {
+			focus = piski_v_oborone
+			focus = piski_v_oborone
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = piski_v_oborone
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = pochinit_torrent
+		}
+		mutually_exclusive = {
+			focus = metro
+			focus = metro
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = doctor_mefedroniy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = piski_v_oborone
+			focus = metro
+		}
+		mutually_exclusive = {
+			focus = nachat_kolot_stradaniyom
+			focus = nachat_kolot_stradaniyom
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = nachat_kolot_stradaniyom
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = metro
+			focus = piski_v_oborone
+		}
+		mutually_exclusive = {
+			focus = doctor_mefedroniy
+			focus = doctor_mefedroniy
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = proniknutsa_parahodami
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = doctor_mefedroniy
+			focus = nachat_kolot_stradaniyom
+		}
+		mutually_exclusive = {
+			focus = potrogat_travy
+			focus = potrogat_travy
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = stat_magom_externom
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = proniknutsa_parahodami
+		}
+		mutually_exclusive = {
+			focus = sociolizacia
+			focus = sociolizacia
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = probit_kv
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = skachat_warthunder
+		}
+		mutually_exclusive = {
+			focus = ne_probit_kv
+			focus = ne_probit_kv
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = ne_probit_kv
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = skachat_warthunder
+		}
+		mutually_exclusive = {
+			focus = probit_kv
+			focus = probit_kv
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = kupit_paketiki
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = probit_kv
+			focus = ne_probit_kv
+		}
+		mutually_exclusive = {
+			focus = ne_pokupat
+			focus = ne_pokupat
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = ne_pokupat
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ne_probit_kv
+			focus = probit_kv
+		}
+		mutually_exclusive = {
+			focus = kupit_paketiki
+			focus = kupit_paketiki
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = kupit_mnogo_paketikov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = kupit_paketiki
+			focus = ne_pokupat
+		}
+		mutually_exclusive = {
+			focus = userdno_igrat
+			focus = userdno_igrat
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = userdno_igrat
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = kupit_paketiki
+			focus = ne_pokupat
+		}
+		mutually_exclusive = {
+			focus = kupit_mnogo_paketikov
+			focus = kupit_mnogo_paketikov
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = vsesti_banan)
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = proiti_mgr
+			focus = skachat_bary
+			focus = matcad
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = podognat
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vsesti_banan)
+		}
+		mutually_exclusive = {
+			focus = ebatsya_s_kotlom
+			focus = ebatsya_s_kotlom
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = ebatsya_s_kotlom
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vsesti_banan)
+		}
+		mutually_exclusive = {
+			focus = podognat
+			focus = podognat
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = poslat_odnogrup
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ebatsya_s_kotlom
+			focus = podognat
+		}
+		mutually_exclusive = {
+			focus = sosat_u_ognogrup
+			focus = sosat_u_ognogrup
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = sosat_u_ognogrup
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ebatsya_s_kotlom
+			focus = podognat
+		}
+		mutually_exclusive = {
+			focus = poslat_odnogrup
+			focus = poslat_odnogrup
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = viuchit_fizgar
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = poslat_odnogrup
+			focus = sosat_u_ognogrup
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = szhigat_evreev
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = viuchit_fizgar
+		}
+		mutually_exclusive = {
+			focus = mirniy_atom
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = skachat_mylo
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = kupit_mnogo_paketikov
+			focus = userdno_igrat
+			focus = szhigat_evreev
+		}
+		x = 13
+		y = 8
+
+	}
+	focus = {
+		id = igrat_s_kayfov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = skachat_mylo
+		}
+		mutually_exclusive = {
+			focus = zabyvat_stavit_pehoty
+			focus = zabyvat_stavit_pehoty
+		}
+		x = 12
+		y = 9
+
+	}
+	focus = {
+		id = mirniy_atom
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = viuchit_fizgar
+		}
+		mutually_exclusive = {
+			focus = szhigat_evreev
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = szhigat_geev
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = szhigat_evreev
+			focus = mirniy_atom
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = zaminamina_ee
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sosat_u_ognogrup
+			focus = poslat_odnogrup
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = szhigat_hacheyhachey
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = mirniy_atom
+			focus = szhigat_evreev
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = atomka
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vsesti_banan)
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = le_boom
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = atomka
+		}
+		mutually_exclusive = {
+			focus = netnetnet
+			focus = netnetnet
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = netnetnet
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = atomka
+		}
+		mutually_exclusive = {
+			focus = le_boom
+			focus = le_boom
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = revolution_in_kotly
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = mirniy_atom
+		}
+		prerequisite = {
+			focus = netnetnet
+		}
+		x = 19
+		y = 7
+
+	}
+	focus = {
+		id = economika
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vsesti_banan)
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = viuchit_etu_huniy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = economika
+		}
+		mutually_exclusive = {
+			focus = othuarit_economichky
+			focus = othuarit_economichky
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = pyatera_pas
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = igrat_s_kayfov
+			focus = zabyvat_stavit_pehoty
+		}
+		x = 13
+		y = 10
+
+	}
+	focus = {
+		id = zabyvat_stavit_pehoty
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = skachat_mylo
+		}
+		mutually_exclusive = {
+			focus = igrat_s_kayfov
+			focus = igrat_s_kayfov
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = potrogat_travy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = nachat_kolot_stradaniyom
+			focus = doctor_mefedroniy
+		}
+		mutually_exclusive = {
+			focus = proniknutsa_parahodami
+			focus = proniknutsa_parahodami
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = sociolizacia
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = potrogat_travy
+		}
+		mutually_exclusive = {
+			focus = stat_magom_externom
+			focus = stat_magom_externom
+		}
+		x = 5
+		y = 8
+
+	}
+	focus = {
+		id = othuarit_economichky
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = economika
+		}
+		mutually_exclusive = {
+			focus = viuchit_etu_huniy
+			focus = viuchit_etu_huniy
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = exp_exchange
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sociolizacia
+			focus = stat_magom_externom
+		}
+		x = 6
+		y = 9
+
+	}
+	focus = {
+		id = detey_v_shaty
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = happywolf
+			focus = cjfrost
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = sup_iz_huiny
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = cjfrost
+			focus = happywolf
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = nikakoy_nadezhy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sup_iz_huiny
+			focus = detey_v_shaty
+		}
+		x = 2
+		y = 6
+
+	}
+	focus = {
+		id = gulat_so_snektoy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = potrogat_travy
+			focus = proniknutsa_parahodami
+		}
+		x = 6
+		y = 7
+
+	}
+}

@@ -35,6 +35,8 @@ set_popularities = {
 	fascism = 15
 	gachism=20
 	communism = 35
+	neutrality=10
 }
 
 
+give_guarantee = GER

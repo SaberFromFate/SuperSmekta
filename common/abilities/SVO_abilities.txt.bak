@@ -1,0 +1,153 @@
+ability = {
+	magom_sharsh = {
+		name = ABILITY_magom_sharsh
+		desc = ABILITY_magom_sharsh_DESC
+		
+		sound_effect = command_power_ability_offensive
+		
+		type = army_leader
+		
+		allowed = {
+			is_border_war = no
+			
+				OR = {
+					OWNER = {
+					has_completed_focus = SVO_magom_sharsh}
+					AND={
+					OWNER = {has_country_flag = svo_tech}
+					SVO= {
+					has_completed_focus = SVO_magom_sharsh}
+					}
+				}
+			
+		}
+		
+		cost = 0.1
+		duration = 168
+		
+		one_time_effect = {
+					OWNER = {add_timed_idea={
+							idea = sharsh
+				days = 7
+			}}
+				tooltip = ABILITY_LAST_STAND_TOOLTIP
+			
+		}
+		
+
+	}
+		gosling = {
+		name = ABILITY_gosling
+		desc = ABILITY_gosling_DESC
+		
+		sound_effect = command_power_ability_offensive
+		
+		type = army_leader
+		
+		allowed = {
+			is_border_war = no
+			
+				OR = {
+					OWNER = {
+					has_completed_focus = gachi16}
+					OWNER = {has_country_flag = gos_tech}
+
+				}
+			
+		}
+		
+		cost = 0.1
+		duration = 300
+		
+		one_time_effect = {
+					OWNER = {add_timed_idea={
+							idea = gosling_self
+				days = 7
+			}}
+
+				tooltip = ABILITY_LAST_STAND_TOOLTIP
+
+		}
+		
+
+	}
+	stroy= {
+		name = ABILITY_stroy
+		desc = ABILITY_stroy_DESC
+		
+		sound_effect = command_power_ability_offensive
+		
+		type = army_leader
+		
+		allowed = {
+			is_border_war = no
+			
+				OR = {
+					OWNER = {
+					has_completed_focus = SVO_stroy}
+					AND={
+					OWNER = {has_country_flag = svo_tech}
+					SVO= {
+					has_completed_focus = SVO_stroy}
+					}
+
+				}
+			
+		}
+		
+		cost = 0.01
+		duration = 355
+		
+		one_time_effect = {
+					OWNER = {add_timed_idea={
+							idea = stroychik
+				days = 14
+			}}
+		}
+		
+
+	}
+	zazhim= {
+		name = ABILITY_zazhim
+		desc = ABILITY_zazhim_DESC
+		
+		sound_effect = command_power_ability_offensive
+		
+		type = army_leader
+		
+		allowed = {
+			is_border_war = no
+			
+				OR = {
+					OWNER = {
+					has_completed_focus = SAN_zazhim}
+					AND={
+					OWNER = {has_country_flag = san_tech}
+					SAN= {
+					has_completed_focus = SAN_zazhim}
+					}
+
+				}
+			
+		}
+		
+		cost = 0.1
+		duration = 300
+		
+		one_time_effect = {
+			every_enemy_country= {add_timed_idea={
+							idea = zazhimchik
+				days = 7
+			}}
+OWNER = {add_timed_idea={
+							idea = zazhimchik_self
+				days = 7
+			}}
+				tooltip = ABILITY_LAST_STAND_TOOLTIP
+			
+		}
+		
+
+	}
+	
+	}

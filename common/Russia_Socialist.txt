@@ -1,0 +1,2233 @@
+focus_tree = {
+	id = Russia_Socialist
+	country = {
+		factor = 1
+	}
+	default = yes
+	focus = {
+		id = RUS_Zhukov_Rules_Alone
+		icon = GFX_focus_rus_zhukov
+		cost = 4,00
+		x = 24
+		y = 0
+			available = {
+					has_country_flag = zhukov_rules_alone
+				}
+			ai_will_do = {
+					factor = 100
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus RUS_Zhukov_Rules_Alone"
+					add_ideas = SOV_cult_zhukov_idea
+				}
+
+	}
+	focus = {
+		id = SOV_Premier_Lozovsky
+		icon = GFX_RUS_Premier_Lozovsky
+		cost = 0,00
+		x = 19
+		y = 0
+			available = {
+					has_idea = RUS_Rafail_Abramovich_hog_sde
+					has_country_flag = soviet_congress_end
+				}
+			bypass = {
+					has_idea = RUS_Rafail_Abramovich_hog_sde
+					has_country_flag = soviet_congress_end
+				}
+			ai_will_do = {
+					factor = 100
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Premier_Lozovsky"
+					custom_effect_tooltip = unlock_focuses
+				}
+
+	}
+	focus = {
+		id = SOV_Premier_Rykov
+		icon = GFX_RUS_Premier_Rykov
+		cost = 0,00
+		x = 2
+		y = 2
+			available = {
+					SOV_rykov_in_power = yes
+					NOT = {
+							has_active_mission = SOV_get_ready_for_congress
+						}
+				}
+			bypass = {
+					SOV_rykov_in_power = yes
+					NOT = {
+							has_active_mission = SOV_get_ready_for_congress
+						}
+				}
+			ai_will_do = {
+					factor = 20
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Premier_Rykov"
+					custom_effect_tooltip = unlock_focuses
+				}
+
+	}
+	focus = {
+		id = RUS_Bolsheviks_In_Power
+		icon = GFX_SOV_bolsheviks_in_power
+		cost = 0,00
+		x = 43
+		y = 0
+			available = {
+					has_country_flag = bolsheviks_victorous
+				}
+			ai_will_do = {
+					factor = 100
+				}
+			bypass = {
+					has_country_flag = zhukov_invites_bolsheviks
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus RUS_Bolsheviks_In_Power"
+					custom_effect_tooltip = unlock_focuses
+					hidden_effect = {
+							country_event = super.53
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Chairman_Gastev
+		icon = GFX_SOV_gastev
+		cost = 2,00
+		x = 12
+		y = 7
+		relative_position_id = RUS_Bolsheviks_In_Power
+			available = {
+					has_country_leader = {
+							ruling_only = yes
+							name = "Aleksei Gastev"
+						}
+				}
+			bypass = {
+					has_country_leader = {
+							ruling_only = yes
+							name = "Aleksei Gastev"
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Chairman_Gastev"
+					custom_effect_tooltip = unlock_focuses
+				}
+
+	}
+	focus = {
+		id = SOV_Prolektult
+		icon = GFX_SOV_proletkult
+		cost = 4,00
+		x = -17
+		y = 7
+		relative_position_id = RUS_Bolsheviks_In_Power
+			available = {
+					OR = {
+							SOV_lunacharsky_in_power = yes
+							has_country_flag = SOV_Anatoly_Lunacharsky_edu
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Prolektult"
+					setup_cultural_revolution_proletkult = yes
+					hidden_effect = {
+							country_event = {
+									id = russoc.110
+									days = 135
+								}
+							country_event = {
+									id = russia.3678
+									days = 75
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Profintern
+		icon = GFX_SOV_profintern
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Premier_Lozovsky
+		}
+		x = 1
+		y = 1
+		relative_position_id = SOV_Premier_Lozovsky
+			available = {
+					has_idea = RUS_Rafail_Abramovich_hog_sde
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					country_event = russoc.25
+				}
+
+	}
+	focus = {
+		id = SOV_Rykovs_Selkhoznalog
+		icon = GFX_RUS_Rykovs_Selkhoznalog
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Premier_Rykov
+		}
+		x = 2
+		y = 1
+		relative_position_id = SOV_Premier_Rykov
+			available = {
+					SOV_rykov_in_power = yes
+				}
+			ai_will_do = {
+					factor = 20
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Rykovs_Selkhoznalog"
+					RUS_nep_increase_state_and_peasant = yes
+					set_temp_variable = {
+							politburo_change = 2
+						}
+					SOV_change_politburo_rykov = yes
+					hidden_effect = {
+							country_event = {
+									id = russoc.201
+									days = 15
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Complete_Nationalization
+		icon = GFX_RUS_Complete_Nationalization
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Premier_Rykov
+		}
+		x = 0
+		y = 1
+		relative_position_id = SOV_Premier_Rykov
+			available = {
+					SOV_rykov_in_power = yes
+				}
+			ai_will_do = {
+					factor = 20
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Complete_Nationalization"
+					RUS_nep_increase_state = yes
+					if = {
+							limit = {
+									has_dynamic_modifier = {
+											modifier = RUS_Foreign_Concessions_modifier
+										}
+								}
+							remove_dynamic_modifier = {
+									modifier = RUS_Foreign_Concessions_modifier
+								}
+						}
+					every_other_country = {
+							limit = {
+									has_idea = RUS_foreign_profits
+								}
+							remove_ideas = RUS_foreign_profits
+						}
+					clear_variable = RUS_foreign_construction_speed
+					clear_variable = RUS_foreign_factory_output
+					clear_variable = RUS_foreign_factories
+					custom_effect_tooltip = tooltip_white_line
+					add_ideas = SOV_full_control_over_plants
+				}
+
+	}
+	focus = {
+		id = SOV_Tax_the_Vodka
+		icon = GFX_RUS_Tax_Vodka
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Rykovs_Selkhoznalog
+		}
+		prerequisite = {
+			focus = SOV_Complete_Nationalization
+		}
+		x = 1
+		y = 2
+		relative_position_id = SOV_Premier_Rykov
+			available = {
+					SOV_rykov_in_power = yes
+				}
+			ai_will_do = {
+					factor = 20
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Tax_the_Vodka"
+					add_ideas = SOV_taxes_on_vodka
+					RUS_decrease_nsp_pop = yes
+					country_event = russoc.199
+				}
+
+	}
+	focus = {
+		id = SOV_Expand_The_Cheka
+		icon = GFX_RUS_Recreate_Cheka
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_Bolsheviks_In_Power
+		}
+		mutually_exclusive = {
+			focus = SOV_Diminish_The_Cheka
+		}
+		x = 4
+		y = 1
+		relative_position_id = RUS_Bolsheviks_In_Power
+			available = {
+					has_country_flag = SOV_politburo_established
+					SOV_moderate_bolsheviks_in_power = no
+				}
+			ai_will_do = {
+					factor = 100
+					modifier = {
+							factor = 0
+							OR = {
+									has_game_rule = {
+											rule = SOV_politburo_struggle
+											option = SOV_PATH_GASTEV
+										}
+									has_game_rule = {
+											rule = SOV_politburo_struggle
+											option = SOV_PATH_LUNACHARSKY
+										}
+									has_game_rule = {
+											rule = SOV_politburo_struggle
+											option = SOV_PATH_MAYAKOVSKY
+										}
+									has_game_rule = {
+											rule = SOV_politburo_struggle
+											option = SOV_PATH_KAGANOVICH
+										}
+									has_game_rule = {
+											rule = SOV_politburo_struggle
+											option = SOV_PATH_KRESTINSKY
+										}
+									has_game_rule = {
+											rule = SOV_politburo_struggle
+											option = SOV_PATH_MOLOTOV
+										}
+									has_game_rule = {
+											rule = SOV_politburo_struggle
+											option = SOV_PATH_YAGODA
+										}
+									has_game_rule = {
+											rule = SOV_politburo_struggle
+											option = SOV_PATH_YEZHOV
+										}
+								}
+						}
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Expand_The_Cheka"
+					if = {
+							limit = {
+									has_dlc_lar = yes
+								}
+							swap_ideas = {
+									remove_idea = RUS_Restored_Cheka_lar
+									add_idea = SOV_institutionalized_terror_lar
+								}
+						}
+					else = {
+							swap_ideas = {
+									remove_idea = RUS_Restored_Cheka
+									add_idea = SOV_institutionalized_terror
+								}
+						}
+					if = {
+							limit = {
+									has_dlc_lar = yes
+									NOT = {
+											has_done_agency_upgrade = upgrade_psycho_warfare
+										}
+								}
+							upgrade_intelligence_agency = upgrade_psycho_warfare
+						}
+					if = {
+							limit = {
+									has_dlc_lar = yes
+									NOT = {
+											has_done_agency_upgrade = upgrade_anti_partisan
+										}
+								}
+							upgrade_intelligence_agency = upgrade_anti_partisan
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Diminish_The_Cheka
+		icon = GFX_SOV_diminsh_the_cheka
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_Bolsheviks_In_Power
+		}
+		mutually_exclusive = {
+			focus = SOV_Expand_The_Cheka
+		}
+		x = 6
+		y = 1
+		relative_position_id = RUS_Bolsheviks_In_Power
+			available = {
+					has_country_flag = SOV_politburo_established
+					SOV_yezhov_in_power = no
+					SOV_molotov_in_power = no
+					SOV_yagoda_in_power = no
+					SOV_kaganovich_in_power = no
+					SOV_blagonravov_in_power = no
+					if = {
+							limit = {
+									has_dlc_lar = yes
+								}
+							has_idea = RUS_Restored_Cheka_lar
+						}
+					else = {
+							has_idea = RUS_Restored_Cheka
+						}
+					if = {
+							limit = {
+									SOV_zinoviev_in_power = yes
+								}
+							hidden_trigger = {
+									has_country_flag = SOV_can_diminish_cheka
+								}
+						}
+				}
+			ai_will_do = {
+					factor = 100
+					modifier = {
+							factor = 0
+							has_game_rule = {
+									rule = SOV_politburo_struggle
+									option = SOV_PATH_ZINOVIEV
+								}
+						}
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Diminish_The_Cheka"
+					add_stability = 0.10
+					decrease_ruling_party_popularity_by_10 = yes
+					if = {
+							limit = {
+									has_idea = RUS_Restored_Cheka_lar
+								}
+							remove_ideas = RUS_Restored_Cheka_lar
+						}
+					else = {
+							remove_ideas = RUS_Restored_Cheka
+						}
+					set_temp_variable = {
+							politburo_change = -3
+						}
+					SOV_change_politburo_hardliners = yes
+					set_temp_variable = {
+							politburo_change = 3
+						}
+					SOV_change_politburo_bukharin = yes
+				}
+
+	}
+	focus = {
+		id = SOV_Involve_Peasants_Into_Socialism
+		icon = GFX_RUS_Involve_Peasants_Into_Socialism
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Premier_Rykov
+		}
+		x = -2
+		y = 1
+		relative_position_id = SOV_Premier_Rykov
+			available = {
+					OR = {
+							SOV_rykov_in_power = yes
+							SOV_kirov_in_power = yes
+							SOV_kamenev_in_power = yes
+							SOV_sokolnikov_in_power = yes
+							SOV_bukharin_in_power = yes
+						}
+					if = {
+							limit = {
+									SOV_rykov_in_power = no
+									SOV_bukharin_in_power = no
+								}
+							has_country_flag = SOV_decided_to_go_on_with_nep
+						}
+				}
+			ai_will_do = {
+					factor = 20
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Involve_Peasants_Into_Socialism"
+					add_ideas = SOV_voluntary_collectivization
+				}
+
+	}
+	focus = {
+		id = SOV_The_New_Proletarian_Generation
+		text = RUS_The_New_Proletarian_Generation
+		icon = GFX_RUS_New_Proletarian_Generation2
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Involve_Peasants_Into_Socialism
+		}
+		x = 1
+		y = -1
+			available = {
+					OR = {
+							SOV_bukharin_in_power = yes
+							SOV_kirov_in_power = yes
+							SOV_kamenev_in_power = yes
+							SOV_sokolnikov_in_power = yes
+						}
+				}
+			ai_will_do = {
+					factor = 30
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_The_New_Proletarian_Generation"
+					add_ideas = SOV_proletarian_youth
+					country_event = russoc.195
+				}
+
+	}
+	focus = {
+		id = SOV_Technocratic_Leadership
+		icon = GFX_RUS_Russia_Technocrats
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_The_New_Proletarian_Generation
+		}
+		x = 2
+		y = 0
+			available = {
+					OR = {
+							SOV_bukharin_in_power = yes
+							SOV_kirov_in_power = yes
+							SOV_kamenev_in_power = yes
+							SOV_sokolnikov_in_power = yes
+						}
+				}
+			ai_will_do = {
+					factor = 100
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Technocratic_Leadership"
+					add_ideas = SOV_technocracy
+				}
+
+	}
+	focus = {
+		id = SOV_Party_Unity
+		icon = GFX_RUS_Party_Unity
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Involve_Peasants_Into_Socialism
+		}
+		x = -1
+		y = -1
+			available = {
+					OR = {
+							SOV_bukharin_in_power = yes
+							SOV_kirov_in_power = yes
+							SOV_kamenev_in_power = yes
+							SOV_sokolnikov_in_power = yes
+						}
+				}
+			ai_will_do = {
+					factor = 100
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Party_Unity"
+					add_stability = 0.08
+					increase_ruling_party_popularity_by_5 = yes
+				}
+
+	}
+	focus = {
+		id = SOV_Rapprochement_Bolsheviks
+		icon = GFX_RUS_Rapprochement_Communists
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Party_Unity
+		}
+		x = -2
+		y = 0
+			available = {
+					OR = {
+							SOV_kirov_in_power = yes
+							SOV_kamenev_in_power = yes
+							SOV_sokolnikov_in_power = yes
+							has_completed_focus = SOV_Confide_In_Kamenev
+						}
+					has_country_flag = SOV_rkp_in_politburo
+					has_country_flag = SOV_decided_to_go_down_with_nep
+				}
+			bypass = {
+					hidden_trigger = {
+							has_country_flag = RUS_nsp_rkp_united
+						}
+				}
+			ai_will_do = {
+					factor = 100
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Rapprochement_Bolsheviks"
+					add_tot_to_coalition = yes
+					set_party_name = {
+							ideology = totalist
+							name = SOV_kamenev_party
+							long_name = SOV_kamenev_party
+						}
+					set_party_name = {
+							ideology = radical_socialist
+							name = SOV_kamenev_party
+							long_name = SOV_kamenev_party
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_The_Workers_Peasants_Constitution
+		icon = GFX_RUS_Workers_Peasants_State
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Party_Unity
+		}
+		prerequisite = {
+			focus = SOV_The_New_Proletarian_Generation
+		}
+		x = 0
+		y = 0
+			available = {
+					OR = {
+							SOV_bukharin_in_power = yes
+							SOV_kirov_in_power = yes
+							SOV_kamenev_in_power = yes
+							SOV_sokolnikov_in_power = yes
+						}
+				}
+			ai_will_do = {
+					factor = 100
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_The_Workers_Peasants_Constitution"
+					add_ideas = SOV_proletarian_humanism
+					RUS_increase_nsp_pop_large = yes
+				}
+
+	}
+	focus = {
+		id = SOV_Achieve_Level_Of_Ford
+		icon = GFX_RUS_Achieve_Level_Ford
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Complete_Nationalization
+		}
+		prerequisite = {
+			focus = SOV_Involve_Peasants_Into_Socialism
+		}
+		x = -1
+		y = 2
+		relative_position_id = SOV_Premier_Rykov
+			available = {
+					SOV_rykov_in_power = yes
+				}
+			ai_will_do = {
+					factor = 20
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Achieve_Level_Of_Ford"
+					RUS_nep_increase_state_and_worker = yes
+					activate_targeted_decision = {
+							target = 209
+							decision = RUS_Develop_Civilian_Industry_In_State
+						}
+					activate_targeted_decision = {
+							target = 220
+							decision = RUS_Develop_Civilian_Industry_In_State
+						}
+					activate_targeted_decision = {
+							target = 248
+							decision = RUS_Develop_Civilian_Industry_In_State
+						}
+					activate_targeted_decision = {
+							target = 249
+							decision = RUS_Develop_Civilian_Industry_In_State
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Cultivation_Of_A_Communist_Man
+		icon = GFX_RUS_Cultivation_Communist_Man
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Achieve_Level_Of_Ford
+		}
+		prerequisite = {
+			focus = SOV_Tax_the_Vodka
+		}
+		x = 1
+		y = 3
+		relative_position_id = SOV_Premier_Rykov
+			available = {
+					SOV_rykov_in_power = yes
+				}
+			ai_will_do = {
+					factor = 20
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Cultivation_Of_A_Communist_Man"
+					add_ideas = RUS_sovietification_0
+					add_political_power = 100
+					RUS_increase_nsp_pop_large = yes
+				}
+
+	}
+	focus = {
+		id = SOV_Revive_RSRPI
+		text = RUS_Revive_RSRPI
+		icon = GFX_SOV_Revive_RSRPI
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Premier_Lozovsky
+		}
+		x = -1
+		y = 1
+		relative_position_id = SOV_Premier_Lozovsky
+			available = {
+					has_idea = RUS_Rafail_Abramovich_hog_sde
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					set_country_flag = RUS_rsrpi_exists
+					set_party_name = {
+							ideology = social_democrat
+							name = RUS_rsrpi_party
+							long_name = RUS_rsrpi_party_long
+						}
+					add_research_slot_until_five = yes
+				}
+
+	}
+	focus = {
+		id = SOV_A_Great_Leap_Forward
+		text = RUS_A_Great_Leap_Forward
+		icon = GFX_SOV_A_Great_Leap_Forward
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Profintern
+		}
+		prerequisite = {
+			focus = SOV_Revive_RSRPI
+		}
+		x = 0
+		y = 2
+		relative_position_id = SOV_Premier_Lozovsky
+			available = {
+					has_idea = RUS_Rafail_Abramovich_hog_sde
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					add_ideas = RUS_menshevik_industrialisation
+					activate_targeted_decision = {
+							target = 263
+							decision = RUS_Develop_Civilian_Industry_In_State
+						}
+					activate_targeted_decision = {
+							target = 248
+							decision = RUS_Develop_Civilian_Industry_In_State
+						}
+					activate_targeted_decision = {
+							target = 252
+							decision = RUS_Develop_Civilian_Industry_In_State
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Towards_Planned_Economy
+		text = RUS_Towards_Planned_Economy
+		icon = GFX_goal_COR_Southern_Command_Economy
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_A_Great_Leap_Forward
+		}
+		x = 0
+		y = 3
+		relative_position_id = SOV_Premier_Lozovsky
+			available = {
+					has_idea = RUS_Rafail_Abramovich_hog_sde
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					if = {
+							limit = {
+									has_idea = rus_unfinished_land_reform
+								}
+							destroy_unfinished_land_reform = yes
+						}
+					swap_ideas = {
+							remove_idea = RUS_menshevik_industrialisation
+							add_idea = RUS_menshevik_industrialisation_1
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Cheap_Housing
+		icon = GFX_collective_housing
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_A_Great_Leap_Forward
+		}
+		x = 2
+		y = 3
+		relative_position_id = SOV_Premier_Lozovsky
+			available = {
+					has_idea = RUS_Rafail_Abramovich_hog_sde
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					add_ideas = RUS_cheap_housing
+					every_owned_state = {
+							limit = {
+									OR = {
+											has_state_category = five
+											has_state_category = four
+											has_state_category = three
+										}
+								}
+							increase_state_category_by_one_level = yes
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Governmental_Control
+		text = RUS_Governmental_Control
+		icon = GFX_SOV_Governmental_Control
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Towards_Planned_Economy
+		}
+		x = 0
+		y = 4
+		relative_position_id = SOV_Premier_Lozovsky
+			available = {
+					has_idea = RUS_Rafail_Abramovich_hog_sde
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = RUS_menshevik_industrialisation_1
+							add_idea = RUS_menshevik_industrialisation_2
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_General_Education
+		icon = GFX_goal_CZE_rural_education
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_A_Great_Leap_Forward
+		}
+		x = -2
+		y = 3
+		relative_position_id = SOV_Premier_Lozovsky
+			available = {
+					has_idea = RUS_Rafail_Abramovich_hog_sde
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					add_ideas = RUS_general_education
+				}
+
+	}
+	focus = {
+		id = SOV_A_Country_For_People
+		text = RUS_A_Country_For_People
+		icon = GFX_SOV_A_Country_For_People
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Governmental_Control
+		}
+		x = 0
+		y = 5
+		relative_position_id = SOV_Premier_Lozovsky
+			available = {
+					has_idea = RUS_Rafail_Abramovich_hog_sde
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					add_stability = 0.07
+					add_popularity = {
+							ideology = social_democrat
+							popularity = 0.07
+						}
+					every_owned_state = {
+							limit = {
+									has_resistance = yes
+								}
+							add_compliance = 10
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_Dictatorship_Of_Red_Army
+		icon = GFX_SOV_krasna_dictatorship
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_Zhukov_Rules_Alone
+		}
+		prerequisite = {
+			focus = RUS_Control_Press
+		}
+		x = 0
+		y = 2
+		relative_position_id = RUS_Zhukov_Rules_Alone
+			ai_will_do = {
+					factor = 20
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus RUS_Dictatorship_Of_Red_Army"
+					add_war_support = 0.15
+					add_ideas = RUS_war_communism
+				}
+
+	}
+	focus = {
+		id = RUS_Control_Press
+		icon = GFX_SOV_pravda
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_Zhukov_Rules_Alone
+		}
+		x = -1
+		y = 1
+			available = {
+					has_government = totalist
+				}
+			ai_will_do = {
+					factor = 20
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus RUS_Control_Press"
+					country_event = russoc.20
+				}
+
+	}
+	focus = {
+		id = RUS_Revolutionary_Commissars
+		icon = GFX_SOV_rev_commisars
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_Dictatorship_Of_Red_Army
+		}
+		x = 0
+		y = 1
+		relative_position_id = RUS_Dictatorship_Of_Red_Army
+			ai_will_do = {
+					factor = 35
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus RUS_Revolutionary_Commissars"
+					swap_ideas = {
+							remove_idea = RUS_war_communism
+							add_idea = RUS_war_communism_1
+						}
+					army_experience = 75
+				}
+
+	}
+	focus = {
+		id = RUS_Labour_Camps
+		icon = GFX_SOV_onwards_to_gulag
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_Revolutionary_Commissars
+		}
+		x = -1
+		y = 2
+		relative_position_id = RUS_Dictatorship_Of_Red_Army
+			ai_will_do = {
+					factor = 20
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus RUS_Labour_Camps"
+					add_stability = -0.05
+					swap_ideas = {
+							remove_idea = RUS_war_communism_1
+							add_idea = RUS_war_communism_2
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_Prodrazvyorstka
+		icon = GFX_SOV_grain_take
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_Revolutionary_Commissars
+		}
+		x = 1
+		y = 2
+		relative_position_id = RUS_Dictatorship_Of_Red_Army
+			ai_will_do = {
+					factor = 40
+					modifier = {
+							factor = 0.1
+							has_stability < 0.25
+						}
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus RUS_Prodrazvyorstka"
+					add_stability = -0.05
+					add_ideas = rus_prodrazvyorstka
+					if = {
+							limit = {
+									has_idea = rus_unfinished_land_reform
+								}
+							destroy_unfinished_land_reform = yes
+						}
+					hidden_effect = {
+							country_event = {
+									id = russoc.22
+									days = 500
+									random = 48000
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_Cult_Of_Personality_Zhukov
+		icon = GFX_focus_rus_cult
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_Labour_Camps
+		}
+		prerequisite = {
+			focus = RUS_Prodrazvyorstka
+		}
+		x = 0
+		y = 3
+		relative_position_id = RUS_Dictatorship_Of_Red_Army
+			ai_will_do = {
+					factor = 20
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus RUS_Cult_Of_Personality_Zhukov"
+					increase_ruling_party_popularity_by_10 = yes
+					swap_ideas = {
+							remove_idea = RUS_war_communism_2
+							add_idea = RUS_war_communism_3
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_Marshall_Of_Victory
+		icon = GFX_SOV_premier_Zhukov
+		cost = 7,00
+		prerequisite = {
+			focus = RUS_Cult_Of_Personality_Zhukov
+		}
+		x = 0
+		y = 4
+		relative_position_id = RUS_Dictatorship_Of_Red_Army
+			ai_will_do = {
+					factor = 20
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus RUS_Marshall_Of_Victory"
+					add_stability = 0.1
+					add_war_support = 0.1
+					add_country_leader_trait = marshall_of_victory
+					set_country_leader_portrait = {
+							portrait = "gfx/leaders/SOV/Portrait_SOV_Georgy_Zhukov_marshall.png"
+						}
+					random_unit_leader = {
+							limit = {
+									has_id = 449
+								}
+							set_leader_portrait = GFX_Portrait_RUS_Gregory_Zhukov_Marshall
+						}
+					swap_ideas = {
+							remove_idea = RUS_war_communism_3
+							add_idea = RUS_war_communism_4
+						}
+					add_research_slot_until_five = yes
+				}
+
+	}
+	focus = {
+		id = SOV_socialist_internationalism
+		icon = GFX_goal_SOV_internationalism
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_Control_Press
+		}
+		x = 0
+		y = 2
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_socialist_internationalism"
+					every_possible_country = {
+							limit = {
+									has_socialist_government = yes
+								}
+							add_opinion_modifier = {
+									target = ROOT
+									modifier = SOV_INT
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_united_humanity
+		icon = GFX_goal_SOV_humanity
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_socialist_internationalism
+		}
+		x = -1
+		y = 3
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_united_humanity"
+					add_research_slot_until_five = yes
+					add_ideas = SOV_tuhk_sci
+				}
+
+	}
+	focus = {
+		id = SOV_transcontinental_broadcasting
+		icon = GFX_goal_SOV_totalist_propaganda
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_socialist_internationalism
+		}
+		x = 1
+		y = 3
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_transcontinental_broadcasting"
+					add_ideas = SOV_tuhk_prop
+				}
+
+	}
+	focus = {
+		id = SOV_world_revolution
+		icon = GFX_goal_SOV_world
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_united_humanity
+		}
+		prerequisite = {
+			focus = SOV_transcontinental_broadcasting
+		}
+		x = 0
+		y = 4
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_world_revolution"
+					add_ideas = SOV_tuhk_revolt
+				}
+
+	}
+	focus = {
+		id = SOV_international_army
+		icon = GFX_SOV_militia
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_world_revolution
+		}
+		x = -1
+		y = 5
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_international_army"
+					add_manpower = 100000
+					army_experience = 35
+					add_war_support = 0.05
+				}
+
+	}
+	focus = {
+		id = SOV_international_workers
+		icon = GFX_goal_SOV_workers
+		cost = 8,00
+		prerequisite = {
+			focus = SOV_world_revolution
+		}
+		x = 1
+		y = 5
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_international_workers"
+					add_ideas = SOV_tuhk_workers
+					if = {
+							limit = {
+									has_idea = rus_unfinished_land_reform
+								}
+							destroy_unfinished_land_reform = yes
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_cult_personality
+		icon = GFX_goal_SOV_premier_Tukhachevsky
+		cost = 8,00
+		prerequisite = {
+			focus = SOV_international_army
+		}
+		prerequisite = {
+			focus = SOV_international_workers
+		}
+		x = 0
+		y = 6
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_cult_personality"
+					add_ideas = SOV_tuhk_cult
+				}
+
+	}
+	focus = {
+		id = SOV_Chairman_Zinoviev
+		icon = GFX_{
+						trigger = {
+								SOV_blagonravov_in_power = no
+								has_country_flag = Grigory_Zinoviev_dead
+							}
+						value = SOV_krestinsky
+					}
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_Bolsheviks_In_Power
+		}
+		x = 0
+		y = 1
+		relative_position_id = RUS_Bolsheviks_In_Power
+			available = {
+					SOV_zinoviev_in_power = yes
+					russian_civil_war = no
+				}
+			bypass = {
+					OR = {
+							SOV_blagonravov_in_power = yes
+							SOV_krestinsky_in_power = yes
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Chairman_Zinoviev"
+					country_event = bolsheviks.2
+					hidden_effect = {
+							country_event = {
+									id = russoc.60
+									days = 10
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Ustanovka
+		icon = GFX_SOV_ustanovka
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Chairman_Gastev
+		}
+		x = 0
+		y = 1
+		relative_position_id = SOV_Chairman_Gastev
+			available = {
+					has_country_leader = {
+							ruling_only = yes
+							name = "Aleksei Gastev"
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Ustanovka"
+					country_event = proletkult.19
+					add_ideas = SOV_gastev_1
+					add_ideas = SOV_soviet_syndicalist_soviet
+				}
+
+	}
+	focus = {
+		id = SOV_Taylorism_In_Russian_Context
+		icon = GFX_SOV_taylorism
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Ustanovka
+		}
+		x = -1
+		y = 2
+		relative_position_id = SOV_Chairman_Gastev
+			available = {
+					has_country_leader = {
+							ruling_only = yes
+							name = "Aleksei Gastev"
+						}
+				}
+			select_effect = {
+					country_event = {
+							id = proletkult.20
+							days = 27
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Taylorism_In_Russian_Context"
+					if = {
+							limit = {
+									has_idea = SOV_gastev_1
+								}
+							swap_ideas = {
+									remove_idea = SOV_gastev_1
+									add_idea = SOV_gastev_2
+								}
+						}
+					else = {
+							swap_ideas = {
+									remove_idea = SOV_gastev_3
+									add_idea = SOV_gastev_4
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Social_Engineering
+		icon = GFX_SOV_social_engineering
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Ustanovka
+		}
+		x = 1
+		y = 2
+		relative_position_id = SOV_Chairman_Gastev
+			available = {
+					has_country_leader = {
+							ruling_only = yes
+							name = "Aleksei Gastev"
+						}
+				}
+			select_effect = {
+					country_event = {
+							id = proletkult.21
+							days = 27
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Social_Engineering"
+					if = {
+							limit = {
+									has_idea = SOV_gastev_1
+								}
+							swap_ideas = {
+									remove_idea = SOV_gastev_1
+									add_idea = SOV_gastev_3
+								}
+						}
+					else = {
+							swap_ideas = {
+									remove_idea = SOV_gastev_2
+									add_idea = SOV_gastev_4
+								}
+						}
+					add_research_slot_until_five = yes
+				}
+
+	}
+	focus = {
+		id = SOV_Soviet_Syndicalism
+		icon = GFX_SOV_soviet_syndicalism
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Taylorism_In_Russian_Context
+		}
+		prerequisite = {
+			focus = SOV_Social_Engineering
+		}
+		x = -2
+		y = 3
+		relative_position_id = SOV_Chairman_Gastev
+			available = {
+					has_country_leader = {
+							ruling_only = yes
+							name = "Aleksei Gastev"
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Soviet_Syndicalism"
+					if = {
+							limit = {
+									has_idea = SOV_gastev_4
+								}
+							swap_ideas = {
+									remove_idea = SOV_gastev_4
+									add_idea = SOV_gastev_5
+								}
+						}
+					else = {
+							swap_ideas = {
+									remove_idea = SOV_gastev_6
+									add_idea = SOV_gastev_7
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_CIT
+		icon = GFX_SOV_cit
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Taylorism_In_Russian_Context
+		}
+		prerequisite = {
+			focus = SOV_Social_Engineering
+		}
+		x = 0
+		y = 3
+		relative_position_id = SOV_Chairman_Gastev
+			available = {
+					has_country_leader = {
+							ruling_only = yes
+							name = "Aleksei Gastev"
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_CIT"
+					country_event = proletkult.22
+					if = {
+							limit = {
+									has_idea = SOV_gastev_4
+								}
+							swap_ideas = {
+									remove_idea = SOV_gastev_4
+									add_idea = SOV_gastev_6
+								}
+						}
+					else = {
+							swap_ideas = {
+									remove_idea = SOV_gastev_5
+									add_idea = SOV_gastev_7
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Soviet_Technocracy
+		icon = GFX_SOV_soviet_technocracy
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Social_Engineering
+		}
+		prerequisite = {
+			focus = SOV_Taylorism_In_Russian_Context
+		}
+		x = 2
+		y = 3
+		relative_position_id = SOV_Chairman_Gastev
+			available = {
+					has_country_leader = {
+							ruling_only = yes
+							name = "Aleksei Gastev"
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Soviet_Technocracy"
+					country_event = proletkult.23
+					add_ideas = SOV_technocracy
+				}
+
+	}
+	focus = {
+		id = SOV_Time_Forward
+		icon = GFX_SOV_time_forward
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_CIT
+		}
+		prerequisite = {
+			focus = SOV_Soviet_Syndicalism
+		}
+		prerequisite = {
+			focus = SOV_Soviet_Technocracy
+		}
+		x = 0
+		y = 4
+		relative_position_id = SOV_Chairman_Gastev
+			available = {
+					has_country_leader = {
+							ruling_only = yes
+							name = "Aleksei Gastev"
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Time_Forward"
+					country_event = proletkult.24
+					swap_ideas = {
+							remove_idea = SOV_gastev_7
+							add_idea = SOV_gastev_8
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Proletarian_Religion
+		icon = GFX_SOV_proletarian_religion
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Prolektult
+		}
+		x = 0
+		y = 1
+		relative_position_id = SOV_Prolektult
+			available = {
+					OR = {
+							SOV_lunacharsky_in_power = yes
+							has_country_flag = SOV_Anatoly_Lunacharsky_edu
+						}
+				}
+			select_effect = {
+					if = {
+							limit = {
+									SOV_lunacharsky_in_power = yes
+								}
+							country_event = {
+									id = proletkult.25
+									days = 7
+								}
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Proletarian_Religion"
+					country_event = proletkult.26
+					add_ideas = SOV_lunacharsky_1
+					hidden_effect = {
+							country_event = {
+									id = proletkult.32
+									days = 912
+								}
+							if = {
+									limit = {
+											SOV_lunacharsky_in_power = yes
+										}
+									country_event = {
+											id = proletkult.34
+											days = 66
+										}
+								}
+							country_event = {
+									id = proletkult.40
+									days = 48
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Cult_Of_Reason
+		icon = GFX_SOV_cult_of_reason
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Proletarian_Religion
+		}
+		x = -1
+		y = 2
+		relative_position_id = SOV_Prolektult
+			available = {
+					OR = {
+							SOV_lunacharsky_in_power = yes
+							has_country_flag = SOV_Anatoly_Lunacharsky_edu
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Cult_Of_Reason"
+					country_event = proletkult.27
+					if = {
+							limit = {
+									has_idea = SOV_lunacharsky_3
+								}
+							swap_ideas = {
+									remove_idea = SOV_lunacharsky_3
+									add_idea = SOV_lunacharsky_4
+								}
+						}
+					else = {
+							swap_ideas = {
+									remove_idea = SOV_lunacharsky_1
+									add_idea = SOV_lunacharsky_2
+								}
+						}
+					hidden_effect = {
+							country_event = {
+									id = proletkult.14
+									days = 27
+								}
+						}
+					add_research_slot_until_five = yes
+				}
+
+	}
+	focus = {
+		id = SOV_Godbuilding
+		icon = GFX_SOV_god_building
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Cult_Of_Reason
+		}
+		prerequisite = {
+			focus = SOV_Bolshevist_Enlightenment
+		}
+		x = 0
+		y = 3
+		relative_position_id = SOV_Prolektult
+			available = {
+					SOV_lunacharsky_in_power = yes
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Godbuilding"
+					set_cosmetic_tag = SOV_lunacharsky
+					swap_ideas = {
+							remove_idea = SOV_lunacharsky_4
+							add_idea = SOV_lunacharsky_5
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Bolshevist_Enlightenment
+		icon = GFX_SOV_bolshevist_enlightenment
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Proletarian_Religion
+		}
+		x = 1
+		y = 2
+		relative_position_id = SOV_Prolektult
+			available = {
+					OR = {
+							SOV_lunacharsky_in_power = yes
+							has_country_flag = SOV_Anatoly_Lunacharsky_edu
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Bolshevist_Enlightenment"
+					increase_ruling_party_popularity_by_10 = yes
+					if = {
+							limit = {
+									has_idea = SOV_lunacharsky_2
+								}
+							swap_ideas = {
+									remove_idea = SOV_lunacharsky_2
+									add_idea = SOV_lunacharsky_4
+								}
+						}
+					else = {
+							swap_ideas = {
+									remove_idea = SOV_lunacharsky_1
+									add_idea = SOV_lunacharsky_3
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Covenants_Of_Lenin
+		icon = GFX_SOV_covenants
+		cost = 2,00
+		prerequisite = {
+			focus = SOV_Embrace_Bolshevism
+		}
+		x = -1
+		y = 4
+		relative_position_id = RUS_Bolsheviks_In_Power
+			available = {
+					OR = {
+							SOV_zinoviev_in_power = yes
+							SOV_krestinsky_in_power = yes
+							SOV_blagonravov_in_power = yes
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Covenants_Of_Lenin"
+					country_event = bolsheviks.51
+				}
+
+	}
+	focus = {
+		id = RUS_Bureaucratic_Centralism
+		icon = GFX_SOV_bur_central
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Chairman_Zinoviev
+		}
+		x = 1
+		y = 1
+		relative_position_id = SOV_Chairman_Zinoviev
+			available = {
+					OR = {
+							SOV_zinoviev_in_power = yes
+							SOV_krestinsky_in_power = yes
+							SOV_blagonravov_in_power = yes
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus RUS_Bureaucratic_Centralism"
+					add_ideas = SOV_bureaucratic_centralism_1
+				}
+
+	}
+	focus = {
+		id = SOV_Embrace_Bolshevism
+		icon = GFX_SOV_embrace_bolshevism
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Chairman_Zinoviev
+		}
+		x = -1
+		y = 1
+		relative_position_id = SOV_Chairman_Zinoviev
+			available = {
+					OR = {
+							SOV_zinoviev_in_power = yes
+							SOV_krestinsky_in_power = yes
+							SOV_blagonravov_in_power = yes
+						}
+				}
+			ai_will_do = {
+					factor = 20
+					modifier = {
+							factor = 0.25
+							has_stability < 0.25
+						}
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Embrace_Bolshevism"
+					country_event = bolsheviks.52
+				}
+
+	}
+	focus = {
+		id = SOV_Cult_Of_Lenin
+		icon = GFX_SOV_cult_of_lenin
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Embrace_Bolshevism
+		}
+		x = 0
+		y = 2
+		relative_position_id = SOV_Chairman_Zinoviev
+			available = {
+					OR = {
+							SOV_zinoviev_in_power = yes
+							SOV_krestinsky_in_power = yes
+							SOV_blagonravov_in_power = yes
+						}
+				}
+			ai_will_do = {
+					factor = 20
+					modifier = {
+							factor = 0.25
+							has_stability < 0.25
+						}
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Cult_Of_Lenin"
+					country_event = proletkult.28
+					add_ideas = SOV_cult_of_lenin
+				}
+
+	}
+	focus = {
+		id = SOV_Cult_Of_Zinoviev
+		icon = GFX_SOV_cult_of_zinoviev
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Cult_Of_Lenin
+		}
+		prerequisite = {
+			focus = RUS_Bureaucratic_Centralism
+		}
+		x = 0
+		y = 2
+		relative_position_id = RUS_Bureaucratic_Centralism
+			allow_branch = {
+					NOT = {
+							has_country_flag = Grigory_Zinoviev_dead
+						}
+				}
+			available = {
+					SOV_zinoviev_in_power = yes
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Cult_Of_Zinoviev"
+					country_event = bolsheviks.49
+				}
+
+	}
+	focus = {
+		id = SOV_Strict_Party_Discipline
+		icon = GFX_SOV_oppress_philistines
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_Bureaucratic_Centralism
+		}
+		x = 1
+		y = 1
+		relative_position_id = RUS_Bureaucratic_Centralism
+			available = {
+					OR = {
+							SOV_zinoviev_in_power = yes
+							SOV_krestinsky_in_power = yes
+							SOV_blagonravov_in_power = yes
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Strict_Party_Discipline"
+					country_event = nkvd.26
+				}
+
+	}
+	focus = {
+		id = SOV_Cement_Zinoviev_Authority
+		icon = GFX_SOV_zinoviev_authority
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Strict_Party_Discipline
+		}
+		prerequisite = {
+			focus = SOV_Cult_Of_Zinoviev
+		}
+		x = 1
+		y = 3
+		relative_position_id = RUS_Bureaucratic_Centralism
+			allow_branch = {
+					NOT = {
+							has_country_flag = Grigory_Zinoviev_dead
+						}
+				}
+			available = {
+					SOV_zinoviev_in_power = yes
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Cement_Zinoviev_Authority"
+					add_stability = 0.1
+					set_country_flag = SOV_politburo_dissolved
+					swap_ideas = {
+							remove_idea = SOV_bureaucratic_centralism_1
+							add_idea = SOV_bureaucratic_centralism_2
+						}
+					add_research_slot_until_five = yes
+				}
+
+	}
+	focus = {
+		id = SOV_Council_Of_Labour_And_Defence
+		icon = GFX_SOV_molotov_2
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_Bolsheviks_In_Power
+		}
+		x = 2
+		y = 1
+		relative_position_id = RUS_Bolsheviks_In_Power
+			available = {
+					NOT = {
+							has_active_mission = SOV_elections_of_the_chairman
+						}
+					russian_civil_war = no
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Council_Of_Labour_And_Defence"
+					country_event = molotov.2
+					add_one_random_civilian_factory = yes
+					add_one_random_military_factory = yes
+					add_ideas = SOV_Council_Of_Labour_And_Defence_1
+				}
+
+	}
+	focus = {
+		id = SOV_Down_With_The_Village
+		icon = GFX_SOV_down_villages
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Council_Of_Labour_And_Defence
+		}
+		x = 1
+		y = 1
+		relative_position_id = SOV_Council_Of_Labour_And_Defence
+			bypass = {
+					OR = {
+							has_idea = SOV_mass_collectivization
+							has_country_flag = SOV_mass_collectivization_done
+						}
+				}
+			ai_will_do = {
+					factor = 40
+					modifier = {
+							factor = 0
+							SOV_lunacharsky_in_power = no
+							OR = {
+									has_game_rule = {
+											rule = SOV_politburo_struggle
+											option = SOV_PATH_GASTEV
+										}
+									has_game_rule = {
+											rule = SOV_politburo_struggle
+											option = SOV_PATH_LUNACHARSKY
+										}
+									has_game_rule = {
+											rule = SOV_politburo_struggle
+											option = SOV_PATH_MAYAKOVSKY
+										}
+								}
+						}
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Down_With_The_Village"
+					swap_ideas = {
+							remove_idea = SOV_Council_Of_Labour_And_Defence_1
+							add_idea = SOV_Council_Of_Labour_And_Defence_2
+						}
+					set_temp_variable = {
+							politburo_change = 2
+						}
+					SOV_change_politburo_hardliners = yes
+				}
+
+	}
+	focus = {
+		id = SOV_Deal_With_Kulaks
+		icon = GFX_SOV_dekulakization
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Down_With_The_Village
+		}
+		x = 2
+		y = 2
+		relative_position_id = SOV_Council_Of_Labour_And_Defence
+			bypass = {
+					OR = {
+							has_idea = SOV_mass_collectivization
+							has_country_flag = SOV_mass_collectivization_done
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Deal_With_Kulaks"
+					if = {
+							limit = {
+									has_idea = rus_unfinished_land_reform
+								}
+							destroy_unfinished_land_reform = yes
+						}
+					add_timed_idea = {
+							idea = SOV_mass_collectivization
+							days = 900
+						}
+					set_temp_variable = {
+							politburo_change = 1
+						}
+					SOV_change_politburo_hardliners = yes
+					hidden_effect = {
+							country_event = {
+									id = bolsheviks.50
+									days = 365
+								}
+							country_event = {
+									id = bolsheviks.48
+									days = 100
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Militarize_The_Labour
+		icon = GFX_SOV_labor_militarization
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Down_With_The_Village
+		}
+		x = 1
+		y = 3
+		relative_position_id = SOV_Council_Of_Labour_And_Defence
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Militarize_The_Labour"
+					swap_ideas = {
+							remove_idea = SOV_Council_Of_Labour_And_Defence_2
+							add_idea = SOV_Council_Of_Labour_And_Defence_3
+						}
+					set_temp_variable = {
+							politburo_change = 1
+						}
+					SOV_change_politburo_hardliners = yes
+				}
+
+	}
+	focus = {
+		id = SOV_Improve_The_Supplies
+		icon = GFX_SOV_supply_network
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Militarize_The_Labour
+		}
+		prerequisite = {
+			focus = SOV_Deal_With_Kulaks
+		}
+		x = 2
+		y = 4
+		relative_position_id = SOV_Council_Of_Labour_And_Defence
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Improve_The_Supplies"
+					add_ideas = SOV_improved_supply
+				}
+
+	}
+	focus = {
+		id = SOV_Military_Purges
+		icon = GFX_SOV_army_purge
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Cult_Of_Lenin
+		}
+		prerequisite = {
+			focus = RUS_Bureaucratic_Centralism
+		}
+		x = 1
+		y = 3
+		relative_position_id = SOV_Chairman_Zinoviev
+			allow_branch = {
+					SOV_blagonravov_in_power = yes
+					has_country_flag = Grigory_Zinoviev_dead
+				}
+			available = {
+					SOV_blagonravov_in_power = yes
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Military_Purges"
+					add_ideas = SOV_NKVD_State_1
+					if = {
+							limit = {
+									has_country_flag = SOV_blagonravov_is_hardliner
+								}
+							activate_targeted_decision = {
+									target = ROOT
+									decision = SOV_case_of_italian_clique
+								}
+						}
+					else = {
+							activate_targeted_decision = {
+									target = ROOT
+									decision = SOV_case_of_british_clique
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Petrograd_Experience
+		icon = GFX_SOV_leningrad
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Military_Purges
+		}
+		prerequisite = {
+			focus = SOV_Strict_Party_Discipline
+		}
+		x = 2
+		y = 4
+		relative_position_id = SOV_Chairman_Zinoviev
+			available = {
+					SOV_blagonravov_in_power = yes
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Petrograd_Experience"
+					country_event = nkvd.43
+					hidden_effect = {
+							country_event = {
+									id = russoc.151
+									days = 30
+									random_days = 50
+								}
+						}
+					swap_ideas = {
+							remove_idea = SOV_NKVD_State_1
+							add_idea = SOV_NKVD_State_2
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Power_Of_The_Chekists
+		icon = GFX_SOV_power_to_checkists
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Petrograd_Experience
+		}
+		x = 2
+		y = 5
+		relative_position_id = SOV_Chairman_Zinoviev
+			available = {
+					SOV_blagonravov_in_power = yes
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Power_Of_The_Chekists"
+					swap_ideas = {
+							remove_idea = SOV_NKVD_State_2
+							add_idea = SOV_NKVD_State_4
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Yekaterinburg_Experience
+		icon = GFX_SOV_yekaterinburg
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Cult_Of_Lenin
+		}
+		prerequisite = {
+			focus = RUS_Bureaucratic_Centralism
+		}
+		x = 1
+		y = 3
+		relative_position_id = SOV_Chairman_Zinoviev
+			allow_branch = {
+					SOV_krestinsky_in_power = yes
+					has_country_flag = Grigory_Zinoviev_dead
+				}
+			available = {
+					SOV_krestinsky_in_power = yes
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Yekaterinburg_Experience"
+					add_stability = 0.1
+					set_country_flag = SOV_politburo_dissolved
+					swap_ideas = {
+							remove_idea = SOV_bureaucratic_centralism_1
+							add_idea = SOV_bureaucratic_centralism_2
+						}
+					add_research_slot_until_five = yes
+					hidden_effect = {
+							country_event = {
+									id = russoc.150
+									days = 15
+									random_days = 30
+								}
+						}
+				}
+
+	}
+}

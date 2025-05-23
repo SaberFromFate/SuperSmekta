@@ -101,7 +101,7 @@ tag=SVO
 shared_focus = {
 	id = STARTDIP1A
 	icon = GFX_goal_RUS_army
-	x = 10
+	x = 6
 	y = 1
 	
 	cost = 5
@@ -1530,9 +1530,8 @@ shared_focus = {
 	
 
 	
-
 	shared_focus = {
-		id = SMEKTA_aviation_effort
+		id = SMEKTA_aviation_effort5
 		icon = GFX_goal_generic_build_airforce
 		x = -10
 		y = 1
@@ -1613,6 +1612,58 @@ prerequisite = { focus = RUS_russian_army }
 				uses = 3
 				category = air_doctrine
 			}
+		}
+	}
+	shared_focus = {
+		id = SMEKTA_aviation_effort
+		icon = GFX_goal_generic_build_airforce
+		x = -10
+		y = 1
+		cost = 5
+		relative_position_id = SMEKTA_aviation_effort5
+		search_filters = {   FOCUS_FILTER_RESEARCH }
+
+		available_if_capitulated = yes
+
+prerequisite = { focus = SMEKTA_aviation_effort5 }
+		complete_tooltip = {
+			air_experience = 25
+			if = { limit = { has_country_flag = aviation_effort_AB }
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}			
+			add_doctrine_cost_reduction = {
+				name = air_doc_bonus
+				cost_reduction = 0.5
+				uses = 3
+				category = air_doctrine
+			}			
+		}
+
+		completion_reward = {
+			air_experience = 25
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 3
+				category = cas_bomber
+			}
+						add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 3
+				category = light_fighter
+				category = cat_heavy_fighter
+			}
+		}
+
 		}
 	}
 

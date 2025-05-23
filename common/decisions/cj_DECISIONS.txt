@@ -1,0 +1,870 @@
+political_actions = {
+		gazn = {
+
+		name = gazn
+
+		icon = generic_nationalism
+
+		allowed = {always = yes
+		}
+
+		available = {
+			FROM = {
+				compliance > 10
+				NOT = {
+					is_island_state = yes
+					any_neighbor_state = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		state_target = yes
+
+		on_map_mode = map_only
+
+		#targets = {  }
+
+		target_array = controlled_states
+
+		target_trigger = {
+			has_completed_focus = c2a
+			FROM = {
+				NOT = {
+					is_core_of = ROOT
+				}
+				NOT = {
+					is_island_state = yes
+					any_neighbor_state = {
+						is_core_of = ROOT
+					}
+				}
+				OR = {
+					NOT = {
+						is_owned_by = ROOT
+					}
+					NOT = {
+						state = 41
+						state = 165
+						state = 166
+						state = 167
+						state = 168
+						state = 169
+						state = 170
+						state = 171
+						state = 172
+						state = 173
+						state = 174
+						state = 175
+						state = 176
+						state = 788
+						state = 789
+						state = 790
+						state = 791
+						state = 792
+						state = 793
+						state = 794
+					}
+				}
+				compliance > 10
+			}
+		}
+
+		cost = 150
+
+		fire_only_once = yes
+
+		days_remove = 90
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		visible = {
+			tag = MON
+			has_completed_focus = c2a
+			always = yes
+		}
+
+		complete_effect = {
+
+		}
+
+		remove_effect = {
+			FROM = {
+				add_core_of = ROOT
+			}
+			transfer_state = FROM
+		}
+	}
+			svos = {
+
+		name = svos
+
+		icon = generic_nationalism
+
+		allowed = {always = yes
+		}
+
+		available = {
+			FROM = {
+				compliance > 10
+				NOT = {
+					is_island_state = yes
+					any_neighbor_state = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		state_target = yes
+
+		on_map_mode = map_only
+
+		#targets = {  }
+
+		target_array = controlled_states
+
+		target_trigger = {
+			has_completed_focus = c2a
+			FROM = {
+				NOT = {
+					is_core_of = ROOT
+				}
+				NOT = {
+					is_island_state = yes
+					any_neighbor_state = {
+						is_core_of = ROOT
+					}
+				}
+				OR = {
+					NOT = {
+						is_owned_by = ROOT
+					}
+					NOT = {
+						state = 41
+						state = 165
+						state = 166
+						state = 167
+						state = 168
+						state = 169
+						state = 170
+						state = 171
+						state = 172
+						state = 173
+						state = 174
+						state = 175
+						state = 176
+						state = 788
+						state = 789
+						state = 790
+						state = 791
+						state = 792
+						state = 793
+						state = 794
+					}
+				}
+				
+			}
+		}
+
+		cost = 150
+
+		fire_only_once = yes
+
+		days_remove = 90
+
+		modifier = {
+			weekly_manpower = -100
+			stability_weekly = -0.02
+		}
+
+		visible = {
+			tag = 	IVA
+			has_completed_focus = c2a
+			always = yes
+		}
+
+		complete_effect = {
+
+		}
+
+		remove_effect = {
+			FROM = {
+				add_core_of = ROOT
+			}
+			transfer_state = FROM
+		}
+	}
+	COM_example = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = communism
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.1 }
+        remove_effect = {
+            
+            random = {
+                chance = 80 
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+		fas_example = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = fascism
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.1 }
+        remove_effect = {
+            
+            random = {
+                chance = 40 
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+		dem_example = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = democratic
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.1 }
+        remove_effect = {
+            
+            random = {
+                chance = 70
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+		ne_example = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = neutrality
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.1 }
+        remove_effect = {
+            
+            random = {
+                chance = 55 
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+			COM1_example = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = communism
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.15 }
+        remove_effect = {
+            
+            random = {
+                chance = 80 
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+		fas_example1 = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = fascism
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.15 }
+        remove_effect = {
+            
+            random = {
+                chance = 40 
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+		dem_example1 = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = democratic
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.15 }
+        remove_effect = {
+            
+            random = {
+                chance = 70
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+		ne_example1 = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            
+			has_government = neutrality
+        }
+        available = {
+		country_exists = FER
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 50
+        fixed_random_seed = no
+		days_remove = 30
+		modifier = { consumer_goods_factor = 0.15 }
+        remove_effect = {
+            
+            random = {
+                chance = 55 
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			
+
+        }
+    }
+			naeb_example = {
+        allowed = {
+			always = yes
+		}
+        visible = {
+            country_exists = FER
+        }
+        available = {
+		always = yes
+        }
+        icon = generic_industry
+        priority = 10
+        days_re_enable = 40
+        cost = 30
+        fixed_random_seed = no
+		days_remove = 30
+        remove_effect = {
+            
+            random = {
+                chance = 45 
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+            }
+			            random = {
+                chance = 40 
+				add_political_power=-200
+				add_command_power = -15
+			}
+            }
+			
+
+        }
+		Hire_dor = {
+    allowed = {
+        always = yes
+    }
+	        visible  = {
+		always = yes
+        }
+		cost = 100
+		days_re_enable = 5
+    priority = 10
+    icon = POL_category
+
+			complete_effect = {
+generate_character = { token_base = mocha }
+    generate_character = { token_base = biruk }
+generate_character = { token_base = svo }
+		}
+}
+sany_war1 = {
+    activation = {
+        tag = SAN
+    }
+    available = {
+        has_completed_focus=friendship
+    }
+    cancel_trigger = {
+        has_war = yes
+    }
+    icon = mission_icon     # For GFX_decision_mission_icon
+    is_good = yes
+    war_with_on_timeout = JMS
+    days_mission_timeout = 365
+    selectable_mission = yes
+    complete_effect = {
+        add_political_power=100
+    }
+    timeout_effect = {
+        JMS = {declare_war_on = {
+            target = SAN
+            type = annex_everything
+        }}
+    }
+}
+
+
+
+
+
+
+
+sealex_offer={
+    allowed = {
+        always = yes
+    }
+	        visible  = {
+		tag=CJO
+        }
+		cost = 1
+		days_re_enable = 5
+    priority = 10
+    icon = POL_category
+
+			complete_effect = {
+		news_event = {
+    id = cj.3
+    days = 1
+}
+		}
+}
+	svo_port1={
+    allowed = {
+        always = yes
+    }
+	        visible  = {
+		tag=SVO
+        }
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+    icon = POL_category
+
+			complete_effect = {
+set_portraits = {
+    character = svo
+    civilian = { large ="gfx/leaders/CJO/SVO.dds" }
+}
+		}
+}
+	svo_port2={
+	allowed = {always = yes}
+	    visible  = {tag=SVO}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = svo
+    civilian = { large ="gfx/leaders/CJO/SVO2.dds" }
+}}}
+	svo_port3={
+	allowed = {always = yes}
+	    visible  = {tag=SVO}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = svo
+    civilian = { large ="gfx/leaders/CJO/SVO3.dds" }
+}}}
+	svo_port4={
+	allowed = {always = yes}
+	    visible  = {tag=SVO}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = svo
+    civilian = { large ="gfx/leaders/CJO/SVO4.dds" }
+}}}
+	svo_port5={
+	allowed = {always = yes}
+	    visible  = {tag=SVO}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = svo
+    civilian = { large ="gfx/leaders/CJO/SVO6.dds" }
+}}}
+
+	iva_port1={
+	allowed = {always = yes}
+	    visible  = {tag=IVA}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = ivanch
+    civilian = { large ="gfx/leaders/MON/IVA5.dds" }
+}}}
+	iva_port2={
+	allowed = {always = yes}
+	    visible  = {tag=IVA}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = ivanch
+    civilian = { large ="gfx/leaders/MON/IVA6.dds" }
+}}}
+	iva_port3={
+	allowed = {always = yes}
+	    visible  = {tag=IVA}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = ivanch
+    civilian = { large ="gfx/leaders/MON/IVA3.dds" }
+}}}
+	iva_port4={
+	allowed = {always = yes}
+	    visible  = {tag=IVA}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = ivanch
+    civilian = { large ="gfx/leaders/MON/IVA4.dds" }
+	
+}}}
+	iva_port5={
+	allowed = {always = yes}
+	    visible  = {tag=IVA}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = ivanch
+    civilian = { large ="gfx/leaders/MON/IVA1.dds" }
+}}}
+	iva_port6={
+	allowed = {always = yes}
+	    visible  = {tag=IVA}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = ivanch
+    civilian = { large ="gfx/leaders/MON/IVA2.dds" }
+}}}
+	gaz_port1={
+	allowed = {always = yes}
+	    visible  = {tag=MON}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = gazik
+    civilian = { large ="gfx/leaders/MON/portrait_mon_anandyn_amar.dds" }
+}}}
+	gaz_port2={
+	allowed = {always = yes}
+	    visible  = {tag=MON}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = gazik
+    civilian = { large ="gfx/leaders/MON/GAZ2.dds" }
+}}}
+	gaz_port3={
+	allowed = {always = yes}
+	    visible  = {tag=MON}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = gazik
+    civilian = { large ="gfx/leaders/MON/GAZ3.dds" }
+}}}
+	gaz_port4={
+	allowed = {always = yes}
+	    visible  = {tag=MON}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = gazik
+    civilian = { large ="gfx/leaders/MON/GAZ4.dds" }
+}}}
+	gaz_port5={
+	allowed = {always = yes}
+	    visible  = {tag=MON}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = gazik
+    civilian = { large ="gfx/leaders/MON/GAZ1.dds" }
+}}}
+
+	gaz_port6={
+	allowed = {always = yes}
+	    visible  = {tag=MON}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = gazik
+    civilian = { large ="gfx/leaders/MON/GAZNEMALYY.dds" }
+}}}
+		san_port1={
+	allowed = {always = yes}
+	    visible  = {tag=SAN}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = sanya
+    civilian = { large ="gfx/leaders/TIM/SAN3.dds" }
+}}}
+		san_port2={
+	allowed = {always = yes}
+	    visible  = {tag=SAN}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = sanya
+    civilian = { large ="gfx/leaders/TIM/SAN1.dds" }
+}}}
+		san_port3={
+	allowed = {always = yes}
+	    visible  = {tag=SAN}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = sanya
+    civilian = { large ="gfx/leaders/TIM/SAN2.dds" }
+}}}
+		san_port4={
+	allowed = {always = yes}
+	    visible  = {tag=SAN}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = sanya
+    civilian = { large ="gfx/leaders/TIM/SAN4.dds" }
+}}}
+		san_port5={
+	allowed = {always = yes}
+	    visible  = {tag=SAN}
+		cost = 1
+		days_re_enable = 5
+    priority = 1
+	complete_effect = {
+set_portraits = {
+    character = sanya
+    civilian = { large ="gfx/leaders/TIM/8.dds" }
+}}}
+}
+
+

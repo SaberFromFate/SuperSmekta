@@ -20,7 +20,7 @@ focus_tree = {
 		icon = GFX_focus_research
 
 		available = {
-			date > 1936.04.01
+			date > 1936.05.01
 		}
 		cancel_if_invalid = no
 		continue_if_invalid = yes

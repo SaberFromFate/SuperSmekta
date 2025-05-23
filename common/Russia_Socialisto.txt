@@ -1,0 +1,193 @@
+focus_tree = {
+	id = Russia_Socialisto
+	country = {
+		factor = 1
+	}
+	default = yes
+	focus = {
+		id = RUS_Labour_Camps_Copy
+		icon = GFX_SOV_onwards_to_gulag
+		cost = 5,00
+		x = 108
+		y = 4
+			ai_will_do = {
+					factor = 20
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus RUS_Labour_Camps"
+					add_stability = -0.05
+					swap_ideas = {
+							remove_idea = RUS_war_communism_1
+							add_idea = RUS_war_communism_2
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Strict_Party_Discipline_Copy
+		icon = GFX_SOV_oppress_philistines
+		cost = 5,00
+		x = 85
+		y = 5
+			available = {
+					OR = {
+							SOV_zinoviev_in_power = yes
+							SOV_krestinsky_in_power = yes
+							SOV_blagonravov_in_power = yes
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Strict_Party_Discipline"
+					country_event = nkvd.26
+				}
+
+	}
+	focus = {
+		id = SOV_Improve_The_Supplies_Copy
+		icon = GFX_SOV_supply_network
+		cost = 5,00
+		x = 86
+		y = 6
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Improve_The_Supplies"
+					add_ideas = SOV_improved_supply
+				}
+
+	}
+	focus = {
+		id = SOV_Enthusiastic_State_Copy
+		icon = GFX_SOV_soviet_enthusiasm
+		cost = 5,00
+		x = 83
+		y = 4
+			available = {
+					SOV_molotov_in_power = yes
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Enthusiastic_State"
+					swap_ideas = {
+							remove_idea = SOV_socialism_in_one_contry_policies_1
+							add_idea = SOV_socialism_in_one_contry_policies_2
+						}
+					country_event = molotov.3
+				}
+
+	}
+	focus = {
+		id = SOV_Embrace_Modern_Art_Copy
+		icon = GFX_SOV_embrace_modern_art
+		cost = 5,00
+		x = 86
+		y = 4
+			available = {
+					has_country_leader = {
+							ruling_only = yes
+							name = "Vladimir Mayakovsky"
+						}
+				}
+			select_effect = {
+					country_event = {
+							id = proletkult.10
+							days = 5
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Embrace_Modern_Art"
+					hidden_effect = {
+							country_event = {
+									id = proletkult.39
+									days = 15
+								}
+						}
+					country_event = {
+							id = proletkult.13
+							days = 2
+						}
+				}
+
+	}
+	focus = {
+		id = SOV_Soviet_Technocracy_Copy
+		icon = GFX_SOV_soviet_technocracy
+		cost = 5,00
+		x = 86
+		y = 5
+			available = {
+					has_country_leader = {
+							ruling_only = yes
+							name = "Aleksei Gastev"
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Soviet_Technocracy"
+					country_event = proletkult.23
+					add_ideas = SOV_technocracy
+				}
+
+	}
+	focus = {
+		id = SOV_Conquest_Of_Nature_Copy
+		icon = GFX_SOV_conquer_nature
+		cost = 5,00
+		prerequisite = {
+			focus = SOV_Embrace_Modern_Art_Copy
+		}
+		x = 85
+		y = 5
+			available = {
+					has_country_leader = {
+							ruling_only = yes
+							name = "Vladimir Mayakovsky"
+						}
+				}
+			select_effect = {
+					hidden_effect = {
+							country_event = {
+									id = proletkult.17
+									days = 28
+								}
+						}
+				}
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SOV_Conquest_Of_Nature"
+					activate_targeted_decision = {
+							target = ROOT
+							decision = SOV_Turning_Of_The_Siberian_Rivers
+						}
+					if = {
+							limit = {
+									has_idea = SOV_mayakovsky_4
+								}
+							swap_ideas = {
+									remove_idea = SOV_mayakovsky_4
+									add_idea = SOV_mayakovsky_5
+								}
+						}
+					else = {
+							swap_ideas = {
+									remove_idea = SOV_mayakovsky_6
+									add_idea = SOV_mayakovsky_7
+								}
+						}
+				}
+
+	}
+}

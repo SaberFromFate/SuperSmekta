@@ -1,0 +1,6133 @@
+SpriteTypes = {	
+
+
+	SpriteType = {
+		name = "GFX_goal_LIC_elections"
+		texturefile = "gfx/interface/goals/LIC_elections.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_oben_am_jungen_rhein"
+		texturefile = "gfx/interface/goals/LIC_oben_am_jungen_rhein.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_gott_furst_vaterland"
+		texturefile = "gfx/interface/goals/LIC_gott_furst_vaterland.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_century"
+		texturefile = "gfx/interface/goals/LIC_century.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_landezpolizei"
+		texturefile = "gfx/interface/goals/LIC_landezpolizei.png"
+	}
+
+
+
+	
+	
+	SpriteType = {
+		name = "GFX_goal_LIC_schaan_canning"
+		texturefile = "gfx/interface/goals/LIC_schaan_canning.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_black_lion"
+		texturefile = "gfx/interface/goals/LIC_black_lion.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_vaterlandische_union"
+		texturefile = "gfx/interface/goals/LIC_vaterlandische_union.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_progressive_citizens"
+		texturefile = "gfx/interface/goals/LIC_progressive_citizens.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_UEK"
+		texturefile = "gfx/interface/goals/LIC_UEK.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_eschen_arms"
+		texturefile = "gfx/interface/goals/LIC_eschen_arms.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_hilti"
+		texturefile = "gfx/interface/goals/LIC_hilti.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_landesbank"
+		texturefile = "gfx/interface/goals/LIC_landesbank.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_vaterland_articles"
+		texturefile = "gfx/interface/goals/LIC_vaterland_articles.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_princely_roads"
+		texturefile = "gfx/interface/goals/LIC_princely_roads.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_austrian_customs"
+		texturefile = "gfx/interface/goals/LIC_austrian_customs.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_swiss"
+		texturefile = "gfx/interface/goals/LIC_swiss.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_work_for_prince"
+		texturefile = "gfx/interface/goals/LIC_work_for_prince.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_neutrality"
+		texturefile = "gfx/interface/goals/LIC_neutrality.png"
+	}
+
+
+
+
+	SpriteType = {
+		name = "GFX_goal_LIC_franz_josef_ii"
+		texturefile = "gfx/interface/goals/LIC_franz_josef_ii.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_join_swiss"
+		texturefile = "gfx/interface/goals/LIC_join_swiss.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_high_on_german_rhine"
+		texturefile = "gfx/interface/goals/LIC_high_on_german_rhine.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_join_russia"
+		texturefile = "gfx/interface/goals/LIC_join_russia.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_maintain_austrian_ties"
+		texturefile = "gfx/interface/goals/LIC_maintain_austrian_ties.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_companies"
+		texturefile = "gfx/interface/goals/LIC_companies.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_tyrol"
+		texturefile = "gfx/interface/goals/LIC_tyrol.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_vorarlberg"
+		texturefile = "gfx/interface/goals/LIC_vorarlberg.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_frontenbewegung"
+		texturefile = "gfx/interface/goals/LIC_frontenbewegung.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_LGT"
+		texturefile = "gfx/interface/goals/LIC_LGT.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_oeb"
+		texturefile = "gfx/interface/goals/LIC_oeb.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_return_of_princes"
+		texturefile = "gfx/interface/goals/LIC_return_of_princes.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_eschen_clothes"
+		texturefile = "gfx/interface/goals/LIC_eschen_clothes.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_secondary_education"
+		texturefile = "gfx/interface/goals/LIC_secondary_education.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_defend_self"
+		texturefile = "gfx/interface/goals/LIC_defend_self.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_defense_of_home"
+		texturefile = "gfx/interface/goals/LIC_defense_of_home.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_LAV_expedition"
+		texturefile = "gfx/interface/goals/LIC_LAV_expedition.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_luftwaffe"
+		texturefile = "gfx/interface/goals/LIC_luftwaffe.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_LIC_vril_cannon"
+		texturefile = "gfx/interface/goals/LIC_vril_cannon.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_rhine_tears"
+		texturefile = "gfx/interface/goals/LIC_rhine_tears.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_divinity"
+		texturefile = "gfx/interface/goals/LIC_divinity.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_stars"
+		texturefile = "gfx/interface/goals/LIC_stars.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_hilti_rifle"
+		texturefile = "gfx/interface/goals/LIC_hilti_rifle.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_anschlussputsch"
+		texturefile = "gfx/interface/goals/LIC_anschlussputsch.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+	SpriteType = {
+		name = "GFX_goal_AUS_corporatism"
+		texturefile = "gfx/interface/goals/AUS_corporatism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_certified_elections"
+		texturefile = "gfx/interface/goals/AUS_certified_elections.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_repair_pride"
+		texturefile = "gfx/interface/goals/AUS_repair_pride.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_small_business"
+		texturefile = "gfx/interface/goals/AUS_small_business.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_tariff_germany"
+		texturefile = "gfx/interface/goals/AUS_tariff_germany.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_agrarian_victory"
+		texturefile = "gfx/interface/goals/CZE_agrarian_victory.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_bohemian_revolution"
+		texturefile = "gfx/interface/goals/CZE_bohemian_revolution.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_CSND_victory"
+		texturefile = "gfx/interface/goals/CZE_CSND_victory.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_CSSL_independent"
+		texturefile = "gfx/interface/goals/CZE_CSSL_independent.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_CSSL_victory"
+		texturefile = "gfx/interface/goals/CZE_CSSL_victory.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_masaryk_castle"
+		texturefile = "gfx/interface/goals/CZE_masaryk_castle.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_masaryk_death"
+		texturefile = "gfx/interface/goals/CZE_masaryk_death.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_socdem"
+		texturefile = "gfx/interface/goals/CZE_socdem.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_imperial_arms"
+		texturefile = "gfx/interface/goals/CZE_imperial_arms.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_agrarian_summit"
+		texturefile = "gfx/interface/goals/CZE_agrarian_summit.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_anticlericalism"
+		texturefile = "gfx/interface/goals/CZE_anticlericalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_bohemia_foremost"
+		texturefile = "gfx/interface/goals/CZE_bohemia_foremost.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_bohemian_crystal"
+		texturefile = "gfx/interface/goals/CZE_bohemian_crystal.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_defend_freedom"
+		texturefile = "gfx/interface/goals/CZE_defend_freedom.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_expand_castle_influence"
+		texturefile = "gfx/interface/goals/CZE_expand_castle_influence.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_facts_dont_care"
+		texturefile = "gfx/interface/goals/CZE_facts_dont_care.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_great_compromiser"
+		texturefile = "gfx/interface/goals/CZE_great_compromiser.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_mandate_of_democracy"
+		texturefile = "gfx/interface/goals/CZE_mandate_of_democracy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_meet_germans"
+		texturefile = "gfx/interface/goals/CZE_meet_germans.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_nationalist_rhetoric"
+		texturefile = "gfx/interface/goals/CZE_nationalist_rhetoric.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_the_fortress"
+		texturefile = "gfx/interface/goals/CZE_the_fortress.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_bohemian_solution"
+		texturefile = "gfx/interface/goals/CZE_bohemian_solution.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_bund_der_landwirte"
+		texturefile = "gfx/interface/goals/CZE_bund_der_landwirte.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_german_bohemian_strategy"
+		texturefile = "gfx/interface/goals/CZE_german_bohemian_strategy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_inner_colonization"
+		texturefile = "gfx/interface/goals/CZE_inner_colonization.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_masaryk_autonomy"
+		texturefile = "gfx/interface/goals/CZE_masaryk_autonomy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_popular_bohemia"
+		texturefile = "gfx/interface/goals/CZE_popular_bohemia.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_provincial_assembly"
+		texturefile = "gfx/interface/goals/CZE_provincial_assembly.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_red_green_coalition"
+		texturefile = "gfx/interface/goals/CZE_red_green_coalition.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_rural_god"
+		texturefile = "gfx/interface/goals/CZE_rural_god.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_supply_skoda"
+		texturefile = "gfx/interface/goals/CZE_supply_skoda.png"
+	}
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_german_concession"
+		texturefile = "gfx/interface/goals/CZE_german_concession.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_koruna"
+		texturefile = "gfx/interface/goals/CZE_koruna.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_legionnaires"
+		texturefile = "gfx/interface/goals/CZE_legionnaires.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_maffie"
+		texturefile = "gfx/interface/goals/CZE_maffie.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_masaryk_progressive"
+		texturefile = "gfx/interface/goals/CZE_masaryk_progressive.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_national_council"
+		texturefile = "gfx/interface/goals/CZE_national_council.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_pro_czech"
+		texturefile = "gfx/interface/goals/CZE_pro_czech.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_tale_of_two_capitals"
+		texturefile = "gfx/interface/goals/CZE_tale_of_two_capitals.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_umbrella"
+		texturefile = "gfx/interface/goals/CZE_umbrella.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_worker"
+		texturefile = "gfx/interface/goals/CZE_worker.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_little_entente"
+		texturefile = "gfx/interface/goals/CZE_little_entente.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_inspiration_renner"
+		texturefile = "gfx/interface/goals/CZE_inspiration_renner.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_czech_corridor"
+		texturefile = "gfx/interface/goals/CZE_czech_corridor.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_bohemian_conservatism"
+		texturefile = "gfx/interface/goals/CZE_bohemian_conservatism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_rural_education"
+		texturefile = "gfx/interface/goals/CZE_rural_education.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_common_ground"
+		texturefile = "gfx/interface/goals/CZE_common_ground.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_rights_of_man"
+		texturefile = "gfx/interface/goals/CZE_rights_of_man.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_debut"
+		texturefile = "gfx/interface/goals/CZE_debut.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_zizka_war"
+		texturefile = "gfx/interface/goals/CZE_zizka_war.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_alois_elias_maneuver"
+		texturefile = "gfx/interface/goals/CZE_alois_elias_maneuver.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_attack_hungary_circumcised"
+		texturefile = "gfx/interface/goals/CZE_attack_hungary_circumcised.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_ludvik_krejci"
+		texturefile = "gfx/interface/goals/CZE_ludvik_krejci.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_jan_syrovy"
+		texturefile = "gfx/interface/goals/CZE_jan_syrovy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_national_ambition"
+		texturefile = "gfx/interface/goals/CZE_national_ambition.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_president_liberator"
+		texturefile = "gfx/interface/goals/CZE_president_liberator.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_free_czechoslovakia"
+		texturefile = "gfx/interface/goals/CZE_free_czechoslovakia.png"
+	}
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_kde_domov_muj"
+		texturefile = "gfx/interface/goals/CZE_kde_domov_muj.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_skoda_engineers"
+		texturefile = "gfx/interface/goals/CZE_skoda_engineers.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_pravda_vitezi_icon"
+		texturefile = "gfx/interface/goals/CZE_pravda_vitezi_icon.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_zarna_bodoucrost"
+		texturefile = "gfx/interface/goals/CZE_zarna_bodoucrost.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_nase_dedictvi"
+		texturefile = "gfx/interface/goals/CZE_nase_dedictvi.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_democracy_heart_europe"
+		texturefile = "gfx/interface/goals/CZE_democracy_heart_europe.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_two_dialects"
+		texturefile = "gfx/interface/goals/CZE_two_dialects.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_traders_party"
+		texturefile = "gfx/interface/goals/CZE_traders_party.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_air_force"
+		texturefile = "gfx/interface/goals/CZE_air_force.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_subcarpathian_rus"
+		texturefile = "gfx/interface/goals/CZE_subcarpathian_rus.png"
+	}
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_gang_alcohol"
+		texturefile = "gfx/interface/goals/CZE_gang_alcohol.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_globe_detonation"
+		texturefile = "gfx/interface/goals/CZE_globe_detonation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_humorist"
+		texturefile = "gfx/interface/goals/CZE_humorist.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_inquisition"
+		texturefile = "gfx/interface/goals/CZE_inquisition.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_kx_wet_dream"
+		texturefile = "gfx/interface/goals/CZE_kx_wet_dream.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_mentally_ill_politics"
+		texturefile = "gfx/interface/goals/CZE_mentally_ill_politics.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_moderate_progress"
+		texturefile = "gfx/interface/goals/CZE_moderate_progress.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_pocket_aquarium"
+		texturefile = "gfx/interface/goals/CZE_pocket_aquarium.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_rehab_animals_kappa"
+		texturefile = "gfx/interface/goals/CZE_rehab_animals_kappa.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_slavery"
+		texturefile = "gfx/interface/goals/CZE_slavery.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_smear_parties"
+		texturefile = "gfx/interface/goals/CZE_smear_parties.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_youll_get_us"
+		texturefile = "gfx/interface/goals/CZE_youll_get_us.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_priest_immunity"
+		texturefile = "gfx/interface/goals/CZE_priest_immunity.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_hodza_focus"
+		texturefile = "gfx/interface/goals/CZE_hodza_focus.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_togo"
+		texturefile = "gfx/interface/goals/CZE_togo.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_purple_legion"
+		texturefile = "gfx/interface/goals/CZE_purple_legion.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_jan_masaryk_focus"
+		texturefile = "gfx/interface/goals/CZE_jan_masaryk_focus.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_national_unification"
+		texturefile = "gfx/interface/goals/CZE_national_unification.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_kill_hungary"
+		texturefile = "gfx/interface/goals/CZE_kill_hungary.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_polish_czechoslovak_federation"
+		texturefile = "gfx/interface/goals/CZE_polish_czechoslovak_federation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_combine_churches"
+		texturefile = "gfx/interface/goals/CZE_combine_churches.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_kuncice_steel_plant"
+		texturefile = "gfx/interface/goals/CZE_kuncice_steel_plant.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_uhersky_brod_arms_factory"
+		texturefile = "gfx/interface/goals/CZE_uhersky_brod_arms_factory.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_tatra_93"
+		texturefile = "gfx/interface/goals/CZE_tatra_93.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_northwest_coal"
+		texturefile = "gfx/interface/goals/CZE_northwest_coal.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_trinecke_zelezarny"
+		texturefile = "gfx/interface/goals/CZE_trinecke_zelezarny.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_two_beauties"
+		texturefile = "gfx/interface/goals/CZE_two_beauties.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_agrarian_internationale"
+		texturefile = "gfx/interface/goals/CZE_agrarian_internationale.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_faction_generic"
+		texturefile = "gfx/interface/goals/CZE_faction_generic.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_panslavism"
+		texturefile = "gfx/interface/goals/CZE_panslavism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_miniaustria"
+		texturefile = "gfx/interface/goals/CZE_miniaustria.png"
+	}
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_rose_fields"
+		texturefile = "gfx/interface/goals/CZE_rose_fields.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_noble_estates_peace"
+		texturefile = "gfx/interface/goals/CZE_noble_estates_peace.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_noble_estates_byebye"
+		texturefile = "gfx/interface/goals/CZE_noble_estates_byebye.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_czechoslovakia_surrounded"
+		texturefile = "gfx/interface/goals/CZE_czechoslovakia_surrounded.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_old_west_inspiration"
+		texturefile = "gfx/interface/goals/CZE_old_west_inspiration.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_one_culture_one_people"
+		texturefile = "gfx/interface/goals/CZE_one_culture_one_people.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_solidify_party"
+		texturefile = "gfx/interface/goals/CZE_solidify_party.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_powderkeg_equality"
+		texturefile = "gfx/interface/goals/CZE_powderkeg_equality.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_czechoslovak_dream"
+		texturefile = "gfx/interface/goals/CZE_czechoslovak_dream.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_slovak_cooperatives"
+		texturefile = "gfx/interface/goals/CZE_slovak_cooperatives.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_ubiquitous_learning"
+		texturefile = "gfx/interface/goals/CZE_ubiquitous_learning.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_property_rights"
+		texturefile = "gfx/interface/goals/CZE_property_rights.png"
+	}
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_attack_hungary"
+		texturefile = "gfx/interface/goals/CZE_attack_hungary.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_attack_austria"
+		texturefile = "gfx/interface/goals/CZE_attack_austria.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_attack_serbia"
+		texturefile = "gfx/interface/goals/CZE_attack_serbia.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_attack_illyria"
+		texturefile = "gfx/interface/goals/CZE_attack_illyria.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_attack_bulgaria"
+		texturefile = "gfx/interface/goals/CZE_attack_bulgaria.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_attack_italy"
+		texturefile = "gfx/interface/goals/CZE_attack_italy.png"
+	}
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_fair_bohemia"
+		texturefile = "gfx/interface/goals/CZE_fair_bohemia.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_worker_justice"
+		texturefile = "gfx/interface/goals/CZE_worker_justice.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_export_work"
+		texturefile = "gfx/interface/goals/CZE_export_work.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_anti_baron_bills"
+		texturefile = "gfx/interface/goals/CZE_anti_baron_bills.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_smart_centralism"
+		texturefile = "gfx/interface/goals/CZE_smart_centralism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_austrian_insurance"
+		texturefile = "gfx/interface/goals/CZE_austrian_insurance.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_linguistic_integration"
+		texturefile = "gfx/interface/goals/CZE_linguistic_integration.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_protectionism"
+		texturefile = "gfx/interface/goals/CZE_protectionism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_zustaneme_verni"
+		texturefile = "gfx/interface/goals/CZE_zustaneme_verni.png"
+	}
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_air_is_sea"
+		texturefile = "gfx/interface/goals/CZE_air_is_sea.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_air_industry"
+		texturefile = "gfx/interface/goals/CZE_air_industry.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_radar_research"
+		texturefile = "gfx/interface/goals/CZE_radar_research.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_Karel_Mares"
+		texturefile = "gfx/interface/goals/CZE_Karel_Mares.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_karel_janousek"
+		texturefile = "gfx/interface/goals/CZE_karel_janousek.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_milan_stefanik"
+		texturefile = "gfx/interface/goals/CZE_milan_stefanik.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_CKD"
+		texturefile = "gfx/interface/goals/CZE_CKD.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_aero"
+		texturefile = "gfx/interface/goals/CZE_aero.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_letov"
+		texturefile = "gfx/interface/goals/CZE_letov.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_avia"
+		texturefile = "gfx/interface/goals/CZE_avia.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_cheb_school"
+		texturefile = "gfx/interface/goals/CZE_cheb_school.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_officers"
+		texturefile = "gfx/interface/goals/CZE_officers.png"
+	}
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_nationalize_public_institutions"
+		texturefile = "gfx/interface/goals/CZE_nationalize_public_institutions.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_bohemia_first"
+		texturefile = "gfx/interface/goals/CZE_bohemia_first.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_pangerman_antics"
+		texturefile = "gfx/interface/goals/CZE_pangerman_antics.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_all_national_coalition"
+		texturefile = "gfx/interface/goals/CZE_all_national_coalition.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_physiology"
+		texturefile = "gfx/interface/goals/CZE_physiology.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_czech_governance"
+		texturefile = "gfx/interface/goals/CZE_czech_governance.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_class_equality"
+		texturefile = "gfx/interface/goals/CZE_class_equality.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_ostrava_coal"
+		texturefile = "gfx/interface/goals/CZE_ostrava_coal.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_vltava"
+		texturefile = "gfx/interface/goals/CZE_vltava.png"
+	}
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_koruna_insurance"
+		texturefile = "gfx/interface/goals/CZE_koruna_insurance.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_knights_of_blanik"
+		texturefile = "gfx/interface/goals/CZE_knights_of_blanik.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_squad_tactics"
+		texturefile = "gfx/interface/goals/CZE_squad_tactics.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_war_of_words"
+		texturefile = "gfx/interface/goals/CZE_war_of_words.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_meritocracy"
+		texturefile = "gfx/interface/goals/CZE_meritocracy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_domestic_arms"
+		texturefile = "gfx/interface/goals/CZE_domestic_arms.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_war_of_arms"
+		texturefile = "gfx/interface/goals/CZE_war_of_arms.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_praga"
+		texturefile = "gfx/interface/goals/CZE_praga.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_farmer_worker"
+		texturefile = "gfx/interface/goals/CZE_farmer_worker.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_modus_vivendi"
+		texturefile = "gfx/interface/goals/CZE_modus_vivendi.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_masarykian_approaches"
+		texturefile = "gfx/interface/goals/CZE_masarykian_approaches.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_family_ownership"
+		texturefile = "gfx/interface/goals/CZE_family_ownership.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_free_worship"
+		texturefile = "gfx/interface/goals/CZE_free_worship.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_income_tax"
+		texturefile = "gfx/interface/goals/CZE_income_tax.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_radotin_cement"
+		texturefile = "gfx/interface/goals/CZE_radotin_cement.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_morality_equality_prosperity"
+		texturefile = "gfx/interface/goals/CZE_morality_equality_prosperity.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_youth_service"
+		texturefile = "gfx/interface/goals/CZE_youth_service.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_czechoslovak_heritage"
+		texturefile = "gfx/interface/goals/CZE_czechoslovak_heritage.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_public_amenities"
+		texturefile = "gfx/interface/goals/CZE_public_amenities.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_common_man_politics"
+		texturefile = "gfx/interface/goals/CZE_common_man_politics.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_brevity_over_bureaucratese"
+		texturefile = "gfx/interface/goals/CZE_brevity_over_bureaucratese.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_czechoslovakia_indomitable"
+		texturefile = "gfx/interface/goals/CZE_czechoslovakia_indomitable.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_unshackle_czechoslovakia"
+		texturefile = "gfx/interface/goals/CZE_unshackle_czechoslovakia.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_pravda_vitezi_jan_masaryk"
+		texturefile = "gfx/interface/goals/CZE_pravda_vitezi_jan_masaryk.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_rudolf_beran"
+		texturefile = "gfx/interface/goals/CZE_rudolf_beran.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_jan_malypetr"
+		texturefile = "gfx/interface/goals/CZE_jan_malypetr.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_autonomy_bills"
+		texturefile = "gfx/interface/goals/CZE_autonomy_bills.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_universally_uniting_units"
+		texturefile = "gfx/interface/goals/CZE_universally_uniting_units.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_clear_the_path"
+		texturefile = "gfx/interface/goals/CZE_clear_the_path.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_govern_new_thorns"
+		texturefile = "gfx/interface/goals/CZE_govern_new_thorns.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_unite_the_right"
+		texturefile = "gfx/interface/goals/CZE_unite_the_right.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_speak_no_evil"
+		texturefile = "gfx/interface/goals/CZE_speak_no_evil.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_radical_changes"
+		texturefile = "gfx/interface/goals/CZE_radical_changes.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_state_agriculture"
+		texturefile = "gfx/interface/goals/CZE_state_agriculture.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_red_autonomism"
+		texturefile = "gfx/interface/goals/CZE_red_autonomism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_new_fighters"
+		texturefile = "gfx/interface/goals/CZE_new_fighters.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_fortress_autocracy"
+		texturefile = "gfx/interface/goals/CZE_fortress_autocracy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_vlajka_waves"
+		texturefile = "gfx/interface/goals/CZE_vlajka_waves.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_slovak_ppls_party"
+		texturefile = "gfx/interface/goals/CZE_slovak_ppls_party.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_under_vlajka"
+		texturefile = "gfx/interface/goals/CZE_under_vlajka.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_autarky"
+		texturefile = "gfx/interface/goals/CZE_autarky.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_reliable_nation"
+		texturefile = "gfx/interface/goals/CZE_reliable_nation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_solar_dictator"
+		texturefile = "gfx/interface/goals/CZE_solar_dictator.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_magical_occultism"
+		texturefile = "gfx/interface/goals/CZE_magical_occultism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_villainize_masaryk"
+		texturefile = "gfx/interface/goals/CZE_villainize_masaryk.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_old_vlajka"
+		texturefile = "gfx/interface/goals/CZE_old_vlajka.png"
+	}
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_modrany_sugar_factory"
+		texturefile = "gfx/interface/goals/CZE_modrany_sugar_factory.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_pilsen_skoda_factory"
+		texturefile = "gfx/interface/goals/CZE_pilsen_skoda_factory.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_the_wenzelkrone"
+		texturefile = "gfx/interface/goals/CZE_the_wenzelkrone.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_lobkowicz"
+		texturefile = "gfx/interface/goals/CZE_lobkowicz.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_schwarzenberg"
+		texturefile = "gfx/interface/goals/CZE_schwarzenberg.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_hussite_hustle"
+		texturefile = "gfx/interface/goals/CZE_hussite_hustle.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_hussite_republic"
+		texturefile = "gfx/interface/goals/CZE_hussite_republic.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_this_crown_is_not_cursed"
+		texturefile = "gfx/interface/goals/CZE_this_crown_is_not_cursed.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_better_die_well"
+		texturefile = "gfx/interface/goals/CZE_better_die_well.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_charles_university"
+		texturefile = "gfx/interface/goals/CZE_charles_university.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_we_the_lion"
+		texturefile = "gfx/interface/goals/CZE_we_the_lion.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_governing_articles"
+		texturefile = "gfx/interface/goals/CZE_governing_articles.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_respective_church"
+		texturefile = "gfx/interface/goals/CZE_respective_church.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_autoaction"
+		texturefile = "gfx/interface/goals/CZE_autoaction.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_schwarz_business"
+		texturefile = "gfx/interface/goals/CZE_schwarz_business.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_jan_zizka"
+		texturefile = "gfx/interface/goals/CZE_jan_zizka.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_vlajka_burn"
+		texturefile = "gfx/interface/goals/CZE_vlajka_burn.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_affirm_hussitism"
+		texturefile = "gfx/interface/goals/CZE_affirm_hussitism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_mladi_husite"
+		texturefile = "gfx/interface/goals/CZE_mladi_husite.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_attack_poland"
+		texturefile = "gfx/interface/goals/CZE_attack_poland.png"
+	}
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_bohemian_dream"
+		texturefile = "gfx/interface/goals/CZE_bohemian_dream.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_bohemia_surrounded"
+		texturefile = "gfx/interface/goals/CZE_bohemia_surrounded.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_bohemia_indomitable"
+		texturefile = "gfx/interface/goals/CZE_bohemia_indomitable.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_josef_snajdr"
+		texturefile = "gfx/interface/goals/CZE_josef_snajdr.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_lands_of_old"
+		texturefile = "gfx/interface/goals/CZE_lands_of_old.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_govern_new_bohemian_thorns"
+		texturefile = "gfx/interface/goals/CZE_govern_new_bohemian_thorns.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_two_languages"
+		texturefile = "gfx/interface/goals/CZE_two_languages.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_fruits"
+		texturefile = "gfx/interface/goals/CZE_fruits.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_beauty"
+		texturefile = "gfx/interface/goals/CZE_beauty.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_nase_dedictvi_bohemia"
+		texturefile = "gfx/interface/goals/CZE_nase_dedictvi_bohemia.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_mini_austria_bohemia"
+		texturefile = "gfx/interface/goals/CZE_mini_austria_bohemia.png"
+	}
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_CZE_premyslid"
+		texturefile = "gfx/interface/goals/CZE_premyslid.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_svatopluk"
+		texturefile = "gfx/interface/goals/CZE_svatopluk.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_attack_transylvania"
+		texturefile = "gfx/interface/goals/CZE_attack_transylvania.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_nitra"
+		texturefile = "gfx/interface/goals/CZE_nitra.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_zbro_brno"
+		texturefile = "gfx/interface/goals/CZE_zbro_brno.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_save_empire"
+		texturefile = "gfx/interface/goals/AUS_save_empire.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_berlin_stock_market"
+		texturefile = "gfx/interface/goals/AUS_berlin_stock_market.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kalergi_goal"
+		texturefile = "gfx/interface/goals/AUS_kalergi_goal.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_dollfuss_goal"
+		texturefile = "gfx/interface/goals/AUS_dollfuss_goal.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_renner_goal"
+		texturefile = "gfx/interface/goals/AUS_renner_goal.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_ender_goal"
+		texturefile = "gfx/interface/goals/AUS_ender_goal.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_wiener_neuestadter"
+		texturefile = "gfx/interface/goals/AUS_wiener_neuestadter.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_graf_and_stift"
+		texturefile = "gfx/interface/goals/AUS_graf_and_stift.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_erzberg"
+		texturefile = "gfx/interface/goals/AUS_erzberg.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_tyrolit"
+		texturefile = "gfx/interface/goals/AUS_tyrolit.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_AH_booba"
+		texturefile = "gfx/interface/goals/AUS_AH_booba.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_austromarxism"
+		texturefile = "gfx/interface/goals/AUS_austromarxism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_vienna_university"
+		texturefile = "gfx/interface/goals/AUS_vienna_university.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_cultural_associations"
+		texturefile = "gfx/interface/goals/AUS_cultural_associations.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_austromarxist_diet"
+		texturefile = "gfx/interface/goals/AUS_austromarxist_diet.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_wienerkommission"
+		texturefile = "gfx/interface/goals/AUS_wienerkommission.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_judiciary"
+		texturefile = "gfx/interface/goals/AUS_judiciary.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_red_vienna"
+		texturefile = "gfx/interface/goals/AUS_red_vienna.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_welfare"
+		texturefile = "gfx/interface/goals/AUS_welfare.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_restitution_plan"
+		texturefile = "gfx/interface/goals/AUS_restitution_plan.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_destroy_nationalism"
+		texturefile = "gfx/interface/goals/AUS_destroy_nationalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_no_minorities"
+		texturefile = "gfx/interface/goals/AUS_no_minorities.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_renner_one_point"
+		texturefile = "gfx/interface/goals/AUS_renner_one_point.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_corporate_state"
+		texturefile = "gfx/interface/goals/AUS_corporate_state.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_danubian_federation"
+		texturefile = "gfx/interface/goals/AUS_danubian_federation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_united_states"
+		texturefile = "gfx/interface/goals/AUS_united_states.png"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_AMAG_mattigwerk"
+		texturefile = "gfx/interface/goals/AUS_AMAG_mattigwerk.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_steyr_daimler_puch"
+		texturefile = "gfx/interface/goals/AUS_steyr_daimler_puch.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_pressburger_bahn"
+		texturefile = "gfx/interface/goals/AUS_pressburger_bahn.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_bohler_steel"
+		texturefile = "gfx/interface/goals/AUS_bohler_steel.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_wollersdorf"
+		texturefile = "gfx/interface/goals/AUS_wollersdorf.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_mittelstand"
+		texturefile = "gfx/interface/goals/AUS_mittelstand.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_burgertum"
+		texturefile = "gfx/interface/goals/AUS_burgertum.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_red_menace"
+		texturefile = "gfx/interface/goals/AUS_red_menace.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_AH_unity"
+		texturefile = "gfx/interface/goals/AUS_AH_unity.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_test_of_time"
+		texturefile = "gfx/interface/goals/AUS_test_of_time.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_fix_crash"
+		texturefile = "gfx/interface/goals/AUS_fix_crash.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_inter_imperial_trade"
+		texturefile = "gfx/interface/goals/AUS_inter_imperial_trade.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_old_order_ender"
+		texturefile = "gfx/interface/goals/AUS_old_order_ender.png"
+	}
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_austro_daimler"
+		texturefile = "gfx/interface/goals/AUS_austro_daimler.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_mittersill"
+		texturefile = "gfx/interface/goals/AUS_mittersill.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_linz_steel"
+		texturefile = "gfx/interface/goals/AUS_linz_steel.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_lokomotivfabrik_steg"
+		texturefile = "gfx/interface/goals/AUS_lokomotivfabrik_steg.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_restructure_unions"
+		texturefile = "gfx/interface/goals/AUS_restructure_unions.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_moral_modest"
+		texturefile = "gfx/interface/goals/AUS_moral_modest.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_cement_corporatism"
+		texturefile = "gfx/interface/goals/AUS_cement_corporatism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_the_quadragesimo_anno"
+		texturefile = "gfx/interface/goals/AUS_the_quadragesimo_anno.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_catholic_moral_basis"
+		texturefile = "gfx/interface/goals/AUS_catholic_moral_basis.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_catholic_social_teaching"
+		texturefile = "gfx/interface/goals/AUS_catholic_social_teaching.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_religion_over_nation"
+		texturefile = "gfx/interface/goals/AUS_religion_over_nation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_steyr_tractor"
+		texturefile = "gfx/interface/goals/AUS_steyr_tractor.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_christian_wienerkommission"
+		texturefile = "gfx/interface/goals/AUS_christian_wienerkommission.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_good_king_karl"
+		texturefile = "gfx/interface/goals/AUS_good_king_karl.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_corporate_empire"
+		texturefile = "gfx/interface/goals/AUS_corporate_empire.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_corporatism_real"
+		texturefile = "gfx/interface/goals/AUS_corporatism_real.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_imperial_corporatism"
+		texturefile = "gfx/interface/goals/AUS_imperial_corporatism.png"
+	}
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_prez_ender"
+		texturefile = "gfx/interface/goals/AUS_prez_ender.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_prez_renner"
+		texturefile = "gfx/interface/goals/AUS_prez_renner.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_prez_kalergi"
+		texturefile = "gfx/interface/goals/AUS_prez_kalergi.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_prez_dollfuss"
+		texturefile = "gfx/interface/goals/AUS_prez_dollfuss.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_prez_bethlen"
+		texturefile = "gfx/interface/goals/AUS_prez_bethlen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_prez_tildy"
+		texturefile = "gfx/interface/goals/AUS_prez_tildy.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_prez_masaryk"
+		texturefile = "gfx/interface/goals/AUS_prez_masaryk.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_prez_hampl"
+		texturefile = "gfx/interface/goals/AUS_prez_hampl.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_prez_broz"
+		texturefile = "gfx/interface/goals/AUS_prez_broz.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_prez_macek"
+		texturefile = "gfx/interface/goals/AUS_prez_macek.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_prez_krzyzanowski"
+		texturefile = "gfx/interface/goals/AUS_prez_krzyzanowski.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_prez_tarnowski"
+		texturefile = "gfx/interface/goals/AUS_prez_tarnowski.png"
+	}
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_illyrian_question"
+		texturefile = "gfx/interface/goals/AUS_illyrian_question.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_herzegovina_bauxite"
+		texturefile = "gfx/interface/goals/AUS_herzegovina_bauxite.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_prijedor_iron"
+		texturefile = "gfx/interface/goals/AUS_prijedor_iron.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_strabag_focus"
+		texturefile = "gfx/interface/goals/AUS_strabag_focus.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_agrarian_icon"
+		texturefile = "gfx/interface/goals/AUS_agrarian_icon.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_volksmilizen"
+		texturefile = "gfx/interface/goals/AUS_volksmilizen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_gleich_37"
+		texturefile = "gfx/interface/goals/AUS_gleich_37.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_orion"
+		texturefile = "gfx/interface/goals/AUS_orion.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_respective_multiculturalism"
+		texturefile = "gfx/interface/goals/AUS_respective_multiculturalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_lang_machines"
+		texturefile = "gfx/interface/goals/AUS_lang_machines.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_istvan_tisza"
+		texturefile = "gfx/interface/goals/AUS_istvan_tisza.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_vf_agreement"
+		texturefile = "gfx/interface/goals/AUS_vf_agreement.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_magyar_conservatives"
+		texturefile = "gfx/interface/goals/AUS_magyar_conservatives.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_four_points"
+		texturefile = "gfx/interface/goals/AUS_four_points.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_indivisible_inseparable"
+		texturefile = "gfx/interface/goals/AUS_indivisible_inseparable.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_magyarization"
+		texturefile = "gfx/interface/goals/AUS_magyarization.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_christ_conglomerate"
+		texturefile = "gfx/interface/goals/AUS_christ_conglomerate.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_autonomous_traditionalism"
+		texturefile = "gfx/interface/goals/AUS_autonomous_traditionalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_tungsram"
+		texturefile = "gfx/interface/goals/AUS_tungsram.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_mavag_424"
+		texturefile = "gfx/interface/goals/AUS_mavag_424.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_agrarian_populism"
+		texturefile = "gfx/interface/goals/AUS_agrarian_populism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_osterreich_uber_alles"
+		texturefile = "gfx/interface/goals/AUS_osterreich_uber_alles.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_anything_for_austria"
+		texturefile = "gfx/interface/goals/AUS_anything_for_austria.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_great_soldier"
+		texturefile = "gfx/interface/goals/AUS_great_soldier.png"
+	}
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_three_plagues"
+		texturefile = "gfx/interface/goals/AUS_three_plagues.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_corp_workers_representative"
+		texturefile = "gfx/interface/goals/AUS_corp_workers_representative.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_honest_modest"
+		texturefile = "gfx/interface/goals/AUS_honest_modest.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_fracking"
+		texturefile = "gfx/interface/goals/AUS_fracking.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_galicia_oil"
+		texturefile = "gfx/interface/goals/AUS_galicia_oil.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_dripfus"
+		texturefile = "gfx/interface/goals/AUS_dripfus.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_christ_agrarian"
+		texturefile = "gfx/interface/goals/AUS_christ_agrarian.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_first_step"
+		texturefile = "gfx/interface/goals/AUS_first_step.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_culture_golden_age"
+		texturefile = "gfx/interface/goals/AUS_culture_golden_age.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_danubia_erwacht"
+		texturefile = "gfx/interface/goals/AUS_danubia_erwacht.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_prove_dbp_merit"
+		texturefile = "gfx/interface/goals/AUS_prove_dbp_merit.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_semperit"
+		texturefile = "gfx/interface/goals/AUS_semperit.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kulturokonomie"
+		texturefile = "gfx/interface/goals/AUS_kulturokonomie.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_mannersdorf_cement"
+		texturefile = "gfx/interface/goals/AUS_mannersdorf_cement.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_HRE"
+		texturefile = "gfx/interface/goals/AUS_HRE.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_helleno_christian"
+		texturefile = "gfx/interface/goals/AUS_helleno_christian.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_tauernkraftwerk_hydro_power"
+		texturefile = "gfx/interface/goals/AUS_tauernkraftwerk_hydro_power.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kapsch_sohne"
+		texturefile = "gfx/interface/goals/AUS_kapsch_sohne.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kfjb_rail"
+		texturefile = "gfx/interface/goals/AUS_kfjb_rail.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_donaukonferenzen"
+		texturefile = "gfx/interface/goals/AUS_donaukonferenzen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_cultural_conservatism"
+		texturefile = "gfx/interface/goals/AUS_cultural_conservatism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_chaos_of_peoples"
+		texturefile = "gfx/interface/goals/AUS_chaos_of_peoples.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_these_united_states"
+		texturefile = "gfx/interface/goals/AUS_these_united_states.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_blessed_karl"
+		texturefile = "gfx/interface/goals/AUS_blessed_karl.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_blessed_karl_2"
+		texturefile = "gfx/interface/goals/AUS_blessed_karl_2.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_einstein"
+		texturefile = "gfx/interface/goals/AUS_einstein.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_ode_to_joy"
+		texturefile = "gfx/interface/goals/AUS_ode_to_joy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_national_religion_ethic"
+		texturefile = "gfx/interface/goals/AUS_national_religion_ethic.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_whitehead_torpedo"
+		texturefile = "gfx/interface/goals/AUS_whitehead_torpedo.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kelchalpe_copper"
+		texturefile = "gfx/interface/goals/AUS_kelchalpe_copper.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_boryslaw_oil"
+		texturefile = "gfx/interface/goals/AUS_boryslaw_oil.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kaiserliche_sciennetz"
+		texturefile = "gfx/interface/goals/AUS_kaiserliche_sciennetz.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_farmer_bureau"
+		texturefile = "gfx/interface/goals/AUS_farmer_bureau.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_call_von_mises"
+		texturefile = "gfx/interface/goals/AUS_call_von_mises.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_anti_war"
+		texturefile = "gfx/interface/goals/AUS_anti_war.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_communities_of_interaction"
+		texturefile = "gfx/interface/goals/AUS_communities_of_interaction.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_cultural_political_union"
+		texturefile = "gfx/interface/goals/AUS_cultural_political_union.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_evropa"
+		texturefile = "gfx/interface/goals/AUS_evropa.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_military_economic"
+		texturefile = "gfx/interface/goals/AUS_military_economic.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_siemens_sudbahn"
+		texturefile = "gfx/interface/goals/AUS_siemens_sudbahn.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_floridsdorf"
+		texturefile = "gfx/interface/goals/AUS_floridsdorf.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_female_privilege"
+		texturefile = "gfx/interface/goals/AUS_female_privilege.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_foderation_der_traume"
+		texturefile = "gfx/interface/goals/AUS_foderation_der_traume.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_cultural_exchange"
+		texturefile = "gfx/interface/goals/AUS_cultural_exchange.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_south_slavic_revolts"
+		texturefile = "gfx/interface/goals/AUS_south_slavic_revolts.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kaisertreuen"
+		texturefile = "gfx/interface/goals/AUS_kaisertreuen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_free_worker_farmer"
+		texturefile = "gfx/interface/goals/AUS_free_worker_farmer.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kulturunion"
+		texturefile = "gfx/interface/goals/AUS_kulturunion.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_staatseisenbahnen"
+		texturefile = "gfx/interface/goals/AUS_staatseisenbahnen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_no_marx"
+		texturefile = "gfx/interface/goals/AUS_no_marx.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_direct_rule_vienna"
+		texturefile = "gfx/interface/goals/AUS_direct_rule_vienna.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_emperor_who_loves"
+		texturefile = "gfx/interface/goals/AUS_emperor_who_loves.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_einheitliche_heilsregiesrung"
+		texturefile = "gfx/interface/goals/AUS_einheitliche_heilsregiesrung.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_einheit_kaiserkone"
+		texturefile = "gfx/interface/goals/AUS_einheit_kaiserkone.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_christ_nobles"
+		texturefile = "gfx/interface/goals/AUS_christ_nobles.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_south_slavs"
+		texturefile = "gfx/interface/goals/AUS_south_slavs.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_hold_up_crosses"
+		texturefile = "gfx/interface/goals/AUS_hold_up_crosses.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_wacht_an_der_donau"
+		texturefile = "gfx/interface/goals/AUS_wacht_an_der_donau.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_peace_in_our_time"
+		texturefile = "gfx/interface/goals/AUS_peace_in_our_time.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_sense_of_normalcy"
+		texturefile = "gfx/interface/goals/AUS_sense_of_normalcy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_censor_literature"
+		texturefile = "gfx/interface/goals/AUS_censor_literature.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_pick_off_instigators"
+		texturefile = "gfx/interface/goals/AUS_pick_off_instigators.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_no_1848"
+		texturefile = "gfx/interface/goals/AUS_no_1848.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_force_kaisers_hand"
+		texturefile = "gfx/interface/goals/AUS_force_kaisers_hand.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_einheitsmilizen"
+		texturefile = "gfx/interface/goals/AUS_einheitsmilizen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_order_of_battle"
+		texturefile = "gfx/interface/goals/AUS_order_of_battle.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_safeguard_interests"
+		texturefile = "gfx/interface/goals/AUS_safeguard_interests.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_hotzendorf"
+		texturefile = "gfx/interface/goals/AUS_hotzendorf.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kaisers_men_of_honor"
+		texturefile = "gfx/interface/goals/AUS_kaisers_men_of_honor.png"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_franz_josef_ii"
+		texturefile = "gfx/interface/goals/AUS_franz_josef_ii.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_cultural_restrictions"
+		texturefile = "gfx/interface/goals/AUS_cultural_restrictions.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_father_proud"
+		texturefile = "gfx/interface/goals/AUS_father_proud.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_big_four"
+		texturefile = "gfx/interface/goals/AUS_big_four.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_new_ideas"
+		texturefile = "gfx/interface/goals/AUS_new_ideas.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_early_ausgleich"
+		texturefile = "gfx/interface/goals/AUS_early_ausgleich.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_schutz"
+		texturefile = "gfx/interface/goals/AUS_schutz.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_karls_vision"
+		texturefile = "gfx/interface/goals/AUS_karls_vision.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_kuehnelt_leddihn"
+		texturefile = "gfx/interface/goals/AUS_kuehnelt_leddihn.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_mises_model"
+		texturefile = "gfx/interface/goals/AUS_mises_model.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_hour_of_hayek"
+		texturefile = "gfx/interface/goals/AUS_hour_of_hayek.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_walking_book"
+		texturefile = "gfx/interface/goals/AUS_walking_book.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_herd_menace"
+		texturefile = "gfx/interface/goals/AUS_herd_menace.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_liberal_defense"
+		texturefile = "gfx/interface/goals/AUS_liberal_defense.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_economic_school"
+		texturefile = "gfx/interface/goals/AUS_economic_school.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_otto_bauer"
+		texturefile = "gfx/interface/goals/AUS_otto_bauer.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_danubize_workers"
+		texturefile = "gfx/interface/goals/AUS_danubize_workers.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_methodology"
+		texturefile = "gfx/interface/goals/AUS_methodology.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_linz_program"
+		texturefile = "gfx/interface/goals/AUS_linz_program.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_seitz_bauer"
+		texturefile = "gfx/interface/goals/AUS_seitz_bauer.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_real_socialism"
+		texturefile = "gfx/interface/goals/AUS_real_socialism.png"
+	}
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_OSS"
+		texturefile = "gfx/interface/goals/AUS_OSS.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_jungvolk"
+		texturefile = "gfx/interface/goals/AUS_jungvolk.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_heimwehr"
+		texturefile = "gfx/interface/goals/AUS_heimwehr.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kupferplatte"
+		texturefile = "gfx/interface/goals/AUS_kupferplatte.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_promote_ssd"
+		texturefile = "gfx/interface/goals/AUS_promote_ssd.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_schutzkorps"
+		texturefile = "gfx/interface/goals/AUS_schutzkorps.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_proporci"
+		texturefile = "gfx/interface/goals/AUS_proporci.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_action_plan_against_russia"
+		texturefile = "gfx/interface/goals/AUS_action_plan_against_russia.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_empire_of_music"
+		texturefile = "gfx/interface/goals/AUS_empire_of_music.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_eyes_east"
+		texturefile = "gfx/interface/goals/AUS_eyes_east.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_paneuro_picnic"
+		texturefile = "gfx/interface/goals/AUS_paneuro_picnic.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_big_brain"
+		texturefile = "gfx/interface/goals/AUS_big_brain.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_unity_of_roman_cath"
+		texturefile = "gfx/interface/goals/AUS_unity_of_roman_cath.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_timeless_christian"
+		texturefile = "gfx/interface/goals/AUS_timeless_christian.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_held_ministerprasident"
+		texturefile = "gfx/interface/goals/AUS_held_ministerprasident.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kaltenleutgebner_rail"
+		texturefile = "gfx/interface/goals/AUS_kaltenleutgebner_rail.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_Ariosophic_Awakening"
+		texturefile = "gfx/interface/goals/AUS_Ariosophic_Awakening.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Ascension_Vril"
+		texturefile = "gfx/interface/goals/AUS_Ascension_Vril.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Bow_Theozoa"
+		texturefile = "gfx/interface/goals/AUS_Bow_Theozoa.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Castrate_Sodomite_Apelings"
+		texturefile = "gfx/interface/goals/AUS_Castrate_Sodomite_Apelings.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Children_Gods"
+		texturefile = "gfx/interface/goals/AUS_Children_Gods.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Fate_Biblical_Man_Animal"
+		texturefile = "gfx/interface/goals/AUS_Fate_Biblical_Man_Animal.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Gospel_Ostara"
+		texturefile = "gfx/interface/goals/AUS_Gospel_Ostara.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Initiate_Rassenhygiene"
+		texturefile = "gfx/interface/goals/AUS_Initiate_Rassenhygiene.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Nation_Blonde_Masculinists"
+		texturefile = "gfx/interface/goals/AUS_Nation_Blonde_Masculinists.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Necessity_Theozoology"
+		texturefile = "gfx/interface/goals/AUS_Necessity_Theozoology.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Order_New_Templars"
+		texturefile = "gfx/interface/goals/AUS_Order_New_Templars.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Pure_Clairvoyancy_Nordic_Aryans"
+		texturefile = "gfx/interface/goals/AUS_Pure_Clairvoyancy_Nordic_Aryans.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Reawaken_Aryan_Superpowers"
+		texturefile = "gfx/interface/goals/AUS_Reawaken_Aryan_Superpowers.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Rediscover_Atlantis"
+		texturefile = "gfx/interface/goals/AUS_Rediscover_Atlantis.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Union_Sciences_Theology"
+		texturefile = "gfx/interface/goals/AUS_Union_Sciences_Theology.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_christian_code"
+		texturefile = "gfx/interface/goals/AUS_christian_code.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_1867_right"
+		texturefile = "gfx/interface/goals/AUS_1867_right.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_unter_dem_doppeladler"
+		texturefile = "gfx/interface/goals/AUS_unter_dem_doppeladler.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_unter_dem_doppeladler_2"
+		texturefile = "gfx/interface/goals/AUS_unter_dem_doppeladler_2.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_gunther_burstyn"
+		texturefile = "gfx/interface/goals/AUS_gunther_burstyn.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_radio_troops"
+		texturefile = "gfx/interface/goals/AUS_radio_troops.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_aufklarungstruppe"
+		texturefile = "gfx/interface/goals/AUS_aufklarungstruppe.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_bohme"
+		texturefile = "gfx/interface/goals/AUS_bohme.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_hotzendorf_army"
+		texturefile = "gfx/interface/goals/AUS_hotzendorf_army.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_evidenzbureau"
+		texturefile = "gfx/interface/goals/AUS_evidenzbureau.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_gebirgstruppe"
+		texturefile = "gfx/interface/goals/AUS_gebirgstruppe.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_lion_isonzo"
+		texturefile = "gfx/interface/goals/AUS_lion_isonzo.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_sapper"
+		texturefile = "gfx/interface/goals/AUS_sapper.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_hirtenberg_ammo"
+		texturefile = "gfx/interface/goals/AUS_hirtenberg_ammo.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_luftfahrtruppen"
+		texturefile = "gfx/interface/goals/AUS_luftfahrtruppen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_panzerturmumbau"
+		texturefile = "gfx/interface/goals/AUS_panzerturmumbau.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kriegsschule"
+		texturefile = "gfx/interface/goals/AUS_kriegsschule.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_panzerschule"
+		texturefile = "gfx/interface/goals/AUS_panzerschule.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_modernize_panzers"
+		texturefile = "gfx/interface/goals/AUS_modernize_panzers.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_rip_bozo"
+		texturefile = "gfx/interface/goals/AUS_rip_bozo.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_mass_assembly"
+		texturefile = "gfx/interface/goals/AUS_mass_assembly.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_reappraise_weltkrieg"
+		texturefile = "gfx/interface/goals/AUS_reappraise_weltkrieg.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_raumverteidigung"
+		texturefile = "gfx/interface/goals/AUS_raumverteidigung.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_tactical_flexibility"
+		texturefile = "gfx/interface/goals/AUS_tactical_flexibility.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_saurerwerke"
+		texturefile = "gfx/interface/goals/AUS_saurerwerke.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_schwerpunkt"
+		texturefile = "gfx/interface/goals/AUS_schwerpunkt.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_erhard_raus"
+		texturefile = "gfx/interface/goals/AUS_erhard_raus.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_liebitzky"
+		texturefile = "gfx/interface/goals/AUS_liebitzky.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_rescind_fiume"
+		texturefile = "gfx/interface/goals/AUS_rescind_fiume.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_CNT"
+		texturefile = "gfx/interface/goals/AUS_CNT.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_STT"
+		texturefile = "gfx/interface/goals/AUS_STT.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_von_banfield"
+		texturefile = "gfx/interface/goals/AUS_von_banfield.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_von_trapp"
+		texturefile = "gfx/interface/goals/AUS_von_trapp.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Versurchsgleitsboote"
+		texturefile = "gfx/interface/goals/AUS_Versurchsgleitsboote.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_seefliegerkorps"
+		texturefile = "gfx/interface/goals/AUS_seefliegerkorps.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_lohner"
+		texturefile = "gfx/interface/goals/AUS_lohner.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_sms_brumowski"
+		texturefile = "gfx/interface/goals/AUS_sms_brumowski.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_crown_jewel_armed_forces"
+		texturefile = "gfx/interface/goals/AUS_crown_jewel_armed_forces.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_unrestricted_submarine_warfare"
+		texturefile = "gfx/interface/goals/AUS_unrestricted_submarine_warfare.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_alexander_lohr"
+		texturefile = "gfx/interface/goals/AUS_alexander_lohr.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_julius_yllam"
+		texturefile = "gfx/interface/goals/AUS_julius_yllam.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_viktor_seebauer"
+		texturefile = "gfx/interface/goals/AUS_viktor_seebauer.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_fischamend"
+		texturefile = "gfx/interface/goals/AUS_fischamend.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_hansa_brandenburg"
+		texturefile = "gfx/interface/goals/AUS_hansa_brandenburg.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_fliegerkompanie_41j"
+		texturefile = "gfx/interface/goals/AUS_fliegerkompanie_41j.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_phonix_logo"
+		texturefile = "gfx/interface/goals/AUS_phonix_logo.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_wiener_neuestadter_flugzeugwerke"
+		texturefile = "gfx/interface/goals/AUS_wiener_neuestadter_flugzeugwerke.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_dornier_designs"
+		texturefile = "gfx/interface/goals/AUS_dornier_designs.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_starhemberg_icon"
+		texturefile = "gfx/interface/goals/AUS_starhemberg_icon.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_wiener_neuestadter_socialists"
+		texturefile = "gfx/interface/goals/AUS_wiener_neuestadter_socialists.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_hiltl"
+		texturefile = "gfx/interface/goals/AUS_hiltl.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_korneuburger_oath"
+		texturefile = "gfx/interface/goals/AUS_korneuburger_oath.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_steel_kernel"
+		texturefile = "gfx/interface/goals/AUS_steel_kernel.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_fanny"
+		texturefile = "gfx/interface/goals/AUS_fanny.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_citizen_defense"
+		texturefile = "gfx/interface/goals/AUS_citizen_defense.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_homeland_protected"
+		texturefile = "gfx/interface/goals/AUS_homeland_protected.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_fucking"
+		texturefile = "gfx/interface/goals/AUS_fucking.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_serbi_dio_laustriaco_regno"
+		texturefile = "gfx/interface/goals/AUS_serbi_dio_laustriaco_regno.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_brest_litovsk"
+		texturefile = "gfx/interface/goals/AUS_brest_litovsk.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_four_old_friends"
+		texturefile = "gfx/interface/goals/AUS_four_old_friends.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_free_bulgaria"
+		texturefile = "gfx/interface/goals/AUS_free_bulgaria.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_zentralmachte"
+		texturefile = "gfx/interface/goals/AUS_zentralmachte.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_GER_military_goods"
+		texturefile = "gfx/interface/goals/AUS_GER_military_goods.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_bide_time"
+		texturefile = "gfx/interface/goals/AUS_bide_time.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_self_improvement"
+		texturefile = "gfx/interface/goals/AUS_self_improvement.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_old_italy_maps"
+		texturefile = "gfx/interface/goals/AUS_old_italy_maps.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_imperial_mitteleuropa"
+		texturefile = "gfx/interface/goals/AUS_imperial_mitteleuropa.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_good_neighbor_albania"
+		texturefile = "gfx/interface/goals/AUS_good_neighbor_albania.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_south_german_industry"
+		texturefile = "gfx/interface/goals/AUS_south_german_industry.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_habsburg_throne"
+		texturefile = "gfx/interface/goals/AUS_habsburg_throne.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_sarajevo_agreement"
+		texturefile = "gfx/interface/goals/AUS_sarajevo_agreement.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_colonies"
+		texturefile = "gfx/interface/goals/AUS_colonies.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_old_friends"
+		texturefile = "gfx/interface/goals/AUS_old_friends.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_change_warsaws_song"
+		texturefile = "gfx/interface/goals/AUS_change_warsaws_song.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_enemy_of_my_enemy"
+		texturefile = "gfx/interface/goals/AUS_enemy_of_my_enemy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_volga_danube"
+		texturefile = "gfx/interface/goals/AUS_volga_danube.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_donau_adriabund"
+		texturefile = "gfx/interface/goals/AUS_donau_adriabund.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_i_forgor"
+		texturefile = "gfx/interface/goals/AUS_i_forgor.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_Demand_Gibraltar"
+		texturefile = "gfx/interface/goals/AUS_Demand_Gibraltar.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Swiss_Neutrality"
+		texturefile = "gfx/interface/goals/AUS_Swiss_Neutrality.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Envoy_Pope"
+		texturefile = "gfx/interface/goals/AUS_Envoy_Pope.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Neutralize_Romania"
+		texturefile = "gfx/interface/goals/AUS_Neutralize_Romania.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Olive_Branch_Greeks"
+		texturefile = "gfx/interface/goals/AUS_Olive_Branch_Greeks.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Pacify_Greeks"
+		texturefile = "gfx/interface/goals/AUS_Pacify_Greeks.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_garden_of_cornflowers"
+		texturefile = "gfx/interface/goals/AUS_garden_of_cornflowers.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_railwaymen_support"
+		texturefile = "gfx/interface/goals/AUS_railwaymen_support.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_marie_werbik"
+		texturefile = "gfx/interface/goals/AUS_marie_werbik.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_industry_for_austrian_nation"
+		texturefile = "gfx/interface/goals/AUS_industry_for_austrian_nation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_innsbruck_experiment"
+		texturefile = "gfx/interface/goals/AUS_innsbruck_experiment.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_3_minutes_to_midnight"
+		texturefile = "gfx/interface/goals/AUS_3_minutes_to_midnight.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_von_schoenerer"
+		texturefile = "gfx/interface/goals/AUS_von_schoenerer.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_burschenschaften"
+		texturefile = "gfx/interface/goals/AUS_burschenschaften.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_volkisch"
+		texturefile = "gfx/interface/goals/AUS_volkisch.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_deutsche_arbeiterpartei"
+		texturefile = "gfx/interface/goals/AUS_deutsche_arbeiterpartei.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_bohemian_dap"
+		texturefile = "gfx/interface/goals/AUS_bohemian_dap.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_no_riehl"
+		texturefile = "gfx/interface/goals/AUS_no_riehl.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_guillotine_devil"
+		texturefile = "gfx/interface/goals/AUS_guillotine_devil.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_german_school_associations"
+		texturefile = "gfx/interface/goals/AUS_german_school_associations.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Riehl_Housing"
+		texturefile = "gfx/interface/goals/AUS_Riehl_Housing.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Ein_Volk"
+		texturefile = "gfx/interface/goals/AUS_Ein_Volk.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_Geist_Ariosophie"
+		texturefile = "gfx/interface/goals/AUS_Geist_Ariosophie.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Allay_Ashkenazi_Antagonist"
+		texturefile = "gfx/interface/goals/AUS_Allay_Ashkenazi_Antagonist.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Ancestor_Ice_Kings"
+		texturefile = "gfx/interface/goals/AUS_Ancestor_Ice_Kings.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Apostle"
+		texturefile = "gfx/interface/goals/AUS_Apostle.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Arische_Wirtschaftsordnung"
+		texturefile = "gfx/interface/goals/AUS_Arische_Wirtschaftsordnung.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Business_With_Frauenfeld"
+		texturefile = "gfx/interface/goals/AUS_Business_With_Frauenfeld.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Christ_Trebitsch"
+		texturefile = "gfx/interface/goals/AUS_Christ_Trebitsch.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Cleanse_Wotanism"
+		texturefile = "gfx/interface/goals/AUS_Cleanse_Wotanism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Engineer_Todays_Tomorrows"
+		texturefile = "gfx/interface/goals/AUS_Engineer_Todays_Tomorrows.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Four_Great_Moons"
+		texturefile = "gfx/interface/goals/AUS_Four_Great_Moons.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Priveleges_Ordo_Novi_Templi"
+		texturefile = "gfx/interface/goals/AUS_Priveleges_Ordo_Novi_Templi.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Providence_Strongest_Soldier"
+		texturefile = "gfx/interface/goals/AUS_Providence_Strongest_Soldier.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Geschwatz"
+		texturefile = "gfx/interface/goals/AUS_Geschwatz.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Industrialisms_Past_Present_Future"
+		texturefile = "gfx/interface/goals/AUS_Industrialisms_Past_Present_Future.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Intervention_From_Cosmos"
+		texturefile = "gfx/interface/goals/AUS_Intervention_From_Cosmos.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Krist_Domain"
+		texturefile = "gfx/interface/goals/AUS_Krist_Domain.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Lost_Gold_Troy"
+		texturefile = "gfx/interface/goals/AUS_Lost_Gold_Troy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Network_In_Germany"
+		texturefile = "gfx/interface/goals/AUS_Network_In_Germany.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_NOLB_Super_Transport_Experiment"
+		texturefile = "gfx/interface/goals/AUS_NOLB_Super_Transport_Experiment.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Poisoned_Electric_Rays"
+		texturefile = "gfx/interface/goals/AUS_Poisoned_Electric_Rays.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Study_Stars_Tiahuanaco"
+		texturefile = "gfx/interface/goals/AUS_Study_Stars_Tiahuanaco.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Synthesize_Ice_Vril"
+		texturefile = "gfx/interface/goals/AUS_Synthesize_Ice_Vril.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Technicality_Theozoology"
+		texturefile = "gfx/interface/goals/AUS_Technicality_Theozoology.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Templar_Has_Fallen"
+		texturefile = "gfx/interface/goals/AUS_Templar_Has_Fallen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Wisdom_Irminism"
+		texturefile = "gfx/interface/goals/AUS_Wisdom_Irminism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Santur_Power"
+		texturefile = "gfx/interface/goals/AUS_Santur_Power.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Saviour_Nordic_Aryans"
+		texturefile = "gfx/interface/goals/AUS_Saviour_Nordic_Aryans.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Schizo"
+		texturefile = "gfx/interface/goals/AUS_Schizo.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Sepulchre_Knights"
+		texturefile = "gfx/interface/goals/AUS_Sepulchre_Knights.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_Empire_Self_Socialism"
+		texturefile = "gfx/interface/goals/AUS_Empire_Self_Socialism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Gild_Opressed_Women"
+		texturefile = "gfx/interface/goals/AUS_Gild_Opressed_Women.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Jewels_Charity_Orders"
+		texturefile = "gfx/interface/goals/AUS_Jewels_Charity_Orders.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Legacy_Grandfather_Franz_Josef"
+		texturefile = "gfx/interface/goals/AUS_Legacy_Grandfather_Franz_Josef.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Let_Ballot_Speak_For_Me"
+		texturefile = "gfx/interface/goals/AUS_Let_Ballot_Speak_For_Me.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Memory_Father_Rudolf"
+		texturefile = "gfx/interface/goals/AUS_Memory_Father_Rudolf.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Modest_House"
+		texturefile = "gfx/interface/goals/AUS_Modest_House.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Nothing_Counts_But_Love"
+		texturefile = "gfx/interface/goals/AUS_Nothing_Counts_But_Love.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Red_Archduchess"
+		texturefile = "gfx/interface/goals/AUS_Red_Archduchess.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Red_Countess"
+		texturefile = "gfx/interface/goals/AUS_Red_Countess.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Red_Habsburg_Legitimism"
+		texturefile = "gfx/interface/goals/AUS_Red_Habsburg_Legitimism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Austria_Individuality_Acceptance"
+		texturefile = "gfx/interface/goals/AUS_Austria_Individuality_Acceptance.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Austria_No_Shackles"
+		texturefile = "gfx/interface/goals/AUS_Austria_No_Shackles.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Canvas_Red_Shades"
+		texturefile = "gfx/interface/goals/AUS_Canvas_Red_Shades.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Circle_Red_Counts_Countesses"
+		texturefile = "gfx/interface/goals/AUS_Circle_Red_Counts_Countesses.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_danubian_waterwheel"
+		texturefile = "gfx/interface/goals/AUS_danubian_waterwheel.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_lenin_bust"
+		texturefile = "gfx/interface/goals/AUS_lenin_bust.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_commandments_comrades"
+		texturefile = "gfx/interface/goals/AUS_commandments_comrades.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_schutzbund"
+		texturefile = "gfx/interface/goals/AUS_schutzbund.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_field_factory"
+		texturefile = "gfx/interface/goals/AUS_field_factory.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_paris_london_envoy"
+		texturefile = "gfx/interface/goals/AUS_paris_london_envoy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_red_arbeiterpartei"
+		texturefile = "gfx/interface/goals/AUS_red_arbeiterpartei.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_leopold_v"
+		texturefile = "gfx/interface/goals/AUS_leopold_v.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_modern_esperantism"
+		texturefile = "gfx/interface/goals/AUS_modern_esperantism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_parolu_esperanton"
+		texturefile = "gfx/interface/goals/AUS_parolu_esperanton.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_red_green_flames"
+		texturefile = "gfx/interface/goals/AUS_red_green_flames.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_koritschoner"
+		texturefile = "gfx/interface/goals/AUS_koritschoner.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_laurat"
+		texturefile = "gfx/interface/goals/AUS_laurat.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_steinhardt"
+		texturefile = "gfx/interface/goals/AUS_steinhardt.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_klahr"
+		texturefile = "gfx/interface/goals/AUS_klahr.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_hilferding"
+		texturefile = "gfx/interface/goals/AUS_hilferding.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_central_committee"
+		texturefile = "gfx/interface/goals/AUS_central_committee.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_fly_red_flag"
+		texturefile = "gfx/interface/goals/AUS_fly_red_flag.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_VF_Landbund_core"
+		texturefile = "gfx/interface/goals/AUS_VF_Landbund_core.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_paris_marx_fusion"
+		texturefile = "gfx/interface/goals/AUS_paris_marx_fusion.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_crimson_danube"
+		texturefile = "gfx/interface/goals/AUS_crimson_danube.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_imperial_liberation"
+		texturefile = "gfx/interface/goals/AUS_imperial_liberation.png"
+	}
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_von_hiltl"
+		texturefile = "gfx/interface/goals/AUS_von_hiltl.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_catastrophe_perpetrator"
+		texturefile = "gfx/interface/goals/AUS_catastrophe_perpetrator.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_defend_germaus"
+		texturefile = "gfx/interface/goals/AUS_defend_germaus.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_ritterfuhrer"
+		texturefile = "gfx/interface/goals/AUS_ritterfuhrer.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_surpass_heimwehr"
+		texturefile = "gfx/interface/goals/AUS_surpass_heimwehr.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_eichmann"
+		texturefile = "gfx/interface/goals/AUS_eichmann.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kaltenbrunner"
+		texturefile = "gfx/interface/goals/AUS_kaltenbrunner.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_decapitate_internationale"
+		texturefile = "gfx/interface/goals/AUS_decapitate_internationale.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_hiltl_fate_of_kaiser"
+		texturefile = "gfx/interface/goals/AUS_hiltl_fate_of_kaiser.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_germaus_uber_alles"
+		texturefile = "gfx/interface/goals/AUS_germaus_uber_alles.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_veteran_pensions"
+		texturefile = "gfx/interface/goals/AUS_veteran_pensions.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_true_germans"
+		texturefile = "gfx/interface/goals/AUS_true_germans.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_silence_big_four"
+		texturefile = "gfx/interface/goals/AUS_silence_big_four.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_agents_agencies"
+		texturefile = "gfx/interface/goals/AUS_agents_agencies.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_growth_without_party"
+		texturefile = "gfx/interface/goals/AUS_growth_without_party.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_sieg_germaus"
+		texturefile = "gfx/interface/goals/AUS_sieg_germaus.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_kohr"
+		texturefile = "gfx/interface/goals/AUS_kohr.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_christian_vices"
+		texturefile = "gfx/interface/goals/AUS_christian_vices.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_against_violence"
+		texturefile = "gfx/interface/goals/AUS_against_violence.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_tolstoy"
+		texturefile = "gfx/interface/goals/AUS_tolstoy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_ramus"
+		texturefile = "gfx/interface/goals/AUS_ramus.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_wissen_und_befreiung"
+		texturefile = "gfx/interface/goals/AUS_wissen_und_befreiung.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_cantonal_eurotopia"
+		texturefile = "gfx/interface/goals/AUS_cantonal_eurotopia.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_socialism_without_regression"
+		texturefile = "gfx/interface/goals/AUS_socialism_without_regression.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_tangible_utopia"
+		texturefile = "gfx/interface/goals/AUS_tangible_utopia.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_obendorf_communalism"
+		texturefile = "gfx/interface/goals/AUS_obendorf_communalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kalergite_anarchism"
+		texturefile = "gfx/interface/goals/AUS_kalergite_anarchism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_nation_without_breakdowns"
+		texturefile = "gfx/interface/goals/AUS_nation_without_breakdowns.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_community_to_stand"
+		texturefile = "gfx/interface/goals/AUS_community_to_stand.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_intelligence_web"
+		texturefile = "gfx/interface/goals/AUS_intelligence_web.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_social_society"
+		texturefile = "gfx/interface/goals/AUS_social_society.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_ills_marx"
+		texturefile = "gfx/interface/goals/AUS_ills_marx.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_aid_post_habsburg"
+		texturefile = "gfx/interface/goals/AUS_aid_post_habsburg.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_cult_bigness"
+		texturefile = "gfx/interface/goals/AUS_cult_bigness.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_conservative_laborer"
+		texturefile = "gfx/interface/goals/AUS_conservative_laborer.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_call_otto"
+		texturefile = "gfx/interface/goals/AUS_call_otto.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_einsturz"
+		texturefile = "gfx/interface/goals/AUS_einsturz.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_eagle_fallen"
+		texturefile = "gfx/interface/goals/AUS_eagle_fallen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_convivial_expanse"
+		texturefile = "gfx/interface/goals/AUS_convivial_expanse.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_leagues"
+		texturefile = "gfx/interface/goals/AUS_leagues.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_modesty_over_plenty"
+		texturefile = "gfx/interface/goals/AUS_modesty_over_plenty.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_nonmarxist_economics"
+		texturefile = "gfx/interface/goals/AUS_nonmarxist_economics.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_anarchist_social_revolution"
+		texturefile = "gfx/interface/goals/AUS_anarchist_social_revolution.png"
+	}
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_standestaat"
+		texturefile = "gfx/interface/goals/AUS_standestaat.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_collat_three_arrows"
+		texturefile = "gfx/interface/goals/AUS_collat_three_arrows.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_AH_nostalgia"
+		texturefile = "gfx/interface/goals/AUS_AH_nostalgia.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_mend_schisms"
+		texturefile = "gfx/interface/goals/AUS_mend_schisms.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_pesky_party_politics"
+		texturefile = "gfx/interface/goals/AUS_pesky_party_politics.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_thousand_generations"
+		texturefile = "gfx/interface/goals/AUS_thousand_generations.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_ein_vaterland"
+		texturefile = "gfx/interface/goals/AUS_ein_vaterland.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_recovery_food"
+		texturefile = "gfx/interface/goals/AUS_recovery_food.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_susdog"
+		texturefile = "gfx/interface/goals/AUS_susdog.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_reconstructive_mobilization"
+		texturefile = "gfx/interface/goals/AUS_reconstructive_mobilization.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_bring_together_classes"
+		texturefile = "gfx/interface/goals/AUS_bring_together_classes.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_dollfuss_farmer_leagues"
+		texturefile = "gfx/interface/goals/AUS_dollfuss_farmer_leagues.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_chivalric_valour"
+		texturefile = "gfx/interface/goals/AUS_chivalric_valour.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_medieval_modern_piety"
+		texturefile = "gfx/interface/goals/AUS_medieval_modern_piety.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_grand_coalition"
+		texturefile = "gfx/interface/goals/AUS_grand_coalition.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_union_federation"
+		texturefile = "gfx/interface/goals/AUS_union_federation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_combat_unemployment"
+		texturefile = "gfx/interface/goals/AUS_combat_unemployment.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_paralyze_nationalrat"
+		texturefile = "gfx/interface/goals/AUS_paralyze_nationalrat.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_supermises"
+		texturefile = "gfx/interface/goals/AUS_supermises.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_agrarian_means"
+		texturefile = "gfx/interface/goals/AUS_agrarian_means.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kanzler_dolbussy"
+		texturefile = "gfx/interface/goals/AUS_kanzler_dolbussy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kanzler_figl"
+		texturefile = "gfx/interface/goals/AUS_kanzler_figl.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kanzler_fey"
+		texturefile = "gfx/interface/goals/AUS_kanzler_fey.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kanzler_raab"
+		texturefile = "gfx/interface/goals/AUS_kanzler_raab.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_cult_kanzler"
+		texturefile = "gfx/interface/goals/AUS_cult_kanzler.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_brace_state"
+		texturefile = "gfx/interface/goals/AUS_brace_state.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kaisertreuen_VF"
+		texturefile = "gfx/interface/goals/AUS_kaisertreuen_VF.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_unternehmens"
+		texturefile = "gfx/interface/goals/AUS_unternehmens.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_enshrine_heroes"
+		texturefile = "gfx/interface/goals/AUS_enshrine_heroes.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_ochsenknuttel"
+		texturefile = "gfx/interface/goals/AUS_ochsenknuttel.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_instantaneous_crackdown"
+		texturefile = "gfx/interface/goals/AUS_instantaneous_crackdown.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_bloodisfuel"
+		texturefile = "gfx/interface/goals/AUS_bloodisfuel.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_electrify_hearts"
+		texturefile = "gfx/interface/goals/AUS_electrify_hearts.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_sozialpartnerschaft"
+		texturefile = "gfx/interface/goals/AUS_sozialpartnerschaft.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_reorganize_evidenzbureau"
+		texturefile = "gfx/interface/goals/AUS_reorganize_evidenzbureau.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_ststephen"
+		texturefile = "gfx/interface/goals/AUS_ststephen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_irredentism"
+		texturefile = "gfx/interface/goals/AUS_irredentism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_realize_dolbussy_already_eaten"
+		texturefile = "gfx/interface/goals/AUS_realize_dolbussy_already_eaten.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_gott_mit_dir"
+		texturefile = "gfx/interface/goals/AUS_gott_mit_dir.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_god_austria_kaiser"
+		texturefile = "gfx/interface/goals/AUS_god_austria_kaiser.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_no_nonsense"
+		texturefile = "gfx/interface/goals/AUS_no_nonsense.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_freemarket"
+		texturefile = "gfx/interface/goals/AUS_freemarket.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_corporatocratic_democracy"
+		texturefile = "gfx/interface/goals/AUS_corporatocratic_democracy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_god_will_leadership"
+		texturefile = "gfx/interface/goals/AUS_god_will_leadership.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_noblemens_corporatocracy"
+		texturefile = "gfx/interface/goals/AUS_noblemens_corporatocracy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_honor_korneuburg"
+		texturefile = "gfx/interface/goals/AUS_honor_korneuburg.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_commission_mandl"
+		texturefile = "gfx/interface/goals/AUS_commission_mandl.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_fanny_franchise"
+		texturefile = "gfx/interface/goals/AUS_fanny_franchise.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_field_over_factory"
+		texturefile = "gfx/interface/goals/AUS_field_over_factory.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_paramilitary"
+		texturefile = "gfx/interface/goals/AUS_paramilitary.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_onethirds_agreement"
+		texturefile = "gfx/interface/goals/AUS_onethirds_agreement.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_domestic_integrity"
+		texturefile = "gfx/interface/goals/AUS_domestic_integrity.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_burgertum_VF"
+		texturefile = "gfx/interface/goals/AUS_burgertum_VF.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_every_man_freedom"
+		texturefile = "gfx/interface/goals/AUS_every_man_freedom.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kalergi_VF"
+		texturefile = "gfx/interface/goals/AUS_kalergi_VF.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_industrial_populism"
+		texturefile = "gfx/interface/goals/AUS_industrial_populism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_disempower_german_nationals"
+		texturefile = "gfx/interface/goals/AUS_disempower_german_nationals.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_liberal_innards"
+		texturefile = "gfx/interface/goals/AUS_liberal_innards.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_blessed_kruckenkreuz"
+		texturefile = "gfx/interface/goals/AUS_blessed_kruckenkreuz.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_unshackle_nationalrat"
+		texturefile = "gfx/interface/goals/AUS_unshackle_nationalrat.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_integrate_foderalismusplan"
+		texturefile = "gfx/interface/goals/AUS_integrate_foderalismusplan.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kanzler_und_kaiser"
+		texturefile = "gfx/interface/goals/AUS_kanzler_und_kaiser.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_federal_council"
+		texturefile = "gfx/interface/goals/AUS_federal_council.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_CS_mass_politics"
+		texturefile = "gfx/interface/goals/AUS_CS_mass_politics.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_CS_coalition"
+		texturefile = "gfx/interface/goals/AUS_CS_coalition.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_state_estate"
+		texturefile = "gfx/interface/goals/AUS_state_estate.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_helmet_cross"
+		texturefile = "gfx/interface/goals/AUS_helmet_cross.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_wache_vaterland"
+		texturefile = "gfx/interface/goals/AUS_wache_vaterland.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_Convent_Lambach_Abbey"
+		texturefile = "gfx/interface/goals/AUS_Convent_Lambach_Abbey.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_End_Liebenfels_Divisive_Bloodlust"
+		texturefile = "gfx/interface/goals/AUS_End_Liebenfels_Divisive_Bloodlust.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Gods_True_Fatherland"
+		texturefile = "gfx/interface/goals/AUS_Gods_True_Fatherland.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Grand_Templar_Seyss_Inquart"
+		texturefile = "gfx/interface/goals/AUS_Grand_Templar_Seyss_Inquart.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Expound_Austo_Aryanism"
+		texturefile = "gfx/interface/goals/AUS_Expound_Austo_Aryanism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Humble_Three_Noble_Knights"
+		texturefile = "gfx/interface/goals/AUS_Humble_Three_Noble_Knights.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Saturate_Donauquelle_Vril"
+		texturefile = "gfx/interface/goals/AUS_Saturate_Donauquelle_Vril.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Templaric_Renaissance"
+		texturefile = "gfx/interface/goals/AUS_Templaric_Renaissance.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Codify_Common_Ariosophy"
+		texturefile = "gfx/interface/goals/AUS_Codify_Common_Ariosophy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Restore_Focus_Field_Factory"
+		texturefile = "gfx/interface/goals/AUS_Restore_Focus_Field_Factory.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_New_Age_Ariosophic_Artistry"
+		texturefile = "gfx/interface/goals/AUS_New_Age_Ariosophic_Artistry.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Realm_Earthly_Delights"
+		texturefile = "gfx/interface/goals/AUS_Realm_Earthly_Delights.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Reinterpret_His_Senile_Ramblings"
+		texturefile = "gfx/interface/goals/AUS_Reinterpret_His_Senile_Ramblings.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Remnants_Santur_Earth"
+		texturefile = "gfx/interface/goals/AUS_Remnants_Santur_Earth.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Restore_Sanity_Habsburg_Empire"
+		texturefile = "gfx/interface/goals/AUS_Restore_Sanity_Habsburg_Empire.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Restore_Dynasty_Earthly_Theozoas"
+		texturefile = "gfx/interface/goals/AUS_Restore_Dynasty_Earthly_Theozoas.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Constituent_Basis_Theosophies"
+		texturefile = "gfx/interface/goals/AUS_Constituent_Basis_Theosophies.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_Advertise_To_Metal_Rail_Unions"
+		texturefile = "gfx/interface/goals/AUS_Advertise_To_Metal_Rail_Unions.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Advertise_Verband_Alldeutscher_Turnvereine"
+		texturefile = "gfx/interface/goals/AUS_Advertise_Verband_Alldeutscher_Turnvereine.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Auspices_Neustadter_Sturmer"
+		texturefile = "gfx/interface/goals/AUS_Auspices_Neustadter_Sturmer.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Austrian_National_Internationale"
+		texturefile = "gfx/interface/goals/AUS_Austrian_National_Internationale.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Banishing_Ariosophs"
+		texturefile = "gfx/interface/goals/AUS_Banishing_Ariosophs.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Black_And_Yellow_Letter_Day"
+		texturefile = "gfx/interface/goals/AUS_Black_And_Yellow_Letter_Day.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Call_Off_Volksmilizen"
+		texturefile = "gfx/interface/goals/AUS_Call_Off_Volksmilizen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Charge_For_Active_Renewal"
+		texturefile = "gfx/interface/goals/AUS_Charge_For_Active_Renewal.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Court_Front_Fighters"
+		texturefile = "gfx/interface/goals/AUS_Court_Front_Fighters.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Charm_Winds_Of_Change"
+		texturefile = "gfx/interface/goals/AUS_Charm_Winds_Of_Change.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Christ_Culture_Continuity"
+		texturefile = "gfx/interface/goals/AUS_Christ_Culture_Continuity.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Clarify_Path_To_Glorious_Revival"
+		texturefile = "gfx/interface/goals/AUS_Clarify_Path_To_Glorious_Revival.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Comfort_Hearth_Home_Heimatblock"
+		texturefile = "gfx/interface/goals/AUS_Comfort_Hearth_Home_Heimatblock.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Concordat_With_Dollfuss"
+		texturefile = "gfx/interface/goals/AUS_Concordat_With_Dollfuss.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Corral_Heimwehrs_Fighters"
+		texturefile = "gfx/interface/goals/AUS_Corral_Heimwehrs_Fighters.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Court_Frauenfelds_Section"
+		texturefile = "gfx/interface/goals/AUS_Court_Frauenfelds_Section.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Favor_GDVP"
+		texturefile = "gfx/interface/goals/AUS_Favor_GDVP.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Democracy_With_Order"
+		texturefile = "gfx/interface/goals/AUS_Democracy_With_Order.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Dilemma_Concerning_Goring"
+		texturefile = "gfx/interface/goals/AUS_Dilemma_Concerning_Goring.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Disenfranchise_Starhemberg_Steidle"
+		texturefile = "gfx/interface/goals/AUS_Disenfranchise_Starhemberg_Steidle.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Duumvirate_Dollfuss_Starhemberg"
+		texturefile = "gfx/interface/goals/AUS_Duumvirate_Dollfuss_Starhemberg.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Embrace_Pfrimers_Orderly_Militarism"
+		texturefile = "gfx/interface/goals/AUS_Embrace_Pfrimers_Orderly_Militarism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Exemplify_Austrian_Exceptionalism"
+		texturefile = "gfx/interface/goals/AUS_Exemplify_Austrian_Exceptionalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Favor_DAP"
+		texturefile = "gfx/interface/goals/AUS_Favor_DAP.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_In_True_Statist_Purism"
+		texturefile = "gfx/interface/goals/AUS_In_True_Statist_Purism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Favor_Heimatblocks_Politicization"
+		texturefile = "gfx/interface/goals/AUS_Favor_Heimatblocks_Politicization.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Gewerkschaftlicher_Wiederaufbau"
+		texturefile = "gfx/interface/goals/AUS_Gewerkschaftlicher_Wiederaufbau.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Glorify_Styrian_Courage"
+		texturefile = "gfx/interface/goals/AUS_Glorify_Styrian_Courage.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Green_Fields_Glorious_Sunrises"
+		texturefile = "gfx/interface/goals/AUS_Green_Fields_Glorious_Sunrises.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Helmet_Sword_Sway_Ballot"
+		texturefile = "gfx/interface/goals/AUS_Helmet_Sword_Sway_Ballot.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Home_Guard_Dons_Stahlhelm"
+		texturefile = "gfx/interface/goals/AUS_Home_Guard_Dons_Stahlhelm.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Huebers_Volkisch_Victory"
+		texturefile = "gfx/interface/goals/AUS_Huebers_Volkisch_Victory.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Osterreich_Fur_Immer"
+		texturefile = "gfx/interface/goals/AUS_Osterreich_Fur_Immer.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Kneel_To_Double_Eagle"
+		texturefile = "gfx/interface/goals/AUS_Kneel_To_Double_Eagle.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Legacy_Kaiserjagers"
+		texturefile = "gfx/interface/goals/AUS_Legacy_Kaiserjagers.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Make_Do_With_Nationalrat"
+		texturefile = "gfx/interface/goals/AUS_Make_Do_With_Nationalrat.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Master_Of_Media_Mouth"
+		texturefile = "gfx/interface/goals/AUS_Master_Of_Media_Mouth.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Memories_Imperial_Utopia"
+		texturefile = "gfx/interface/goals/AUS_Memories_Imperial_Utopia.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_New_Mind_With_Fraternities_KSCV"
+		texturefile = "gfx/interface/goals/AUS_New_Mind_With_Fraternities_KSCV.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Noble_Soldier_Paradise"
+		texturefile = "gfx/interface/goals/AUS_Noble_Soldier_Paradise.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Reincentivize_Tourism_Travel"
+		texturefile = "gfx/interface/goals/AUS_Reincentivize_Tourism_Travel.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Pan_German_Odes"
+		texturefile = "gfx/interface/goals/AUS_Pan_German_Odes.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Patriotism_Over_Background"
+		texturefile = "gfx/interface/goals/AUS_Patriotism_Over_Background.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Pressure_Millimetternich"
+		texturefile = "gfx/interface/goals/AUS_Pressure_Millimetternich.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Promote_Josef_Lengauer"
+		texturefile = "gfx/interface/goals/AUS_Promote_Josef_Lengauer.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Propagate_Unabhangige_Gewerkschaft"
+		texturefile = "gfx/interface/goals/AUS_Propagate_Unabhangige_Gewerkschaft.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Reconstruct_Private_Business"
+		texturefile = "gfx/interface/goals/AUS_Reconstruct_Private_Business.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Redefine_AEIOU"
+		texturefile = "gfx/interface/goals/AUS_Redefine_AEIOU.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Skewer_Red_Basilisk_From_Mouth_To_Tail"
+		texturefile = "gfx/interface/goals/AUS_Skewer_Red_Basilisk_From_Mouth_To_Tail.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Remunerate_OAMG"
+		texturefile = "gfx/interface/goals/AUS_Remunerate_OAMG.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Retie_Ribbon_With_CS"
+		texturefile = "gfx/interface/goals/AUS_Retie_Ribbon_With_CS.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Sanctify_Kruckenkreuz"
+		texturefile = "gfx/interface/goals/AUS_Sanctify_Kruckenkreuz.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Scribe_Constitution_New_Security"
+		texturefile = "gfx/interface/goals/AUS_Scribe_Constitution_New_Security.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Seal_New_Golden_Ties_With_Berlin"
+		texturefile = "gfx/interface/goals/AUS_Seal_New_Golden_Ties_With_Berlin.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Secure_Administration_Colonels"
+		texturefile = "gfx/interface/goals/AUS_Secure_Administration_Colonels.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Sign_Into_Unholy_Aryan_Alliance"
+		texturefile = "gfx/interface/goals/AUS_Sign_Into_Unholy_Aryan_Alliance.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Wholly_Annex_Rightist_Militias"
+		texturefile = "gfx/interface/goals/AUS_Wholly_Annex_Rightist_Militias.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Spannian_Universalism"
+		texturefile = "gfx/interface/goals/AUS_Spannian_Universalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Starhembergs_Princedom"
+		texturefile = "gfx/interface/goals/AUS_Starhembergs_Princedom.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Steidle_Stands_Strong"
+		texturefile = "gfx/interface/goals/AUS_Steidle_Stands_Strong.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Study_Romanian_Legionairism"
+		texturefile = "gfx/interface/goals/AUS_Study_Romanian_Legionairism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Support_Steidles_Concrete_Politicking"
+		texturefile = "gfx/interface/goals/AUS_Support_Steidles_Concrete_Politicking.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Volkisch_Rhetoric"
+		texturefile = "gfx/interface/goals/AUS_Volkisch_Rhetoric.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Walter_Pfrimer_Bears_Medal"
+		texturefile = "gfx/interface/goals/AUS_Walter_Pfrimer_Bears_Medal.png"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_First_Volksuni"
+		texturefile = "gfx/interface/goals/AUS_First_Volksuni.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Call_Upon_Interpol"
+		texturefile = "gfx/interface/goals/AUS_Call_Upon_Interpol.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Common_Good_Corporative_Bodies"
+		texturefile = "gfx/interface/goals/AUS_Common_Good_Corporative_Bodies.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Deutschnationale_Bewegung_Holds"
+		texturefile = "gfx/interface/goals/AUS_Deutschnationale_Bewegung_Holds.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Deutschosterreish_Herrliches_Land"
+		texturefile = "gfx/interface/goals/AUS_Deutschosterreish_Herrliches_Land.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Eluciadte_Our_Muddy_Borders"
+		texturefile = "gfx/interface/goals/AUS_Eluciadte_Our_Muddy_Borders.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Emplace_Aryan_Paragraphs"
+		texturefile = "gfx/interface/goals/AUS_Emplace_Aryan_Paragraphs.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Enact_Hainischs_Agrarreformplan"
+		texturefile = "gfx/interface/goals/AUS_Enact_Hainischs_Agrarreformplan.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Enlightenment_Liberal_Vienna"
+		texturefile = "gfx/interface/goals/AUS_Enlightenment_Liberal_Vienna.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Farm_Factory_Fraternity"
+		texturefile = "gfx/interface/goals/AUS_Farm_Factory_Fraternity.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Push_Forward_Womens_Movement"
+		texturefile = "gfx/interface/goals/AUS_Push_Forward_Womens_Movement.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Kickstart_Broken_Banks"
+		texturefile = "gfx/interface/goals/AUS_Kickstart_Broken_Banks.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Legacy_Sozialpolitische_Partei"
+		texturefile = "gfx/interface/goals/AUS_Legacy_Sozialpolitische_Partei.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Liberation_All_German_Austrians"
+		texturefile = "gfx/interface/goals/AUS_Liberation_All_German_Austrians.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Paramilitary_Beatdowns"
+		texturefile = "gfx/interface/goals/AUS_Paramilitary_Beatdowns.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Prasident_Johannes_Schober"
+		texturefile = "gfx/interface/goals/AUS_Prasident_Johannes_Schober.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Prasident_Michael_Hainisch"
+		texturefile = "gfx/interface/goals/AUS_Prasident_Michael_Hainisch.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Promote_OAW"
+		texturefile = "gfx/interface/goals/AUS_Promote_OAW.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Propose_Germanic_Customs_Union"
+		texturefile = "gfx/interface/goals/AUS_Propose_Germanic_Customs_Union.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Protect_Legacy_Empire"
+		texturefile = "gfx/interface/goals/AUS_Protect_Legacy_Empire.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Umbrella_For_Woes_Burgertum"
+		texturefile = "gfx/interface/goals/AUS_Umbrella_For_Woes_Burgertum.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Secure_Admiration_CS"
+		texturefile = "gfx/interface/goals/AUS_Secure_Admiration_CS.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_austro_american_alliance"
+		texturefile = "gfx/interface/goals/AUS_austro_american_alliance.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_canal_me_thee"
+		texturefile = "gfx/interface/goals/AUS_canal_me_thee.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_bless_winds"
+		texturefile = "gfx/interface/goals/AUS_bless_winds.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_arsenal_of_democracy"
+		texturefile = "gfx/interface/goals/AUS_arsenal_of_democracy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_tread_on_the_rock"
+		texturefile = "gfx/interface/goals/AUS_tread_on_the_rock.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_anchors_aweigh"
+		texturefile = "gfx/interface/goals/AUS_anchors_aweigh.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_multicultural_machine"
+		texturefile = "gfx/interface/goals/AUS_multicultural_machine.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_verpachten"
+		texturefile = "gfx/interface/goals/AUS_verpachten.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_lady_liberty_palace"
+		texturefile = "gfx/interface/goals/AUS_lady_liberty_palace.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_tighten_talons"
+		texturefile = "gfx/interface/goals/AUS_tighten_talons.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_Cooperative_In_Hand_Scythe"
+		texturefile = "gfx/interface/goals/AUS_Cooperative_In_Hand_Scythe.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Cultural_Capital_Germans"
+		texturefile = "gfx/interface/goals/AUS_Cultural_Capital_Germans.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Deutschnationale_Victory"
+		texturefile = "gfx/interface/goals/AUS_Deutschnationale_Victory.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Dollfussian_Dilemma"
+		texturefile = "gfx/interface/goals/AUS_Dollfussian_Dilemma.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Fund_Deutscher_Schulverein"
+		texturefile = "gfx/interface/goals/AUS_Fund_Deutscher_Schulverein.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Approach_Ariosophs"
+		texturefile = "gfx/interface/goals/AUS_Approach_Ariosophs.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Bolster_Standing_Prasident"
+		texturefile = "gfx/interface/goals/AUS_Bolster_Standing_Prasident.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Coalition_Splits"
+		texturefile = "gfx/interface/goals/AUS_Coalition_Splits.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_On_Matters_Of_Militias"
+		texturefile = "gfx/interface/goals/AUS_On_Matters_Of_Militias.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_German_Labor_German_Landbund"
+		texturefile = "gfx/interface/goals/AUS_German_Labor_German_Landbund.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Germanic_Individualism"
+		texturefile = "gfx/interface/goals/AUS_Germanic_Individualism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Grossdeutsche_Volksparteis_Great_Victory"
+		texturefile = "gfx/interface/goals/AUS_Grossdeutsche_Volksparteis_Great_Victory.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Humble_The_Church"
+		texturefile = "gfx/interface/goals/AUS_Humble_The_Church.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Legacy_Linz_Program"
+		texturefile = "gfx/interface/goals/AUS_Legacy_Linz_Program.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Nation_Of_Nature"
+		texturefile = "gfx/interface/goals/AUS_Nation_Of_Nature.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Old_Shatterhands_Triumph"
+		texturefile = "gfx/interface/goals/AUS_Old_Shatterhands_Triumph.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Recivilizing_Desolation"
+		texturefile = "gfx/interface/goals/AUS_Recivilizing_Desolation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Police_Paramilitarism"
+		texturefile = "gfx/interface/goals/AUS_Police_Paramilitarism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Prasident_Franz_Dinghofer"
+		texturefile = "gfx/interface/goals/AUS_Prasident_Franz_Dinghofer.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Prasident_Franz_Winkler"
+		texturefile = "gfx/interface/goals/AUS_Prasident_Franz_Winkler.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Prasident_Hans_Schurff"
+		texturefile = "gfx/interface/goals/AUS_Prasident_Hans_Schurff.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Prasident_Hermann_Foppa"
+		texturefile = "gfx/interface/goals/AUS_Prasident_Hermann_Foppa.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Prasident_Vinzenz_Schumy"
+		texturefile = "gfx/interface/goals/AUS_Prasident_Vinzenz_Schumy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Productive_Rationality"
+		texturefile = "gfx/interface/goals/AUS_Productive_Rationality.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Reject_Habsburgs"
+		texturefile = "gfx/interface/goals/AUS_Reject_Habsburgs.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Shun_Clericals"
+		texturefile = "gfx/interface/goals/AUS_Shun_Clericals.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Support_Hagenbund"
+		texturefile = "gfx/interface/goals/AUS_Support_Hagenbund.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Swipe_Christ_Off_Ballot"
+		texturefile = "gfx/interface/goals/AUS_Swipe_Christ_Off_Ballot.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Weed_Out_Estatist_Thoughts"
+		texturefile = "gfx/interface/goals/AUS_Weed_Out_Estatist_Thoughts.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_All_For_Family"
+		texturefile = "gfx/interface/goals/AUS_All_For_Family.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Breites_Politikspektrum"
+		texturefile = "gfx/interface/goals/AUS_Breites_Politikspektrum.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Center_Power_On_Rural_Peasant"
+		texturefile = "gfx/interface/goals/AUS_Center_Power_On_Rural_Peasant.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Deutsch_Bauern_Identity"
+		texturefile = "gfx/interface/goals/AUS_Deutsch_Bauern_Identity.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Germanize_Kamig_And_The_Rest"
+		texturefile = "gfx/interface/goals/AUS_Germanize_Kamig_And_The_Rest.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Leash_Wily_Hands_Of_Capitalism"
+		texturefile = "gfx/interface/goals/AUS_Leash_Wily_Hands_Of_Capitalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Mobilize_Bauernbund"
+		texturefile = "gfx/interface/goals/AUS_Mobilize_Bauernbund.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Realschule_Reformation"
+		texturefile = "gfx/interface/goals/AUS_Realschule_Reformation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Towards_National_Autarky"
+		texturefile = "gfx/interface/goals/AUS_Towards_National_Autarky.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Unify_Minds_Of_Burgertum"
+		texturefile = "gfx/interface/goals/AUS_Unify_Minds_Of_Burgertum.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Bohemian_Detente"
+		texturefile = "gfx/interface/goals/AUS_Bohemian_Detente.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Careful_Craft_Compromise"
+		texturefile = "gfx/interface/goals/AUS_Careful_Craft_Compromise.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Government_Of_Large_Estates"
+		texturefile = "gfx/interface/goals/AUS_Government_Of_Large_Estates.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_German_Nation_Of_Practical_Traditions"
+		texturefile = "gfx/interface/goals/AUS_German_Nation_Of_Practical_Traditions.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Gesamtdeutsche_Volksgemeinschaft"
+		texturefile = "gfx/interface/goals/AUS_Gesamtdeutsche_Volksgemeinschaft.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Ensure_Integrity_Economy_Culture"
+		texturefile = "gfx/interface/goals/AUS_Ensure_Integrity_Economy_Culture.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Open_New_Landwirtschaftsschulen"
+		texturefile = "gfx/interface/goals/AUS_Open_New_Landwirtschaftsschulen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_With_Or_Against_Programme"
+		texturefile = "gfx/interface/goals/AUS_With_Or_Against_Programme.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Enact_Grunflachenplan"
+		texturefile = "gfx/interface/goals/AUS_Enact_Grunflachenplan.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Repair_Danubian_Highways"
+		texturefile = "gfx/interface/goals/AUS_Repair_Danubian_Highways.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Children_of_Land"
+		texturefile = "gfx/interface/goals/AUS_Children_of_Land.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_Edle_Geistesarbeit"
+		texturefile = "gfx/interface/goals/AUS_Edle_Geistesarbeit.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Wrest_German_Homeland_From_Catholics"
+		texturefile = "gfx/interface/goals/AUS_Wrest_German_Homeland_From_Catholics.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Establish_Democratic_Volksbanken"
+		texturefile = "gfx/interface/goals/AUS_Establish_Democratic_Volksbanken.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Reverse_Anti_Monarchical_Pogroms"
+		texturefile = "gfx/interface/goals/AUS_Reverse_Anti_Monarchical_Pogroms.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Reich_State_Country"
+		texturefile = "gfx/interface/goals/AUS_Reich_State_Country.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Pierce_Through_Pervasive_Narrowmindedness"
+		texturefile = "gfx/interface/goals/AUS_Pierce_Through_Pervasive_Narrowmindedness.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_High_House_Corporatism"
+		texturefile = "gfx/interface/goals/AUS_High_House_Corporatism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Adel_Allem"
+		texturefile = "gfx/interface/goals/AUS_Adel_Allem.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Frauenfeld"
+		texturefile = "gfx/interface/goals/AUS_Frauenfeld.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Riehl"
+		texturefile = "gfx/interface/goals/AUS_Riehl.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Leopold"
+		texturefile = "gfx/interface/goals/AUS_Leopold.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Glaise_Horstenau"
+		texturefile = "gfx/interface/goals/AUS_Glaise_Horstenau.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_culture_extra_thing"
+		texturefile = "gfx/interface/goals/AUS_culture_extra_thing.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_Multifaceted_Multiculturalism"
+		texturefile = "gfx/interface/goals/AUS_Multifaceted_Multiculturalism.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_20th_theresianism"
+		texturefile = "gfx/interface/goals/AUS_20th_theresianism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_buresch"
+		texturefile = "gfx/interface/goals/AUS_buresch.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_miklas"
+		texturefile = "gfx/interface/goals/AUS_miklas.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_bauer"
+		texturefile = "gfx/interface/goals/AUS_bauer.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_uberpolitische_werk"
+		texturefile = "gfx/interface/goals/AUS_uberpolitische_werk.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_in_name_of_hueber"
+		texturefile = "gfx/interface/goals/AUS_in_name_of_hueber.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_canvas_red"
+		texturefile = "gfx/interface/goals/AUS_canvas_red.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_devils_brew"
+		texturefile = "gfx/interface/goals/AUS_devils_brew.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_proporz"
+		texturefile = "gfx/interface/goals/AUS_proporz.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_chicago"
+		texturefile = "gfx/interface/goals/AUS_chicago.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kampferische_arbeitskultur"
+		texturefile = "gfx/interface/goals/AUS_kampferische_arbeitskultur.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_bauer_small"
+		texturefile = "gfx/interface/goals/AUS_bauer_small.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_friedrich_adler"
+		texturefile = "gfx/interface/goals/AUS_friedrich_adler.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_renner_small"
+		texturefile = "gfx/interface/goals/AUS_renner_small.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_max_adler"
+		texturefile = "gfx/interface/goals/AUS_max_adler.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_rosa_jochmann"
+		texturefile = "gfx/interface/goals/AUS_rosa_jochmann.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_manfred_ackermann"
+		texturefile = "gfx/interface/goals/AUS_manfred_ackermann.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_karl_mantler"
+		texturefile = "gfx/interface/goals/AUS_karl_mantler.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_karl_seitz"
+		texturefile = "gfx/interface/goals/AUS_karl_seitz.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_julius_deutsch"
+		texturefile = "gfx/interface/goals/AUS_julius_deutsch.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_theodor_korner"
+		texturefile = "gfx/interface/goals/AUS_theodor_korner.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_adolf_scharf"
+		texturefile = "gfx/interface/goals/AUS_adolf_scharf.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_alexander_eifler"
+		texturefile = "gfx/interface/goals/AUS_alexander_eifler.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_habsburg_law"
+		texturefile = "gfx/interface/goals/AUS_habsburg_law.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_volkskoalition"
+		texturefile = "gfx/interface/goals/AUS_volkskoalition.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_festkultur_mari_smug"
+		texturefile = "gfx/interface/goals/AUS_festkultur_mari_smug.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_dismantle_yellow_union"
+		texturefile = "gfx/interface/goals/AUS_dismantle_yellow_union.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_dragoon"
+		texturefile = "gfx/interface/goals/AUS_dragoon.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_venerate_red_duchess"
+		texturefile = "gfx/interface/goals/AUS_venerate_red_duchess.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_reform_common_army"
+		texturefile = "gfx/interface/goals/AUS_reform_common_army.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_wrath_of_yahweh"
+		texturefile = "gfx/interface/goals/AUS_wrath_of_yahweh.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_blooming_rose"
+		texturefile = "gfx/interface/goals/AUS_blooming_rose.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_rose_fields"
+		texturefile = "gfx/interface/goals/AUS_rose_fields.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_proletarian_violence"
+		texturefile = "gfx/interface/goals/AUS_proletarian_violence.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_austromarxism_heroines"
+		texturefile = "gfx/interface/goals/AUS_austromarxism_heroines.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_liberated_mindfulness"
+		texturefile = "gfx/interface/goals/AUS_liberated_mindfulness.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_industrialist_wienerkommission"
+		texturefile = "gfx/interface/goals/AUS_industrialist_wienerkommission.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_echtes_deutschtum"
+		texturefile = "gfx/interface/goals/AUS_echtes_deutschtum.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_coexistant_internationalism"
+		texturefile = "gfx/interface/goals/AUS_coexistant_internationalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_union_congress"
+		texturefile = "gfx/interface/goals/AUS_union_congress.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_revolution_of_moderation"
+		texturefile = "gfx/interface/goals/AUS_revolution_of_moderation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_aggressive_reconstruction"
+		texturefile = "gfx/interface/goals/AUS_aggressive_reconstruction.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Court_Ranchers_With_Rosy_Bouquet"
+		texturefile = "gfx/interface/goals/AUS_Court_Ranchers_With_Rosy_Bouquet.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Streikkultur"
+		texturefile = "gfx/interface/goals/AUS_Streikkultur.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Foster_Cooperation_Along_Danube"
+		texturefile = "gfx/interface/goals/AUS_Foster_Cooperation_Along_Danube.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Eine_Grosse_Gewerkschaft"
+		texturefile = "gfx/interface/goals/AUS_Eine_Grosse_Gewerkschaft.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Cosmopolitan_International_Deutsch_Osterreich"
+		texturefile = "gfx/interface/goals/AUS_Cosmopolitan_International_Deutsch_Osterreich.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Meld_Austromarxism_Syndicalism"
+		texturefile = "gfx/interface/goals/AUS_Meld_Austromarxism_Syndicalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Empower_Regional_Worker_Councils"
+		texturefile = "gfx/interface/goals/AUS_Empower_Regional_Worker_Councils.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Sterile_Slate_For_Socialist_Success"
+		texturefile = "gfx/interface/goals/AUS_Sterile_Slate_For_Socialist_Success.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Transformatory_Cultural_Capitalism"
+		texturefile = "gfx/interface/goals/AUS_Transformatory_Cultural_Capitalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Three_Arrows_Third_Way"
+		texturefile = "gfx/interface/goals/AUS_Three_Arrows_Third_Way.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Embrace_Concept_Mitteleuropa"
+		texturefile = "gfx/interface/goals/AUS_Embrace_Concept_Mitteleuropa.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Cling_To_Danubian_Resuscitation"
+		texturefile = "gfx/interface/goals/AUS_Cling_To_Danubian_Resuscitation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Air_Sunlight_For_Our_Children"
+		texturefile = "gfx/interface/goals/AUS_Air_Sunlight_For_Our_Children.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Ascertained_Placidity"
+		texturefile = "gfx/interface/goals/AUS_Ascertained_Placidity.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Inductionist_Chassis"
+		texturefile = "gfx/interface/goals/AUS_Inductionist_Chassis.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Grassrooted_Revisionism"
+		texturefile = "gfx/interface/goals/AUS_Grassrooted_Revisionism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Office_Objectivity"
+		texturefile = "gfx/interface/goals/AUS_Office_Objectivity.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_wehrsport"
+		texturefile = "gfx/interface/goals/AUS_wehrsport.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_ear_labor"
+		texturefile = "gfx/interface/goals/AUS_ear_labor.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_gesamtkunstwerk_nation"
+		texturefile = "gfx/interface/goals/AUS_gesamtkunstwerk_nation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_fraying_bowstring"
+		texturefile = "gfx/interface/goals/AUS_fraying_bowstring.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_adaptive_marxism"
+		texturefile = "gfx/interface/goals/AUS_adaptive_marxism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_rapture_consciousness"
+		texturefile = "gfx/interface/goals/AUS_rapture_consciousness.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_rebuke_antisemitism"
+		texturefile = "gfx/interface/goals/AUS_rebuke_antisemitism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_trennungsgesetz"
+		texturefile = "gfx/interface/goals/AUS_trennungsgesetz.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_ringstrasse"
+		texturefile = "gfx/interface/goals/AUS_ringstrasse.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_marxs_austria"
+		texturefile = "gfx/interface/goals/AUS_marxs_austria.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_integrate_schutzbund"
+		texturefile = "gfx/interface/goals/AUS_integrate_schutzbund.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_integral_socialism"
+		texturefile = "gfx/interface/goals/AUS_integral_socialism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_legit_republic"
+		texturefile = "gfx/interface/goals/AUS_legit_republic.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_revolutionize_minds"
+		texturefile = "gfx/interface/goals/AUS_revolutionize_minds.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Bruder_Blut_Thron"
+		texturefile = "gfx/interface/goals/AUS_Bruder_Blut_Thron.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Mein_Bruder_Christus"
+		texturefile = "gfx/interface/goals/AUS_Mein_Bruder_Christus.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_To_Each_Their_Monarch"
+		texturefile = "gfx/interface/goals/AUS_To_Each_Their_Monarch.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Austrian_Auspices"
+		texturefile = "gfx/interface/goals/AUS_Austrian_Auspices.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Spanish_Styles"
+		texturefile = "gfx/interface/goals/AUS_Spanish_Styles.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Arrest_Anti_Habsburg_Unpatriotic_Sentiments"
+		texturefile = "gfx/interface/goals/AUS_Arrest_Anti_Habsburg_Unpatriotic_Sentiments.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Reestablish_Compact_Sovereign_Subject"
+		texturefile = "gfx/interface/goals/AUS_Reestablish_Compact_Sovereign_Subject.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Mobilize_Right"
+		texturefile = "gfx/interface/goals/AUS_Mobilize_Right.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Teutonic_Academics_Hospitality"
+		texturefile = "gfx/interface/goals/AUS_Teutonic_Academics_Hospitality.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Review_Austrian_Position_European_Stage"
+		texturefile = "gfx/interface/goals/AUS_Review_Austrian_Position_European_Stage.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_His_Majestys_Greater_Vision"
+		texturefile = "gfx/interface/goals/AUS_His_Majestys_Greater_Vision.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Decrees_Golden_Fleece"
+		texturefile = "gfx/interface/goals/AUS_Decrees_Golden_Fleece.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Fusion_Monarchy_Aristocracy_Democracy"
+		texturefile = "gfx/interface/goals/AUS_Fusion_Monarchy_Aristocracy_Democracy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Tango_With_Reichspakt"
+		texturefile = "gfx/interface/goals/AUS_Tango_With_Reichspakt.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Not_Without_Gods_Good_Light"
+		texturefile = "gfx/interface/goals/AUS_Not_Without_Gods_Good_Light.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Noble_Globus_Cruciger"
+		texturefile = "gfx/interface/goals/AUS_Noble_Globus_Cruciger.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Kriegsveteranenfursorge"
+		texturefile = "gfx/interface/goals/AUS_Kriegsveteranenfursorge.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Rewrite_Catastrophe_Constitution"
+		texturefile = "gfx/interface/goals/AUS_Rewrite_Catastrophe_Constitution.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Radio_Rekonstruktion"
+		texturefile = "gfx/interface/goals/AUS_Radio_Rekonstruktion.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Sign_Universitasbeschluss"
+		texturefile = "gfx/interface/goals/AUS_Sign_Universitasbeschluss.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Reform_Imperial_Lander"
+		texturefile = "gfx/interface/goals/AUS_Reform_Imperial_Lander.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Allign_Continental_Cantonal_Champions"
+		texturefile = "gfx/interface/goals/AUS_Allign_Continental_Cantonal_Champions.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Impose_Martial_Law"
+		texturefile = "gfx/interface/goals/AUS_Impose_Martial_Law.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Secure_Necessary_Essential_Surpluses"
+		texturefile = "gfx/interface/goals/AUS_Secure_Necessary_Essential_Surpluses.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Unbyzantify_Gemeinsamen_Armee"
+		texturefile = "gfx/interface/goals/AUS_Unbyzantify_Gemeinsamen_Armee.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Seek_Reichspakt_Assurances"
+		texturefile = "gfx/interface/goals/AUS_Seek_Reichspakt_Assurances.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Aggressive_Actions"
+		texturefile = "gfx/interface/goals/AUS_Aggressive_Actions.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Blank_Check_Investigations_Rogue_Politickers"
+		texturefile = "gfx/interface/goals/AUS_Blank_Check_Investigations_Rogue_Politickers.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Avoid_Repercussions_Wallenstein"
+		texturefile = "gfx/interface/goals/AUS_Avoid_Repercussions_Wallenstein.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Uncertain_Yet_Ready_Empire"
+		texturefile = "gfx/interface/goals/AUS_Uncertain_Yet_Ready_Empire.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Immortalize_Memory_Kaiser_Koning"
+		texturefile = "gfx/interface/goals/AUS_Immortalize_Memory_Kaiser_Koning.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Lay_Hand_For_Habsburgs"
+		texturefile = "gfx/interface/goals/AUS_Lay_Hand_For_Habsburgs.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Steel_Backed_Benevolence"
+		texturefile = "gfx/interface/goals/AUS_Steel_Backed_Benevolence.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Safeguard_Imperial_Honor"
+		texturefile = "gfx/interface/goals/AUS_Safeguard_Imperial_Honor.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Overtly_Avoidance_Neighborly_Ire"
+		texturefile = "gfx/interface/goals/AUS_Overtly_Avoidance_Neighborly_Ire.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Adorn_Decisive_Gilded_Gauntlet"
+		texturefile = "gfx/interface/goals/AUS_Adorn_Decisive_Gilded_Gauntlet.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Preserve_Habsburg_Institutions_Governance"
+		texturefile = "gfx/interface/goals/AUS_Preserve_Habsburg_Institutions_Governance.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_hoch_und_deutschmeister"
+		texturefile = "gfx/interface/goals/AUS_hoch_und_deutschmeister.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_spanish_crises"
+		texturefile = "gfx/interface/goals/AUS_spanish_crises.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_fifth_army"
+		texturefile = "gfx/interface/goals/AUS_fifth_army.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_nostalgia_2"
+		texturefile = "gfx/interface/goals/AUS_nostalgia_2.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_st_stephen"
+		texturefile = "gfx/interface/goals/AUS_st_stephen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_avoid_weltkrieg"
+		texturefile = "gfx/interface/goals/AUS_avoid_weltkrieg.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_christs_pious"
+		texturefile = "gfx/interface/goals/AUS_christs_pious.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_carlist_confederalism"
+		texturefile = "gfx/interface/goals/AUS_carlist_confederalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_broad_traditional_communion"
+		texturefile = "gfx/interface/goals/AUS_broad_traditional_communion.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_gott_vaterland_kaiser"
+		texturefile = "gfx/interface/goals/AUS_gott_vaterland_kaiser.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Carlos_VIII"
+		texturefile = "gfx/interface/goals/AUS_Carlos_VIII.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_ehre_existenz_freiheit"
+		texturefile = "gfx/interface/goals/AUS_ehre_existenz_freiheit.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_belvedere"
+		texturefile = "gfx/interface/goals/AUS_belvedere.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_olympian_stand"
+		texturefile = "gfx/interface/goals/AUS_olympian_stand.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_patriotic_internationalism"
+		texturefile = "gfx/interface/goals/AUS_patriotic_internationalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_sister_charles"
+		texturefile = "gfx/interface/goals/AUS_sister_charles.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_not_maximilian_eugen"
+		texturefile = "gfx/interface/goals/AUS_not_maximilian_eugen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_marianer"
+		texturefile = "gfx/interface/goals/AUS_marianer.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_belligerent_neighbors"
+		texturefile = "gfx/interface/goals/AUS_belligerent_neighbors.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_knights_of_good_king"
+		texturefile = "gfx/interface/goals/AUS_knights_of_good_king.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_chivalry"
+		texturefile = "gfx/interface/goals/AUS_chivalry.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kaisertreuen_asylum"
+		texturefile = "gfx/interface/goals/AUS_kaisertreuen_asylum.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_edelweiss_icon"
+		texturefile = "gfx/interface/goals/AUS_edelweiss_icon.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_charge_of_faithful"
+		texturefile = "gfx/interface/goals/AUS_charge_of_faithful.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_weltkrieg_errors"
+		texturefile = "gfx/interface/goals/AUS_weltkrieg_errors.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_AEIOU_expel"
+		texturefile = "gfx/interface/goals/AUS_AEIOU_expel.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_efficiency_over_tradition"
+		texturefile = "gfx/interface/goals/AUS_efficiency_over_tradition.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_militargrenze"
+		texturefile = "gfx/interface/goals/AUS_militargrenze.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_placate_neighbor"
+		texturefile = "gfx/interface/goals/AUS_placate_neighbor.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_legitimism"
+		texturefile = "gfx/interface/goals/AUS_legitimism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_ferdinand"
+		texturefile = "gfx/interface/goals/AUS_ferdinand.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_evolving_meaning"
+		texturefile = "gfx/interface/goals/AUS_evolving_meaning.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_damit_sein_volk"
+		texturefile = "gfx/interface/goals/AUS_damit_sein_volk.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_coopt_press"
+		texturefile = "gfx/interface/goals/AUS_coopt_press.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_magnet"
+		texturefile = "gfx/interface/goals/AUS_magnet.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_right_corruption"
+		texturefile = "gfx/interface/goals/AUS_right_corruption.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_staatsapparat"
+		texturefile = "gfx/interface/goals/AUS_staatsapparat.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_domestics_and_danubians"
+		texturefile = "gfx/interface/goals/AUS_domestics_and_danubians.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_viribus_unitis"
+		texturefile = "gfx/interface/goals/AUS_viribus_unitis.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_stately_modesty"
+		texturefile = "gfx/interface/goals/AUS_stately_modesty.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_unsern_kaiser"
+		texturefile = "gfx/interface/goals/AUS_unsern_kaiser.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_karl_small"
+		texturefile = "gfx/interface/goals/AUS_karl_small.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_otto_small"
+		texturefile = "gfx/interface/goals/AUS_otto_small.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_rotzenfod"
+		texturefile = "gfx/interface/goals/AUS_rotzenfod.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_dynastic_front"
+		texturefile = "gfx/interface/goals/AUS_dynastic_front.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_new_school"
+		texturefile = "gfx/interface/goals/AUS_new_school.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_gott_erhalte"
+		texturefile = "gfx/interface/goals/AUS_gott_erhalte.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_junta_icon"
+		texturefile = "gfx/interface/goals/AUS_junta_icon.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_regent_icon"
+		texturefile = "gfx/interface/goals/AUS_regent_icon.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_restore_faith"
+		texturefile = "gfx/interface/goals/AUS_restore_faith.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_agrarian_means_2"
+		texturefile = "gfx/interface/goals/AUS_agrarian_means_2.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_buresch_2"
+		texturefile = "gfx/interface/goals/AUS_buresch_2.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_LIC_youthgul_future"
+		texturefile = "gfx/interface/goals/LIC_youthgul_future.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Kulturkampf"
+		texturefile = "gfx/interface/goals/AUS_Kulturkampf.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Reappraise_Our_Political_Standing"
+		texturefile = "gfx/interface/goals/AUS_Reappraise_Our_Political_Standing.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Sprouting_Blossoming_Future"
+		texturefile = "gfx/interface/goals/AUS_Sprouting_Blossoming_Future.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Treatise_With_SDAPO"
+		texturefile = "gfx/interface/goals/AUS_Treatise_With_SDAPO.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Fortress_Churchs_Standing"
+		texturefile = "gfx/interface/goals/AUS_Fortress_Churchs_Standing.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Habsburg_Compromises"
+		texturefile = "gfx/interface/goals/AUS_Habsburg_Compromises.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Authoritarian_Cantonalism"
+		texturefile = "gfx/interface/goals/AUS_Authoritarian_Cantonalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Shielded_Advance_Into_Modernity"
+		texturefile = "gfx/interface/goals/AUS_Shielded_Advance_Into_Modernity.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Free_Media_Akin_Plants_Sunlight"
+		texturefile = "gfx/interface/goals/AUS_Free_Media_Akin_Plants_Sunlight.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Collude_OCV"
+		texturefile = "gfx/interface/goals/AUS_Collude_OCV.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Ascertain_Course_Tomorrows_Tracks"
+		texturefile = "gfx/interface/goals/AUS_Ascertain_Course_Tomorrows_Tracks.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Cabinet_Lander"
+		texturefile = "gfx/interface/goals/AUS_Cabinet_Lander.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Temper_Vaterlandische"
+		texturefile = "gfx/interface/goals/AUS_Temper_Vaterlandische.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Disenfranchise_Austromarxism"
+		texturefile = "gfx/interface/goals/AUS_Disenfranchise_Austromarxism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Faith_Through_Arduity"
+		texturefile = "gfx/interface/goals/AUS_Faith_Through_Arduity.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Transformation_From_Empire_Nation"
+		texturefile = "gfx/interface/goals/AUS_Transformation_From_Empire_Nation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Catastrophe_Insurances"
+		texturefile = "gfx/interface/goals/AUS_Catastrophe_Insurances.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Favor_Paramilitary_Steering"
+		texturefile = "gfx/interface/goals/AUS_Favor_Paramilitary_Steering.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Ministerium_Soziale_Angelegenheiten"
+		texturefile = "gfx/interface/goals/AUS_Ministerium_Soziale_Angelegenheiten.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Figureheads_Court"
+		texturefile = "gfx/interface/goals/AUS_Figureheads_Court.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Present_Firmness_Future_Democracy"
+		texturefile = "gfx/interface/goals/AUS_Present_Firmness_Future_Democracy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Luegerite_Renovations"
+		texturefile = "gfx/interface/goals/AUS_Luegerite_Renovations.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Republican_Realities"
+		texturefile = "gfx/interface/goals/AUS_Republican_Realities.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Intelligent_Moderations"
+		texturefile = "gfx/interface/goals/AUS_Intelligent_Moderations.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Independence_Internal_Consolidation"
+		texturefile = "gfx/interface/goals/AUS_Independence_Internal_Consolidation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Rehabilitation_Rationalism"
+		texturefile = "gfx/interface/goals/AUS_Rehabilitation_Rationalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_All_Angles_Federal_Reconstitution"
+		texturefile = "gfx/interface/goals/AUS_All_Angles_Federal_Reconstitution.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Financial_Equalization"
+		texturefile = "gfx/interface/goals/AUS_Financial_Equalization.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Grossosterreich"
+		texturefile = "gfx/interface/goals/AUS_Grossosterreich.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Christlichsoziale_Resurgence"
+		texturefile = "gfx/interface/goals/AUS_Christlichsoziale_Resurgence.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Economic_Foreign_Policy"
+		texturefile = "gfx/interface/goals/AUS_Economic_Foreign_Policy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Play_Big_Business"
+		texturefile = "gfx/interface/goals/AUS_Play_Big_Business.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Emblazon_Red_White_Red_All_Avenues"
+		texturefile = "gfx/interface/goals/AUS_Emblazon_Red_White_Red_All_Avenues.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Federalism_Survives"
+		texturefile = "gfx/interface/goals/AUS_Federalism_Survives.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Legacy_Fabier_Kreis"
+		texturefile = "gfx/interface/goals/AUS_Legacy_Fabier_Kreis.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Pious_Ecclesiastical_Buttresses"
+		texturefile = "gfx/interface/goals/AUS_Pious_Ecclesiastical_Buttresses.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Patriotism_Without_Nationalism"
+		texturefile = "gfx/interface/goals/AUS_Patriotism_Without_Nationalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Wealth_Danubian_Tradewinds"
+		texturefile = "gfx/interface/goals/AUS_Wealth_Danubian_Tradewinds.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Lessons_Great_Europeans"
+		texturefile = "gfx/interface/goals/AUS_Lessons_Great_Europeans.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Autonomy_Lander"
+		texturefile = "gfx/interface/goals/AUS_Autonomy_Lander.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Mittelstandsordnung"
+		texturefile = "gfx/interface/goals/AUS_Mittelstandsordnung.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Maintain_National_Integrity"
+		texturefile = "gfx/interface/goals/AUS_Maintain_National_Integrity.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Kelsenite_Law_Practice"
+		texturefile = "gfx/interface/goals/AUS_Kelsenite_Law_Practice.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_New_Form_United_States"
+		texturefile = "gfx/interface/goals/AUS_New_Form_United_States.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Cultural_Economic_Excellence"
+		texturefile = "gfx/interface/goals/AUS_Cultural_Economic_Excellence.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Disempower_Iron_Steel_Cartel"
+		texturefile = "gfx/interface/goals/AUS_Disempower_Iron_Steel_Cartel.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Total_Equity_Total_Man"
+		texturefile = "gfx/interface/goals/AUS_Total_Equity_Total_Man.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Redefine_Reich"
+		texturefile = "gfx/interface/goals/AUS_Redefine_Reich.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Convivial_Cosmopolitanism"
+		texturefile = "gfx/interface/goals/AUS_Convivial_Cosmopolitanism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Universal_Rights_Man_Citizen"
+		texturefile = "gfx/interface/goals/AUS_Universal_Rights_Man_Citizen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Rewrite_Prototype_Constitution"
+		texturefile = "gfx/interface/goals/AUS_Rewrite_Prototype_Constitution.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Unite_Not_Separate"
+		texturefile = "gfx/interface/goals/AUS_Unite_Not_Separate.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Man_Minded_Infrastructure_Repaving"
+		texturefile = "gfx/interface/goals/AUS_Man_Minded_Infrastructure_Repaving.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Renovate_Haus_Habsburg"
+		texturefile = "gfx/interface/goals/AUS_Renovate_Haus_Habsburg.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Relocate_Restore_Hampered_Industries"
+		texturefile = "gfx/interface/goals/AUS_Relocate_Restore_Hampered_Industries.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Great_Peace_Great_Empire"
+		texturefile = "gfx/interface/goals/AUS_Great_Peace_Great_Empire.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Moral_Renaissance"
+		texturefile = "gfx/interface/goals/AUS_Moral_Renaissance.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Prescient_Paneuropa"
+		texturefile = "gfx/interface/goals/AUS_Prescient_Paneuropa.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_English_Parliamentarianism"
+		texturefile = "gfx/interface/goals/AUS_English_Parliamentarianism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Humanist_Liberation"
+		texturefile = "gfx/interface/goals/AUS_Humanist_Liberation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Tithes_Real_Education"
+		texturefile = "gfx/interface/goals/AUS_Tithes_Real_Education.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_European_Heart_Mind"
+		texturefile = "gfx/interface/goals/AUS_European_Heart_Mind.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_American_Organs"
+		texturefile = "gfx/interface/goals/AUS_American_Organs.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Imperial_Paneuropeanism"
+		texturefile = "gfx/interface/goals/AUS_Imperial_Paneuropeanism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_Europe_Europeans"
+		texturefile = "gfx/interface/goals/AUS_Europe_Europeans.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_conscience_crisis"
+		texturefile = "gfx/interface/goals/AUS_conscience_crisis.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kleinunternehmen"
+		texturefile = "gfx/interface/goals/AUS_kleinunternehmen.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_redlich"
+		texturefile = "gfx/interface/goals/AUS_redlich.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_kalergi_3"
+		texturefile = "gfx/interface/goals/AUS_kalergi_3.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_otto"
+		texturefile = "gfx/interface/goals/AUS_otto.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_ramek"
+		texturefile = "gfx/interface/goals/AUS_ramek.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_ender_3"
+		texturefile = "gfx/interface/goals/AUS_ender_3.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_vaugoin"
+		texturefile = "gfx/interface/goals/AUS_vaugoin.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_miklas_2"
+		texturefile = "gfx/interface/goals/AUS_miklas_2.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_omnipotent_kraken"
+		texturefile = "gfx/interface/goals/FIU_omnipotent_kraken.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Open_Port_Tax_Havenry"
+		texturefile = "gfx/interface/goals/FIU_Open_Port_Tax_Havenry.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Burn_Evidentiary_Documentation"
+		texturefile = "gfx/interface/goals/FIU_Burn_Evidentiary_Documentation.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Cornucopia_Luxurious_Modesty"
+		texturefile = "gfx/interface/goals/FIU_Cornucopia_Luxurious_Modesty.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Domination_Danubians"
+		texturefile = "gfx/interface/goals/FIU_Domination_Danubians.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Embrace_Tripartite_Cities"
+		texturefile = "gfx/interface/goals/FIU_Embrace_Tripartite_Cities.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Following_North_Star"
+		texturefile = "gfx/interface/goals/FIU_Following_North_Star.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Four_Knights_Governor"
+		texturefile = "gfx/interface/goals/FIU_Four_Knights_Governor.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Herald_Skies_With_Sounds_Slots"
+		texturefile = "gfx/interface/goals/FIU_Herald_Skies_With_Sounds_Slots.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Kaiser_Karls_Revenge"
+		texturefile = "gfx/interface/goals/FIU_Kaiser_Karls_Revenge.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Modernize_Pirate_Code"
+		texturefile = "gfx/interface/goals/FIU_Modernize_Pirate_Code.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Admiraltreuen_Deckhands"
+		texturefile = "gfx/interface/goals/FIU_Admiraltreuen_Deckhands.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Induct_International_Investors_Inventors"
+		texturefile = "gfx/interface/goals/FIU_Induct_International_Investors_Inventors.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Paper_Monarchism"
+		texturefile = "gfx/interface/goals/FIU_Paper_Monarchism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Unfurl_Black_Banners"
+		texturefile = "gfx/interface/goals/FIU_Unfurl_Black_Banners.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Set_Sail_With_Ideas_Micronations"
+		texturefile = "gfx/interface/goals/FIU_Set_Sail_With_Ideas_Micronations.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Metropolis_Smoke_Steam"
+		texturefile = "gfx/interface/goals/FIU_Metropolis_Smoke_Steam.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Launch_Global_Merchant_Marine"
+		texturefile = "gfx/interface/goals/FIU_Launch_Global_Merchant_Marine.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Rebuild_Adriatic_Shipping_Lanes"
+		texturefile = "gfx/interface/goals/FIU_Rebuild_Adriatic_Shipping_Lanes.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_mercs"
+		texturefile = "gfx/interface/goals/FIU_mercs.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_seven_seas"
+		texturefile = "gfx/interface/goals/FIU_seven_seas.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_shroud_legend_treasure"
+		texturefile = "gfx/interface/goals/FIU_shroud_legend_treasure.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_modern_code"
+		texturefile = "gfx/interface/goals/FIU_modern_code.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_zadar_garrison"
+		texturefile = "gfx/interface/goals/FIU_zadar_garrison.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_dance_demons"
+		texturefile = "gfx/interface/goals/FIU_dance_demons.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_greed"
+		texturefile = "gfx/interface/goals/FIU_greed.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_cave_to_pirates"
+		texturefile = "gfx/interface/goals/FIU_cave_to_pirates.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_strike_irredentista"
+		texturefile = "gfx/interface/goals/FIU_strike_irredentista.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_imperal_splendor"
+		texturefile = "gfx/interface/goals/FIU_imperal_splendor.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_dalmatian_front"
+		texturefile = "gfx/interface/goals/FIU_dalmatian_front.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_racketeering"
+		texturefile = "gfx/interface/goals/FIU_racketeering.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_creed"
+		texturefile = "gfx/interface/goals/FIU_creed.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_placate_guard"
+		texturefile = "gfx/interface/goals/FIU_placate_guard.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_trawling"
+		texturefile = "gfx/interface/goals/FIU_trawling.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_detente"
+		texturefile = "gfx/interface/goals/FIU_detente.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_coffer_crisis"
+		texturefile = "gfx/interface/goals/FIU_coffer_crisis.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_loans_bailouts"
+		texturefile = "gfx/interface/goals/FIU_loans_bailouts.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_big_danubians"
+		texturefile = "gfx/interface/goals/FIU_big_danubians.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_I_Hail_Thee_Kingly_Heart_Most_High"
+		texturefile = "gfx/interface/goals/AUS_I_Hail_Thee_Kingly_Heart_Most_High.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_AUS_Reverence_Empress_Zita"
+		texturefile = "gfx/interface/goals/AUS_Reverence_Empress_Zita.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_anti_terrorist"
+		texturefile = "gfx/interface/goals/MNT_anti_terrorist.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_armed_necessities"
+		texturefile = "gfx/interface/goals/MNT_armed_necessities.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_back_on_track"
+		texturefile = "gfx/interface/goals/MNT_back_on_track.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_balkan_business"
+		texturefile = "gfx/interface/goals/MNT_balkan_business.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_belgrade"
+		texturefile = "gfx/interface/goals/MNT_belgrade.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_berane_ranchers"
+		texturefile = "gfx/interface/goals/MNT_berane_ranchers.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_brskovo"
+		texturefile = "gfx/interface/goals/MNT_brskovo.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_decade_to_prosperity"
+		texturefile = "gfx/interface/goals/MNT_decade_to_prosperity.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_domestic_business"
+		texturefile = "gfx/interface/goals/MNT_domestic_business.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_electricity"
+		texturefile = "gfx/interface/goals/MNT_electricity.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_evils_guaranteed"
+		texturefile = "gfx/interface/goals/MNT_evils_guaranteed.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_fourth_port"
+		texturefile = "gfx/interface/goals/MNT_fourth_port.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_gauge_reserves"
+		texturefile = "gfx/interface/goals/MNT_gauge_reserves.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_greedy_jailors"
+		texturefile = "gfx/interface/goals/MNT_greedy_jailors.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_independence_cordiality"
+		texturefile = "gfx/interface/goals/MNT_independence_cordiality.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_law_lines"
+		texturefile = "gfx/interface/goals/MNT_law_lines.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_macroeconomics"
+		texturefile = "gfx/interface/goals/MNT_macroeconomics.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_mineral_extraction"
+		texturefile = "gfx/interface/goals/MNT_mineral_extraction.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_nationalize_austrian_business"
+		texturefile = "gfx/interface/goals/MNT_nationalize_austrian_business.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_new_community"
+		texturefile = "gfx/interface/goals/MNT_new_community.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_niksic_saving_bank"
+		texturefile = "gfx/interface/goals/MNT_niksic_saving_bank.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_only_impossibility"
+		texturefile = "gfx/interface/goals/MNT_only_impossibility.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_open_ports"
+		texturefile = "gfx/interface/goals/MNT_open_ports.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_overwrite_austrian_barons"
+		texturefile = "gfx/interface/goals/MNT_overwrite_austrian_barons.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_perper"
+		texturefile = "gfx/interface/goals/MNT_perper.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_placate_klubasi"
+		texturefile = "gfx/interface/goals/MNT_placate_klubasi.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_podgorica"
+		texturefile = "gfx/interface/goals/MNT_podgorica.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_red_bauxite"
+		texturefile = "gfx/interface/goals/MNT_red_bauxite.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_sawmill"
+		texturefile = "gfx/interface/goals/MNT_sawmill.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_serb_dinar"
+		texturefile = "gfx/interface/goals/MNT_serb_dinar.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_sofia"
+		texturefile = "gfx/interface/goals/MNT_sofia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_solve_northern_plight"
+		texturefile = "gfx/interface/goals/MNT_solve_northern_plight.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_tread_carefully"
+		texturefile = "gfx/interface/goals/MNT_tread_carefully.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_trust_pravasi"
+		texturefile = "gfx/interface/goals/MNT_trust_pravasi.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_no_greens"
+		texturefile = "gfx/interface/goals/MNT_no_greens.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_discriminatory_law"
+		texturefile = "gfx/interface/goals/MNT_discriminatory_law.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_bulwark_against_austria"
+		texturefile = "gfx/interface/goals/MNT_bulwark_against_austria.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_franco_british_advisory"
+		texturefile = "gfx/interface/goals/MNT_franco_british_advisory.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_grasp_the_reins"
+		texturefile = "gfx/interface/goals/MNT_grasp_the_reins.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_njegos_mausoleum"
+		texturefile = "gfx/interface/goals/MNT_njegos_mausoleum.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_Nikola_Kovacevic"
+		texturefile = "gfx/interface/goals/MNT_Nikola_Kovacevic.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_appoint_sava"
+		texturefile = "gfx/interface/goals/MNT_appoint_sava.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_allies_across"
+		texturefile = "gfx/interface/goals/MNT_allies_across.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_Blazo_Jovanovic"
+		texturefile = "gfx/interface/goals/MNT_Blazo_Jovanovic.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_dawn_of_nationalism"
+		texturefile = "gfx/interface/goals/MNT_dawn_of_nationalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_purity_piety"
+		texturefile = "gfx/interface/goals/MNT_purity_piety.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_doclean_academies"
+		texturefile = "gfx/interface/goals/MNT_doclean_academies.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_orthodoxy"
+		texturefile = "gfx/interface/goals/MNT_orthodoxy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_armanist_exceptionalism"
+		texturefile = "gfx/interface/goals/MNT_armanist_exceptionalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_holy_glory"
+		texturefile = "gfx/interface/goals/MNT_holy_glory.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_exorcise_demon"
+		texturefile = "gfx/interface/goals/MNT_exorcise_demon.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_marxist_stitch"
+		texturefile = "gfx/interface/goals/MNT_marxist_stitch.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_brotherhood"
+		texturefile = "gfx/interface/goals/MNT_brotherhood.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_serbization"
+		texturefile = "gfx/interface/goals/MNT_serbization.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_red_croatia"
+		texturefile = "gfx/interface/goals/MNT_red_croatia.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_zagreb_south"
+		texturefile = "gfx/interface/goals/MNT_zagreb_south.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_federalism"
+		texturefile = "gfx/interface/goals/MNT_federalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_dinaric"
+		texturefile = "gfx/interface/goals/MNT_dinaric.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_tamo_daleko"
+		texturefile = "gfx/interface/goals/MNT_tamo_daleko.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_loyalists"
+		texturefile = "gfx/interface/goals/MNT_loyalists.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_hands"
+		texturefile = "gfx/interface/goals/MNT_hands.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_alexander"
+		texturefile = "gfx/interface/goals/MNT_alexander.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_remove_bulgar"
+		texturefile = "gfx/interface/goals/MNT_remove_bulgar.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_library"
+		texturefile = "gfx/interface/goals/MNT_library.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_chetnik"
+		texturefile = "gfx/interface/goals/MNT_chetnik.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_enemies_all_sides"
+		texturefile = "gfx/interface/goals/MNT_enemies_all_sides.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_green_crnogoroslavlje"
+		texturefile = "gfx/interface/goals/MNT_green_crnogoroslavlje.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_absolutism"
+		texturefile = "gfx/interface/goals/MNT_absolutism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_yugoslav_supremacism"
+		texturefile = "gfx/interface/goals/MNT_yugoslav_supremacism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_kill_njegos"
+		texturefile = "gfx/interface/goals/MNT_kill_njegos.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_serbs_culture"
+		texturefile = "gfx/interface/goals/MNT_serbs_culture.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_MNT_north_agriculture"
+		texturefile = "gfx/interface/goals/MNT_north_agriculture.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_questions_of_the_day"
+		texturefile = "gfx/interface/goals/MNT_questions_of_the_day.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_MNT_chetnik_vets"
+		texturefile = "gfx/interface/goals/MNT_chetnik_vets.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_FIU_shockwave"
+		texturefile = "gfx/interface/goals/FIU_shockwave.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_port_austerity"
+		texturefile = "gfx/interface/goals/FIU_port_austerity.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_nemzeti_bank"
+		texturefile = "gfx/interface/goals/FIU_nemzeti_bank.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_strabag_trieste"
+		texturefile = "gfx/interface/goals/FIU_strabag_trieste.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_HEP_group"
+		texturefile = "gfx/interface/goals/FIU_HEP_group.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_ganz_danubius"
+		texturefile = "gfx/interface/goals/FIU_ganz_danubius.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_lazarus"
+		texturefile = "gfx/interface/goals/FIU_lazarus.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_ravenna"
+		texturefile = "gfx/interface/goals/FIU_ravenna.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_pirates"
+		texturefile = "gfx/interface/goals/FIU_pirates.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_FIU_age_of_questions"
+		texturefile = "gfx/interface/goals/FIU_age_of_questions.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_freestate"
+		texturefile = "gfx/interface/goals/FIU_freestate.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_port_authorities"
+		texturefile = "gfx/interface/goals/FIU_port_authorities.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_three_ports_accord"
+		texturefile = "gfx/interface/goals/FIU_three_ports_accord.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_no_deal_italians"
+		texturefile = "gfx/interface/goals/FIU_no_deal_italians.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_dalmatian_deal"
+		texturefile = "gfx/interface/goals/FIU_dalmatian_deal.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_irredentist_crackdown"
+		texturefile = "gfx/interface/goals/FIU_irredentist_crackdown.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_austrian_steel"
+		texturefile = "gfx/interface/goals/FIU_austrian_steel.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_FIU_zadar"
+		texturefile = "gfx/interface/goals/FIU_zadar.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_fair_victory"
+		texturefile = "gfx/interface/goals/FIU_fair_victory.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_italian_school"
+		texturefile = "gfx/interface/goals/FIU_italian_school.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_von_habsburg"
+		texturefile = "gfx/interface/goals/FIU_von_habsburg.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_adriatic"
+		texturefile = "gfx/interface/goals/FIU_adriatic.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_no_magyars"
+		texturefile = "gfx/interface/goals/FIU_no_magyars.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_ferrovie_dello_stato"
+		texturefile = "gfx/interface/goals/FIU_ferrovie_dello_stato.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_KGR_oil_refinery"
+		texturefile = "gfx/interface/goals/FIU_KGR_oil_refinery.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_FIU_forced_overturn"
+		texturefile = "gfx/interface/goals/FIU_forced_overturn.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_bank"
+		texturefile = "gfx/interface/goals/FIU_bank.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_no_yarrharr"
+		texturefile = "gfx/interface/goals/FIU_no_yarrharr.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_FIU_i_like_money"
+		texturefile = "gfx/interface/goals/FIU_i_like_money.png"
+	}
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_FIU_pearls_of_the_adriatic"
+		texturefile = "gfx/interface/goals/FIU_pearls_of_the_adriatic.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_shelter_arditi"
+		texturefile = "gfx/interface/goals/FIU_shelter_arditi.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_legit_navy"
+		texturefile = "gfx/interface/goals/FIU_legit_navy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_black_flames"
+		texturefile = "gfx/interface/goals/FIU_black_flames.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_austrian_planes"
+		texturefile = "gfx/interface/goals/FIU_austrian_planes.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_naval_bomber"
+		texturefile = "gfx/interface/goals/FIU_naval_bomber.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_FEIRO"
+		texturefile = "gfx/interface/goals/FIU_FEIRO.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_reggiane"
+		texturefile = "gfx/interface/goals/FIU_reggiane.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_savoia_marchetti"
+		texturefile = "gfx/interface/goals/FIU_savoia_marchetti.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_di_revel"
+		texturefile = "gfx/interface/goals/FIU_di_revel.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_horthy"
+		texturefile = "gfx/interface/goals/FIU_horthy.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_csatay"
+		texturefile = "gfx/interface/goals/FIU_csatay.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_host_venturi"
+		texturefile = "gfx/interface/goals/FIU_host_venturi.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_bartini"
+		texturefile = "gfx/interface/goals/FIU_bartini.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_every_hungarians_creed"
+		texturefile = "gfx/interface/goals/FIU_every_hungarians_creed.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_dual_guards"
+		texturefile = "gfx/interface/goals/FIU_dual_guards.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_gold_standard"
+		texturefile = "gfx/interface/goals/FIU_gold_standard.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_return_to_form"
+		texturefile = "gfx/interface/goals/FIU_return_to_form.png"
+	}
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_FIU_Stalzer_PCF"
+		texturefile = "gfx/interface/goals/FIU_Stalzer_PCF.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_ustashe"
+		texturefile = "gfx/interface/goals/FIU_ustashe.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_Borba"
+		texturefile = "gfx/interface/goals/FIU_Borba.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_bolshevism"
+		texturefile = "gfx/interface/goals/FIU_bolshevism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_central_committee"
+		texturefile = "gfx/interface/goals/FIU_central_committee.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_dual_guard_remnant"
+		texturefile = "gfx/interface/goals/FIU_dual_guard_remnant.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_self_management"
+		texturefile = "gfx/interface/goals/FIU_self_management.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_istrian_revolution"
+		texturefile = "gfx/interface/goals/FIU_istrian_revolution.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_austroanglophilia"
+		texturefile = "gfx/interface/goals/FIU_austroanglophilia.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_fossil_syndicalism"
+		texturefile = "gfx/interface/goals/FIU_fossil_syndicalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_pipan"
+		texturefile = "gfx/interface/goals/FIU_pipan.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_da_gioz"
+		texturefile = "gfx/interface/goals/FIU_da_gioz.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_ciliga"
+		texturefile = "gfx/interface/goals/FIU_ciliga.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_austroslav"
+		texturefile = "gfx/interface/goals/FIU_austroslav.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_transalpine"
+		texturefile = "gfx/interface/goals/FIU_transalpine.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_chetnik"
+		texturefile = "gfx/interface/goals/FIU_chetnik.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_kill_ani"
+		texturefile = "gfx/interface/goals/FIU_kill_ani.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_west_revolution"
+		texturefile = "gfx/interface/goals/FIU_west_revolution.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_syndicalize_unions"
+		texturefile = "gfx/interface/goals/FIU_syndicalize_unions.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_religious_understanding"
+		texturefile = "gfx/interface/goals/FIU_religious_understanding.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_france_east"
+		texturefile = "gfx/interface/goals/FIU_france_east.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_fish"
+		texturefile = "gfx/interface/goals/FIU_fish.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_socialist_evolution"
+		texturefile = "gfx/interface/goals/FIU_socialist_evolution.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_ethnic_understanding"
+		texturefile = "gfx/interface/goals/FIU_ethnic_understanding.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_allround_affordability"
+		texturefile = "gfx/interface/goals/FIU_allround_affordability.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_popular_internationalism"
+		texturefile = "gfx/interface/goals/FIU_popular_internationalism.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_secure_fleet"
+		texturefile = "gfx/interface/goals/FIU_secure_fleet.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_kova_je_nasa"
+		texturefile = "gfx/interface/goals/FIU_kova_je_nasa.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_dual_guard_salvage"
+		texturefile = "gfx/interface/goals/FIU_dual_guard_salvage.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_FIU_dualsided_protection"
+		texturefile = "gfx/interface/goals/FIU_dualsided_protection.png"
+	}
+	
+}

@@ -104,9 +104,98 @@ create_country_leader = {
 	traits = {
 		anarcho_communist_council
 		pryg
+		cowboy
 	}
 }
 
 recruit_character = BSK_yakov_bykin
+			division_template = { 
+				name = "Dayz_goydovichki"
+				division_names_group = EST_INF_01
+				is_locked = no
+				regiments = { 
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 3 y = 0 }
 
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 2 y = 1 }
+					infantry = { x = 3 y = 1 }
+
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 2 y = 2 }
+					infantry = { x = 3 y = 2 }
+				}
+				support = {
+				}
+			}
+			random_owned_controlled_state = {
+				create_unit = { 
+					division = "name = \"1. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"2. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"3. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"4. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+								create_unit = { 
+					division = "name = \"1. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"2. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"3. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"4. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+								create_unit = { 
+					division = "name = \"1. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"2. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"3. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"4. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+								create_unit = { 
+					division = "name = \"1. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"2. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"3. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"4. Dayz_goydovichki\" division_template = \"Dayz_goydovichki\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+			}
 

@@ -1,0 +1,159 @@
+music = {
+	name = "5yeargaz"
+}
+music = {
+	name = "5year_1"
+}
+music = {
+	name = "Alija-Aljo"
+}
+music = {
+	name = "burg1"
+}
+music = {
+	name = "cj.1"
+}
+music = {
+	name = "cj.2"
+}
+music = {
+	name = "cj.4"
+}
+music = {
+	name = "cj.arg"
+}
+music = {
+	name = "cj.dissolve"
+}
+music = {
+	name = "cj.gaz_gachi"
+}
+music = {
+	name = "cj.gaz_mach"
+}
+music = {
+	name = "cj.iva_choice"
+}
+music = {
+	name = "cj.lgbt_attack2"
+}
+music = {
+	name = "cj.lgbt_peace"
+}
+music = {
+	name = "cj.lgbt_puppet"
+}
+music = {
+	name = "cj.pash_int"
+}
+music = {
+	name = "cj.pillar1"
+}
+music = {
+	name = "cj.pillar2"
+}
+music = {
+	name = "cj.san_gachi"
+}
+music = {
+	name = "cj.svyat_gachi"
+}
+music = {
+	name = "coo"
+}
+music = {
+	name = "fist_mashine"
+}
+music = {
+	name = "gaz_com1"
+}
+music = {
+	name = "gaz_com3"
+}
+music = {
+	name = "gaz_com_chi"
+}
+music = {
+	name = "gaz_mon"
+}
+music = {
+	name = "gaz_san_war"
+}
+music = {
+	name = "gla_idle"
+}
+music = {
+	name = "gla_whistle"
+}
+music = {
+	name = "gla_whistle1"
+}
+music = {
+	name = "hoi4mainthemeallies"
+}
+music = {
+	name = "iva_bos"
+}
+music = {
+	name = "iva_srb1"
+}
+music = {
+	name = "iva_srb2"
+}
+music = {
+	name = "iva_srb4"
+}
+music = {
+	name = "jap1"
+}
+music = {
+	name = "lgbt_attack1"
+}
+music = {
+	name = "Marty_Robbins_-_Big_Iron_48399041"
+}
+music = {
+	name = "matan"
+}
+music = {
+	name = "nazar"
+}
+music = {
+	name = "Pervyjj_Uroven"
+}
+music = {
+	name = "rakety_uletayut_vdal"
+}
+music = {
+	name = "san_tim1"
+}
+music = {
+	name = "san_tim2"
+}
+music = {
+	name = "san_tim3"
+}
+music = {
+	name = "sigmaboy"
+}
+music = {
+	name = "tambov"
+}
+music = {
+	name = "Terminator"
+}
+music = {
+	name = "Teufelslied"
+}
+music = {
+	name = "the-ventures-ghost-riders-in-the-sky"
+}
+music = {
+	name = "Was_wollen"
+}
+music = {
+	name = "Ystyk_pishter"
+}
+music = {
+	name = "сj.lgbt"
+}

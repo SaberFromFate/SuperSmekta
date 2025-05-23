@@ -11,8 +11,51 @@ focus_tree = {
 	}
 	default = no
 	reset_on_civilwar = no
-shared_focus = RUS_russian_army
+shared_focus = STARTDIP
 shared_focus = gachi16
+	focus = {
+        id = SVO_magom_sharsh
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 20 #По горизонтали
+        y = 1 #По вертикали
+        cost = 10
+        completion_reward = {
+		add_ideas = {
+    SVO_HOR
+	}
+war_support_factor = 0.10
+	add_popularity = { ideology = fascism popularity = 0.05 }
+	}
+    }
+	
+			focus = {
+        id = SAN_zazhim
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 20 #По горизонтали
+        y = 5 #По вертикали
+        cost = 10
+        completion_reward = {
+		add_ideas = {
+    SVO_HOR
+	}
+war_support_factor = 0.10
+	add_popularity = { ideology = fascism popularity = 0.05 }
+	}
+    }
+		focus = {
+        id = SVO_stroy
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 20 #По горизонтали
+        y = 3 #По вертикали
+        cost = 10
+        completion_reward = {
+		add_ideas = {
+    SVO_HOR
+	}
+war_support_factor = 0.10
+	add_popularity = { ideology = fascism popularity = 0.05 }
+	}
+    }
 	focus = {
         id = sv_h1
         icon = GFX_goal_generic_construct_civ_factory

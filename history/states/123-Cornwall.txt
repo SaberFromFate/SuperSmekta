@@ -6,7 +6,7 @@ state= {
 	state_category = town
 
 	history= {
-		owner = SVO
+		owner = YUC
 		victory_points = { 540 10 }
 		victory_points = { 6526 1 }
 		buildings = {
@@ -20,7 +20,8 @@ state= {
 			}
 
 		}
-		add_core_of = SVO
+		add_core_of = YUC
+		add_core_of = SCO
 	}
 
 	provinces= {

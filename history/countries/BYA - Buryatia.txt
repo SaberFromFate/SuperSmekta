@@ -109,5 +109,93 @@ create_country_leader = {
 }
 
 recruit_character = BSK_yakov_bykin
+			division_template = { 
+				name = "CUMBOI"
+				division_names_group = EST_INF_01
+				is_locked = no
+				regiments = { 
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 3 y = 0 }
 
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 2 y = 1 }
+					infantry = { x = 3 y = 1 }
+
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 2 y = 2 }
+					infantry = { x = 3 y = 2 }
+				}
+				support = {
+				}
+			}
+			random_owned_controlled_state = {
+				create_unit = { 
+					division = "name = \"1. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"2. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"3. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"4. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+								create_unit = { 
+					division = "name = \"5. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"6. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"7. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"8. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+								create_unit = { 
+					division = "name = \"9. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"10. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"11. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"12. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+								create_unit = { 
+					division = "name = \"13. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"14. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"15. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"16. CUMBOI\" division_template = \"CUMBOI\" start_experience_factor = 0.1" 
+					owner = ROOT
+				}
+			}
 

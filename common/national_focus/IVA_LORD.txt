@@ -1,0 +1,499 @@
+focus_tree = {
+	id = IVA_LORD
+	country = {
+		factor = 1
+	}
+	default = yes
+	focus = {
+		id = kruuugliy_stol
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = vaashi_souzniki
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = kruuugliy_stol
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = krisa
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vaashi_souzniki
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = caban
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vaashi_souzniki
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = vizir
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vaashi_souzniki
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = barbarossa
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vaashi_souzniki
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = siily_ravny
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = krisa
+			focus = caban
+			focus = vizir
+			focus = barbarossa
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = gde_vash_zamok
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = siily_ravny
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = viselica
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = gde_vash_zamok
+		}
+		mutually_exclusive = {
+			focus = cvetochki
+			focus = cvetochki
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = cvetochki
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = gde_vash_zamok
+		}
+		mutually_exclusive = {
+			focus = viselica
+			focus = viselica
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = poslanie_ot_hryaka
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = siily_ravny
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = battle_curses
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = poslanie_ot_hryaka
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = ya_voeval_a_ty
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = poslanie_ot_hryaka
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = medved_zabrasyvaet
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ya_voeval_a_ty
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = zapasy_provisii
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = medved_zabrasyvaet
+		}
+		mutually_exclusive = {
+			focus = postroit_apteky
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = postroit_apteky
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = medved_zabrasyvaet
+		}
+		mutually_exclusive = {
+			focus = zapasy_provisii
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = medved_gorit
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = zapasy_provisii
+			focus = postroit_apteky
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = boeviye_kartinki
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = medved_gorit
+		}
+		prerequisite = {
+			focus = battle_curses
+		}
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = velikiy_lors
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = medved_gorit
+		}
+		x = 11
+		y = 11
+
+	}
+	focus = {
+		id = lord_plodonosit
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = poslanie_ot_hryaka
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = neblizkiy_pyt
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = lord_plodonosit
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = otpustim_im_grehi
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = neblizkiy_pyt
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = porubim_ih_v_kapustu
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = lord_plodonosit
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = tyazhelaya_vesh
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = porubim_ih_v_kapustu
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = orudie_na+plecho
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = tyazhelaya_vesh
+		}
+		x = 16
+		y = 8
+
+	}
+	focus = {
+		id = pachich
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = lord_plodonosit
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = avemaria
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = pachich
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = deus_vult
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = avemaria
+		}
+		x = 18
+		y = 8
+
+	}
+	focus = {
+		id = integr_orden
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = otpustim_im_grehi
+		}
+		prerequisite = {
+			focus = deus_vult
+		}
+		x = 16
+		y = 10
+
+	}
+	focus = {
+		id = kobdoly
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = viselica
+		}
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = trevyshe_gotovo
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = gde_vash_zamok
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = peremeshaem_sjit
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = trevyshe_gotovo
+		}
+		x = 3
+		y = 7
+
+	}
+	focus = {
+		id = hz
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = cvetochki
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = zloy_lord
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = nalogi_velikovaty
+		}
+		prerequisite = {
+			focus = nadeyc_lyubat_govadinu
+		}
+		x = 1
+		y = 9
+
+	}
+	focus = {
+		id = dobryu_lord
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = nalogi_spraved
+		}
+		prerequisite = {
+			focus = nadeyc_lyubat_govadinu
+		}
+		x = 5
+		y = 9
+
+	}
+	focus = {
+		id = pyatera_crest
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = velikiy_lors
+		}
+		x = 11
+		y = 12
+
+	}
+	focus = {
+		id = nadeyc_lyubat_govadinu
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = peremeshaem_sjit
+		}
+		x = 3
+		y = 8
+
+	}
+	focus = {
+		id = nalogi_velikovaty
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = kobdoly
+		}
+		x = 1
+		y = 7
+
+	}
+	focus = {
+		id = nalogi_spraved
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = hz
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = au_aurukum
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = voiny_lohi
+		}
+		x = 20
+		y = 7
+
+	}
+	focus = {
+		id = nachnifi_hidmatukum
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = medved_gorit
+		}
+		prerequisite = {
+			focus = au_aurukum
+		}
+		x = 20
+		y = 9
+
+	}
+	focus = {
+		id = voiny_lohi
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = lord_plodonosit
+		}
+		x = 20
+		y = 6
+
+	}
+}

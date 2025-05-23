@@ -72,7 +72,7 @@ random_list = {
 }
     }
     10 = {
-        add_manpower = 10000
+        puppet=KOM
     }
 }
 		}

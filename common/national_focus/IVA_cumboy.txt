@@ -1,0 +1,328 @@
+focus_tree = {
+	id = IVA_cumboy
+	country = {
+		factor = 1
+	}
+	default = yes
+	focus = {
+		id = cumboy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = rubber_ass
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = cumboy
+		}
+		x = 12
+		y = 8
+
+	}
+	focus = {
+		id = motion_track
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = cumboy
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = hand_pistol
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = cumboy
+		}
+		x = 16
+		y = 8
+
+	}
+	focus = {
+		id = nalit_piva
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = motion_track
+		}
+		prerequisite = {
+			focus = hand_pistol
+		}
+		prerequisite = {
+			focus = rubber_ass
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = sobratisya
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = nalit_piva
+		}
+		x = 11
+		y = 10
+
+	}
+	focus = {
+		id = cowwboy_weapon
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sobratisya
+		}
+		x = 5
+		y = 11
+
+	}
+	focus = {
+		id = coord_uvorot
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sobratisya
+		}
+		x = 8
+		y = 11
+
+	}
+	focus = {
+		id = reklama_piva
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sobratisya
+		}
+		x = 10
+		y = 11
+
+	}
+	focus = {
+		id = dinamit
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sobratisya
+		}
+		x = 12
+		y = 11
+
+	}
+	focus = {
+		id = autoprigun
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sobratisya
+		}
+		x = 14
+		y = 11
+
+	}
+	focus = {
+		id = derzkie_avtoprig
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = autoprigun
+		}
+		x = 14
+		y = 12
+
+	}
+	focus = {
+		id = invite_puz_cow
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = derzkie_avtoprig
+		}
+		x = 14
+		y = 13
+
+	}
+	focus = {
+		id = invite_san_cow
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = reklama_piva
+		}
+		x = 10
+		y = 13
+
+	}
+	focus = {
+		id = invite_sim_cow
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = dinamit
+		}
+		x = 12
+		y = 13
+
+	}
+	focus = {
+		id = invite_cjo_cow
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = derzkie_avtoprig
+		}
+		x = 16
+		y = 13
+
+	}
+	focus = {
+		id = invite_pash_cow
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = derzkie_avtoprig
+		}
+		x = 18
+		y = 13
+
+	}
+	focus = {
+		id = posetit_ivanicha
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = nalit_piva
+		}
+		x = 17
+		y = 10
+
+	}
+	focus = {
+		id = ogorchitsya
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = posetit_ivanicha
+		}
+		x = 16
+		y = 11
+
+	}
+	focus = {
+		id = mnorozhenoe
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = posetit_ivanicha
+		}
+		x = 18
+		y = 11
+
+	}
+	focus = {
+		id = ty_bungal
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = coord_uvorot
+		}
+		x = 8
+		y = 12
+
+	}
+	focus = {
+		id = cupirovat_vzryv
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = posetit_ivanicha
+		}
+		x = 20
+		y = 11
+
+	}
+	focus = {
+		id = finalnuy_pyt
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = cowboy_unity
+		}
+		x = 14
+		y = 15
+
+	}
+	focus = {
+		id = cowboy_unity
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = invite_gaz_cow
+		}
+		prerequisite = {
+			focus = invite_san_cow
+		}
+		prerequisite = {
+			focus = invite_sim_cow
+		}
+		prerequisite = {
+			focus = invite_puz_cow
+		}
+		prerequisite = {
+			focus = invite_cjo_cow
+		}
+		prerequisite = {
+			focus = invite_pash_cow
+		}
+		prerequisite = {
+			focus = invite_svo_cow
+		}
+		x = 14
+		y = 14
+
+	}
+	focus = {
+		id = invite_gaz_cow
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ty_bungal
+		}
+		x = 8
+		y = 13
+
+	}
+	focus = {
+		id = invite_svo_cow
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = derzkie_avtoprig
+		}
+		prerequisite = {
+			focus = stoyat_cowboy
+		}
+		x = 20
+		y = 13
+
+	}
+	focus = {
+		id = stoyat_cowboy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = cupirovat_vzryv
+		}
+		x = 20
+		y = 12
+
+	}
+}

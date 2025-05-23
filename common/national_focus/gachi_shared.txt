@@ -9,20 +9,20 @@ not={has_completed_focus = c1}
 not={has_completed_focus = r1}
 		}
 		x = 8
-		y = 0
+		y = 30
 			completion_reward = {
 		set_politics = {
-    ruling_party = gachism
+    ruling_party = 3gachism
     elections_allowed = no
     last_election = "1935.12.17"
-    election_frequency = 48
+    election_frequency = 348
     long_name = TAG_party_long
     name = TAG_party
 }
 add_stability=0.05
 add_popularity = {
     ideology = gachism
-    popularity = 0.05
+    popularity = 30
 }
 set_power_balance = {
     id = my_bop
@@ -41,13 +41,13 @@ set_power_balance = {
 			focus = gachi16
 		}
 		x = 8
-		y = 1
+		y = 31
 	completion_reward = {
 		add_tech_bonus = {
 			name = Gachi_zavody 
 			bonus = 1
 			uses = 4
-			category = industry
+			category = 3industry
 		}
 		add_ideas=fist_theory
 	}
@@ -63,7 +63,7 @@ set_power_balance = {
 			focus = gachi13
 		}
 		x = 2
-		y = 2
+		y = 32
 			completion_reward = {
 	gachi_ip=yes
 				random_owned_controlled_state = {
@@ -107,7 +107,7 @@ set_power_balance = {
 			focus = gachi12
 		}
 		x = 0
-		y = 3
+		y = 33
 			completion_reward = {
 	gachi_an=yes
 						random_owned_controlled_state = {
@@ -150,7 +150,7 @@ set_power_balance = {
 			focus = newfocus_20
 		}
 		x = 1
-		y = 5
+		y = 35
 		completion_reward={  		swap_ideas = {
 			remove_idea = fist_theory
 			add_idea = fist_theory2
@@ -166,7 +166,7 @@ set_power_balance = {
 			focus = gachi13
 		}
 		x = 5
-		y = 2
+		y = 32
 			completion_reward = {
 						random_owned_controlled_state = {
 				limit = {
@@ -211,7 +211,7 @@ gachi_ip=yes
 			focus = gachi17
 		}
 		x = 2
-		y = 3
+		y = 33
 			completion_reward = {
 gachi_dip = yes
 add_research_slot=1
@@ -227,7 +227,7 @@ add_research_slot=1
 			focus = gachi13
 		}
 		x = 8
-		y = 2
+		y = 32
 			completion_reward = {
 						random_owned_controlled_state = {
 				limit = {
@@ -281,7 +281,7 @@ add_research_slot=1
 			focus = gachi14
 		}
 		x = 5
-		y = 3
+		y = 33
 			completion_reward = {
 								random_owned_controlled_state = {
 				limit = {
@@ -329,7 +329,7 @@ gachi_an=yes
 			focus = gachi9
 		}
 		x = 3
-		y = 4
+		y = 34
 			completion_reward = {
 gachi_ind=yes
 }
@@ -344,7 +344,7 @@ gachi_ind=yes
 			focus = gachi13
 		}
 		x = 11
-		y = 2
+		y = 32
 			completion_reward = {
 gachi_arm = yes
 }
@@ -365,7 +365,7 @@ gachi_arm = yes
 			focus = gachi17
 		}
 		x = 8
-		y = 3
+		y = 33
 			completion_reward = {
 						random_owned_controlled_state = {
 				limit = {
@@ -410,7 +410,7 @@ gachi_dip = yes
 			focus = gachi18
 		}
 		x = 7
-		y = 4
+		y = 34
 			completion_reward = {
 gachi_ind=yes
 }
@@ -425,7 +425,7 @@ gachi_ind=yes
 			focus = gachi13
 		}
 		x = 14
-		y = 2
+		y = 32
 			completion_reward = {
 								random_owned_controlled_state = {
 				limit = {
@@ -476,7 +476,7 @@ gachi_ip=yes
 			focus = gachi14
 		}
 		x = 11
-		y = 3
+		y = 33
 			completion_reward = {
 gachi_arm = yes
 }
@@ -494,7 +494,7 @@ gachi_arm = yes
 			focus = gachi8
 		}
 		x = 9
-		y = 4
+		y = 34
 			completion_reward = {
 						random_owned_controlled_state = {
 				limit = {
@@ -539,7 +539,7 @@ gachi_dip = yes
 			focus = gachi15
 		}
 		x = 14
-		y = 3
+		y = 33
 			completion_reward = {
 gachi_arm = yes
 			random_owned_controlled_state = {
@@ -587,7 +587,7 @@ gachi_arm = yes
 			focus = gachi7
 		}
 		x = 12
-		y = 4
+		y = 34
 			completion_reward = {
 gachi_dip = yes
 }
@@ -601,7 +601,7 @@ gachi_dip = yes
 			focus = gachi11
 		}
 		x = 16
-		y = 3
+		y = 33
 			completion_reward = {
 	gachi_an=yes
 }
@@ -616,7 +616,7 @@ gachi_dip = yes
 			focus = newfocus_19
 		}
 		x = 12
-		y = 5
+		y = 35
 completion_reward={gachi_ind=yes}
 	}
 	shared_focus = {
@@ -628,7 +628,7 @@ completion_reward={gachi_ind=yes}
 			focus = newfocus_19
 		}
 		x = 15
-		y = 5
+		y = 35
 	completion_reward = {
 
 gachi_arm = yes
@@ -642,7 +642,7 @@ gachi_arm = yes
 			focus = newfocus_25
 		}
 		x = 13
-		y = 6
+		y = 36
 	completion_reward = {
 		set_technology = {
     gyms2 = 1
@@ -656,7 +656,7 @@ gachi_arm = yes
 			focus = gachi13
 		}
 		x = 18
-		y = 2
+		y = 32
 	completion_reward = {
 		set_technology = {
     gachiwar = 1
@@ -703,7 +703,7 @@ gachi_arm = yes
 			focus = newfocus_19
 		}
 		x = 18
-		y = 4
+		y = 34
 	completion_reward = {
 		set_technology = {
     fistmashine = 1
@@ -719,7 +719,7 @@ gachi_arm = yes
 			focus = newfocus_19
 		}
 		x = 9
-		y = 5
+		y = 35
 			completion_reward = {
 	gachi_ip=yes
 }
@@ -735,7 +735,7 @@ gachi_arm = yes
 			focus = gachi1_Copy
 		}
 		x = 8
-		y = 7
+		y = 37
 			completion_reward = {
 add_ideas=billy
 }
@@ -751,7 +751,7 @@ add_ideas=billy
 			focus = newfocus_20
 		}
 		x = 7
-		y = 5
+		y = 35
 			completion_reward = {
 gachi_an=yes
 }
@@ -766,7 +766,7 @@ gachi_an=yes
 			focus = gachi10
 		}
 		x = 3
-		y = 5
+		y = 35
 	completion_reward = {
 		set_technology = {
     gyms3 = 1
@@ -781,7 +781,7 @@ gachi_an=yes
 			focus = newfocus_26
 		}
 		x = 2
-		y = 6
+		y = 36
 completion_reward={gachi_ind=yes}
 	}
 	shared_focus = {
@@ -795,7 +795,7 @@ completion_reward={gachi_ind=yes}
 			focus = gachi1_Copy
 		}
 		x = 4
-		y = 7
+		y = 37
 	completion_reward = {
 		set_technology = {
     gymsa = 1
@@ -812,7 +812,7 @@ completion_reward={gachi_ind=yes}
 			focus = newfocus_19
 		}
 		x = 20
-		y = 4
+		y = 34
 	completion_reward = {
 		set_technology = {
     flug = 1
@@ -828,7 +828,7 @@ completion_reward={gachi_ind=yes}
 		}
 
 		x = -3
-		y = 3
+		y = 33
 	completion_reward = {
 add_to_tech_sharing_group = continuous_tech_share
 
@@ -843,7 +843,7 @@ add_to_tech_sharing_group = continuous_tech_share
 		}
 
 		x = -2
-		y = 4
+		y = 34
 	completion_reward = {
 	all_allied_country = { limit={has_government = gachism}
 	puppet = THIS}

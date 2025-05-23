@@ -6,23 +6,27 @@ state={
 	state_category = rural
 
 	history={
-		owner = SER
-		controller = SER
+		owner = IVA
+		controller = IVA
 		victory_points = {
 			3614 1
 		}
 
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 4 #was: 6
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 2
 		}
 		add_core_of = YUG
-		add_core_of = SER
+		add_core_of = IVA
 		add_core_of = TRA
 	}
 
 	provinces={
 		614 3614 6643 11787
 	}
-
-	local_supplies=2.0 
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=10.0 
 }

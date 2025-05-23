@@ -1,30 +1,41 @@
 
 focus_tree = {
-    id = "AUS_biomass_focus"
-    country = "AUS"
+
+	id = AUS_biomass_focus
+	
+	country = {
+		factor = 0
+				modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
 
     focus = {
-        id = "AUS_biomass_awakening"
+        id = AUS_biomass_awakening
         icon = GFX_goal_generic_major_war
         x = 10
         y = 0
         cost = 10
         available = { has_government = democratic }
         completion_reward = {
-            add_national_spirit = AUS_biomass_awakened
+            add_ideas = AUS_biomass_awakened
         }
         ai_will_do = { factor = 1 }
     }
 
     focus = {
-        id = "AUS_hive_mind_established"
+        id = AUS_hive_mind_established
         icon = GFX_goal_generic_construct_industry
         x = 10
         y = 1
         cost = 10
-        prerequisite = { focus = "AUS_biomass_awakening" }
+        prerequisite = { focus = AUS_biomass_awakening }
         completion_reward = {
-            add_national_spirit = AUS_hive_mind
+            add_ideas = AUS_hive_mind
             add_tech_bonus = {
                 category = { industry }
                 bonus = 0.5
@@ -34,12 +45,12 @@ focus_tree = {
     }
 
     focus = {
-        id = "AUS_assimilation_of_new_zealand"
+        id = AUS_assimilation_of_new_zealand
         icon = GFX_goal_generic_war_goal
         x = 8
         y = 2
         cost = 10
-        prerequisite = { focus = "AUS_hive_mind_established" }
+        prerequisite = { focus = AUS_hive_mind_established }
         available = { NOT = { has_war_with = NZL } }
         completion_reward = {
             add_war_goal = {
@@ -51,12 +62,12 @@ focus_tree = {
     }
 
     focus = {
-        id = "AUS_spread_to_indonesia"
+        id = AUS_spread_to_indonesia
         icon = GFX_goal_generic_war_goal
         x = 12
         y = 2
         cost = 10
-        prerequisite = { focus = "AUS_hive_mind_established" }
+        prerequisite = { focus = AUS_hive_mind_established }
         available = { NOT = { has_war_with = INS } }
         completion_reward = {
             add_war_goal = {
@@ -68,27 +79,27 @@ focus_tree = {
     }
 
     focus = {
-        id = "AUS_biomass_superior_army"
+        id = AUS_biomass_superior_army
         icon = GFX_goal_generic_army_effort
         x = 10
         y = 3
         cost = 10
-        prerequisite = { focus = "AUS_hive_mind_established" }
+        prerequisite = { focus = AUS_hive_mind_established }
         completion_reward = {
-            add_national_spirit = AUS_biomass_army
+            add_ideas = AUS_biomass_army
         }
         ai_will_do = { factor = 1 }
     }
 	
 	   focus = {
-        id = "AUS_biofactories"
+        id = AUS_biofactories
         icon = GFX_goal_generic_industry
         x = 8
         y = 2
         cost = 10
-        prerequisite = { focus = "AUS_hive_mind_established" }
+        prerequisite = { focus = AUS_hive_mind_established }
         completion_reward = {
-            add_national_spirit = AUS_biofactories
+            add_ideas = AUS_biofactories
             add_building_construction = {
                 type = arms_factory
                 amount = 2
@@ -99,14 +110,14 @@ focus_tree = {
     }
 
     focus = {
-        id = "AUS_organic_terraforming"
+        id = AUS_organic_terraforming
         icon = GFX_goal_generic_construct_infrastructure
         x = 12
         y = 2
         cost = 10
-        prerequisite = { focus = "AUS_hive_mind_established" }
+        prerequisite = { focus = AUS_hive_mind_established }
         completion_reward = {
-            add_national_spirit = AUS_organic_terraforming
+            add_ideas = AUS_organic_terraforming
             add_building_construction = {
                 type = infrastructure
                 amount = 3
@@ -119,27 +130,27 @@ focus_tree = {
     ### ВОЕННЫЕ ФОКУСЫ ###
 
     focus = {
-        id = "AUS_biomass_soldiers"
+        id = AUS_biomass_soldiers
         icon = GFX_goal_generic_army_effort
         x = 10
         y = 3
         cost = 10
-        prerequisite = { focus = "AUS_hive_mind_established" }
+        prerequisite = { focus = AUS_hive_mind_established }
         completion_reward = {
-            add_national_spirit = AUS_biomass_army
+            add_ideas = AUS_biomass_army
         }
         ai_will_do = { factor = 1 }
     }
 
     focus = {
-        id = "AUS_mutant_legions"
+        id = AUS_mutant_legions
         icon = GFX_goal_generic_army_effort
         x = 10
         y = 4
         cost = 10
-        prerequisite = { focus = "AUS_biomass_soldiers" }
+        prerequisite = { focus = AUS_biomass_soldiers }
         completion_reward = {
-            add_national_spirit = AUS_mutant_legions
+            add_ideas = AUS_mutant_legions
         }
         ai_will_do = { factor = 1 }
     }
@@ -147,12 +158,12 @@ focus_tree = {
     ### ДИПЛОМАТИЯ БИОМАССЫ ###
 
     focus = {
-        id = "AUS_assimilate_new_zealand"
+        id = AUS_assimilate_new_zealand
         icon = GFX_goal_generic_war_goal
         x = 8
         y = 5
         cost = 10
-        prerequisite = { focus = "AUS_biomass_soldiers" }
+        prerequisite = { focus = AUS_biomass_soldiers }
         completion_reward = {
             add_war_goal = {
                 type = annexation
@@ -163,12 +174,12 @@ focus_tree = {
     }
 
     focus = {
-        id = "AUS_spread_to_indonesia"
+        id = AUS_spread_to_indonesia
         icon = GFX_goal_generic_war_goal
         x = 12
         y = 5
         cost = 10
-        prerequisite = { focus = "AUS_biomass_soldiers" }
+        prerequisite = { focus = AUS_biomass_soldiers }
         completion_reward = {
             add_war_goal = {
                 type = annexation
@@ -178,27 +189,27 @@ focus_tree = {
         ai_will_do = { factor = 1 }
     }
 	    focus = {
-        id = "AUS_genetic_purification"
+        id = AUS_genetic_purification
         icon = GFX_goal_generic_science
         x = 8
         y = 2
         cost = 10
-        prerequisite = { focus = "AUS_collective_mind" }
+        prerequisite = { focus = AUS_collective_mind }
         completion_reward = {
-            add_national_spirit = AUS_genetic_purification
+            add_ideas = AUS_genetic_purification
         }
         ai_will_do = { factor = 1 }
     }
 
     focus = {
-        id = "AUS_adaptive_mutations"
+        id = AUS_adaptive_mutations
         icon = GFX_goal_generic_army_effort
         x = 7
         y = 3
         cost = 10
-        prerequisite = { focus = "AUS_genetic_purification" }
+        prerequisite = { focus = AUS_genetic_purification }
         completion_reward = {
-            add_national_spirit = AUS_adaptive_mutations
+            add_ideas = AUS_adaptive_mutations
         }
         ai_will_do = { factor = 1 }
     }
@@ -206,14 +217,14 @@ focus_tree = {
     ### 🌍 ЭКОЛОГИЧЕСКАЯ ЭКСПАНСИЯ ###
 
     focus = {
-        id = "AUS_biological_terraforming"
+        id = AUS_biological_terraforming
         icon = GFX_goal_generic_construct_infrastructure
         x = 12
         y = 2
         cost = 10
-        prerequisite = { focus = "AUS_collective_mind" }
+        prerequisite = { focus = AUS_collective_mind }
         completion_reward = {
-            add_national_spirit = AUS_biological_terraforming
+            add_ideas = AUS_biological_terraforming
             add_building_construction = {
                 type = infrastructure
                 amount = 3
@@ -224,14 +235,14 @@ focus_tree = {
     }
 
     focus = {
-        id = "AUS_green_union"
+        id = AUS_green_union
         icon = GFX_goal_generic_diplomacy
         x = 13
         y = 3
         cost = 10
-        prerequisite = { focus = "AUS_biological_terraforming" }
+        prerequisite = { focus = AUS_biological_terraforming }
         completion_reward = {
-            add_national_spirit = AUS_green_union
+            add_ideas = AUS_green_union
         }
         ai_will_do = { factor = 1 }
     }
@@ -239,12 +250,12 @@ focus_tree = {
     ### 🦠 БИОЛОГИЧЕСКАЯ ДИПЛОМАТИЯ ###
 
     focus = {
-        id = "AUS_integrate_new_zealand"
+        id = AUS_integrate_new_zealand
         icon = GFX_goal_generic_diplomacy
         x = 8
         y = 4
         cost = 10
-        prerequisite = { focus = "AUS_green_union" }
+        prerequisite = { focus = AUS_green_union }
         completion_reward = {
             add_opinion_modifier = {
                 target = NZL
@@ -255,12 +266,12 @@ focus_tree = {
     }
 
     focus = {
-        id = "AUS_assimilate_indonesia"
+        id = AUS_assimilate_indonesia
         icon = GFX_goal_generic_diplomacy
         x = 12
         y = 4
         cost = 10
-        prerequisite = { focus = "AUS_green_union" }
+        prerequisite = { focus = AUS_green_union }
         completion_reward = {
             add_opinion_modifier = {
                 target = INS
@@ -273,39 +284,39 @@ focus_tree = {
     ### 🦾 ГИБРИДНЫЕ ВОЙНЫ ###
 
     focus = {
-        id = "AUS_hybrid_warriors"
+        id = AUS_hybrid_warriors
         icon = GFX_goal_generic_army_effort
         x = 10
         y = 5
         cost = 10
-        prerequisite = { focus = "AUS_adaptive_mutations" }
+        prerequisite = { focus = AUS_adaptive_mutations }
         completion_reward = {
-            add_national_spirit = AUS_hybrid_warriors
+            add_ideas = AUS_hybrid_warriors
         }
         ai_will_do = { factor = 1 }
     }
 
     focus = {
-        id = "AUS_organic_warfare"
+        id = AUS_organic_warfare
         icon = GFX_goal_generic_war_goal
         x = 10
         y = 6
         cost = 10
-        prerequisite = { focus = "AUS_hybrid_warriors" }
+        prerequisite = { focus = AUS_hybrid_warriors }
         completion_reward = {
-            add_national_spirit = AUS_organic_warfare
+            add_ideas = AUS_organic_warfare
         }
         ai_will_do = { factor = 1 }
     }
 	   focus = {
-        id = "AUS_organic_factories"
+        id = AUS_organic_factories
         icon = GFX_goal_generic_industry
         x = 8
         y = 2
         cost = 10
-        prerequisite = { focus = "AUS_collective_mind" }
+        prerequisite = { focus = AUS_collective_mind }
         completion_reward = {
-            add_national_spirit = AUS_organic_factories
+            add_ideas = AUS_organic_factories
             add_building_construction = {
                 type = arms_factory
                 amount = 2
@@ -317,14 +328,14 @@ focus_tree = {
 
 
     focus = {
-        id = "AUS_biomass_trade_network"
+        id = AUS_biomass_trade_network
         icon = GFX_goal_generic_trade
         x = 9
         y = 3
         cost = 10
-        prerequisite = { focus = "AUS_organic_factories" }
+        prerequisite = { focus = AUS_organic_factories }
         completion_reward = {
-            add_national_spirit = AUS_biomass_trade_network
+            add_ideas = AUS_biomass_trade_network
         }
         ai_will_do = { factor = 1 }
     }
@@ -332,12 +343,12 @@ focus_tree = {
     ### ⚔️ ЭКСПАНСИЯ СОЗНАНИЯ ###
 
     focus = {
-        id = "AUS_integrate_new_zealand"
+        id = AUS_integrate_new_zealand
         icon = GFX_goal_generic_war_goal
         x = 8
         y = 4
         cost = 10
-        prerequisite = { focus = "AUS_collective_mind" }
+        prerequisite = { focus = AUS_collective_mind }
         completion_reward = {
             add_war_goal = {
                 type = annexation
@@ -348,12 +359,12 @@ focus_tree = {
     }
 
     focus = {
-        id = "AUS_assimilate_philippines"
+        id = AUS_assimilate_philippines
         icon = GFX_goal_generic_war_goal
         x = 12
         y = 4
         cost = 10
-        prerequisite = { focus = "AUS_collective_mind" }
+        prerequisite = { focus = AUS_collective_mind }
         completion_reward = {
             add_war_goal = {
                 type = annexation
@@ -364,12 +375,12 @@ focus_tree = {
     }
 
     focus = {
-        id = "AUS_assimilate_indonesia"
+        id = AUS_assimilate_indonesia
         icon = GFX_goal_generic_war_goal
         x = 10
         y = 5
         cost = 10
-        prerequisite = { focus = "AUS_collective_mind" }
+        prerequisite = { focus = AUS_collective_mind }
         completion_reward = {
             add_war_goal = {
                 type = annexation
@@ -382,14 +393,14 @@ focus_tree = {
     ### 🚀 БУДУЩЕЕ ОРГАНИКИ ###
 
     focus = {
-        id = "AUS_biological_singularity"
+        id = AUS_biological_singularity
         icon = GFX_goal_generic_science
         x = 10
         y = 6
         cost = 10
-        prerequisite = { focus = "AUS_assimilate_philippines" }
+        prerequisite = { focus = AUS_assimilate_philippines }
         completion_reward = {
-            add_national_spirit = AUS_biological_singularity
+            add_ideas = AUS_biological_singularity
         }
         ai_will_do = { factor = 1 }
     }

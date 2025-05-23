@@ -1,7 +1,18 @@
 
 focus_tree = {
-    id = "AUS_biomass_focus"
-    country = "AUS"
+
+	id = AUS_biomass_focus
+	
+	country = {
+		factor = 0
+				modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
 
     focus = {
         id = "AUS_biomass_awakening"
@@ -315,18 +326,6 @@ focus_tree = {
         ai_will_do = { factor = 1 }
     }
 
-    focus = {
-        id = "AUS_biotech_farms"
-        icon = GFX_goal_generic_agriculture
-        x = 7
-        y = 3
-        cost = 10
-        prerequisite = { focus = "AUS_organic_factories" }
-        completion_reward = {
-            add_national_spirit = AUS_biotech_farms
-        }
-        ai_will_do = { factor = 1 }
-    }
 
     focus = {
         id = "AUS_biomass_trade_network"
@@ -409,168 +408,3 @@ focus_tree = {
 
 
 
-
-
-ideas = {
-    AUS_organic_factories = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_industry
-        modifier = {
-            production_speed_buildings_factor = 0.1
-        }
-    }
-
-    AUS_biotech_farms = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_agriculture
-        modifier = {
-            resources_gain_factor = 0.1
-        }
-    }
-
-    AUS_biomass_trade_network = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_trade
-        modifier = {
-            trade_opinion_factor = 0.15
-        }
-    }
-
-    AUS_biological_singularity = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_science
-        modifier = {
-            research_speed_factor = 0.2
-        }
-    }
-	    AUS_collective_mind = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_political
-        modifier = {
-            stability_factor = 0.1
-            political_power_gain = -0.2
-        }
-    }
-
-    AUS_genetic_purification = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_science
-        modifier = {
-            recruitable_population_factor = 0.15
-        }
-    }
-
-    AUS_adaptive_mutations = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_army_effort
-        modifier = {
-            division_attack = 0.1
-            division_recovery_rate = 0.05
-        }
-    }
-
-    AUS_biological_terraforming = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_construct_infrastructure
-        modifier = {
-            infrastructure_construction_speed = 0.2
-        }
-    }
-
-    AUS_hybrid_warriors = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_army_effort
-        modifier = {
-            division_attack = 0.2
-            infantry_speed = 0.05
-        }
-    }
-
-    AUS_organic_warfare = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_war_goal
-        modifier = {
-            special_forces_attack = 0.15
-        }
-    }
-	    AUS_biomass_awakened = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_science
-        modifier = {
-            research_speed_factor = 0.05
-            stability_factor = -0.1
-        }
-    }
-
-    AUS_hive_mind = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_mass_mobilization
-        modifier = {
-            recruitable_population_factor = 0.2
-            construction_speed_factor = 0.15
-        }
-    }
-
-    AUS_biofactories = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_industry
-        modifier = {
-            production_speed_buildings_factor = 0.1
-        }
-    }
-
-    AUS_organic_terraforming = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_construct_infrastructure
-        modifier = {
-            infrastructure_construction_speed = 0.2
-        }
-    }
-
-    AUS_biomass_army = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_army_effort
-        modifier = {
-            division_attack = 0.1
-            division_defense = 0.1
-        }
-    }
-
-    AUS_mutant_legions = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_army_effort
-        modifier = {
-            division_attack = 0.2
-            division_recovery_rate = 0.05
-        }
-    }
-	    AUS_biomass_awakened = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_electrification
-        modifier = {
-            stability_factor = -0.1
-            war_support_factor = 0.1
-            research_speed_factor = 0.05
-        }
-    }
-
-    AUS_hive_mind = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_mass_mobilization
-        modifier = {
-            recruitable_population_factor = 0.2
-            construction_speed_factor = 0.15
-            political_power_gain = -0.1
-        }
-    }
-
-    AUS_biomass_army = {
-        allowed = { tag = AUS }
-        picture = GFX_idea_generic_army_effort
-        modifier = {
-            land_reinforce_rate = 0.05
-            division_attack = 0.1
-            division_defense = 0.1
-        }
-    }
-}

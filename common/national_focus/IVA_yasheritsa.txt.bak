@@ -1,0 +1,504 @@
+focus_tree = {
+	id = IVA_yasheritsa
+	country = {
+		factor = 0
+	}
+	default = yes
+	focus = {
+		id = nasladitsya_bleyzerom
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 14
+		y = 7
+allow_branch = { has_country_flag = romanov_enabled }
+	}
+	focus = {
+		id = obyazat_orgii
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 28
+		y = 8
+
+	}
+	focus = {
+		id = akt_spyash
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = nasladitsya_bleyzerom
+		}
+		x = 6
+		y = 8
+
+	}
+	focus = {
+		id = linux
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = akt_spyash
+		}
+		x = 6
+		y = 9
+
+	}
+	focus = {
+		id = yastech
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = linux
+		}
+		x = 6
+		y = 10
+
+	}
+	focus = {
+		id = psybeacon
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = yastech
+		}
+		x = 2
+		y = 11
+
+	}
+	focus = {
+		id = gordon
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = psybeacon
+		}
+		x = 1
+		y = 12
+
+	}
+	focus = {
+		id = spermoi_kiev
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = gordon
+		}
+		x = 0
+		y = 13
+
+	}
+	focus = {
+		id = 5gsystems
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = psybeacon
+		}
+		x = 3
+		y = 12
+
+	}
+	focus = {
+		id = 5gchipsy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = 5gsystems
+		}
+		x = 4
+		y = 13
+
+	}
+	focus = {
+		id = rodinaisrael
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = yastech
+		}
+		x = 5
+		y = 11
+
+	}
+	focus = {
+		id = matemyas
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = yastech
+		}
+		x = 7
+		y = 11
+
+	}
+	focus = {
+		id = democrit
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = matemyas
+		}
+		x = 7
+		y = 12
+
+	}
+	focus = {
+		id = bsqminusac
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = democrit
+		}
+		x = 7
+		y = 13
+
+	}
+	focus = {
+		id = samokaty
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = akt_spyash
+		}
+		x = 8
+		y = 9
+
+	}
+	focus = {
+		id = fizikayas
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = yastech
+		}
+		x = 11
+		y = 12
+
+	}
+	focus = {
+		id = zhopa
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = fizikayas
+		}
+		x = 9
+		y = 13
+
+	}
+	focus = {
+		id = chlenodinamika
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = zhopa
+		}
+		prerequisite = {
+			focus = bsqminusac
+		}
+		x = 9
+		y = 14
+
+	}
+	focus = {
+		id = dastab_luchi
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = fizikayas
+		}
+		x = 11
+		y = 13
+
+	}
+	focus = {
+		id = vaccination
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = fizikayas
+		}
+		x = 13
+		y = 13
+
+	}
+	focus = {
+		id = polukrov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = nasladitsya_bleyzerom
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = new_species
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = polukrov
+		}
+		x = 17
+		y = 9
+
+	}
+	focus = {
+		id = zapustit_stanok
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = new_species
+		}
+		x = 17
+		y = 12
+
+	}
+	focus = {
+		id = rusy_budut_sosat
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = zapustit_stanok
+		}
+		x = 17
+		y = 13
+
+	}
+	focus = {
+		id = pyatera
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = rusy_budut_sosat
+		}
+		x = 17
+		y = 14
+
+	}
+	focus = {
+		id = incubation
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = polukrov
+		}
+		x = 19
+		y = 9
+
+	}
+	focus = {
+		id = no_vozrast_solasia
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = nasladitsya_bleyzerom
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = vyvesti_iz_polki
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = no_vozrast_solasia
+		}
+		x = 23
+		y = 9
+
+	}
+	focus = {
+		id = assimilation_yas
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vyvesti_iz_polki
+		}
+		mutually_exclusive = {
+			focus = slavify
+			focus = slavify
+		}
+		x = 22
+		y = 10
+
+	}
+	focus = {
+		id = pozhir_prirody
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = assimilation_yas
+		}
+		x = 22
+		y = 11
+
+	}
+	focus = {
+		id = slavify
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vyvesti_iz_polki
+		}
+		mutually_exclusive = {
+			focus = assimilation_yas
+			focus = assimilation_yas
+		}
+		x = 24
+		y = 10
+
+	}
+	focus = {
+		id = slugi
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = slavify
+		}
+		x = 24
+		y = 11
+
+	}
+	focus = {
+		id = analnoe_zondirovanie
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = pozhir_prirody
+			focus = slugi
+		}
+		x = 23
+		y = 12
+
+	}
+	focus = {
+		id = forced_notrad
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = analnoe_zondirovanie
+		}
+		x = 24
+		y = 13
+
+	}
+	focus = {
+		id = nikto_ne_znaet
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = no_vozrast_solasia
+		}
+		x = 25
+		y = 9
+
+	}
+	focus = {
+		id = lgt
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = obyazat_orgii
+		}
+		mutually_exclusive = {
+			focus = germofrod
+			focus = germofrod
+		}
+		x = 28
+		y = 9
+
+	}
+	focus = {
+		id = germofrod
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = obyazat_orgii
+		}
+		mutually_exclusive = {
+			focus = lgt
+			focus = lgt
+		}
+		x = 30
+		y = 9
+
+	}
+	focus = {
+		id = sodom_pokazhetsya
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = lgt
+			focus = germofrod
+		}
+		prerequisite = {
+			focus = nikto_ne_znaet
+		}
+		x = 27
+		y = 14
+
+	}
+	focus = {
+		id = turbofuriebsrvo
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vaccination
+		}
+		prerequisite = {
+			focus = sodom_pokazhetsya
+		}
+		x = 17
+		y = 16
+
+	}
+	focus = {
+		id = govnomztopoit
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = gordon
+		}
+		x = 2
+		y = 13
+
+	}
+	focus = {
+		id = capitalyaser
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = rodinaisrael
+		}
+		prerequisite = {
+			focus = matemyas
+		}
+		x = 5
+		y = 12
+
+	}
+	focus = {
+		id = org_weapons
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = turbofuriebsrvo
+		}
+		x = 17
+		y = 17
+
+	}
+	focus = {
+		id = no_phonk]
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = analnoe_zondirovanie
+		}
+		x = 22
+		y = 13
+
+	}
+}
