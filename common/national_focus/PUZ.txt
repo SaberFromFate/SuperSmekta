@@ -1,239 +1,310 @@
-﻿focus_tree = {
+focus_tree = {
 	id = PUZ
 	country = {
 		factor = 0
 		modifier = {
-			add = 5
+			add = 10
 			tag = PUZ
 		}
 	}
-
-
-
-
-
-
 	default = no
 	focus = {
 		id = PUZ_startpuz
 		text = PUZ_startpuz
 		icon = GFX_focus_generic_conspiracy
-		cost = 5
-		x = 19
-		y = 1
-
-		completion_reward = {
-			add_political_power = 200
-			add_popularity = {
-    			ideology = tech
-    			popularity = +0.3
-			}
-			add_stability = 0.1
-			
+		cost = 5,00
+		mutually_exclusive = {
+			focus = PUZ_alt
 		}
-
+		x = 14
+		y = 1
+			completion_reward = {
+					add_political_power = 200
+					add_popularity = {
+							ideology = tech
+							popularity = +0.3
+						}
+					add_stability = 0.1
+				}
 
 	}
+	focus = {
+		id = PUZ_alt
+		text = PUZ_alt
+		icon = GFX_goal_unknown
+		cost = 10,00
+		mutually_exclusive = {
+			focus = PUZ_startpuz
+		}
+		x = 24
+		y = 1
 
-
-
-
-
-
-
-
-
+	}
 	focus = {
 		id = PUZ_am
 		text = PUZ_am
 		icon = GFX_PUZ_am
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_startpuz
 		}
-		completion_reward = {
-			add_ideas = {
-				PUZ_TB
-			}			
-		}
-		x = 13
-		y = 3
+		x = 10
+		y = 2
+			completion_reward = {
+					add_ideas = { PUZ_TB }
+				}
 
 	}
 	focus = {
 		id = PUZ_am2
 		text = PUZ_am2
 		icon = GFX_PUZ_am2
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_am
 		}
-		completion_reward = {
-			swap_ideas = {
-    			remove_idea = PUZ_TB
-    			add_idea = PUZ_TB1
-			}
-			division_template = {
-					name = "Skitarii"
-					division_names_group = PUZ_INF_01
-					regiments = {
-						infantry = { x = 0 y = 0 }
-						infantry = { x = 0 y = 1 }
-						infantry = { x = 0 y = 2 }
-						infantry = { x = 0 y = 3 }
-						infantry = { x = 1 y = 0 }
-						infantry = { x = 1 y = 1 }
-						infantry = { x = 1 y = 2 }
-						infantry = { x = 1 y = 3 }
-						artillery_brigade = { x = 2 y = 0 }
-						artillery_brigade = { x = 2 y = 1 }
-					}
-					support = {
-						artillery = { x = 0 y = 0 }
-						engineer = { x = 0 y = 1 }
-						military_police = { x = 0 y = 2 }
-					}
+		x = 8
+		y = 3
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = PUZ_TB
+							add_idea = PUZ_TB1
+						}
+					division_template = {
+							name = "Skitarii"
+							division_names_group = PUZ_INF_01
+							regiments = {
+									infantry = {
+											x = 0
+											y = 0
+										}
+									infantry = {
+											x = 0
+											y = 1
+										}
+									infantry = {
+											x = 0
+											y = 2
+										}
+									infantry = {
+											x = 0
+											y = 3
+										}
+									infantry = {
+											x = 1
+											y = 0
+										}
+									infantry = {
+											x = 1
+											y = 1
+										}
+									infantry = {
+											x = 1
+											y = 2
+										}
+									infantry = {
+											x = 1
+											y = 3
+										}
+									artillery_brigade = {
+											x = 2
+											y = 0
+										}
+									artillery_brigade = {
+											x = 2
+											y = 1
+										}
+								}
+							support = {
+									artillery = {
+											x = 0
+											y = 0
+										}
+									engineer = {
+											x = 0
+											y = 1
+										}
+									military_police = {
+											x = 0
+											y = 2
+										}
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									ROOT = {
+											has_full_control_of_state = PREV
+										}
+								}
+							prioritize = { 58 }
+							create_unit = {
+									division = "division_template = \"Skitarii\" start_experience_factor = 1"
+									owner = PUZ
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									ROOT = {
+											has_full_control_of_state = PREV
+										}
+								}
+							prioritize = { 58 }
+							create_unit = {
+									division = "division_template = \"Skitarii\" start_experience_factor = 1"
+									owner = PUZ
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									ROOT = {
+											has_full_control_of_state = PREV
+										}
+								}
+							prioritize = { 58 }
+							create_unit = {
+									division = "division_template = \"Skitarii\" start_experience_factor = 1"
+									owner = PUZ
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									ROOT = {
+											has_full_control_of_state = PREV
+										}
+								}
+							prioritize = { 58 }
+							create_unit = {
+									division = "division_template = \"Skitarii\" start_experience_factor = 1"
+									owner = PUZ
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									ROOT = {
+											has_full_control_of_state = PREV
+										}
+								}
+							prioritize = { 58 }
+							create_unit = {
+									division = "division_template = \"Skitarii\" start_experience_factor = 1"
+									owner = PUZ
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									ROOT = {
+											has_full_control_of_state = PREV
+										}
+								}
+							prioritize = { 58 }
+							create_unit = {
+									division = "division_template = \"Skitarii\" start_experience_factor = 1"
+									owner = PUZ
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									ROOT = {
+											has_full_control_of_state = PREV
+										}
+								}
+							prioritize = { 58 }
+							create_unit = {
+									division = "division_template = \"Skitarii\" start_experience_factor = 1"
+									owner = PUZ
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									ROOT = {
+											has_full_control_of_state = PREV
+										}
+								}
+							prioritize = { 58 }
+							create_unit = {
+									division = "division_template = \"Skitarii\" start_experience_factor = 1"
+									owner = PUZ
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									ROOT = {
+											has_full_control_of_state = PREV
+										}
+								}
+							prioritize = { 58 }
+							create_unit = {
+									division = "division_template = \"Skitarii\" start_experience_factor = 1"
+									owner = PUZ
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									ROOT = {
+											has_full_control_of_state = PREV
+										}
+								}
+							prioritize = { 58 }
+							create_unit = {
+									division = "division_template = \"Skitarii\" start_experience_factor = 1"
+									owner = PUZ
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									ROOT = {
+											has_full_control_of_state = PREV
+										}
+								}
+							prioritize = { 58 }
+							create_unit = {
+									division = "division_template = \"Skitarii\" start_experience_factor = 1"
+									owner = PUZ
+								}
+						}
 				}
-				random_owned_controlled_state = {
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 58 }
-					create_unit = {
-						division = "division_template = \"Skitarii\" start_experience_factor = 1"
-						owner = PUZ
-					}
-				}
-				random_owned_controlled_state = {
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 58 }
-					create_unit = {
-						division = "division_template = \"Skitarii\" start_experience_factor = 1"
-						owner = PUZ
-					}
-				}
-				random_owned_controlled_state = {
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 58 }
-					create_unit = {
-						division = "division_template = \"Skitarii\" start_experience_factor = 1"
-						owner = PUZ
-					}
-				}
-				random_owned_controlled_state = {
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 58 }
-					create_unit = {
-						division = "division_template = \"Skitarii\" start_experience_factor = 1"
-						owner = PUZ
-					}
-				}
-				random_owned_controlled_state = {
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 58 }
-					create_unit = {
-						division = "division_template = \"Skitarii\" start_experience_factor = 1"
-						owner = PUZ
-					}
-				}
-				random_owned_controlled_state = {
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 58 }
-					create_unit = {
-						division = "division_template = \"Skitarii\" start_experience_factor = 1"
-						owner = PUZ
-					}
-				}
-				random_owned_controlled_state = {
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 58 }
-					create_unit = {
-						division = "division_template = \"Skitarii\" start_experience_factor = 1"
-						owner = PUZ
-					}
-				}
-				random_owned_controlled_state = {
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 58 }
-					create_unit = {
-						division = "division_template = \"Skitarii\" start_experience_factor = 1"
-						owner = PUZ
-					}
-				}
-				random_owned_controlled_state = {
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 58 }
-					create_unit = {
-						division = "division_template = \"Skitarii\" start_experience_factor = 1"
-						owner = PUZ
-					}
-				}
-				random_owned_controlled_state = {
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 58 }
-					create_unit = {
-						division = "division_template = \"Skitarii\" start_experience_factor = 1"
-						owner = PUZ
-					}
-				}
-				random_owned_controlled_state = {
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 58 }
-					create_unit = {
-						division = "division_template = \"Skitarii\" start_experience_factor = 1"
-						owner = PUZ
-					}
-				}
-
-			}
-		
-		
-		x = 10
-		y = 5
 
 	}
 	focus = {
 		id = PUZ_am3
 		text = PUZ_am3
 		icon = GFX_PUZ_servit
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_am
 		}
-		completion_reward = {
-			add_ideas = {
-				PUZ_serv
-			}			
-		}
-		x = 13
-		y = 5
+		x = 10
+		y = 3
+			completion_reward = {
+					add_ideas = { PUZ_serv }
+				}
 
 	}
 	focus = {
 		id = PUZ_am4
 		text = PUZ_am4
 		icon = GFX_PUZ_co
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_am
 		}
-		completion_reward = {
-			add_tech_bonus = {
-				name = USA_escort_fighters
-				bonus = 5.0
-				uses = 4
-				category = mio_cat_tech_all_armor_and_modules
-			}
-		}
-
-		
-		x = 16
-		y = 5
+		x = 12
+		y = 3
+			completion_reward = {
+					add_tech_bonus = {
+							name = USA_escort_fighters
+							bonus = 5.0
+							uses = 4
+							category = mio_cat_tech_all_armor_and_modules
+						}
+				}
 
 	}
 	focus = {
 		id = PUZ_am5
 		text = PUZ_am5
 		icon = GFX_PUZ_am5
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_am3
 		}
@@ -243,509 +314,520 @@
 		prerequisite = {
 			focus = PUZ_am2
 		}
-		completion_reward = {
-			add_stability = 0.2
-			set_party_name = { ideology = tech long_name = PUZ_tech_am_long name = PUZ_tech_am_party }
-			swap_ideas = {
-    			remove_idea = PUZ_TB1
-    			add_idea = PUZ_TB2
-			}
-			
-			PUZ_rider ={
-				set_portraits={
-					civilian = { large = GFX_portrait_PUZ_rider2 }
-				}
-				add_country_leader_trait = magos
-
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = arms_factory
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
+		x = 10
+		y = 4
+			completion_reward = {
+					add_stability = 0.2
+					set_party_name = {
+							ideology = tech
+							long_name = PUZ_tech_am_long
+							name = PUZ_tech_am_party
 						}
-					}
+					swap_ideas = {
+							remove_idea = PUZ_TB1
+							add_idea = PUZ_TB2
+						}
+					PUZ_rider = {
+							set_portraits = {
+									civilian = {
+											large = GFX_portrait_PUZ_rider2
+										}
+								}
+							add_country_leader_trait = magos
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 6
+							add_building_construction = {
+									type = arms_factory
+									level = 3
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 3
+									instant_build = yes
+								}
+						}
+					news_event = {
+							id = PUZ_am5_e.1
+							hours = 6
+						}
+					hidden_effect = {
+							play_song = "coo"
+						}
 				}
-				add_extra_state_shared_building_slots = 6
-				add_building_construction = {
-					type = arms_factory
-					level = 3
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 3
-					instant_build = yes
-				}
-				
-			}
-			
-			news_event = { id = PUZ_am5_e.1 hours = 6 }
-			
-			hidden_effect = {
-				play_song = "coo"
-			}
-			
-		}
-		
 
-		x = 13
-		y = 7
 	}
+	focus = {
+		id = PUZ_c
+		text = PUZ_c
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_alt
+		}
+		mutually_exclusive = {
+			focus = PUZ_rad
+		}
+		x = 22
+		y = 2
 
-
-
-
-
-
-
-
+	}
 	focus = {
 		id = PUZ_arm21
 		text = PUZ_arm21
 		icon = GFX_focus_FIN_parmis_devils
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_startpuz
+			focus = PUZ_c
 		}
-		completion_reward = {
-			if = {
-				limit = {
-					OR = {
-						has_idea = disarmed_nation
-						has_idea = volunteer_only
-					}
+		x = 14
+		y = 2
+			completion_reward = {
+					if = {
+							limit = {
+									OR = {
+											has_idea = disarmed_nation
+											has_idea = volunteer_only
+										}
+								}
+							add_ideas = limited_conscription
+						}
+					else = {
+							add_political_power = 150
+						}
+					add_war_support = 0.1
 				}
-				add_ideas = limited_conscription
-			}
-			else = {
-				add_political_power = 150
-			}
-			add_war_support = 0.1			
-		}
-		x = 19
-		y = 3
+
 	}
-
-
-
-
-
-
-
-
-
-
 	focus = {
 		id = PUZ_arm22
 		text = PUZ_arm22
 		icon = GFX_focus_ARG_juan_peron_elected
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_arm21
 		}
-		x = 19
-		y = 5
-
-		complete_tooltip = {
-			air_experience = 50
-			if = { limit = { has_country_flag = aviation_effort_AB }
-				add_building_construction = {
-					type = air_base
-					level = 5
-					instant_build = yes
-				}
-			}			
-			add_doctrine_cost_reduction = {
-				name = air_doc_bonus
-				cost_reduction = 0.9 
-				uses = 4
-				category = air_doctrine
-			}			
-		}
-
-		completion_reward = {
-			air_experience = 50
-			add_war_support = 0.1
-
-			if = {
-				limit = {
-					capital_scope = {
-						NOT = {
-							free_building_slots = {
-								building = air_base
-								size > 1
-							}
+		x = 14
+		y = 3
+			complete_tooltip = {
+					air_experience = 50
+					if = {
+							limit = {
+									has_country_flag = aviation_effort_AB
+								}
+							add_building_construction = {
+									type = air_base
+									level = 5
+									instant_build = yes
+								}
 						}
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = air_base
-							size > 1
+					add_doctrine_cost_reduction = {
+							name = air_doc_bonus
+							cost_reduction = 0.9
+							uses = 4
+							category = air_doctrine
 						}
-					}
-					add_building_construction = {
-						type = air_base
-						level = 5
-						instant_build = yes
-					}
-					ROOT = { set_country_flag = aviation_effort_AB }
-					
 				}
-			}
-			if = {
-				limit = {
-					capital_scope = {
-						free_building_slots = {
-							building = air_base
-							size > 1
+			completion_reward = {
+					air_experience = 50
+					add_war_support = 0.1
+					if = {
+							limit = {
+									capital_scope = {
+											NOT = {
+													free_building_slots = {
+															building = air_base
+															size > 1
+														}
+												}
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											free_building_slots = {
+													building = air_base
+													size > 1
+												}
+										}
+									add_building_construction = {
+											type = air_base
+											level = 5
+											instant_build = yes
+										}
+									ROOT = {
+											set_country_flag = aviation_effort_AB
+										}
+								}
 						}
-					}
+					if = {
+							limit = {
+									capital_scope = {
+											free_building_slots = {
+													building = air_base
+													size > 1
+												}
+										}
+								}
+							capital_scope = {
+									add_building_construction = {
+											type = air_base
+											level = 5
+											instant_build = yes
+										}
+									add_building_construction = {
+											type = arms_factory
+											level = 3
+											instant_build = yes
+										}
+									add_extra_state_shared_building_slots = 8
+								}
+						}
+					add_doctrine_cost_reduction = {
+							name = air_doc_bonus
+							cost_reduction = 0.9
+							uses = 4
+							category = air_doctrine
+						}
 				}
-				capital_scope = {
-					add_building_construction = {
-						type = air_base
-						level = 5
-						instant_build = yes
-					}
-					
-					add_building_construction = {
-						type = arms_factory
-						level = 3
-						instant_build = yes
-					}
-					add_extra_state_shared_building_slots = 8
-				}
-			}
-			add_doctrine_cost_reduction = {
-				name = air_doc_bonus
-				cost_reduction = 0.9
-				uses = 4
-				category = air_doctrine
-			}
-		}
-	
 
 	}
 	focus = {
 		id = PUZ_arm23
 		text = PUZ_arm23
 		icon = GFX_focus_FIN_suomen_ilmavoimat
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_arm22
 		}
-		available = {
-			OR = {
-				has_idea = PUZ_TB
-				has_idea = PUZ_TB1
-				has_idea = PUZ_TB2
-			}
-			
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				name = USA_escort_fighters
-				bonus = 4.0
-				uses = 6
-				category = mio_cat_all_light_fighter_and_modules
-			}
-			add_tech_bonus = {
-				name = USA_escort_fighters
-				bonus = 4.0
-				uses = 6
-				category = mio_cat_all_medium_aircraft_and_modules
-			}
-		}
-
-		
-		x = 19
-		y = 7
+		x = 14
+		y = 4
+			available = {
+					OR = {
+							has_idea = PUZ_TB
+							has_idea = PUZ_TB1
+							has_idea = PUZ_TB2
+						}
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							name = USA_escort_fighters
+							bonus = 4.0
+							uses = 6
+							category = mio_cat_all_light_fighter_and_modules
+						}
+					add_tech_bonus = {
+							name = USA_escort_fighters
+							bonus = 4.0
+							uses = 6
+							category = mio_cat_all_medium_aircraft_and_modules
+						}
+				}
 
 	}
-
-
-	
 	focus = {
 		id = PUZ_eco1
 		text = PUZ_eco1
 		icon = GFX_goal_generic_construct_civilian
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_startpuz
+			focus = PUZ_c
 		}
-		completion_reward = {
-			add_tech_bonus = {
-				name = GER_four_year_plan
-				bonus = 4.0
-				uses = 4
-				category = industry
-			}
-		}
-		x = 25
-		y = 3
+		x = 18
+		y = 2
+			completion_reward = {
+					add_tech_bonus = {
+							name = GER_four_year_plan
+							bonus = 4.0
+							uses = 4
+							category = industry
+						}
+				}
 
 	}
 	focus = {
 		id = PUZ_ecom
 		text = PUZ_ecom
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_eco1
 		}
-		completion_reward = {
-			add_war_support = 0.1
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
+		x = 16
+		y = 3
+			completion_reward = {
+					add_war_support = 0.1
+					random_owned_controlled_state = {
+							limit = {
 									free_building_slots = {
-										building = arms_factory
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
 								}
-							}
+							add_extra_state_shared_building_slots = 4
+							add_building_construction = {
+									type = arms_factory
+									level = 4
+									instant_build = yes
+								}
 						}
-					}
 				}
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = arms_factory
-					level = 4
-					instant_build = yes
-				}
-				
-			}
-		}
-
-		x = 22
-		y = 5
 
 	}
 	focus = {
 		id = PUZ_ecom1
 		text = PUZ_ecom1
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_ecom
 		}
-		completion_reward = {
-			add_war_support = 0.1
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
+		x = 16
+		y = 4
+			completion_reward = {
+					add_war_support = 0.1
+					random_owned_controlled_state = {
+							limit = {
 									free_building_slots = {
-										building = arms_factory
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
 								}
-							}
+							add_extra_state_shared_building_slots = 4
+							add_building_construction = {
+									type = arms_factory
+									level = 4
+									instant_build = yes
+								}
 						}
-					}
 				}
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = arms_factory
-					level = 4
-					instant_build = yes
-				}
-				
-			}
-		}
-		x = 22
-		y = 7
 
 	}
 	focus = {
 		id = PUZ_ecoc
 		text = PUZ_ecoc
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_eco1
 		}
-
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
+		x = 18
+		y = 3
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
 									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
 								}
-							}
+							add_extra_state_shared_building_slots = 4
+							add_building_construction = {
+									type = industrial_complex
+									level = 4
+									instant_build = yes
+								}
 						}
-					}
 				}
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = industrial_complex
-					level = 4
-					instant_build = yes
-				}
-			}
-		}
-
-
-		x = 25
-		y = 5
 
 	}
 	focus = {
 		id = PUZ_ecoc1
 		text = PUZ_ecoc1
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_ecoc
 		}
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
+		x = 18
+		y = 4
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
 									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
 								}
-							}
+							add_extra_state_shared_building_slots = 4
+							add_building_construction = {
+									type = industrial_complex
+									level = 4
+									instant_build = yes
+								}
 						}
-					}
 				}
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = industrial_complex
-					level = 4
-					instant_build = yes
-				}
-			}
-		}
-		x = 25
-		y = 7
 
 	}
-
 	focus = {
 		id = PUZ_ecoi
 		text = PUZ_ecoi
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_eco1
 		}
-		completion_reward = {
-				58 = {
-					if = {
-						limit = { is_controlled_by = ROOT }
-						add_building_construction = {
-							type = infrastructure
-							level = 5
-							instant_build = yes
+		x = 20
+		y = 3
+			completion_reward = {
+					58 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = infrastructure
+											level = 5
+											instant_build = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 8
 						}
-					}
-					add_extra_state_shared_building_slots = 8
-				}		
-		}
-		x = 28
-		y = 5
+				}
 
 	}
 	focus = {
 		id = PUZ_ecoi1
 		text = PUZ_ecoi1
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 5
+		cost = 5,00
 		prerequisite = {
 			focus = PUZ_ecoi
 		}
-		completion_reward = {
-			909 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
-					add_building_construction = {
-						type = infrastructure
-						level = 5
-						instant_build = yes
-						
-					}
+		x = 20
+		y = 4
+			completion_reward = {
+					909 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = infrastructure
+											level = 5
+											instant_build = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 8
+						}
 				}
-				add_extra_state_shared_building_slots = 8
-			}		
-		}
-		x = 28
-		y = 7
 
 	}
+	focus = {
+		id = PUZ_c1
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_c
+		}
+		x = 22
+		y = 3
 
+	}
+	focus = {
+		id = PUZ_c2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_c1
+		}
+		x = 22
+		y = 4
 
+	}
 	focus = {
 		id = PUZ_finp
 		text = PUZ_finp
 		icon = GFX_goal_generic_build_tank
-		cost = 10
+		cost = 10,00
 		prerequisite = {
 			focus = PUZ_arm23
 		}
@@ -761,12 +843,27 @@
 		prerequisite = {
 			focus = PUZ_am5
 		}
-		x = 19
-		y = 9
+		x = 18
+		y = 5
+			completion_reward = {
+					load_focus_tree = {
+							tree = PUZ2
+						}
+				}
 
-		completion_reward = {
-			load_focus_tree = {tree = PUZ2}
+	}
+	focus = {
+		id = PUZ_rad
+		icon = GFX_goal_support_fascism
+		cost = 10,00
+		prerequisite = {
+			focus = PUZ_alt
 		}
+		mutually_exclusive = {
+			focus = PUZ_c
+		}
+		x = 26
+		y = 2
 
 	}
 }

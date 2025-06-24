@@ -7,9 +7,11 @@ ideologies = {
 		types = {
 
 			сtech  = {
+
 			}
 
 			ttech  = {
+				
 			}
 
 			stech = {

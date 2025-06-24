@@ -38,6 +38,10 @@ country_event = {
 			add_state_core = 337
 			add_state_core = 101
 			news_event = {id = PUZ_denp_e.2 hours = 6}
+			soundeffect = {
+    			name = "ars1"
+    			no_ducking = yes
+			}
 		}
 		
 		

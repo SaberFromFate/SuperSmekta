@@ -1,0 +1,17 @@
+sound =
+{
+    name = "ars1"
+    file = "PUZ/event_air_raid_siren.wav"
+}
+
+sound =
+{
+    name = "ars2"
+    file = "PUZ/event_air_raid_siren_02.wav"
+}
+
+sound =
+{
+    name = "ars3"
+    file = "PUZ/event_air_raid_siren_03.wav"
+}
