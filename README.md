@@ -33,7 +33,7 @@
 
 ## ⚙️ Установка
 1. **Через Steam**:
-   - Подпишитесь на мод в [Steam Workshop](ссылка).
+   - Подпишитесь на мод в [Steam Workshop]([ссылка](https://steamcommunity.com/sharedfiles/filedetails/?id=3329420560)).
    - Активируйте в лаунчере HOI4.
 
 2. **Вручную**:
