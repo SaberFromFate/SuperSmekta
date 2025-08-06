@@ -164,4 +164,40 @@ ideas = {
 		}
 
 	}
+
+	country = {
+		PUZ_ds = {
+			picture = idea_SWE_radiotjanst
+			allowed = {
+				always = no # Added via focus
+			}
+			modifier={
+				democratic_drift = 0.01
+			}
+		}
+	}
+
+	country = {
+		PUZ_cs = {
+			picture = idea_SWE_radiotjanst
+			allowed = {
+				always = no # Added via focus
+			}
+			modifier={
+				communism_drift = 0.01
+			}
+		}
+	}
+
+	country = {
+		PUZ_ts = {
+			picture = idea_SWE_radiotjanst
+			allowed = {
+				always = no # Added via focus
+			}
+			modifier={
+				tech_drift = 0.01
+			}
+		}
+	}
 }
