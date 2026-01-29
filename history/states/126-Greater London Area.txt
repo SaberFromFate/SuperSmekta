@@ -20,7 +20,23 @@ state={
 			air_base = 10
 			11374 = {
 				naval_base = 10
+				naval_headquarters = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
 			}
+
+			6103 = { 
+			    landmark_big_ben = {
+			        allowed = {
+			            has_dlc = "Gotterdammerung"
+			        }
+			        level = 1
+			    }
+			}
+
 		}
 		add_core_of = SCO
 		1939.1.1 = {
@@ -35,5 +51,5 @@ state={
 		6103 9239 11333 11374 
 	}
 
-	local_supplies=8.0 
+	local_supplies=0.0 
 }

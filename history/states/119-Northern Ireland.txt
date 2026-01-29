@@ -4,7 +4,7 @@ state={
 	name="STATE_119"
 
 	history={
-		owner = NIR
+		owner = SCO
 		victory_points = {
 			3379 5 
 		}
@@ -22,8 +22,8 @@ state={
 			}
 		}
 		add_core_of = SCO
-		add_core_of = IRE
-		add_core_of = NIR
+		add_core_of = SCO
+		add_core_of = SCO
 	}
 
 	provinces={
@@ -35,7 +35,8 @@ state={
 	
 	resources={
 		aluminium=2
+		coal = 2 #initial distribution
 	}
 
-	local_supplies=8.0 
+	local_supplies=0.0 
 }

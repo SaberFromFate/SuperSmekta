@@ -22,7 +22,7 @@ state = {
 
 		}
 		add_core_of = TUR
-		add_core_of = GEO
+		add_core_of = TUR
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 2
@@ -40,5 +40,5 @@ state = {
 	buildings_max_level_factor = 1.000
 	state_category = town
 
-	local_supplies = 8.0 
+	local_supplies = 0.0 
 }

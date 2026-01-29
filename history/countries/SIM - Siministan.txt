@@ -2,7 +2,7 @@ capital = 46 #Ufa
 
 #oob = "BSK_1936"
 
-set_research_slots = 4
+set_research_slots = 3
 
 
 set_technology = {
@@ -29,9 +29,9 @@ set_technology = {
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1936.1.1.1"
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -41,14 +41,5 @@ set_popularities = {
 	democratic = 10
 }
 
-create_country_leader = {
-	name = SIM_sima
-	picture = GFX_portrait_SIM_sim
-	ideology = despotism
-	expire = "3000.1.1.1"
 
-	traits = { 
-	}
-}
-
-#recruit_character = SIM_sim
+recruit_character = BSK_yakov_bykin

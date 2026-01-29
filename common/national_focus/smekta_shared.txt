@@ -1,244 +1,33 @@
+
 shared_focus = {
-	id = STARTDIP
+	id = RUS_russian_army
 	icon = GFX_goal_RUS_army
-	x = 48
+	x = 40
 	y = 0
 	
 	cost = 1
 
 	ai_will_do = {
-		factor = 1
+		factor = 90
 	}
 	completion_reward = {
-
-	}		
-}
-shared_focus = {
-	id = STARTDIP1
-	icon = GFX_goal_RUS_army
-	x = 10
-	y = 1
-	
-	cost = 5
-		relative_position_id = STARTDIP
-	prerequisite = {
-		focus = STARTDIP
-	}
-	ai_will_do = {
-		factor = 1
-	}
-	completion_reward = {
-add_ideas=interdim1
-	}
-}
-shared_focus = {
-	id = STARTDIP2
-	icon = GFX_goal_RUS_army
-	x = 0
-	y = 1
-	
-	cost = 5
-		relative_position_id = STARTDIP1
-	prerequisite = {
-		focus = STARTDIP1
-	}
-	ai_will_do = {
-		factor = 1
-	}
-	completion_reward = {
-	swap_ideas={
-						remove_idea = interdim1
-					add_idea = interdim2
-	}
-	}
-}
-shared_focus = {
-	id = STARTDIP3
-	icon = GFX_goal_RUS_army
-	x = 0
-	y = 1
-	
-	cost = 5
-		relative_position_id = STARTDIP2
-	prerequisite = {
-		focus = STARTDIP2
-	}
-	ai_will_do = {
-		factor = 1
-	}
-	completion_reward = {
-	swap_ideas={
-						remove_idea = interdim2
-					add_idea = interdim3
-	}
-	}
-}
-shared_focus = {
-	id = STARTDIP4
-	icon = GFX_goal_RUS_army
-	x = 0
-	y = 1
-			available = {
-tag=SVO
-			}
-		
-	cost = 5
-		relative_position_id = STARTDIP3
-	prerequisite = {
-		focus = STARTDIP3
-	}
-	ai_will_do = {
-		factor = 1
-	}
-	completion_reward = {
-	swap_ideas={
-							remove_idea = vol_sm3
-					add_idea = vol_sm4
-	}
-	}
-}
-
-shared_focus = {
-	id = STARTDIP1A
-	icon = GFX_goal_RUS_army
-	x = 6
-	y = 1
-	
-	cost = 5
-		relative_position_id = STARTDIP
-	prerequisite = {
-		focus = STARTDIP
-	}
-	ai_will_do = {
-		factor = 1
-	}
-	completion_reward = {
-add_ideas=vol_sm1
-	}
-}
-shared_focus = {
-	id = STARTDIP2A
-	icon = GFX_goal_RUS_army
-	x = 0
-	y = 1
-	
-	cost = 5
-		relative_position_id = STARTDIP1A
-	prerequisite = {
-		focus = STARTDIP1A
-	}
-	ai_will_do = {
-		factor = 1
-	}
-	completion_reward = {
-	swap_ideas={
-						remove_idea = vol_sm1
-					add_idea = vol_sm2
-	}
-	}
-}
-shared_focus = {
-	id = STARTDIP3A
-	icon = GFX_goal_RUS_army
-	x = 0
-	y = 1
-	
-	cost = 5
-		relative_position_id = STARTDIP2A
-	prerequisite = {
-		focus = STARTDIP2A
-	}
-	ai_will_do = {
-		factor = 1
-	}
-	completion_reward = {
-	swap_ideas={
-						remove_idea = vol_sm2
-					add_idea = vol_sm3
-	}
-	}
-}
-shared_focus = {
-	id = STARTDIP4A
-	icon = GFX_goal_RUS_army
-	x = 2
-	y = 1
-	
-	cost = 6
-		relative_position_id = STARTDIP3A
-	prerequisite = {
-		focus = STARTDIP3A
-	}
-		prerequisite = {
-		focus = STARTDIP3
-	}
-	ai_will_do = {
-		factor = 1
-	}
-	completion_reward = {
-	swap_ideas={						remove_idea = interdim3
-					add_idea = interdim4
-
-	
-	}
-	}
-}
-shared_focus = {
-	id = STARTDIP5A
-	icon = GFX_goal_RUS_army
-	x = -2
-	y = 2
-	
-	cost = 6
-		relative_position_id = STARTDIP3A
-	prerequisite = {
-		focus = STARTDIP3A
-	}
-	prerequisite = {
-		focus = RUS_Electronic_Warfare
-	}
-	ai_will_do = {
-		factor = 1
-	}
-	completion_reward = {
-add_ideas=goooool
-	}
-}
-shared_focus = {
-	id = RUS_russian_army
-	icon = GFX_goal_RUS_army
-	x = -10
-	y = 1
-	
-	cost = 2
-		relative_position_id = STARTDIP
-	prerequisite = {
-		focus = STARTDIP
-	}
-	ai_will_do = {
-		factor = 1
-	}
-	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus RUS_russian_army"
 		add_stability = 0.075
 		army_experience = 50
-
+		country_event = russia.54
 	}
 		
 }
 shared_focus = {
 	id = RUS_Reintroduce_Okhranka
 	icon = GFX_RUS_Reintroduce_Okhrannoye_Otdeleniye
-
-	x = 12
+	relative_position_id = RUS_russian_army
+	x = -3
 	y = 1
-	cost = 5
-		relative_position_id = RUS_russian_army
-	prerequisite = {
-		focus = RUS_russian_army
-	}
+	cost = 2
+
 	ai_will_do = {
-		factor = 1
+		factor = 100
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus RUS_Reintroduce_Okhranka"
@@ -308,7 +97,7 @@ shared_focus = {
 		add_tech_bonus = {
 			name = RUS_Equipment_Modernisation 
 			bonus = 1
-			uses = 3
+			uses = 4
 			category = infantry_weapons
 			category = artillery
 		}
@@ -319,7 +108,7 @@ shared_focus = {
 			add_tech_bonus = {
 				name = RUS_Equipment_Modernisation
 				bonus = 1
-				uses = 3
+				uses = 4
 				category = support_tech
 			}
 		}
@@ -499,7 +288,7 @@ shared_focus = {
 			 
 			 
 		}	
-		
+		RUS_focus_blocked_for_non_decided_socialists = yes
 	}
 	ai_will_do = {
 		factor = 2
@@ -529,18 +318,19 @@ shared_focus = {
 		add_tech_bonus = {
 			name = RUS_Special_Forces_Office
 			bonus = 1
-			uses = 3
+			uses = 4
 			category = mountaineers_tech
 			category = marine_tech
 		}
-
+		if = {
+			limit = { has_dlc_aat = yes }
 			add_doctrine_cost_reduction = {
 				name = RUS_Special_Forces_Office
 				cost_reduction = 1
-				uses = 3
+				uses = 4
 				category = special_forces_doctrine
 			}
-
+		}
 		RUS_reduce_army_debuff = yes
 	}
 }
@@ -616,7 +406,7 @@ shared_focus = {
 			 
 			 
 		}	
-		
+		RUS_focus_blocked_for_non_decided_socialists = yes
 	}
 	ai_will_do = {
 		factor = 7
@@ -646,7 +436,7 @@ shared_focus = {
 		add_doctrine_cost_reduction = {
 			name = RUS_High_Command_Reforms
 			cost_reduction = 0.5
-			uses = 3
+			uses = 4
 			category = land_doctrine
 		}
 		RUS_reduce_army_debuff = yes
@@ -658,6 +448,11 @@ shared_focus = {
 	icon = GFX_RUS_Wrangel_Plan
 	prerequisite = {
 		focus = RUS_russian_army
+	}
+	mutually_exclusive = {
+		focus = RUS_Spearhead_Doctrine
+		focus = RUS_Overwhelming_Firepower
+		focus = RUS_War_Of_Numbers
 	}
 
 	relative_position_id = RUS_russian_army
@@ -675,7 +470,7 @@ shared_focus = {
 		factor = 3000
 		modifier = {
 			factor = 0.16
-			
+			RUS_savinkov_in_power = yes
 		}
 	}
 	completion_reward = {
@@ -684,7 +479,7 @@ shared_focus = {
 		add_doctrine_cost_reduction = {
 			name = RUS_Extensive_Planning
 			cost_reduction = 0.5
-			uses = 3
+			uses = 4
 			category = land_doctrine
 		}
 	}
@@ -706,7 +501,7 @@ shared_focus = {
 			 
 			 
 		}	
-		
+		RUS_focus_blocked_for_non_decided_socialists = yes
 	}
 
 	ai_will_do = {
@@ -796,7 +591,7 @@ shared_focus = {
 			 
 			 
 		}	
-		
+		RUS_focus_blocked_for_non_decided_socialists = yes
 	}
 	ai_will_do = {
 		factor = 2
@@ -826,7 +621,7 @@ shared_focus = {
 		add_tech_bonus = {
 			name = RUS_Mechanised_Divisions
 			bonus = 1
-			uses = 3
+			uses = 4
 			category = cat_mechanized_equipment
 			category = motorized_equipment
 		}
@@ -847,7 +642,7 @@ shared_focus = {
 			 
 			 
 		}	
-		
+		RUS_focus_blocked_for_non_decided_socialists = yes
 	}
 	prerequisite = {
 		focus = RUS_Extensive_Planning
@@ -898,7 +693,11 @@ shared_focus = {
 	prerequisite = {
 		focus = RUS_russian_army
 	}
-
+	mutually_exclusive = {
+		focus = RUS_Spearhead_Doctrine
+		focus = RUS_Extensive_Planning
+		focus = RUS_War_Of_Numbers
+	}
 
 	relative_position_id = RUS_russian_army
 	x = 5
@@ -915,7 +714,7 @@ shared_focus = {
 		factor = 2000
 		modifier = {
 			factor = 2
-			
+			RUS_savinkov_in_power = yes
 		}
 	}
 	completion_reward = {
@@ -923,7 +722,7 @@ shared_focus = {
 		add_doctrine_cost_reduction = {
 			name = RUS_Overwhelming_Firepower
 			cost_reduction = 0.5
-			uses = 3
+			uses = 4
 			category = land_doctrine
 		}
 		RUS_reduce_army_debuff = yes
@@ -946,7 +745,7 @@ shared_focus = {
 			 
 			 
 		}	
-		
+		RUS_focus_blocked_for_non_decided_socialists = yes
 	}
 	ai_will_do = {
 		factor = 5
@@ -995,7 +794,7 @@ shared_focus = {
 			 
 			 
 		}	
-		
+		RUS_focus_blocked_for_non_decided_socialists = yes
 	}
 	ai_will_do = {
 		factor = 5
@@ -1029,7 +828,11 @@ shared_focus = {
 	prerequisite = {
 		focus = RUS_russian_army
 	}
-
+	mutually_exclusive = {
+		focus = RUS_Overwhelming_Firepower
+		focus = RUS_Extensive_Planning
+		focus = RUS_War_Of_Numbers
+	}
 	available = {
  always=yes
 		hidden_trigger = {
@@ -1045,7 +848,7 @@ shared_focus = {
 		factor = 2000
 		modifier = {
 			factor = 0.25
-			
+			RUS_savinkov_in_power = yes
 		}
 	}
 	completion_reward = {
@@ -1053,7 +856,7 @@ shared_focus = {
 		add_doctrine_cost_reduction = {
 			name = RUS_Spearhead_Doctrine
 			cost_reduction = 0.5
-			uses = 3
+			uses = 4
 			category = land_doctrine
 		}
 		add_ai_strategy = {
@@ -1086,7 +889,7 @@ shared_focus = {
 			 
 			 
 		}	
-		
+		RUS_focus_blocked_for_non_decided_socialists = yes
 	}
 	ai_will_do = {
 		factor = 5
@@ -1116,7 +919,7 @@ shared_focus = {
 		add_tech_bonus = {
 			name = RUS_Armour_Modernisation
 			bonus = 0.5
-			uses = 3
+			uses = 4
 			category = armor
 		}
 		RUS_reduce_army_debuff = yes
@@ -1139,7 +942,7 @@ shared_focus = {
 			 
 			 
 		}	
-		
+		RUS_focus_blocked_for_non_decided_socialists = yes
 	}
 	ai_will_do = {
 		factor = 5
@@ -1187,7 +990,7 @@ shared_focus = {
 			 
 			 
 		}	
-		
+		RUS_focus_blocked_for_non_decided_socialists = yes
 	}
 	ai_will_do = {
 		factor = 5
@@ -1217,7 +1020,7 @@ shared_focus = {
 		add_tech_bonus = {
 			name = RUS_Import_Foreign_Specialists
 			bonus = 0.5
-			uses = 3
+			uses = 4
 			ahead_reduction = 2
 			category = armor
 		}
@@ -1231,7 +1034,11 @@ shared_focus = {
 	prerequisite = {
 		focus = RUS_russian_army
 	}
-
+	mutually_exclusive = {
+		focus = RUS_Spearhead_Doctrine
+		focus = RUS_Overwhelming_Firepower
+		focus = RUS_Extensive_Planning
+	}
 
 	relative_position_id = RUS_russian_army
 	x = 10
@@ -1248,7 +1055,7 @@ shared_focus = {
 		factor = 3000
 		modifier = {
 			factor = 0.16
-			
+			RUS_savinkov_in_power = yes
 		}
 	}
 	completion_reward = {
@@ -1257,7 +1064,7 @@ shared_focus = {
 		add_doctrine_cost_reduction = {
 			name = RUS_War_Of_Numbers
 			cost_reduction = 0.5
-			uses = 3
+			uses = 4
 			category = land_doctrine
 		}
 	}
@@ -1279,7 +1086,7 @@ shared_focus = {
 			 
 			 
 		}	
-		
+		RUS_focus_blocked_for_non_decided_socialists = yes
 	}
 	ai_will_do = {
 		factor = 5
@@ -1327,7 +1134,7 @@ shared_focus = {
 			 
 			 
 		}	
-		
+		RUS_focus_blocked_for_non_decided_socialists = yes
 	}
 	ai_will_do = {
 		factor = 5
@@ -1374,7 +1181,7 @@ shared_focus = {
 			 
 			 
 		}	
-		
+		RUS_focus_blocked_for_non_decided_socialists = yes
 	}
 	ai_will_do = {
 		factor = 5
@@ -1404,7 +1211,7 @@ shared_focus = {
 		add_tech_bonus = {
 			name = RUS_A_Well_Equipped_Force
 			bonus = 0.5
-			uses = 3
+			uses = 4
 			category = infantry_weapons
 			category = artillery
 		}
@@ -1434,7 +1241,7 @@ shared_focus = {
 			 
 			 
 		}	
-		
+		RUS_focus_blocked_for_non_decided_socialists = yes
 	}
 	ai_will_do = {
 		factor = 5
@@ -1520,6 +1327,8 @@ shared_focus = {
 
 		}
 
+		cancel_if_invalid = SMEKTA_yes
+		continue_if_invalid = SMEKTA_no
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -1530,8 +1339,41 @@ shared_focus = {
 	
 
 	
+
 	shared_focus = {
-		id = SMEKTA_aviation_effort5
+		id = SMEKTA_special_forces
+		icon = GFX_goal_generic_special_forces
+		prerequisite = {focus = SMEKTA_equipment_effort_3 }
+		prerequisite = {focus = SMEKTA_doctrine_effort_2 }
+		prerequisite = {focus = SMEKTA_armor_effort }
+		x = 1
+		y = 1
+		relative_position_id = SMEKTA_equipment_effort_3
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = special_forces
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1.0
+				uses = 4
+				technology = paratroopers
+				technology = paratroopers2
+				technology = marines
+				technology = marines2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
+			remove_ideas=ag1
+		}
+	}
+
+	shared_focus = {
+		id = SMEKTA_aviation_effort
 		icon = GFX_goal_generic_build_airforce
 		x = -10
 		y = 1
@@ -1614,63 +1456,12 @@ prerequisite = { focus = RUS_russian_army }
 			}
 		}
 	}
-	shared_focus = {
-		id = SMEKTA_aviation_effort
-		icon = GFX_goal_generic_build_airforce
-		x = 0
-		y = 1
-		cost = 5
-		relative_position_id = SMEKTA_aviation_effort5
-		search_filters = {   FOCUS_FILTER_RESEARCH }
-
-		available_if_capitulated = yes
-
-prerequisite = { focus = SMEKTA_aviation_effort5 }
-		complete_tooltip = {
-			air_experience = 25
-			if = { limit = { has_country_flag = aviation_effort_AB }
-				add_building_construction = {
-					type = air_base
-					level = 2
-					instant_build = yes
-				}
-			}			
-			add_doctrine_cost_reduction = {
-				name = air_doc_bonus
-				cost_reduction = 0.5
-				uses = 3
-				category = air_doctrine
-			}			
-		}
-
-		completion_reward = {
-			air_experience = 25
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 3
-				category = cas_bomber
-			}
-						add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 3
-				category = light_fighter
-				category = cat_heavy_fighter
-			}
-		}
-
-		}
-	}
 
 	shared_focus = {
 		id = SMEKTA_fighter_focus
 		icon = GFX_goal_generic_air_fighter
 		prerequisite = {focus = SMEKTA_aviation_effort }
+		mutually_exclusive = {focus = SMEKTA_bomber_focus }
 		x = -1
 		y = 1
 		relative_position_id = SMEKTA_aviation_effort
@@ -1684,7 +1475,7 @@ prerequisite = { focus = SMEKTA_aviation_effort5 }
 			add_tech_bonus = {
 				name = fighter_bonus
 				bonus = 1.0
-				uses = 3
+				uses = 4
 				category = light_fighter
 				category = cat_heavy_fighter
 			}
@@ -1695,6 +1486,7 @@ prerequisite = { focus = SMEKTA_aviation_effort5 }
 		id = SMEKTA_bomber_focus
 		icon = GFX_goal_generic_air_bomber
 		prerequisite = {focus = SMEKTA_aviation_effort }
+		mutually_exclusive = {focus = SMEKTA_fighter_focus }
 		x = 1
 		y = 1
 		relative_position_id = SMEKTA_aviation_effort
@@ -1708,7 +1500,7 @@ prerequisite = { focus = SMEKTA_aviation_effort5 }
 			add_tech_bonus = {
 				name = bomber_bonus
 				bonus = 1.0
-				uses = 3
+				uses = 4
 				category = cat_strategic_bomber
 				category = tactical_bomber
 			}
@@ -1718,7 +1510,7 @@ prerequisite = { focus = SMEKTA_aviation_effort5 }
 	shared_focus = {
 		id = SMEKTA_aviation_effort_2
 		icon = GFX_goal_generic_air_doctrine
-		prerequisite = {focus = SMEKTA_bomber_focus focus = SMEKTA_fighter_focus }
+		prerequisite = {focus = SMEKTA_bomber_focus shared_focus = SMEKTA_fighter_focus }
 		x = -1
 		y = 1
 		relative_position_id = SMEKTA_bomber_focus
@@ -1847,7 +1639,7 @@ prerequisite = { focus = SMEKTA_aviation_effort5 }
 			add_tech_bonus = {
 				name = jet_rocket_bonus
 				ahead_reduction = 2
-				uses = 3
+				uses = 4
 				category = rocketry
 				category = jet_technology
 			}
@@ -2021,6 +1813,7 @@ relative_position_id =RUS_russian_army
 		id = SMEKTA_flexible_navy
 		icon = GFX_goal_generic_build_navy
 		prerequisite = {focus = SMEKTA_naval_effort }
+		mutually_exclusive = {focus = SMEKTA_large_navy }
 		x = -1
 		y = 1
 		relative_position_id = SMEKTA_naval_effort
@@ -2048,7 +1841,7 @@ relative_position_id =RUS_russian_army
 			add_doctrine_cost_reduction = {
 				name = sub_op_bonus
 				cost_reduction = 0.5
-				uses = 3
+				uses = 4
 				technology = convoy_interdiction_ti
 				technology = unrestricted_submarine_warfare
 				technology = wolfpacks
@@ -2062,6 +1855,7 @@ relative_position_id =RUS_russian_army
 		id = SMEKTA_large_navy
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = {focus = SMEKTA_naval_effort }
+		mutually_exclusive = {focus = SMEKTA_flexible_navy }
 		x = 1
 		y = 1
 		relative_position_id = SMEKTA_naval_effort
@@ -2089,7 +1883,7 @@ relative_position_id =RUS_russian_army
 			add_doctrine_cost_reduction = {
 				name = fleet_in_being_bonus
 				cost_reduction = 0.25
-				uses = 3
+				uses = 4
 				category = fleet_in_being_tree
 			}
 		}
@@ -2098,7 +1892,7 @@ relative_position_id =RUS_russian_army
 	shared_focus = {
 		id = SMEKTA_submarine_effort
 		icon = GFX_goal_generic_navy_submarine
-		prerequisite = {focus = SMEKTA_flexible_navy focus = SMEKTA_large_navy }
+		prerequisite = {focus = SMEKTA_flexible_navy shared_focus = SMEKTA_large_navy }
 		x = 0
 		y = 1
 		relative_position_id = SMEKTA_flexible_navy
@@ -2136,7 +1930,7 @@ relative_position_id =RUS_russian_army
 	shared_focus = {
 		id = SMEKTA_cruiser_effort
 		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = {focus = SMEKTA_large_navy focus = SMEKTA_flexible_navy }
+		prerequisite = {focus = SMEKTA_large_navy shared_focus = SMEKTA_flexible_navy }
 		x = 0
 		y = 1
 		relative_position_id = SMEKTA_large_navy

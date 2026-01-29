@@ -4,7 +4,7 @@ state = {
 	name = "STATE_516" # Taymyria / Dudinka
 	manpower = 6004
 	
-	state_category = rural
+	state_category = pastoral
 
 	history = {
 		victory_points = {
@@ -15,11 +15,12 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = BYA
+		add_core_of = BYA
 	}
 
 	provinces = {
 		  2923 2972 3336 4692 4733  4859  10607 10635  11261 11328 12643  13064  
 	}
 
-	local_supplies = 8.0 
+	local_supplies = 0.0 
 }

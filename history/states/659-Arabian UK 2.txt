@@ -10,8 +10,8 @@ state={
 	local_supplies=0.000
 
 	history = {
-		owner = OMA
-		add_core_of = OMA
+		owner = GHA
+		add_core_of = ALG
 		buildings = {
 			infrastructure = 1
 			air_base = 1

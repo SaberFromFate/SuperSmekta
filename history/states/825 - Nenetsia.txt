@@ -23,12 +23,12 @@ state = {
 
 		}
 		add_core_of = KOM
-		add_core_of = NEN
+		add_core_of = KOM
 	}
 
 	provinces = {
 		105 198 3147 6040 6192 9205 10207 11047 11119 12530
 	}
 
-	local_supplies = 8.0 
+	local_supplies = 0.0 
 }

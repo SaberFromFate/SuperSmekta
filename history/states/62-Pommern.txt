@@ -10,8 +10,7 @@ state = {
 
 		owner = PAK
 		add_core_of = GER
-		add_core_of = PRE
-		add_core_of = PAK
+		add_core_of = GER
 
 		victory_points = {
 			9388 1 # Stralsund

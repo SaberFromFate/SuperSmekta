@@ -15,12 +15,12 @@ state = {
 			infrastructure = 2
 		}
 		add_core_of = JMS
-		add_core_of = BSK
+		add_core_of = JMS
 	}
 
 	provinces = {
 		 3282 6253 6312 6357 9244 9259 9307 9373 11356 
 	}
 
-	local_supplies = 8.0 
+	local_supplies = 0.0 
 }

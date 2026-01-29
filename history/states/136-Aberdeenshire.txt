@@ -23,7 +23,7 @@ state={
 			infrastructure = 3 #was: 6
 			dockyard = 2
 		}
-		add_core_of = SVO
+		add_core_of = SCO
 	}
 
 	provinces={

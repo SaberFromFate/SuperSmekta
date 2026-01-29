@@ -4,7 +4,7 @@ state = {
 	name = "STATE_824" # Yamalia
 	manpower = 21974
 	
-	state_category = rural
+	state_category = pastoral
 
 	history = {
 		owner = YAK
@@ -12,12 +12,12 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = YAK
-		add_core_of = KOM
+		add_core_of = YAK
 	}
 
 	provinces = {
 		96 1729 1757 3415 4761 7809 10536 10564 12517 12545 
 	}
 
-	local_supplies = 8.0 
+	local_supplies = 0.0 
 }

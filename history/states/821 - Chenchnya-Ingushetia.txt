@@ -7,7 +7,7 @@ state = {
 	state_category = rural
 	
 	resources={
-		oil = 9 # was spLAT from Dagestan which had 19 oil, and retained 10
+		oil = 9 # was split from Dagestan which had 19 oil, and retained 10
 	}
 
 	history = {
@@ -19,12 +19,12 @@ state = {
 			3672 5 
 		}
 		add_core_of = TUR
-		add_core_of = CIN
+		add_core_of = TUR
 	}
 
 	provinces = {
 		666 670 1455 3667 3672 6689
 	}
 
-	local_supplies=8.0 
+	local_supplies=0.0 
 }

@@ -15,14 +15,54 @@ if = {
 	set_oob = "SVO"
 }
 
+starting_train_buffer = 4
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_naval_oob = "ENG_1936_Naval"
+	else = {
+		set_naval_oob = "ENG_1936_Naval_Legacy"
+	}
+}
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "ENG_1936_air_bba"
+		set_technology = {
+			aa_lmg = 1
+			engines_1 = 1
+			engines_2 = 1
+			early_bombs = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			basic_medium_airframe = 1
+			basic_small_airframe = 1
+			air_torpedoe_1 = 1
+		}
+	else = {
+		set_air_oob = "ENG_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			cv_early_fighter = 1
+			cv_naval_bomber1 = 1
+			naval_bomber1 = 1
+			early_bomber = 1
+			CAS1 = 1
+		}
+	}
+}
 
 
 
 set_research_slots = 2
 
-set_stability = 0
+set_stability = 0.1
 set_war_support = 0.3
-add_command_power = 120
+add_command_power = 20
 
 # Starting tech
 set_technology = {
@@ -31,7 +71,7 @@ set_technology = {
 	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
-	
+	tech_trucks = 1
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
@@ -44,7 +84,22 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 }
-
+create_country_leader = {
+    name = "Святослав"
+    desc = ""
+    picture = "gfx/leaders/CJO/SVO.dds" #Картинка
+    expire = "1965.1.1" #Когда умрет
+    ideology = rexism
+	##За какую Идеологию (входит в types у коммунистов)
+    #conservatism, liberalism и socialism - демократия
+    #marxism, leninism, stalinism, anti_revisionism, anarchist_communism - коммунизм
+    #nazism, fascism_ideology, falangism, rexism - национализм 
+    #despotism, oligarchism, moderatism и moderatism - нейтралитет 
+    traits = {
+        dictator
+		prince_of_terror
+    }
+}
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
@@ -96,8 +151,6 @@ set_convoys = 1000
 add_ideas={
 smekta
 svo_brop
-rus_divided_staff
-
 }
 
 
@@ -111,26 +164,108 @@ set_politics = {
 	elections_allowed = no ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-	fascism = 30
+	fascism = 50
 	democratic = 30
 	communism = 20
-	gachism=10
-	neutrality = 10
 }
-recruit_character = gzi_svyat
-recruit_character =svo_svyat
-recruit_character =ivn_svyat
-recruit_character =cjo_svyat
-recruit_character =van_svyat
-recruit_character =pash_svyat
-recruit_character=lok_svyat
-recruit_character=svo
 
 
 
+# Order matters - here Chamberlain becomes starting leader
+recruit_character = ENG_oswald_mosley
+recruit_character = ENG_stanley_baldwin
+recruit_character = ENG_winston_churchill
+recruit_character = ENG_harry_pollitt
+recruit_character = ENG_alan_brooke
+recruit_character = ENG_bernard_montgomery
+recruit_character = ENG_claude_auchinleck
+recruit_character = ENG_neil_ritchie
+recruit_character = ENG_alan_cunningham
+recruit_character = ENG_william_slim
+recruit_character = ENG_richard_oconnor
+recruit_character = ENG_william_platt
+recruit_character = ENG_george_giffard
+recruit_character = ENG_harold_alexander
+recruit_character = ENG_jackie_smyth
+recruit_character = ENG_thomas_jacomb_hutton
+recruit_character = ENG_arthur_percival
+recruit_character = ENG_merton_beckwithsmith
+recruit_character = ENG_henry_pownall
+recruit_character = ENG_john_vereker
+recruit_character = ENG_henry_wilson
+recruit_character = ENG_william_gott
+recruit_character = ENG_jock_campbell
+recruit_character = ENG_oliver_leese
+recruit_character = ENG_miles_dempsey
+recruit_character = ENG_brian_horrocks
+recruit_character = ENG_archibald_wavell
+recruit_character = ENG_james_fownes_somerville
+recruit_character = ENG_henry_harwood
+recruit_character = ENG_andrew_cunningham
+recruit_character = ENG_bruce_fraser
+recruit_character = ENG_john_tovey
+recruit_character = ENG_bernard_rawlings
+recruit_character = ENG_john_cunningham
+recruit_character = ENG_charles_forbes
+recruit_character = ENG_algernon_willis
+recruit_character = ENG_arthur_power
+recruit_character = ENG_horatio_dundas
+recruit_character = ENG_edmund_ironside
+recruit_character = ENG_david_stirling
+recruit_character = ENG_james_somerville
+recruit_character = ENG_kenneth_anderson
+recruit_character = ENG_louis_mountbatten
+recruit_character = ENG_arthur_harris
+recruit_character = ENG_james_chadwick
+recruit_character = ENG_jfc_fuller
+recruit_character = ENG_frank_whittle
+recruit_character = ENG_random_communist_minister_15
+recruit_character = ENG_random_communist_minister_14
+recruit_character = ENG_ernle_chatfield
+recruit_character = ENG_trafford_leigh_mallory
+recruit_character = ENG_max_horton
+recruit_character = ENG_tom_phillips
+recruit_character = ENG_hugh_dowding
+recruit_character = ENG_charles_portal
+recruit_character = ENG_dudley_pound
+recruit_character = ENG_raymond_briggs
+recruit_character = ENG_frederick_bowhill
+recruit_character = ENG_cyril_newall
+recruit_character = ENG_sholto_douglas
+recruit_character = ENG_edward_ellington
 
 
 
+recruit_character = ENG_john_beckett
+recruit_character = ENG_corgis_1
+recruit_character = ENG_corgis_2
+recruit_character = ENG_corgis_3
+recruit_character = ENG_alan_turing
+recruit_character = ENG_clement_attlee
+recruit_character = ENG_ernest_bevin
+recruit_character = ENG_leslie_hore_belisha
+recruit_character = ENG_george_orwell
+recruit_character = ENG_nevile_henderson
+recruit_character = ENG_random_communist_minister_8
+recruit_character = ENG_random_communist_minister_9
+recruit_character = ENG_david_lloyd_george
+recruit_character = ENG_random_communist_minister_1
+recruit_character = ENG_random_communist_minister_2
+recruit_character = ENG_random_communist_minister_3
+recruit_character = ENG_random_communist_minister_4
+recruit_character = ENG_random_communist_minister_5
+recruit_character = ENG_random_communist_minister_6
+recruit_character = ENG_random_communist_minister_7
+recruit_character = ENG_random_communist_minister_13
+recruit_character = ENG_random_communist_minister_12
+recruit_character = ENG_random_communist_minister_11
+recruit_character = ENG_random_communist_minister_10
+recruit_character = ENG_mary_sophia_allen
+recruit_character = ENG_philip_kerr
+recruit_character = ENG_sylvia_pankhurst
+recruit_character = ENG_stewart_menzies
+recruit_character = ENG_maxwell_aitken
+recruit_character = ENG_thomas_moore
 
 
 

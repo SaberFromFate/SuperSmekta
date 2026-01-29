@@ -14,7 +14,7 @@ state = {
 		}
 
 		add_core_of = NEN
-		add_core_of = BYA
+		add_core_of = NEN
 
 	}
 
@@ -25,5 +25,5 @@ state = {
 	buildings_max_level_factor = 1
 	state_category = "wasteland"
 
-	local_supplies = 8.0 
+	local_supplies = 0.0 
 }

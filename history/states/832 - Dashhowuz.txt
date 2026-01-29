@@ -17,8 +17,8 @@ state = {
 		}
 		
 		add_core_of = KYR
-		add_core_of = TMS
-		add_core_of = KHI
+		add_core_of = KYR
+		add_core_of = KYR
 
 	}
 

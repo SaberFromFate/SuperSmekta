@@ -4,7 +4,7 @@ state = {
 	name = "STATE_878" # Khatangsky
 	manpower = 15974
 	
-	state_category = rural
+	state_category = pastoral
 
 	history = {
 		owner = BYA
@@ -12,12 +12,12 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = BYA
-		add_core_of = TAY
+		add_core_of = BYA
 	}
 
 	provinces = {
 		2900 4812 9224 11122 12687 13065
 	}
 
-	local_supplies = 8.0 
+	local_supplies = 0.0 
 }

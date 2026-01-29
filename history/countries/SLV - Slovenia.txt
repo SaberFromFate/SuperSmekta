@@ -10,7 +10,7 @@ set_technology = {
 	tech_mountaineers = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	
+	tech_trucks = 1
 }
 if = {
 	limit = {
@@ -63,4 +63,14 @@ set_popularities = {
 	neutrality = 70
 	communism = 10
 }
-recruit_character=pasha
+create_country_leader = {
+	name = "Паша"
+	desc = ""
+	picture = "gfx/leaders/TIM/pasha.dds" 
+    expire = "1965.1.1"
+    ideology = oligarchism
+
+	traits = {
+		
+	}
+}

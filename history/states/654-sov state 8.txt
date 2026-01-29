@@ -12,9 +12,9 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = BYA
-		add_core_of = ALT
+		add_core_of = BYA
 		victory_points = {
-			4800 1 #Oyrot-JMSa/Gorno-Altaysk
+			4800 1 #Oyrot-Tura/Gorno-Altaysk
 		}
 	}
 

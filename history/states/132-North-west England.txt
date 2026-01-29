@@ -6,8 +6,9 @@ state= {
 	state_category = metropolis
 	
 	resources={
-		steel=31 # was: 56
-		aluminium=2 # was: 4
+		steel = 31 # was: 56
+		aluminium = 2 # was: 4
+		coal = 33 #initial distribution
 	}
 
 	history= {
@@ -41,5 +42,5 @@ state= {
 		3205 6318 6335 6384
  	}
 
-	local_supplies=8.0 
+	local_supplies=0.0 
 }

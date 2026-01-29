@@ -1,0 +1,228 @@
+
+SVO_power_balance = {
+	initial_value = -0.35
+	left_side = CALM
+	right_side = UAAAAAA
+	decision_category = SVO_balance_of_power_category
+
+	### Neutral status
+	range = {
+		id = SVO_balance_range
+		min = -0.10
+		max = 0.10
+		modifier = {
+		}
+		on_activate = {
+
+		}
+		on_deactivate = {
+			
+		}
+	}
+
+	### Grand Council
+	side = {
+		id = CALM
+		icon = GFX_bop_ITA_grand_council_side
+
+		range = {
+			id = CALM_low_control_range
+			min = -0.3
+			max = -0.1
+			modifier = {
+				political_advisor_cost_factor = -0.1
+				stability_weekly=0.005
+				party_popularity_stability_factor = 0.5
+				political_power_gain = 0.1
+				opinion_gain_monthly=5
+				compliance_gain = 0.01
+					
+research_speed_factor = 0.05
+			}
+			on_activate = {
+				
+			}
+			on_deactivate = {
+				
+			}
+		}
+
+		range = {
+			id = CALM_medium_control_range
+			min = -0.6
+			max = -0.3
+
+			modifier = {
+						add_power_balance_modifier = {
+    id = SVO_power_balance    # The ID of the balance of power
+    modifier = SWI_3 # The modifier to add
+}
+				political_advisor_cost_factor = -0.3
+				stability_weekly=0.01
+				party_popularity_stability_factor = 1
+				political_power_gain = 0.3
+				opinion_gain_monthly=10
+				compliance_gain = 0.02
+				offensive_war_stability_factor = -0.2
+				war_support_factor = -0.05
+					
+research_speed_factor = 0.1
+			}
+			on_activate = {
+				
+			}
+			on_deactivate = {
+				
+			}
+		}
+
+		range = {
+			id = CALM_high_control_range
+			min = -0.9
+			max = -0.6
+						add_power_balance_modifier = {
+    id = SVO_power_balance    # The ID of the balance of power
+    modifier = SWI_3 # The modifier to add
+}
+			modifier = {
+				political_advisor_cost_factor = -0.3
+				stability_weekly=0.02
+				party_popularity_stability_factor = 1
+				political_power_gain = 0.5
+				opinion_gain_monthly=20
+				compliance_gain = 0.03
+				offensive_war_stability_factor = -0.4
+				war_support_factor = -0.1
+					
+research_speed_factor = 0.2
+			}
+			on_activate = {
+				#Depose the Duce or whoever is in charge because the dude sucks at it
+			}
+			on_deactivate = {
+				
+			}
+		}
+
+		range = {
+			id = CALM_total_control_range
+			min = -1
+			max = -0.9
+			modifier = {
+				political_advisor_cost_factor = -0.3
+				stability_weekly=0.03
+				party_popularity_stability_factor = 2
+				political_power_gain = 1
+				opinion_gain_monthly=50
+				compliance_gain = 0.04
+				offensive_war_stability_factor = -0.5
+				war_support_factor = -0.2
+					
+research_speed_factor = 0.3
+			}
+			on_activate = {
+
+			}
+			on_deactivate = {
+				
+			}
+		}
+	}
+
+	### Mussolini
+	side = {
+		id = UAAAAAA
+		icon = GFX_bop_ITA_mussolini_side
+
+		range = {
+			id = UAAAAAA_low_control_range
+			min = 0.1
+			max = 0.3
+			modifier = {
+				fascism_drift = 0.01
+				war_support_factor = 0.03
+				resistance_target = -0.2
+				justify_war_goal_time = -0.3
+			}
+			on_activate = {
+			}
+			on_deactivate = {
+			}
+		}
+
+		range = {
+			id = UAAAAAA_medium_control_range
+			min = 0.3
+			max = 0.6
+			modifier = {
+				fascism_drift = 0.01
+				war_support_factor = 0.03
+					offensive_war_stability_factor = 0.3
+war_support_weekly = 0.01
+				resistance_target = -0.4
+				justify_war_goal_time = -0.5
+				conscription_factor = 0.2
+				offence=0.05
+			}
+			on_activate = {
+				
+			}
+			on_deactivate = {
+				
+			}
+		}
+
+		range = {
+			id = UAAAAAA_high_control_range
+			min = 0.6
+			max = 0.9
+			modifier = {
+				fascism_drift = 0.03
+				war_support_factor = 0.06
+					offensive_war_stability_factor = 0.5
+war_support_weekly = 0.02
+				resistance_target = -0.6
+				justify_war_goal_time = -0.7
+				conscription_factor = 0.3
+				offence=0.1
+				experience_gain_army = -0.05
+				experience_gain_air = -0.05
+				experience_gain_navy = -0.05
+				stability_weekly=-0.005
+			}
+			on_activate = {
+				
+			}
+			on_deactivate = {
+				
+			}
+		}
+
+		range = {
+			id = UAAAAAA_total_control_range
+			min = 0.9
+			max = 1
+			modifier = {
+				fascism_drift = 0.04
+				war_support_factor = 0.06
+					offensive_war_stability_factor = 0.5
+war_support_weekly = 0.04
+				resistance_target = -0.8
+				justify_war_goal_time = -0.9
+				conscription_factor = 0.5
+				offence=0.2
+				experience_gain_army = -0.05
+				experience_gain_air = -0.05
+				experience_gain_navy = -0.05
+				stability_weekly=-0.02
+			}
+			on_activate = {
+
+			}
+			on_deactivate = {
+
+			}
+		}
+	}
+
+}

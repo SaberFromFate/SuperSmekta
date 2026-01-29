@@ -14,7 +14,7 @@ state = {
 			infrastructure = 2
 		}
 		add_core_of = KOM
-		add_core_of = UDM
+		add_core_of = KOM
 		
 		victory_points = {
 			6278 1 
@@ -25,5 +25,5 @@ state = {
 		305 370 381 3294 3300 4356 4400 6217 6278 6388 7359 7403 9293 11320 12203 12244 
 	}
 
-	local_supplies = 8.0 
+	local_supplies = 0.0 
 }

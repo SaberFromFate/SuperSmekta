@@ -12,7 +12,7 @@ state = {
 			infrastructure = 1
 
 		}
-		add_core_of = FER
+		add_core_of = NAZ
 
 	}
 
@@ -21,7 +21,7 @@ state = {
 	}
 	manpower = 447020
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 
-	local_supplies = 8.0 
+	local_supplies = 0.0 
 }

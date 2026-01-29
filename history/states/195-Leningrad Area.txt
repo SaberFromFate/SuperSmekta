@@ -9,7 +9,7 @@ state={
 	history={
 		owner = RUC
 		victory_points = {
-			3151 38.0
+			3151 30.0
 		}
 		buildings = {
 			infrastructure = 4 #was: 7

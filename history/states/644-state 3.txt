@@ -11,7 +11,7 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = FER
-		add_core_of = YAK
+		add_core_of = FER
 
 	}
 
@@ -22,5 +22,5 @@ state = {
 	buildings_max_level_factor = 1
 	state_category = "wasteland"
 
-	local_supplies = 8.0 
+	local_supplies = 0.0 
 }

@@ -1,26 +1,26 @@
 state = {
 	id = 932
-	manpower = 66666
+	manpower = 51000
 	name = "STATE_932"
+	state_category = small_island
 	history = {
-		owner = SVO
-		add_core_of = SVO
+		owner = SCO
+		add_core_of = SCO
 		
 		victory_points = {
 			3311 1 #Douglas
 		}
 		buildings = {
-			arms_factory = 2
 			infrastructure = 3 #was: 6
 			3311 = {
-				naval_base = 4
+				naval_base = 1
 			}
 		}
 	}
 	provinces = {
 		3311 
 	}
-	state_category=large_city
+	
 
-	local_supplies=46.000
+	local_supplies=0.000
 }
