@@ -1,12 +1,12 @@
 leader_traits ={
     technocrat2={
         random = no
-        tech_drift = 0.1
+        research_speed_factor = 0.1
         stability_factor = 0.1
     }
     magos = {
         random = no
-        add_stability = 0.2
+        stability_factor = 0.2
         political_advisor_cost_factor = -0.15
         consumer_goods_factor = -0.2
 		economy_cost_factor = -0.15

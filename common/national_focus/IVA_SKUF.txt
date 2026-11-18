@@ -7,7 +7,7 @@ focus_tree = {
 	focus = {
 		id = vypit_pivasik
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 8
 		y = 0
 
@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = pit_vodky_v_odinochest
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 10
 		y = 1
 
@@ -23,7 +23,7 @@ focus_tree = {
 	focus = {
 		id = shodit_na_lenin
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 10
 		y = 2
 
@@ -31,7 +31,7 @@ focus_tree = {
 	focus = {
 		id = daleko_ehat
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 10
 		y = 3
 
@@ -39,7 +39,7 @@ focus_tree = {
 	focus = {
 		id = drochit_3_raza_v_den
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 12
 		y = 2
 
@@ -47,7 +47,7 @@ focus_tree = {
 	focus = {
 		id = zanyatsa_rybalkoi
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 12
 		y = 3
 
@@ -55,7 +55,7 @@ focus_tree = {
 	focus = {
 		id = world_of_tanks
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 10
 		y = 4
 
@@ -63,7 +63,7 @@ focus_tree = {
 	focus = {
 		id = pivoprovod
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 12
 		y = 4
 
@@ -71,7 +71,7 @@ focus_tree = {
 	focus = {
 		id = vypit_s_druzyami
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 6
 		y = 1
 

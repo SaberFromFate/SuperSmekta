@@ -1,0 +1,32 @@
+# Legacy helpers used by common/national_focus/smekta_shared.txt and
+# common/national_focus/Sanya_focus228.txt. Some of them were referenced but
+# never defined, which produced "Unknown trigger-type" errors in 1.19.x.
+
+# Focuses using this trigger must stay available, so it is intentionally always true.
+RUS_focus_blocked_for_non_decided_socialists = {
+	always = yes
+}
+
+# Savinkov does not exist in the current game version, so approximate his
+# political leaning with the fascist government check (used only for AI weights).
+RUS_savinkov_in_power = {
+	has_government = fascism
+}
+
+# Soviet "in power" checks. The characters themselves are not part of the
+# current content, so the checks are backed by country flags.
+SOV_zinoviev_in_power = {
+	has_country_flag = SOV_zinoviev_in_power
+}
+
+SOV_krestinsky_in_power = {
+	has_country_flag = SOV_krestinsky_in_power
+}
+
+SOV_blagonravov_in_power = {
+	has_country_flag = SOV_blagonravov_in_power
+}
+
+SOV_molotov_in_power = {
+	has_country_flag = SOV_molotov_in_power
+}

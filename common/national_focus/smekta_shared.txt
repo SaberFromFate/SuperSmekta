@@ -323,7 +323,7 @@ shared_focus = {
 			category = marine_tech
 		}
 		if = {
-			limit = { has_dlc_aat = yes }
+			limit = { has_dlc = "Arms Against Tyranny" }
 			add_doctrine_cost_reduction = {
 				name = RUS_Special_Forces_Office
 				cost_reduction = 1
@@ -1327,8 +1327,8 @@ shared_focus = {
 
 		}
 
-		cancel_if_invalid = SMEKTA_yes
-		continue_if_invalid = SMEKTA_no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -1510,7 +1510,7 @@ prerequisite = { focus = RUS_russian_army }
 	shared_focus = {
 		id = SMEKTA_aviation_effort_2
 		icon = GFX_goal_generic_air_doctrine
-		prerequisite = {focus = SMEKTA_bomber_focus shared_focus = SMEKTA_fighter_focus }
+		prerequisite = {focus = SMEKTA_bomber_focus focus = SMEKTA_fighter_focus }
 		x = -1
 		y = 1
 		relative_position_id = SMEKTA_bomber_focus
@@ -1842,11 +1842,7 @@ relative_position_id =RUS_russian_army
 				name = sub_op_bonus
 				cost_reduction = 0.5
 				uses = 4
-				technology = convoy_interdiction_ti
-				technology = unrestricted_submarine_warfare
-				technology = wolfpacks
-				technology = advanced_submarine_warfare
-				technology = combined_operations_raiding
+				category = naval_doctrine
 			}
 		}
 	}
@@ -1892,7 +1888,7 @@ relative_position_id =RUS_russian_army
 	shared_focus = {
 		id = SMEKTA_submarine_effort
 		icon = GFX_goal_generic_navy_submarine
-		prerequisite = {focus = SMEKTA_flexible_navy shared_focus = SMEKTA_large_navy }
+		prerequisite = {focus = SMEKTA_flexible_navy focus = SMEKTA_large_navy }
 		x = 0
 		y = 1
 		relative_position_id = SMEKTA_flexible_navy
@@ -1930,7 +1926,7 @@ relative_position_id =RUS_russian_army
 	shared_focus = {
 		id = SMEKTA_cruiser_effort
 		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = {focus = SMEKTA_large_navy shared_focus = SMEKTA_flexible_navy }
+		prerequisite = {focus = SMEKTA_large_navy focus = SMEKTA_flexible_navy }
 		x = 0
 		y = 1
 		relative_position_id = SMEKTA_large_navy
@@ -1960,7 +1956,7 @@ relative_position_id =RUS_russian_army
 				bonus = 1.0
 				ahead_reduction = 2
 				uses = 3
-				category = cl_tech
+				category = industry
 				category = ca_tech
 			}
 		}

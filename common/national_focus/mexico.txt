@@ -1,4 +1,4 @@
-﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_POLITICAL}
 ### search_filters = {FOCUS_FILTER_RESEARCH}
 ### search_filters = {FOCUS_FILTER_INDUSTRY}
 ### search_filters = {FOCUS_FILTER_STABILITY}
@@ -82,8 +82,8 @@ focus_tree = {
 
     remove_idea = aya1
     add_idea = aya2
-102 = {add_claim_by = MEX}
 }
+102 = {add_claim_by = MEX}
 		}
 		ai_will_do = {
 		base = 100
@@ -6637,7 +6637,7 @@ focus_tree = {
 				bonus = 1.0
 				uses = 1
 				category = dd_tech
-				category = cl_tech
+				category = industry
 			}
 		}
 	}

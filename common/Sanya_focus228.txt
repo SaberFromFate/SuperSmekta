@@ -11,7 +11,7 @@ focus_tree = {
 	focus = {
 		id = SAN_the_path_of_marxism_leninism
 		icon = GFX_focus_SOV_the_path_of_marxism_leninism
-		cost = 5,00
+		cost = 5
 		x = 1
 		y = 2
 			offset = {
@@ -61,7 +61,7 @@ focus_tree = {
 	focus = {
 		id = sanf_1
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10,00
+		cost = 10
 		x = 40
 		y = 1
 			completion_reward = {
@@ -89,7 +89,7 @@ focus_tree = {
 	focus = {
 		id = udobrenia2
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 0
 		y = 1
 		relative_position_id = udobreniya1
@@ -98,7 +98,7 @@ focus_tree = {
 	focus = {
 		id = SAN_the_comintern
 		icon = GFX_goal_support_communism
-		cost = 5,00
+		cost = 5
 		x = 17
 		y = 3
 			allow_branch = {
@@ -130,7 +130,7 @@ focus_tree = {
 	focus = {
 		id = expir_army
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 25
 		y = 7
 
@@ -138,7 +138,7 @@ focus_tree = {
 	focus = {
 		id = militia1
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 19
 		y = 8
 
@@ -146,7 +146,7 @@ focus_tree = {
 	focus = {
 		id = udalit_sotu
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 33
 		y = 2
 
@@ -154,7 +154,7 @@ focus_tree = {
 	focus = {
 		id = SAN_the_centre
 		icon = GFX_focus_fra_loyalty_stalin
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_the_path_of_marxism_leninism
 		}
@@ -232,7 +232,7 @@ focus_tree = {
 	focus = {
 		id = SAN_the_stalin_constitution
 		icon = GFX_SOV_the_stalin_constitutiony_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_the_centre
 		}
@@ -260,7 +260,7 @@ focus_tree = {
 	focus = {
 		id = SAN_addressing_internal_affairs
 		icon = GFX_focus_generic_self_management
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_the_path_of_marxism_leninism
 		}
@@ -366,7 +366,7 @@ focus_tree = {
 	focus = {
 		id = com2
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_the_path_of_marxism_leninism
 		}
@@ -377,7 +377,7 @@ focus_tree = {
 	focus = {
 		id = sancom1
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = com2
 		}
@@ -396,7 +396,7 @@ focus_tree = {
 	focus = {
 		id = vesel
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sancom1
 		}
@@ -407,7 +407,7 @@ focus_tree = {
 	focus = {
 		id = SAN_Improve_The_Supplies_Copy
 		icon = GFX_SOV_supply_network
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = vesel
 		}
@@ -425,7 +425,7 @@ focus_tree = {
 	focus = {
 		id = SAN_Conquest_Of_Nature_Copy
 		icon = GFX_SOV_conquer_nature
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_Improve_The_Supplies_Copy
 		}
@@ -475,7 +475,7 @@ focus_tree = {
 	focus = {
 		id = zemlyu
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_Improve_The_Supplies_Copy
 		}
@@ -486,7 +486,7 @@ focus_tree = {
 	focus = {
 		id = fabriki
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = zemlyu
 		}
@@ -497,7 +497,7 @@ focus_tree = {
 	focus = {
 		id = pogotovitsa
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_the_comintern
 		}
@@ -511,7 +511,7 @@ focus_tree = {
 	focus = {
 		id = perevoor
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = pogotovitsa
 		}
@@ -522,7 +522,7 @@ focus_tree = {
 	focus = {
 		id = ukrepy
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = pogotovitsa
 		}
@@ -533,7 +533,7 @@ focus_tree = {
 	focus = {
 		id = preventiv
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = pogotovitsa
 		}
@@ -544,7 +544,7 @@ focus_tree = {
 	focus = {
 		id = integr_hachey
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_the_comintern
 		}
@@ -558,7 +558,7 @@ focus_tree = {
 	focus = {
 		id = otstoim_rus
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = pogotovitsa
 		}
@@ -569,7 +569,7 @@ focus_tree = {
 	focus = {
 		id = intel
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sancom1
 		}
@@ -580,7 +580,7 @@ focus_tree = {
 	focus = {
 		id = norel
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = intel
 		}
@@ -595,7 +595,7 @@ focus_tree = {
 	focus = {
 		id = hramkart
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = norel
 		}
@@ -606,7 +606,7 @@ focus_tree = {
 	focus = {
 		id = turboobr
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = hramkart
 		}
@@ -617,7 +617,7 @@ focus_tree = {
 	focus = {
 		id = sukhoi
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = intel
 		}
@@ -631,7 +631,7 @@ focus_tree = {
 	focus = {
 		id = matkult
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sukhoi
 			focus = turboobr
@@ -643,7 +643,7 @@ focus_tree = {
 	focus = {
 		id = razdel_hachey
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_the_comintern
 		}
@@ -654,7 +654,7 @@ focus_tree = {
 	focus = {
 		id = napast
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = razdel_hachey
 		}
@@ -665,7 +665,7 @@ focus_tree = {
 	focus = {
 		id = nomore_hachey
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = preventiv
 			focus = napast
@@ -678,7 +678,7 @@ focus_tree = {
 	focus = {
 		id = nikitosik
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nomore_hachey
 		}
@@ -689,7 +689,7 @@ focus_tree = {
 	focus = {
 		id = prinyat_praliva_igry
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nikitosik
 		}
@@ -704,7 +704,7 @@ focus_tree = {
 	focus = {
 		id = razdel_kitity
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nikitosik
 		}
@@ -719,7 +719,7 @@ focus_tree = {
 	focus = {
 		id = splanirovat_vtor
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nikitosik
 		}
@@ -734,7 +734,7 @@ focus_tree = {
 	focus = {
 		id = tim_war
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = razdel_kitity
 			focus = splanirovat_vtor
@@ -749,7 +749,7 @@ focus_tree = {
 	focus = {
 		id = s_vologdoy
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nomore_hachey
 		}
@@ -760,7 +760,7 @@ focus_tree = {
 	focus = {
 		id = factoties
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nomore_hachey
 		}
@@ -771,7 +771,7 @@ focus_tree = {
 	focus = {
 		id = SAN_the_new_soviet_woman
 		icon = GFX_SOV_the_new_soviet_woman_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_addressing_internal_affairs
 		}
@@ -798,7 +798,7 @@ focus_tree = {
 	focus = {
 		id = s_tambovom
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nomore_hachey
 		}
@@ -809,7 +809,7 @@ focus_tree = {
 	focus = {
 		id = dobit_tambov
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = militia1
 		}
@@ -824,7 +824,7 @@ focus_tree = {
 	focus = {
 		id = punk
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sancom1
 		}
@@ -835,7 +835,7 @@ focus_tree = {
 	focus = {
 		id = RUS_Labour_Camps_Copy
 		icon = GFX_SOV_onwards_to_gulag
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = punk
 		}
@@ -857,7 +857,7 @@ focus_tree = {
 	focus = {
 		id = tuneyad
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = RUS_Labour_Camps_Copy
 		}
@@ -871,7 +871,7 @@ focus_tree = {
 	focus = {
 		id = nohul
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = punk
 		}
@@ -882,7 +882,7 @@ focus_tree = {
 	focus = {
 		id = mokriy
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = tuneyad
 			focus = nohul
@@ -897,7 +897,7 @@ focus_tree = {
 	focus = {
 		id = nalogi
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = mokriy
 		}
@@ -908,7 +908,7 @@ focus_tree = {
 	focus = {
 		id = protektorat_les
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_the_comintern
 		}
@@ -923,7 +923,7 @@ focus_tree = {
 	focus = {
 		id = podgotovit
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = protektorat_les
 		}
@@ -934,7 +934,7 @@ focus_tree = {
 	focus = {
 		id = paramil
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nohul
 		}
@@ -945,7 +945,7 @@ focus_tree = {
 	focus = {
 		id = uvel_zv
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = protektorat_les
 		}
@@ -956,7 +956,7 @@ focus_tree = {
 	focus = {
 		id = norad
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = punk
 		}
@@ -971,7 +971,7 @@ focus_tree = {
 	focus = {
 		id = trahat_lesego
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_the_comintern
 		}
@@ -986,7 +986,7 @@ focus_tree = {
 	focus = {
 		id = world_ambition
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = expir_army
 		}
@@ -997,7 +997,7 @@ focus_tree = {
 	focus = {
 		id = comrel
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = norad
 		}
@@ -1008,7 +1008,7 @@ focus_tree = {
 	focus = {
 		id = comrel2
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = comrel
 		}
@@ -1019,7 +1019,7 @@ focus_tree = {
 	focus = {
 		id = prot_morale
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = comrel2
 		}
@@ -1030,7 +1030,7 @@ focus_tree = {
 	focus = {
 		id = kupit_lesego
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_the_comintern
 		}
@@ -1045,7 +1045,7 @@ focus_tree = {
 	focus = {
 		id = stim_sale_lesego
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = kupit_lesego
 		}
@@ -1056,7 +1056,7 @@ focus_tree = {
 	focus = {
 		id = emo
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sancom1
 		}
@@ -1067,7 +1067,7 @@ focus_tree = {
 	focus = {
 		id = ffa
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = emo
 		}
@@ -1082,7 +1082,7 @@ focus_tree = {
 	focus = {
 		id = friendship
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ffa
 		}
@@ -1093,7 +1093,7 @@ focus_tree = {
 	focus = {
 		id = turbointegr
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = friendship
 		}
@@ -1104,7 +1104,7 @@ focus_tree = {
 	focus = {
 		id = adv
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = turbointegr
 		}
@@ -1115,7 +1115,7 @@ focus_tree = {
 	focus = {
 		id = SAN_Embrace_Modern_Art_Copy
 		icon = GFX_SOV_embrace_modern_art
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = emo
 		}
@@ -1154,7 +1154,7 @@ focus_tree = {
 	focus = {
 		id = socreal
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_Embrace_Modern_Art_Copy
 		}
@@ -1165,7 +1165,7 @@ focus_tree = {
 	focus = {
 		id = soc_welfare
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = socreal
 		}
@@ -1179,7 +1179,7 @@ focus_tree = {
 	focus = {
 		id = anangard
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_Embrace_Modern_Art_Copy
 		}
@@ -1190,7 +1190,7 @@ focus_tree = {
 	focus = {
 		id = vnedrit_panelki
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = anangard
 		}
@@ -1201,7 +1201,7 @@ focus_tree = {
 	focus = {
 		id = plusfact
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = soc_welfare
 			focus = vnedrit_panelki
@@ -1213,7 +1213,7 @@ focus_tree = {
 	focus = {
 		id = sane_1
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = udalit_sotu
 		}
@@ -1228,7 +1228,7 @@ focus_tree = {
 	focus = {
 		id = samogonovar
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sane_1
 		}
@@ -1239,7 +1239,7 @@ focus_tree = {
 	focus = {
 		id = novye_vidy_ogyr
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = samogonovar
 		}
@@ -1250,7 +1250,7 @@ focus_tree = {
 	focus = {
 		id = tushonka_chim
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = novye_vidy_ogyr
 		}
@@ -1261,7 +1261,7 @@ focus_tree = {
 	focus = {
 		id = sane_2
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sane_1
 		}
@@ -1273,7 +1273,7 @@ focus_tree = {
 					add_tech_bonus = {
 							bonus = 148.8
 							uses = 6
-							category = industrial_tech
+							category = industry
 						}
 				}
 
@@ -1281,7 +1281,7 @@ focus_tree = {
 	focus = {
 		id = pershing
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sane_2
 		}
@@ -1310,7 +1310,7 @@ focus_tree = {
 	focus = {
 		id = tank_arta
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = pershing
 		}
@@ -1321,7 +1321,7 @@ focus_tree = {
 	focus = {
 		id = superpen
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = tank_arta
 		}
@@ -1332,7 +1332,7 @@ focus_tree = {
 	focus = {
 		id = true_6_min
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = pershing
 		}
@@ -1343,7 +1343,7 @@ focus_tree = {
 	focus = {
 		id = zvzv
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sane_2a
 		}
@@ -1354,7 +1354,7 @@ focus_tree = {
 	focus = {
 		id = normav
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sane_2a
 		}
@@ -1365,7 +1365,7 @@ focus_tree = {
 	focus = {
 		id = pyatiletki
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = normav
 		}
@@ -1376,7 +1376,7 @@ focus_tree = {
 	focus = {
 		id = othuyarit_sorosa
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = zvzv
 		}
@@ -1387,7 +1387,7 @@ focus_tree = {
 	focus = {
 		id = SAN_Strict_Party_Discipline_Copy
 		icon = GFX_SOV_oppress_philistines
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_Soviet_Technocracy_Copy
 		}
@@ -1412,7 +1412,7 @@ focus_tree = {
 	focus = {
 		id = SAN_Enthusiastic_State_Copy
 		icon = GFX_SOV_soviet_enthusiasm
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = vesel
 		}
@@ -1437,7 +1437,7 @@ focus_tree = {
 	focus = {
 		id = SAN_Soviet_Technocracy_Copy
 		icon = GFX_SOV_soviet_technocracy
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = intel
 		}
@@ -1462,7 +1462,7 @@ focus_tree = {
 	focus = {
 		id = SAN_the_zinovyevite_terrorist_center
 		icon = GFX_focus_SOV_purge_zinovyevists
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_the_stalin_constitution
 		}
@@ -1552,7 +1552,7 @@ focus_tree = {
 	focus = {
 		id = SAN_socialism_in_one_country
 		icon = GFX_focus_SOV_socialism_in_one_country
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_the_centre
 		}
@@ -1582,7 +1582,7 @@ focus_tree = {
 	focus = {
 		id = SAN_secure_the_administration
 		icon = GFX_focus_generic_join_comintern
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_the_zinovyevite_terrorist_center
 		}
@@ -1612,7 +1612,7 @@ focus_tree = {
 	focus = {
 		id = SAN_the_collectivization_process
 		icon = GFX_focus_prc_agrarian_socialism
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_socialism_in_one_country
 		}
@@ -1752,7 +1752,7 @@ focus_tree = {
 	focus = {
 		id = SAN_the_anti_soviet_trotskyist_center
 		icon = GFX_focus_SOV_purge_trotskyists
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_the_zinovyevite_terrorist_center
 		}
@@ -1868,7 +1868,7 @@ focus_tree = {
 	focus = {
 		id = SAN_the_workers_dictatorship
 		icon = GFX_SOV_the_workers_dictatorship_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_the_anti_soviet_trotskyist_center
 		}
@@ -1895,7 +1895,7 @@ focus_tree = {
 	focus = {
 		id = SAN_organization_centralization_discipline
 		icon = GFX_focus_SOV_organization_centralization_discipline
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_the_collectivization_process
 		}
@@ -1925,7 +1925,7 @@ focus_tree = {
 	focus = {
 		id = SAN_war_economy
 		icon = GFX_SOV_war_economy_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_organization_centralization_discipline
 		}
@@ -2003,7 +2003,7 @@ focus_tree = {
 	focus = {
 		id = SAN_the_military_conspiracy
 		icon = GFX_focus_SOV_military_purge
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_the_workers_dictatorship
 		}
@@ -2092,7 +2092,7 @@ focus_tree = {
 	focus = {
 		id = SAN_the_bloc_of_rights_and_trotskyites
 		icon = GFX_focus_SOV_purge_bukharinists
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_the_military_conspiracy
 		}
@@ -2181,7 +2181,7 @@ focus_tree = {
 	focus = {
 		id = SAN_behead_the_snake
 		icon = GFX_focus_SOV_behead_the_snake
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_the_military_conspiracy
 		}
@@ -2225,7 +2225,7 @@ focus_tree = {
 	focus = {
 		id = SAN_stalins_cult_of_personality
 		icon = GFX_focus_SOV_stalins_cult_of_personality
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_the_bloc_of_rights_and_trotskyites
 		}
@@ -2262,7 +2262,7 @@ focus_tree = {
 	focus = {
 		id = SAN_they_will_know_fear
 		icon = GFX_SOV_they_will_know_fear_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_stalins_cult_of_personality
 		}
@@ -2360,7 +2360,7 @@ focus_tree = {
 	focus = {
 		id = SAN_inheritor_of_the_mantle_of_lenin
 		icon = GFX_SOV_inheritor_of_the_mantle_of_lenin_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_stalins_cult_of_personality
 		}
@@ -2389,7 +2389,7 @@ focus_tree = {
 	focus = {
 		id = SAN_brilliant_genius
 		icon = GFX_focus_generic_socialist_science
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_inheritor_of_the_mantle_of_lenin
 		}
@@ -2432,7 +2432,7 @@ focus_tree = {
 	focus = {
 		id = SAN_the_faithful_servant_of_lenin
 		icon = GFX_SOV_the_faithful_servant_of_lenin_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_stalins_cult_of_personality
 		}
@@ -2461,7 +2461,7 @@ focus_tree = {
 	focus = {
 		id = SAN_ban_excessive_hero_worship
 		icon = GFX_focus_renounce_the_treaty_of_trianon
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_the_faithful_servant_of_lenin
 		}
@@ -2502,7 +2502,7 @@ focus_tree = {
 	focus = {
 		id = SAN_leader_of_the_party_and_the_people
 		icon = GFX_SOV_leader_of_the_party_and_the_people_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_inheritor_of_the_mantle_of_lenin
 			focus = SAN_the_faithful_servant_of_lenin
@@ -2571,7 +2571,7 @@ focus_tree = {
 	focus = {
 		id = SAN_great_commander
 		icon = GFX_SOV_great_commander_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_inheritor_of_the_mantle_of_lenin
 		}
@@ -2612,7 +2612,7 @@ focus_tree = {
 	focus = {
 		id = SAN_architect_of_communism
 		icon = GFX_SOV_architect_of_communism_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_the_faithful_servant_of_lenin
 		}
@@ -2643,7 +2643,7 @@ focus_tree = {
 	focus = {
 		id = SAN_father_of_nations
 		icon = GFX_SOV_father_of_nations_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_great_commander
 			focus = SAN_architect_of_communism
@@ -2675,7 +2675,7 @@ focus_tree = {
 	focus = {
 		id = SAN_freedom_of_debate_unity_of_action
 		icon = GFX_focus_generic_soviet_politics
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_stalins_cult_of_personality
 		}
@@ -2703,7 +2703,7 @@ focus_tree = {
 	focus = {
 		id = SAN_the_construction_of_communism
 		icon = GFX_focus_ger_great_red_menace
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_freedom_of_debate_unity_of_action
 		}
@@ -2767,7 +2767,7 @@ focus_tree = {
 	focus = {
 		id = SAN_nkvd_primacy
 		icon = GFX_SOV_nkvd_primacy_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_addressing_internal_affairs
 		}
@@ -2787,7 +2787,7 @@ focus_tree = {
 	focus = {
 		id = SAN_the_new_soviet_woman
 		icon = GFX_SOV_the_new_soviet_woman_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_addressing_internal_affairs
 		}
@@ -2814,7 +2814,7 @@ focus_tree = {
 	focus = {
 		id = SAN_expand_the_agitprop
 		icon = GFX_SOV_expand_the_agitprop_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_addressing_internal_affairs
 		}
@@ -2841,7 +2841,7 @@ focus_tree = {
 	focus = {
 		id = SAN_positive_heroism
 		icon = GFX_SOV_positive_heroism_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_expand_the_agitprop
 		}
@@ -2871,7 +2871,7 @@ focus_tree = {
 	focus = {
 		id = SAN_revive_the_stakhanovite_movement
 		icon = GFX_SOV_revive_the_stakhanovite_movement_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_positive_heroism
 		}
@@ -2890,7 +2890,7 @@ focus_tree = {
 	focus = {
 		id = SAN_war_heroes
 		icon = GFX_SOV_war_heroes_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_revive_the_stakhanovite_movement
 		}
@@ -3002,7 +3002,7 @@ focus_tree = {
 	focus = {
 		id = SAN_collectivist_propaganda
 		icon = GFX_SOV_collectivist_propaganda_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_expand_the_agitprop
 		}
@@ -3029,7 +3029,7 @@ focus_tree = {
 	focus = {
 		id = SAN_socialist_emulation
 		icon = GFX_SOV_socialist_emulation_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_collectivist_propaganda
 		}
@@ -3048,7 +3048,7 @@ focus_tree = {
 	focus = {
 		id = SAN_socialist_realism
 		icon = GFX_SOV_socialist_realism_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_socialist_emulation
 		}
@@ -3070,7 +3070,7 @@ focus_tree = {
 	focus = {
 		id = SAN_the_komsomol
 		icon = GFX_SOV_the_komsomol_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_expand_the_agitprop
 		}
@@ -3099,7 +3099,7 @@ focus_tree = {
 	focus = {
 		id = SAN_patriarch_of_all_russia
 		icon = GFX_SOV_patriarch_of_all_russia_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_war_heroes
 			focus = SAN_socialist_realism
@@ -3121,7 +3121,7 @@ focus_tree = {
 	focus = {
 		id = sanft_2
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sanf_1
 		}
@@ -3143,7 +3143,7 @@ focus_tree = {
 	focus = {
 		id = sanft_3
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sanft_2
 		}
@@ -3166,7 +3166,7 @@ focus_tree = {
 	focus = {
 		id = sane_2a
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sane_1
 		}
@@ -3179,7 +3179,7 @@ focus_tree = {
 					add_tech_bonus = {
 							bonus = 148.8
 							uses = 6
-							category = industrial_tech
+							category = industry
 						}
 				}
 
@@ -3187,7 +3187,7 @@ focus_tree = {
 	focus = {
 		id = nazq
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sanft_3
 		}
@@ -3198,7 +3198,7 @@ focus_tree = {
 	focus = {
 		id = finno
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nazq
 		}
@@ -3209,7 +3209,7 @@ focus_tree = {
 	focus = {
 		id = caucas
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nazq
 		}
@@ -3220,7 +3220,7 @@ focus_tree = {
 	focus = {
 		id = turk
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nazq
 		}
@@ -3231,7 +3231,7 @@ focus_tree = {
 	focus = {
 		id = vyrus
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nazq
 		}
@@ -3242,7 +3242,7 @@ focus_tree = {
 	focus = {
 		id = jews
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nazq
 		}
@@ -3253,7 +3253,7 @@ focus_tree = {
 	focus = {
 		id = negry
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nazq
 		}
@@ -3264,7 +3264,7 @@ focus_tree = {
 	focus = {
 		id = whites
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nazq
 		}
@@ -3275,7 +3275,7 @@ focus_tree = {
 	focus = {
 		id = relq
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sanft_3
 		}
@@ -3286,7 +3286,7 @@ focus_tree = {
 	focus = {
 		id = christ
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = relq
 		}
@@ -3297,7 +3297,7 @@ focus_tree = {
 	focus = {
 		id = islam
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = relq
 		}
@@ -3308,7 +3308,7 @@ focus_tree = {
 	focus = {
 		id = rodnovery
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = relq
 		}
@@ -3319,7 +3319,7 @@ focus_tree = {
 	focus = {
 		id = secular
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = integrisl
 		}
@@ -3336,7 +3336,7 @@ focus_tree = {
 	focus = {
 		id = integrisl
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = christ
 		}
@@ -3347,7 +3347,7 @@ focus_tree = {
 	focus = {
 		id = integrisl_Copy
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = islam
 		}
@@ -3358,7 +3358,7 @@ focus_tree = {
 	focus = {
 		id = integrodnovery
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = rodnovery
 		}
@@ -3369,7 +3369,7 @@ focus_tree = {
 	focus = {
 		id = britigolovye
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = negry
 		}
@@ -3408,7 +3408,7 @@ focus_tree = {
 	focus = {
 		id = poltical
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sanft_3
 		}
@@ -3419,7 +3419,7 @@ focus_tree = {
 	focus = {
 		id = skul
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = poltical
 		}
@@ -3430,7 +3430,7 @@ focus_tree = {
 	focus = {
 		id = tesak
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = poltical
 		}
@@ -3441,7 +3441,7 @@ focus_tree = {
 	focus = {
 		id = skins
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = tesak
 		}
@@ -3452,7 +3452,7 @@ focus_tree = {
 	focus = {
 		id = rne
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = tesak
 		}
@@ -3463,7 +3463,7 @@ focus_tree = {
 	focus = {
 		id = ne_sluzhil
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = skul
 		}
@@ -3474,7 +3474,7 @@ focus_tree = {
 	focus = {
 		id = na_stene
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = skul
 		}
@@ -3485,7 +3485,7 @@ focus_tree = {
 	focus = {
 		id = ruka_soln
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = skul
 		}
@@ -3496,7 +3496,7 @@ focus_tree = {
 	focus = {
 		id = chim_oruzie
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = britigolovye
 		}
@@ -3507,7 +3507,7 @@ focus_tree = {
 	focus = {
 		id = raschelovech
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = britigolovye
 		}
@@ -3518,7 +3518,7 @@ focus_tree = {
 	focus = {
 		id = eff_kotly
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = britigolovye
 		}
@@ -3532,7 +3532,7 @@ focus_tree = {
 	focus = {
 		id = power_kot
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = eff_kotly
 		}
@@ -3543,7 +3543,7 @@ focus_tree = {
 	focus = {
 		id = udobreniya1
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = britigolovye
 		}
@@ -3557,7 +3557,7 @@ focus_tree = {
 	focus = {
 		id = rationak
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = power_kot
 			focus = udobrenia2
@@ -3573,7 +3573,7 @@ focus_tree = {
 	focus = {
 		id = uberkotly
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = power_kot
 		}
@@ -3587,7 +3587,7 @@ focus_tree = {
 	focus = {
 		id = uberudobr
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = udobrenia2
 		}
@@ -3601,7 +3601,7 @@ focus_tree = {
 	focus = {
 		id = doiti_do_rusi
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = britigolovye
 		}
@@ -3612,7 +3612,7 @@ focus_tree = {
 	focus = {
 		id = metody_collectiv
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_Strict_Party_Discipline_Copy
 			focus = nochald_tax
@@ -3624,7 +3624,7 @@ focus_tree = {
 	focus = {
 		id = uvel_smeny
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = prot_morale
 		}
@@ -3635,7 +3635,7 @@ focus_tree = {
 	focus = {
 		id = rat_isl
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = colleg_com
 		}
@@ -3646,7 +3646,7 @@ focus_tree = {
 	focus = {
 		id = crlina
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_Conquest_Of_Nature_Copy
 		}
@@ -3657,7 +3657,7 @@ focus_tree = {
 	focus = {
 		id = svoboda_otn
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_Enthusiastic_State_Copy
 		}
@@ -3671,7 +3671,7 @@ focus_tree = {
 	focus = {
 		id = true_fam
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = intel
 		}
@@ -3685,7 +3685,7 @@ focus_tree = {
 	focus = {
 		id = nochald_tax
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = true_fam
 		}
@@ -3696,7 +3696,7 @@ focus_tree = {
 	focus = {
 		id = svoboda_samoorg
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = zemlyu
 		}
@@ -3707,7 +3707,7 @@ focus_tree = {
 	focus = {
 		id = nizovye_init
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = fabriki
 			focus = svoboda_samoorg
@@ -3719,7 +3719,7 @@ focus_tree = {
 	focus = {
 		id = naladit_obr_svyaz
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nizovye_init
 		}
@@ -3730,7 +3730,7 @@ focus_tree = {
 	focus = {
 		id = woman_role
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = svoboda_otn
 		}
@@ -3741,7 +3741,7 @@ focus_tree = {
 	focus = {
 		id = opt_indust
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = metody_collectiv
 		}
@@ -3752,7 +3752,7 @@ focus_tree = {
 	focus = {
 		id = nocor_sys
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = metody_collectiv
 		}
@@ -3763,7 +3763,7 @@ focus_tree = {
 	focus = {
 		id = soviet_turbomuz
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = plusfact
 		}
@@ -3774,7 +3774,7 @@ focus_tree = {
 	focus = {
 		id = soc_chel
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = soviet_turbomuz
 		}
@@ -3785,7 +3785,7 @@ focus_tree = {
 	focus = {
 		id = colleg_com
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = opt_indust
 			focus = naladit_obr_svyaz
@@ -3799,7 +3799,7 @@ focus_tree = {
 	focus = {
 		id = com_all
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = colleg_com
 		}
@@ -3810,7 +3810,7 @@ focus_tree = {
 	focus = {
 		id = pol_all
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = com_all
 		}
@@ -3821,7 +3821,7 @@ focus_tree = {
 	focus = {
 		id = stop_mobiliz
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = colleg_com
 		}
@@ -3832,7 +3832,7 @@ focus_tree = {
 	focus = {
 		id = econ_all
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = pol_all
 		}
@@ -3843,7 +3843,7 @@ focus_tree = {
 	focus = {
 		id = mil_all
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = pol_all
 		}
@@ -3854,7 +3854,7 @@ focus_tree = {
 	focus = {
 		id = gazik_quest
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = com_all
 		}
@@ -3865,7 +3865,7 @@ focus_tree = {
 	focus = {
 		id = integr
 		icon = GFX_goal_unknown
-		cost = 15,00
+		cost = 15
 		prerequisite = {
 			focus = colleg_com
 		}
@@ -3876,7 +3876,7 @@ focus_tree = {
 	focus = {
 		id = army_life_school
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = militia2
 		}
@@ -3887,7 +3887,7 @@ focus_tree = {
 	focus = {
 		id = effect-act
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = stop_mobiliz
 		}
@@ -3898,7 +3898,7 @@ focus_tree = {
 	focus = {
 		id = SAN_cities
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = rat_isl
 		}
@@ -3909,7 +3909,7 @@ focus_tree = {
 	focus = {
 		id = dvorec_sovetov
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_cities
 		}
@@ -3920,7 +3920,7 @@ focus_tree = {
 	focus = {
 		id = politcom
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = colleg_com
 		}
@@ -3931,7 +3931,7 @@ focus_tree = {
 	focus = {
 		id = worldrev
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = com_all
 		}
@@ -3942,7 +3942,7 @@ focus_tree = {
 	focus = {
 		id = worker_agent
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = worldrev
 		}
@@ -3953,7 +3953,7 @@ focus_tree = {
 	focus = {
 		id = multicul_prop
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = worldrev
 		}
@@ -3964,7 +3964,7 @@ focus_tree = {
 	focus = {
 		id = durability
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = effect-act
 		}
@@ -3975,7 +3975,7 @@ focus_tree = {
 	focus = {
 		id = comsanintegr
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = colleg_com
 		}
@@ -3986,7 +3986,7 @@ focus_tree = {
 	focus = {
 		id = battlebroth
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = politcom
 		}
@@ -3997,7 +3997,7 @@ focus_tree = {
 	focus = {
 		id = accomlished
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_the_construction_of_communism
 		}
@@ -4008,7 +4008,7 @@ focus_tree = {
 	focus = {
 		id = lang
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_brilliant_genius
 		}
@@ -4019,7 +4019,7 @@ focus_tree = {
 	focus = {
 		id = udobstvo
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = lang
 		}
@@ -4030,7 +4030,7 @@ focus_tree = {
 	focus = {
 		id = prostota
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = lang
 		}
@@ -4041,7 +4041,7 @@ focus_tree = {
 	focus = {
 		id = shirota
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = lang
 		}
@@ -4052,7 +4052,7 @@ focus_tree = {
 	focus = {
 		id = int_others
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = prosveshenniki
 		}
@@ -4063,7 +4063,7 @@ focus_tree = {
 	focus = {
 		id = prosveshenniki
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = accomlished
 		}
@@ -4074,7 +4074,7 @@ focus_tree = {
 	focus = {
 		id = scholy
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = int_others
 			focus = career
@@ -4086,7 +4086,7 @@ focus_tree = {
 	focus = {
 		id = career
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = prosveshenniki
 		}
@@ -4097,7 +4097,7 @@ focus_tree = {
 	focus = {
 		id = mass_media
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = int_others
 			focus = turosol
@@ -4109,7 +4109,7 @@ focus_tree = {
 	focus = {
 		id = censor
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = career
 			focus = int_others
@@ -4121,7 +4121,7 @@ focus_tree = {
 	focus = {
 		id = for_the_greater
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = end_turmoil
 		}
@@ -4141,7 +4141,7 @@ focus_tree = {
 	focus = {
 		id = augment
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = accomlished
 		}
@@ -4152,7 +4152,7 @@ focus_tree = {
 	focus = {
 		id = turosol
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = augment
 		}
@@ -4163,7 +4163,7 @@ focus_tree = {
 	focus = {
 		id = turboof
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = augment
 		}
@@ -4174,7 +4174,7 @@ focus_tree = {
 	focus = {
 		id = commanders
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = turboof
 			focus = turosol
@@ -4186,7 +4186,7 @@ focus_tree = {
 	focus = {
 		id = end_turmoil
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = censor
 			focus = scholy
@@ -4198,7 +4198,7 @@ focus_tree = {
 	focus = {
 		id = rabochie
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = scholy
 			focus = mass_media
@@ -4210,7 +4210,7 @@ focus_tree = {
 	focus = {
 		id = chinovniks
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = mass_media
 			focus = commanders
@@ -4222,7 +4222,7 @@ focus_tree = {
 	focus = {
 		id = nukkoop
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = censor
 		}
@@ -4233,7 +4233,7 @@ focus_tree = {
 	focus = {
 		id = evolution
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = for_the_greater
 		}
@@ -4244,7 +4244,7 @@ focus_tree = {
 	focus = {
 		id = nosleep
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = evolution
 		}
@@ -4255,7 +4255,7 @@ focus_tree = {
 	focus = {
 		id = integr_clc
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = evolution
 		}
@@ -4266,7 +4266,7 @@ focus_tree = {
 	focus = {
 		id = horm_contr
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = evolution
 		}
@@ -4277,7 +4277,7 @@ focus_tree = {
 	focus = {
 		id = reehg
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = evolution
 		}
@@ -4288,7 +4288,7 @@ focus_tree = {
 	focus = {
 		id = hive_mid
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nosleep
 			focus = integr_clc
@@ -4306,7 +4306,7 @@ focus_tree = {
 	focus = {
 		id = wargoal_plan
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = militia1
 		}
@@ -4321,7 +4321,7 @@ focus_tree = {
 	focus = {
 		id = militia2
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = vesel
 		}
@@ -4335,7 +4335,7 @@ focus_tree = {
 	focus = {
 		id = dobit_volog
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = militia1
 		}
@@ -4350,7 +4350,7 @@ focus_tree = {
 	focus = {
 		id = tim_annex
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = prinyat_praliva_igry
 			focus = razdel_kitity
@@ -4365,7 +4365,7 @@ focus_tree = {
 	focus = {
 		id = SAN_infrastructure_effort_nsb
 		icon = GFX_goal_generic_construction
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = pyatiletki
 		}
@@ -4488,7 +4488,7 @@ focus_tree = {
 	focus = {
 		id = SAN_heavy_industry
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = pyatiletki
 		}
@@ -4638,7 +4638,7 @@ focus_tree = {
 	focus = {
 		id = SAN_finish_the_five_year_plan
 		icon = GFX_focus_generic_industry_1
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_infrastructure_effort_nsb
 		}
@@ -4668,7 +4668,7 @@ focus_tree = {
 	focus = {
 		id = SAN_third_five_year_plan
 		icon = GFX_focus_generic_industry_2
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_finish_the_five_year_plan
 		}
@@ -4707,7 +4707,7 @@ focus_tree = {
 	focus = {
 		id = SAN_reorganize_the_pc_of_heavy_industry
 		icon = GFX_goal_generic_production2
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_third_five_year_plan
 		}
@@ -4780,7 +4780,7 @@ focus_tree = {
 	focus = {
 		id = SAN_industrial_modernization
 		icon = GFX_goal_reichsautobahn
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_reorganize_the_pc_of_heavy_industry
 		}
@@ -4821,7 +4821,7 @@ focus_tree = {
 	focus = {
 		id = SAN_increase_state_reserves
 		icon = GFX_goal_generic_construction2
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_third_five_year_plan
 		}
@@ -4933,7 +4933,7 @@ focus_tree = {
 	focus = {
 		id = SAN_shift_to_armaments_production
 		icon = GFX_focus_generic_combined_arms
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_third_five_year_plan
 		}
@@ -4998,7 +4998,7 @@ focus_tree = {
 	focus = {
 		id = SAN_optimize_production_lines
 		icon = GFX_focus_generic_tank_production
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_shift_to_armaments_production
 		}
@@ -5041,7 +5041,7 @@ focus_tree = {
 	focus = {
 		id = SAN_steel_casting_industry
 		icon = GFX_focus_generic_steel
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_reorganize_the_pc_of_heavy_industry
 			focus = SAN_shift_to_armaments_production
@@ -5140,7 +5140,7 @@ focus_tree = {
 	focus = {
 		id = SAN_restoration_and_development
 		icon = GFX_goal_generic_production
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SAN_industrial_modernization
 			focus = SAN_optimize_production_lines
@@ -5177,7 +5177,7 @@ focus_tree = {
 	focus = {
 		id = SAN_fourth_five_year_plan
 		icon = GFX_focus_generic_industry_3
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SAN_restoration_and_development
 		}
@@ -5282,7 +5282,7 @@ focus_tree = {
 		focus = {
 		id = ubit_vsex
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = christ
 		}
@@ -5293,7 +5293,7 @@ focus_tree = {
 	focus = {
 		id = ubit_vseh
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = islam
 		}
@@ -5304,7 +5304,7 @@ focus_tree = {
 	focus = {
 		id = ubit_rodyh
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = rodnovery
 		}
@@ -5315,7 +5315,7 @@ focus_tree = {
 	focus = {
 		id = spasibo_sanye
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ne_sluzhil
 		}
@@ -5333,7 +5333,7 @@ focus_tree = {
 	focus = {
 		id = prinyat_christa
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = integrisl
 		}
@@ -5348,7 +5348,7 @@ focus_tree = {
 	focus = {
 		id = prinyat_islam
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = integrisl_Copy
 		}
@@ -5363,7 +5363,7 @@ focus_tree = {
 	focus = {
 		id = prinyat_rodnyh
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = integrodnovery
 		}

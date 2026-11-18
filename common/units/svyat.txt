@@ -37,7 +37,7 @@ sub_units = {
 		
 		# Important Ability
 		initiative = 2.28
-		coordination_bonus = 1.488
+		# coordination_bonus = 1.488 # not a valid subunit stat in 1.19
 		
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
 		

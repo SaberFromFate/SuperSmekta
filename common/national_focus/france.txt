@@ -1,4 +1,4 @@
-﻿focus_tree = {
+focus_tree = {
 	id = french_focus
 	
 	country = {
@@ -8668,7 +8668,7 @@
 				name = FRA_improved_screen_ships
 				bonus = 2.0
 				uses = 1
-				category = cl_tech
+				category = industry
 			}
 		}
 	}

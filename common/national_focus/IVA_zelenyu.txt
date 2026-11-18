@@ -7,7 +7,7 @@ focus_tree = {
 	focus = {
 		id = popast_na_gubu
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 7
 		y = 0
 
@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = kto_vy_ya_odin
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = popast_na_gubu
 		}
@@ -26,7 +26,7 @@ focus_tree = {
 	focus = {
 		id = ty_zhivi
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = popast_na_gubu
 		}
@@ -37,7 +37,7 @@ focus_tree = {
 	focus = {
 		id = kalovyu_lommunism
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = kto_vy_ya_odin
 			focus = ty_zhivi
@@ -49,7 +49,7 @@ focus_tree = {
 	focus = {
 		id = vyuchitsya_v_6
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = kalovyu_lommunism
 		}
@@ -60,7 +60,7 @@ focus_tree = {
 	focus = {
 		id = more_tam_ya_sral
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = vyuchitsya_v_6
 		}
@@ -71,7 +71,7 @@ focus_tree = {
 	focus = {
 		id = znat_yaponskiy_flot
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = vyuchitsya_v_6
 		}
@@ -82,7 +82,7 @@ focus_tree = {
 	focus = {
 		id = tigr_
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = vyuchitsya_v_6
 		}
@@ -93,7 +93,7 @@ focus_tree = {
 	focus = {
 		id = zero
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = vyuchitsya_v_6
 		}
@@ -104,7 +104,7 @@ focus_tree = {
 	focus = {
 		id = ya_kogda_otzhum
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = kalovyu_lommunism
 		}
@@ -115,7 +115,7 @@ focus_tree = {
 	focus = {
 		id = nasrat_v_tapky
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ya_kogda_otzhum
 		}
@@ -126,7 +126,7 @@ focus_tree = {
 	focus = {
 		id = po_vsemy_souzy_3_semerki
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nasrat_v_tapky
 		}
@@ -137,7 +137,7 @@ focus_tree = {
 	focus = {
 		id = ob_malafit_steny
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ya_kogda_otzhum
 		}
@@ -148,7 +148,7 @@ focus_tree = {
 	focus = {
 		id = nosi_zvezd_zhrat_kall
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ob_malafit_steny
 		}
@@ -159,7 +159,7 @@ focus_tree = {
 	focus = {
 		id = davai_pokushaem_posidim
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = more_tam_ya_sral
 		}
@@ -170,7 +170,7 @@ focus_tree = {
 	focus = {
 		id = znat_yaponskiy_grnshtab
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = znat_yaponskiy_flot
 		}
@@ -181,7 +181,7 @@ focus_tree = {
 	focus = {
 		id = v_derevnyah_to_eli_vse
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ob_malafit_steny
 		}
@@ -192,7 +192,7 @@ focus_tree = {
 	focus = {
 		id = y_menya_tozhe_chirey
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = znat_yaponskiy_grnshtab
 		}
@@ -206,7 +206,7 @@ focus_tree = {
 	focus = {
 		id = semerochka
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = po_vsemy_souzy_3_semerki
 		}

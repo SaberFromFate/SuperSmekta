@@ -726,11 +726,7 @@ focus_tree = {
 				name = sub_op_bonus
 				cost_reduction = 0.5
 				uses = 2
-				technology = convoy_interdiction_ti
-				technology = unrestricted_submarine_warfare
-				technology = wolfpacks
-				technology = advanced_submarine_warfare
-				technology = combined_operations_raiding
+				category = naval_doctrine
 			}
 		}
 	}
@@ -844,7 +840,7 @@ focus_tree = {
 				bonus = 1.0
 				ahead_reduction = 2
 				uses = 1
-				category = cl_tech
+				category = industry
 				category = ca_tech
 			}
 		}
@@ -1663,8 +1659,8 @@ focus_tree = {
 		available = {
 			num_of_factories > 50
 		}
-		cancel_if_invalid = gla_no
-		continue_if_invalid = gla_yes
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		x = 0
 		y = 1
 		relative_position_id = gla_extra_tech_slot

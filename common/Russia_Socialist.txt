@@ -7,7 +7,7 @@ focus_tree = {
 	focus = {
 		id = RUS_Zhukov_Rules_Alone
 		icon = GFX_focus_rus_zhukov
-		cost = 4,00
+		cost = 4
 		x = 24
 		y = 0
 			available = {
@@ -25,7 +25,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Premier_Lozovsky
 		icon = GFX_RUS_Premier_Lozovsky
-		cost = 0,00
+		cost = 0
 		x = 19
 		y = 0
 			available = {
@@ -48,7 +48,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Premier_Rykov
 		icon = GFX_RUS_Premier_Rykov
-		cost = 0,00
+		cost = 0
 		x = 2
 		y = 2
 			available = {
@@ -75,7 +75,7 @@ focus_tree = {
 	focus = {
 		id = RUS_Bolsheviks_In_Power
 		icon = GFX_SOV_bolsheviks_in_power
-		cost = 0,00
+		cost = 0
 		x = 43
 		y = 0
 			available = {
@@ -99,7 +99,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Chairman_Gastev
 		icon = GFX_SOV_gastev
-		cost = 2,00
+		cost = 2
 		x = 12
 		y = 7
 		relative_position_id = RUS_Bolsheviks_In_Power
@@ -127,7 +127,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Prolektult
 		icon = GFX_SOV_proletkult
-		cost = 4,00
+		cost = 4
 		x = -17
 		y = 7
 		relative_position_id = RUS_Bolsheviks_In_Power
@@ -159,7 +159,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Profintern
 		icon = GFX_SOV_profintern
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Premier_Lozovsky
 		}
@@ -180,7 +180,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Rykovs_Selkhoznalog
 		icon = GFX_RUS_Rykovs_Selkhoznalog
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Premier_Rykov
 		}
@@ -212,7 +212,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Complete_Nationalization
 		icon = GFX_RUS_Complete_Nationalization
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Premier_Rykov
 		}
@@ -255,7 +255,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Tax_the_Vodka
 		icon = GFX_RUS_Tax_Vodka
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Rykovs_Selkhoznalog
 		}
@@ -282,7 +282,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Expand_The_Cheka
 		icon = GFX_RUS_Recreate_Cheka
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = RUS_Bolsheviks_In_Power
 		}
@@ -377,7 +377,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Diminish_The_Cheka
 		icon = GFX_SOV_diminsh_the_cheka
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = RUS_Bolsheviks_In_Power
 		}
@@ -449,7 +449,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Involve_Peasants_Into_Socialism
 		icon = GFX_RUS_Involve_Peasants_Into_Socialism
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Premier_Rykov
 		}
@@ -485,7 +485,7 @@ focus_tree = {
 		id = SOV_The_New_Proletarian_Generation
 		text = RUS_The_New_Proletarian_Generation
 		icon = GFX_RUS_New_Proletarian_Generation2
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Involve_Peasants_Into_Socialism
 		}
@@ -512,7 +512,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Technocratic_Leadership
 		icon = GFX_RUS_Russia_Technocrats
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_The_New_Proletarian_Generation
 		}
@@ -538,7 +538,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Party_Unity
 		icon = GFX_RUS_Party_Unity
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Involve_Peasants_Into_Socialism
 		}
@@ -565,7 +565,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Rapprochement_Bolsheviks
 		icon = GFX_RUS_Rapprochement_Communists
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Party_Unity
 		}
@@ -608,7 +608,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Workers_Peasants_Constitution
 		icon = GFX_RUS_Workers_Peasants_State
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Party_Unity
 		}
@@ -638,7 +638,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Achieve_Level_Of_Ford
 		icon = GFX_RUS_Achieve_Level_Ford
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Complete_Nationalization
 		}
@@ -679,7 +679,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Cultivation_Of_A_Communist_Man
 		icon = GFX_RUS_Cultivation_Communist_Man
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Achieve_Level_Of_Ford
 		}
@@ -707,7 +707,7 @@ focus_tree = {
 		id = SOV_Revive_RSRPI
 		text = RUS_Revive_RSRPI
 		icon = GFX_SOV_Revive_RSRPI
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Premier_Lozovsky
 		}
@@ -735,7 +735,7 @@ focus_tree = {
 		id = SOV_A_Great_Leap_Forward
 		text = RUS_A_Great_Leap_Forward
 		icon = GFX_SOV_A_Great_Leap_Forward
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Profintern
 		}
@@ -772,7 +772,7 @@ focus_tree = {
 		id = SOV_Towards_Planned_Economy
 		text = RUS_Towards_Planned_Economy
 		icon = GFX_goal_COR_Southern_Command_Economy
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_A_Great_Leap_Forward
 		}
@@ -802,7 +802,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Cheap_Housing
 		icon = GFX_collective_housing
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_A_Great_Leap_Forward
 		}
@@ -834,7 +834,7 @@ focus_tree = {
 		id = SOV_Governmental_Control
 		text = RUS_Governmental_Control
 		icon = GFX_SOV_Governmental_Control
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Towards_Planned_Economy
 		}
@@ -858,7 +858,7 @@ focus_tree = {
 	focus = {
 		id = SOV_General_Education
 		icon = GFX_goal_CZE_rural_education
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_A_Great_Leap_Forward
 		}
@@ -880,7 +880,7 @@ focus_tree = {
 		id = SOV_A_Country_For_People
 		text = RUS_A_Country_For_People
 		icon = GFX_SOV_A_Country_For_People
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Governmental_Control
 		}
@@ -911,7 +911,7 @@ focus_tree = {
 	focus = {
 		id = RUS_Dictatorship_Of_Red_Army
 		icon = GFX_SOV_krasna_dictatorship
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = RUS_Zhukov_Rules_Alone
 		}
@@ -934,7 +934,7 @@ focus_tree = {
 	focus = {
 		id = RUS_Control_Press
 		icon = GFX_SOV_pravda
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = RUS_Zhukov_Rules_Alone
 		}
@@ -955,7 +955,7 @@ focus_tree = {
 	focus = {
 		id = RUS_Revolutionary_Commissars
 		icon = GFX_SOV_rev_commisars
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = RUS_Dictatorship_Of_Red_Army
 		}
@@ -978,7 +978,7 @@ focus_tree = {
 	focus = {
 		id = RUS_Labour_Camps
 		icon = GFX_SOV_onwards_to_gulag
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = RUS_Revolutionary_Commissars
 		}
@@ -1001,7 +1001,7 @@ focus_tree = {
 	focus = {
 		id = RUS_Prodrazvyorstka
 		icon = GFX_SOV_grain_take
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = RUS_Revolutionary_Commissars
 		}
@@ -1038,7 +1038,7 @@ focus_tree = {
 	focus = {
 		id = RUS_Cult_Of_Personality_Zhukov
 		icon = GFX_focus_rus_cult
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = RUS_Labour_Camps
 		}
@@ -1064,7 +1064,7 @@ focus_tree = {
 	focus = {
 		id = RUS_Marshall_Of_Victory
 		icon = GFX_SOV_premier_Zhukov
-		cost = 7,00
+		cost = 7
 		prerequisite = {
 			focus = RUS_Cult_Of_Personality_Zhukov
 		}
@@ -1099,7 +1099,7 @@ focus_tree = {
 	focus = {
 		id = SOV_socialist_internationalism
 		icon = GFX_goal_SOV_internationalism
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = RUS_Control_Press
 		}
@@ -1122,7 +1122,7 @@ focus_tree = {
 	focus = {
 		id = SOV_united_humanity
 		icon = GFX_goal_SOV_humanity
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_socialist_internationalism
 		}
@@ -1138,7 +1138,7 @@ focus_tree = {
 	focus = {
 		id = SOV_transcontinental_broadcasting
 		icon = GFX_goal_SOV_totalist_propaganda
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_socialist_internationalism
 		}
@@ -1153,7 +1153,7 @@ focus_tree = {
 	focus = {
 		id = SOV_world_revolution
 		icon = GFX_goal_SOV_world
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_united_humanity
 		}
@@ -1171,7 +1171,7 @@ focus_tree = {
 	focus = {
 		id = SOV_international_army
 		icon = GFX_SOV_militia
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_world_revolution
 		}
@@ -1188,7 +1188,7 @@ focus_tree = {
 	focus = {
 		id = SOV_international_workers
 		icon = GFX_goal_SOV_workers
-		cost = 8,00
+		cost = 8
 		prerequisite = {
 			focus = SOV_world_revolution
 		}
@@ -1209,7 +1209,7 @@ focus_tree = {
 	focus = {
 		id = SOV_cult_personality
 		icon = GFX_goal_SOV_premier_Tukhachevsky
-		cost = 8,00
+		cost = 8
 		prerequisite = {
 			focus = SOV_international_army
 		}
@@ -1233,7 +1233,7 @@ focus_tree = {
 							}
 						value = SOV_krestinsky
 					}
-		cost = 2,00
+		cost = 2
 		prerequisite = {
 			focus = RUS_Bolsheviks_In_Power
 		}
@@ -1268,7 +1268,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Ustanovka
 		icon = GFX_SOV_ustanovka
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Chairman_Gastev
 		}
@@ -1295,7 +1295,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Taylorism_In_Russian_Context
 		icon = GFX_SOV_taylorism
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Ustanovka
 		}
@@ -1340,7 +1340,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Social_Engineering
 		icon = GFX_SOV_social_engineering
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Ustanovka
 		}
@@ -1386,7 +1386,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Soviet_Syndicalism
 		icon = GFX_SOV_soviet_syndicalism
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Taylorism_In_Russian_Context
 		}
@@ -1428,7 +1428,7 @@ focus_tree = {
 	focus = {
 		id = SOV_CIT
 		icon = GFX_SOV_cit
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Taylorism_In_Russian_Context
 		}
@@ -1471,7 +1471,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Soviet_Technocracy
 		icon = GFX_SOV_soviet_technocracy
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Social_Engineering
 		}
@@ -1500,7 +1500,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Time_Forward
 		icon = GFX_SOV_time_forward
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_CIT
 		}
@@ -1535,7 +1535,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Proletarian_Religion
 		icon = GFX_SOV_proletarian_religion
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Prolektult
 		}
@@ -1591,7 +1591,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Cult_Of_Reason
 		icon = GFX_SOV_cult_of_reason
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Proletarian_Religion
 		}
@@ -1638,7 +1638,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Godbuilding
 		icon = GFX_SOV_god_building
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Cult_Of_Reason
 		}
@@ -1667,7 +1667,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Bolshevist_Enlightenment
 		icon = GFX_SOV_bolshevist_enlightenment
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Proletarian_Religion
 		}
@@ -1707,7 +1707,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Covenants_Of_Lenin
 		icon = GFX_SOV_covenants
-		cost = 2,00
+		cost = 2
 		prerequisite = {
 			focus = SOV_Embrace_Bolshevism
 		}
@@ -1733,7 +1733,7 @@ focus_tree = {
 	focus = {
 		id = RUS_Bureaucratic_Centralism
 		icon = GFX_SOV_bur_central
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Chairman_Zinoviev
 		}
@@ -1759,7 +1759,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Embrace_Bolshevism
 		icon = GFX_SOV_embrace_bolshevism
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Chairman_Zinoviev
 		}
@@ -1789,7 +1789,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Cult_Of_Lenin
 		icon = GFX_SOV_cult_of_lenin
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Embrace_Bolshevism
 		}
@@ -1820,7 +1820,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Cult_Of_Zinoviev
 		icon = GFX_SOV_cult_of_zinoviev
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Cult_Of_Lenin
 		}
@@ -1850,7 +1850,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Strict_Party_Discipline
 		icon = GFX_SOV_oppress_philistines
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = RUS_Bureaucratic_Centralism
 		}
@@ -1876,7 +1876,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Cement_Zinoviev_Authority
 		icon = GFX_SOV_zinoviev_authority
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Strict_Party_Discipline
 		}
@@ -1912,7 +1912,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Council_Of_Labour_And_Defence
 		icon = GFX_SOV_molotov_2
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = RUS_Bolsheviks_In_Power
 		}
@@ -1940,7 +1940,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Down_With_The_Village
 		icon = GFX_SOV_down_villages
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Council_Of_Labour_And_Defence
 		}
@@ -1990,7 +1990,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Deal_With_Kulaks
 		icon = GFX_SOV_dekulakization
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Down_With_The_Village
 		}
@@ -2038,7 +2038,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Militarize_The_Labour
 		icon = GFX_SOV_labor_militarization
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Down_With_The_Village
 		}
@@ -2064,7 +2064,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Improve_The_Supplies
 		icon = GFX_SOV_supply_network
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Militarize_The_Labour
 		}
@@ -2086,7 +2086,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Military_Purges
 		icon = GFX_SOV_army_purge
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Cult_Of_Lenin
 		}
@@ -2130,7 +2130,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Petrograd_Experience
 		icon = GFX_SOV_leningrad
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Military_Purges
 		}
@@ -2166,7 +2166,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Power_Of_The_Chekists
 		icon = GFX_SOV_power_to_checkists
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Petrograd_Experience
 		}
@@ -2191,7 +2191,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Yekaterinburg_Experience
 		icon = GFX_SOV_yekaterinburg
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_Cult_Of_Lenin
 		}

@@ -7,7 +7,7 @@ focus_tree = {
 	focus = {
 		id = kruuugliy_stol
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 7
 		y = 0
 
@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = vaashi_souzniki
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = kruuugliy_stol
 		}
@@ -26,7 +26,7 @@ focus_tree = {
 	focus = {
 		id = krisa
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = vaashi_souzniki
 		}
@@ -37,7 +37,7 @@ focus_tree = {
 	focus = {
 		id = caban
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = vaashi_souzniki
 		}
@@ -48,7 +48,7 @@ focus_tree = {
 	focus = {
 		id = vizir
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = vaashi_souzniki
 		}
@@ -59,7 +59,7 @@ focus_tree = {
 	focus = {
 		id = barbarossa
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = vaashi_souzniki
 		}
@@ -70,7 +70,7 @@ focus_tree = {
 	focus = {
 		id = siily_ravny
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = krisa
 			focus = caban
@@ -84,7 +84,7 @@ focus_tree = {
 	focus = {
 		id = gde_vash_zamok
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = siily_ravny
 		}
@@ -95,7 +95,7 @@ focus_tree = {
 	focus = {
 		id = viselica
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = gde_vash_zamok
 		}
@@ -110,7 +110,7 @@ focus_tree = {
 	focus = {
 		id = cvetochki
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = gde_vash_zamok
 		}
@@ -125,7 +125,7 @@ focus_tree = {
 	focus = {
 		id = poslanie_ot_hryaka
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = siily_ravny
 		}
@@ -136,7 +136,7 @@ focus_tree = {
 	focus = {
 		id = battle_curses
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = poslanie_ot_hryaka
 		}
@@ -147,7 +147,7 @@ focus_tree = {
 	focus = {
 		id = ya_voeval_a_ty
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = poslanie_ot_hryaka
 		}
@@ -158,7 +158,7 @@ focus_tree = {
 	focus = {
 		id = medved_zabrasyvaet
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ya_voeval_a_ty
 		}
@@ -169,7 +169,7 @@ focus_tree = {
 	focus = {
 		id = zapasy_provisii
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = medved_zabrasyvaet
 		}
@@ -183,7 +183,7 @@ focus_tree = {
 	focus = {
 		id = postroit_apteky
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = medved_zabrasyvaet
 		}
@@ -197,7 +197,7 @@ focus_tree = {
 	focus = {
 		id = medved_gorit
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = zapasy_provisii
 			focus = postroit_apteky
@@ -209,7 +209,7 @@ focus_tree = {
 	focus = {
 		id = boeviye_kartinki
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = medved_gorit
 		}
@@ -223,7 +223,7 @@ focus_tree = {
 	focus = {
 		id = velikiy_lors
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = medved_gorit
 		}
@@ -234,7 +234,7 @@ focus_tree = {
 	focus = {
 		id = lord_plodonosit
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = poslanie_ot_hryaka
 		}
@@ -245,7 +245,7 @@ focus_tree = {
 	focus = {
 		id = neblizkiy_pyt
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = lord_plodonosit
 		}
@@ -256,7 +256,7 @@ focus_tree = {
 	focus = {
 		id = otpustim_im_grehi
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = neblizkiy_pyt
 		}
@@ -267,7 +267,7 @@ focus_tree = {
 	focus = {
 		id = porubim_ih_v_kapustu
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = lord_plodonosit
 		}
@@ -278,7 +278,7 @@ focus_tree = {
 	focus = {
 		id = tyazhelaya_vesh
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = porubim_ih_v_kapustu
 		}
@@ -289,7 +289,7 @@ focus_tree = {
 	focus = {
 		id = orudie_na+plecho
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = tyazhelaya_vesh
 		}
@@ -300,7 +300,7 @@ focus_tree = {
 	focus = {
 		id = pachich
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = lord_plodonosit
 		}
@@ -311,7 +311,7 @@ focus_tree = {
 	focus = {
 		id = avemaria
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = pachich
 		}
@@ -322,7 +322,7 @@ focus_tree = {
 	focus = {
 		id = deus_vult
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = avemaria
 		}
@@ -333,7 +333,7 @@ focus_tree = {
 	focus = {
 		id = integr_orden
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = otpustim_im_grehi
 		}
@@ -347,7 +347,7 @@ focus_tree = {
 	focus = {
 		id = kobdoly
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = viselica
 		}
@@ -358,7 +358,7 @@ focus_tree = {
 	focus = {
 		id = trevyshe_gotovo
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = gde_vash_zamok
 		}
@@ -369,7 +369,7 @@ focus_tree = {
 	focus = {
 		id = peremeshaem_sjit
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = trevyshe_gotovo
 		}
@@ -380,7 +380,7 @@ focus_tree = {
 	focus = {
 		id = hz
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = cvetochki
 		}
@@ -391,7 +391,7 @@ focus_tree = {
 	focus = {
 		id = zloy_lord
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nalogi_velikovaty
 		}
@@ -405,7 +405,7 @@ focus_tree = {
 	focus = {
 		id = dobryu_lord
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nalogi_spraved
 		}
@@ -419,7 +419,7 @@ focus_tree = {
 	focus = {
 		id = pyatera_crest
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = velikiy_lors
 		}
@@ -430,7 +430,7 @@ focus_tree = {
 	focus = {
 		id = nadeyc_lyubat_govadinu
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = peremeshaem_sjit
 		}
@@ -441,7 +441,7 @@ focus_tree = {
 	focus = {
 		id = nalogi_velikovaty
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = kobdoly
 		}
@@ -452,7 +452,7 @@ focus_tree = {
 	focus = {
 		id = nalogi_spraved
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = hz
 		}
@@ -463,7 +463,7 @@ focus_tree = {
 	focus = {
 		id = au_aurukum
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = voiny_lohi
 		}
@@ -474,7 +474,7 @@ focus_tree = {
 	focus = {
 		id = nachnifi_hidmatukum
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = medved_gorit
 		}
@@ -488,7 +488,7 @@ focus_tree = {
 	focus = {
 		id = voiny_lohi
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = lord_plodonosit
 		}

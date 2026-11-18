@@ -774,11 +774,7 @@ declare_war_on = {
 				name = sub_op_bonus
 				cost_reduction = 0.5
 				uses = 2
-				technology = convoy_interdiction_ti
-				technology = unrestricted_submarine_warfare
-				technology = wolfpacks
-				technology = advanced_submarine_warfare
-				technology = combined_operations_raiding
+				category = naval_doctrine
 			}
 		}
 	}
@@ -892,7 +888,7 @@ declare_war_on = {
 				bonus = 1.0
 				ahead_reduction = 2
 				uses = 1
-				category = cl_tech
+				category = industry
 				category = ca_tech
 			}
 		}

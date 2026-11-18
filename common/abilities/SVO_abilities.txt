@@ -30,7 +30,7 @@ ability = {
 							idea = sharsh
 				days = 7
 			}}
-				tooltip = ABILITY_LAST_STAND_TOOLTIP
+				custom_effect_tooltip = ABILITY_LAST_STAND_TOOLTIP
 			
 		}
 		
@@ -65,7 +65,7 @@ ability = {
 				days = 7
 			}}
 
-				tooltip = ABILITY_LAST_STAND_TOOLTIP
+				custom_effect_tooltip = ABILITY_LAST_STAND_TOOLTIP
 
 		}
 		
@@ -135,15 +135,19 @@ ability = {
 		duration = 300
 		
 		one_time_effect = {
-			every_enemy_country = {add_timed_idea={
-							idea = zazhimchik
-				days = 7
-			}}
+			OWNER = {
+				every_enemy_country = {
+					add_timed_idea={
+						idea = zazhimchik
+						days = 7
+					}
+				}
+			}
 OWNER = {add_timed_idea={
 							idea = zazhimchik_self
 				days = 7
 			}}
-				tooltip = ABILITY_LAST_STAND_TOOLTIP
+				custom_effect_tooltip = ABILITY_LAST_STAND_TOOLTIP
 			
 		}
 		

@@ -37,7 +37,7 @@ focus_tree = {
         completion_reward = {
             add_ideas = AUS_hive_mind
             add_tech_bonus = {
-                category = { industry }
+                category = industry
                 bonus = 0.5
             }
         }
@@ -53,8 +53,8 @@ focus_tree = {
         prerequisite = { focus = AUS_hive_mind_established }
         available = { NOT = { has_war_with = NZL } }
         completion_reward = {
-            add_war_goal = {
-                type = annexation
+            create_wargoal = {
+                type = annex_everything
                 target = NZL
             }
         }
@@ -70,8 +70,8 @@ focus_tree = {
         prerequisite = { focus = AUS_hive_mind_established }
         available = { NOT = { has_war_with = INS } }
         completion_reward = {
-            add_war_goal = {
-                type = annexation
+            create_wargoal = {
+                type = annex_everything
                 target = INS
             }
         }
@@ -100,10 +100,11 @@ focus_tree = {
         prerequisite = { focus = AUS_hive_mind_established }
         completion_reward = {
             add_ideas = AUS_biofactories
-            add_building_construction = {
-                type = arms_factory
-                amount = 2
-                state = 500 # NSW
+            500 = {
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                }
             }
         }
         ai_will_do = { factor = 1 }
@@ -118,10 +119,11 @@ focus_tree = {
         prerequisite = { focus = AUS_hive_mind_established }
         completion_reward = {
             add_ideas = AUS_organic_terraforming
-            add_building_construction = {
-                type = infrastructure
-                amount = 3
-                state = 500
+            500 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 3
+                }
             }
         }
         ai_will_do = { factor = 1 }
@@ -165,8 +167,8 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = AUS_biomass_soldiers }
         completion_reward = {
-            add_war_goal = {
-                type = annexation
+            create_wargoal = {
+                type = annex_everything
                 target = NZL
             }
         }
@@ -181,8 +183,8 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = AUS_biomass_soldiers }
         completion_reward = {
-            add_war_goal = {
-                type = annexation
+            create_wargoal = {
+                type = annex_everything
                 target = INS
             }
         }
@@ -225,10 +227,11 @@ focus_tree = {
         prerequisite = { focus = AUS_collective_mind }
         completion_reward = {
             add_ideas = AUS_biological_terraforming
-            add_building_construction = {
-                type = infrastructure
-                amount = 3
-                state = 500
+            500 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 3
+                }
             }
         }
         ai_will_do = { factor = 1 }
@@ -317,10 +320,11 @@ focus_tree = {
         prerequisite = { focus = AUS_collective_mind }
         completion_reward = {
             add_ideas = AUS_organic_factories
-            add_building_construction = {
-                type = arms_factory
-                amount = 2
-                state = 500
+            500 = {
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                }
             }
         }
         ai_will_do = { factor = 1 }
@@ -350,8 +354,8 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = AUS_collective_mind }
         completion_reward = {
-            add_war_goal = {
-                type = annexation
+            create_wargoal = {
+                type = annex_everything
                 target = NZL
             }
         }
@@ -366,8 +370,8 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = AUS_collective_mind }
         completion_reward = {
-            add_war_goal = {
-                type = annexation
+            create_wargoal = {
+                type = annex_everything
                 target = PHI
             }
         }
@@ -382,8 +386,8 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = AUS_collective_mind }
         completion_reward = {
-            add_war_goal = {
-                type = annexation
+            create_wargoal = {
+                type = annex_everything
                 target = INS
             }
         }

@@ -1,0 +1,14 @@
+PUZ_INF_01 = {
+	name = "Skitarii"
+	for_countries = { PUZ }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "%d Skitarii"
+	ordered = {
+		1 = { "Skitarii Primus" }
+		2 = { "Skitarii Secundus" }
+		3 = { "Skitarii Tertius" }
+		4 = { "Skitarii Quartus" }
+		5 = { "Skitarii Quintus" }
+	}
+}

@@ -130,7 +130,6 @@ country_event = {
 
 	option = { # Side with the Rebels
 		name = PUZ_norp_e.1.b
-		major = yes
 		PUZ = {
 			country_event = PUZ_deny.1
 			create_wargoal = {
@@ -195,7 +194,6 @@ country_event = {
 
 	option = { # Side with the Rebels
 		name = PUZ_swep_e.1.b
-		major = yes
 		PUZ = {
 			country_event = PUZ_deny.1
 			create_wargoal = {
@@ -261,7 +259,6 @@ country_event = {
 
 	option = { # Side with the Rebels
 		name = PUZ_finp_e.1.b
-		major = yes
 		PUZ = {
 			country_event = PUZ_deny.1
 			create_wargoal = {
@@ -324,7 +321,6 @@ country_event = {
 
 	option = { # Side with the Rebels
 		name = PUZ_ukr_e.1.b
-		major = yes
 		PUZ = {
 			country_event = PUZ_ukr_e.3
 		}
@@ -379,7 +375,6 @@ country_event = {
 
 	option = { # Side with the Rebels
 		name = PUZ_ukr_e.3.b
-		major = yes
 		add_stability = 0.1		
 	}
 

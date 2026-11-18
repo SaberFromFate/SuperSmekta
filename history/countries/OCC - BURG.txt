@@ -1,4 +1,4 @@
-﻿capital = 1
+capital = 1
 if = {
 	limit = {
 		NOT = {
@@ -63,9 +63,6 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	basic_train = 1
-	mobile_warfare = 1
-	trade_interdiction = 1
-	formation_flying = 1
 	synth_oil_experiments = 1
 	fuel_silos = 1
 	fuel_refining = 1
@@ -135,7 +132,7 @@ if = {
 		improved_ship_torpedo_launcher = 1
 		basic_battery = 1
 		basic_light_battery = 1
-		basic_medium_battery = 1
+		basic_heavy_battery = 1
 		basic_heavy_battery = 1
 		basic_depth_charges = 1
 		sonar = 1
@@ -273,24 +270,13 @@ create_import = {
 		
 
 		#doctrines
-		delay = 1
-		elastic_defence = 1
-		armored_spearhead = 1
-		schwerpunk = 1
-		blitzkrieg = 1
-		convoy_interdiction_ti = 1
-		unrestricted_submarine_warfare = 1
-		raider_patrols = 1
 		#air
-		formation_flying = 1		
-		dive_bombing = 1
-		direct_ground_support = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
 		radio_detection = 1
-		decimetric_radar = 1
+		centimetric_radar = 1
 		mechanical_computing = 1
 		computing_machine = 1
 		basic_encryption = 1

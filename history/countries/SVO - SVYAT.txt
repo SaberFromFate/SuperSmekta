@@ -1,4 +1,4 @@
-﻿capital = 126
+capital = 126
 
 if = {
 	limit = {
@@ -76,8 +76,6 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	basic_train = 1
-	trench_warfare = 1
-	fleet_in_being = 1
 	electronic_mechanical_engineering = 1
 	radio = 1
 	radio_detection = 1

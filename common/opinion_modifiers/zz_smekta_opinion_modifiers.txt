@@ -1,0 +1,5 @@
+opinion_modifiers = {
+	AUS_biomass_influence = {
+		value = 50
+	}
+}

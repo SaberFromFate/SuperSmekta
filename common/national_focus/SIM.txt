@@ -12,7 +12,7 @@ focus_tree = {
 		id = SIM_start
 		text = SIM_start
 		icon = GFX_goal_unknown
-		cost = 5,00
+		cost = 5
 		x = 24
 		y = 0
 
@@ -20,7 +20,7 @@ focus_tree = {
 	focus = {
 		id = SIM_com
 		icon = GFX_goal_support_communism
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SIM_start
 		}
@@ -40,7 +40,7 @@ focus_tree = {
 	focus = {
 		id = SIM_dem
 		icon = GFX_goal_support_democracy
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SIM_start
 		}
@@ -58,7 +58,7 @@ focus_tree = {
 	focus = {
 		id = SIM_fash
 		icon = GFX_goal_support_fascism
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SIM_start
 		}
@@ -76,7 +76,7 @@ focus_tree = {
 	focus = {
 		id = SIM_desp
 		icon = GFX_goal_generic_political_pressure
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SIM_start
 		}

@@ -633,7 +633,7 @@ political_power_gain = 0.25
 			removal_cost = -1
 			
 					modifier = {
-resistance_tick_auto = -2
+resistance_target = -0.02
 compliance_growth = 1
 			}
 		}

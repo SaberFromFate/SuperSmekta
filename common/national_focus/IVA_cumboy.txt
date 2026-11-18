@@ -7,7 +7,7 @@ focus_tree = {
 	focus = {
 		id = cumboy
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 14
 		y = 7
 
@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = rubber_ass
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = cumboy
 		}
@@ -26,7 +26,7 @@ focus_tree = {
 	focus = {
 		id = motion_track
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = cumboy
 		}
@@ -37,7 +37,7 @@ focus_tree = {
 	focus = {
 		id = hand_pistol
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = cumboy
 		}
@@ -48,7 +48,7 @@ focus_tree = {
 	focus = {
 		id = nalit_piva
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = motion_track
 		}
@@ -65,7 +65,7 @@ focus_tree = {
 	focus = {
 		id = sobratisya
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nalit_piva
 		}
@@ -76,7 +76,7 @@ focus_tree = {
 	focus = {
 		id = cowwboy_weapon
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sobratisya
 		}
@@ -87,7 +87,7 @@ focus_tree = {
 	focus = {
 		id = coord_uvorot
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sobratisya
 		}
@@ -98,7 +98,7 @@ focus_tree = {
 	focus = {
 		id = reklama_piva
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sobratisya
 		}
@@ -109,7 +109,7 @@ focus_tree = {
 	focus = {
 		id = dinamit
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sobratisya
 		}
@@ -120,7 +120,7 @@ focus_tree = {
 	focus = {
 		id = autoprigun
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sobratisya
 		}
@@ -131,7 +131,7 @@ focus_tree = {
 	focus = {
 		id = derzkie_avtoprig
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = autoprigun
 		}
@@ -142,7 +142,7 @@ focus_tree = {
 	focus = {
 		id = invite_puz_cow
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = derzkie_avtoprig
 		}
@@ -153,7 +153,7 @@ focus_tree = {
 	focus = {
 		id = invite_san_cow
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = reklama_piva
 		}
@@ -164,7 +164,7 @@ focus_tree = {
 	focus = {
 		id = invite_sim_cow
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = dinamit
 		}
@@ -175,7 +175,7 @@ focus_tree = {
 	focus = {
 		id = invite_cjo_cow
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = derzkie_avtoprig
 		}
@@ -186,7 +186,7 @@ focus_tree = {
 	focus = {
 		id = invite_pash_cow
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = derzkie_avtoprig
 		}
@@ -197,7 +197,7 @@ focus_tree = {
 	focus = {
 		id = posetit_ivanicha
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nalit_piva
 		}
@@ -208,7 +208,7 @@ focus_tree = {
 	focus = {
 		id = ogorchitsya
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = posetit_ivanicha
 		}
@@ -219,7 +219,7 @@ focus_tree = {
 	focus = {
 		id = mnorozhenoe
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = posetit_ivanicha
 		}
@@ -230,7 +230,7 @@ focus_tree = {
 	focus = {
 		id = ty_bungal
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = coord_uvorot
 		}
@@ -241,7 +241,7 @@ focus_tree = {
 	focus = {
 		id = cupirovat_vzryv
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = posetit_ivanicha
 		}
@@ -252,7 +252,7 @@ focus_tree = {
 	focus = {
 		id = finalnuy_pyt
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = cowboy_unity
 		}
@@ -263,7 +263,7 @@ focus_tree = {
 	focus = {
 		id = cowboy_unity
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = invite_gaz_cow
 		}
@@ -292,7 +292,7 @@ focus_tree = {
 	focus = {
 		id = invite_gaz_cow
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ty_bungal
 		}
@@ -303,7 +303,7 @@ focus_tree = {
 	focus = {
 		id = invite_svo_cow
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = derzkie_avtoprig
 		}
@@ -317,7 +317,7 @@ focus_tree = {
 	focus = {
 		id = stoyat_cowboy
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = cupirovat_vzryv
 		}

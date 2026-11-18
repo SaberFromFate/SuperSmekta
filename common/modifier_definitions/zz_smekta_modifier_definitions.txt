@@ -1,0 +1,7 @@
+gachism_drift = {
+	color_type = good
+	value_type = number
+	precision = 2
+	postfix = daily
+	category = politics
+}

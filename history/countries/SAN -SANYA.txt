@@ -1,4 +1,4 @@
-﻿capital = 219 ##Наша столица
+capital = 219 ##Наша столица
 
 oob = "SAN" ##GEG - Тег, заменить
 
@@ -23,8 +23,6 @@ set_technology = {
 	early_bomber = 1
 	strategic_bomber1 = 1
 	naval_bomber1 = 1
-	mass_assault = 1
-	fleet_in_being = 1
 }
 
 set_politics = {

@@ -1,159 +1,469 @@
+music_station = "PUZ_ms"
+
 music = {
-	name = "5yeargaz"
+	song = "5yeargaz"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "5year_1"
+	song = "5year_1"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "Alija-Aljo"
+	song = "Alija-Aljo"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "burg1"
+	song = "burg1"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.1"
+	song = "cj.1"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.2"
+	song = "cj.2"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.4"
+	song = "cj.4"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.arg"
+	song = "cj.arg"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.dissolve"
+	song = "cj.dissolve"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.gaz_gachi"
+	song = "cj.gaz_gachi"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.gaz_mach"
+	song = "cj.gaz_mach"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.iva_choice"
+	song = "cj.iva_choice"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.lgbt_attack2"
+	song = "cj.lgbt_attack2"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.lgbt_peace"
+	song = "cj.lgbt_peace"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.lgbt_puppet"
+	song = "cj.lgbt_puppet"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.pash_int"
+	song = "cj.pash_int"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.pillar1"
+	song = "cj.pillar1"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.pillar2"
+	song = "cj.pillar2"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.san_gachi"
+	song = "cj.san_gachi"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "cj.svyat_gachi"
+	song = "cj.svyat_gachi"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "coo"
+	song = "fist_mashine"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "fist_mashine"
+	song = "gaz_com1"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "gaz_com1"
+	song = "gaz_com3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "gaz_com3"
+	song = "gaz_com_chi"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "gaz_com_chi"
+	song = "gaz_mon"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "gaz_mon"
+	song = "gaz_san_war"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "gaz_san_war"
+	song = "gla_idle"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "gla_idle"
+	song = "gla_whistle"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "gla_whistle"
+	song = "gla_whistle1"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "gla_whistle1"
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "hoi4mainthemeallies"
+	song = "iva_bos"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "iva_bos"
+	song = "iva_srb1"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "iva_srb1"
+	song = "iva_srb2"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "iva_srb2"
+	song = "iva_srb4"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "iva_srb4"
+	song = "jap1"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "jap1"
+	song = "lgbt_attack1"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "lgbt_attack1"
+	song = "Marty_Robbins_-_Big_Iron_48399041"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "Marty_Robbins_-_Big_Iron_48399041"
+	song = "matan"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "matan"
+	song = "nazar"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "nazar"
+	song = "Pervyjj_Uroven"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "Pervyjj_Uroven"
+	song = "rakety_uletayut_vdal"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "rakety_uletayut_vdal"
+	song = "san_tim1"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "san_tim1"
+	song = "san_tim2"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "san_tim2"
+	song = "san_tim3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "san_tim3"
+	song = "sigmaboy"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "sigmaboy"
+	song = "tambov"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "tambov"
+	song = "Terminator"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "Terminator"
+	song = "Teufelslied"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "Teufelslied"
+	song = "the-ventures-ghost-riders-in-the-sky"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "the-ventures-ghost-riders-in-the-sky"
+	song = "Was_wollen"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "Was_wollen"
+	song = "Ystyk_pishter"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }
+
 music = {
-	name = "Ystyk_pishter"
-}
-music = {
-	name = "сj.lgbt"
+	song = "сj.lgbt"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
 }

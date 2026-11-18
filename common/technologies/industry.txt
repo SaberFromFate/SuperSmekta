@@ -2118,11 +2118,8 @@ gymsa	= {
         allow = {
             always = no
         }
-	on_research_complete = {
-
-        enable_building = {
-            building = gym
-            level = 5
-        }
-}
+	enable_building = {
+		building = gym
+		level = 5
+	}
 }

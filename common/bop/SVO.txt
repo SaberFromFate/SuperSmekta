@@ -53,10 +53,6 @@ research_speed_factor = 0.05
 			max = -0.3
 
 			modifier = {
-						add_power_balance_modifier = {
-    id = SVO_power_balance    # The ID of the balance of power
-    modifier = SWI_3 # The modifier to add
-}
 				political_advisor_cost_factor = -0.3
 				stability_weekly=0.01
 				party_popularity_stability_factor = 1
@@ -80,10 +76,6 @@ research_speed_factor = 0.1
 			id = CALM_high_control_range
 			min = -0.9
 			max = -0.6
-						add_power_balance_modifier = {
-    id = SVO_power_balance    # The ID of the balance of power
-    modifier = SWI_3 # The modifier to add
-}
 			modifier = {
 				political_advisor_cost_factor = -0.3
 				stability_weekly=0.02

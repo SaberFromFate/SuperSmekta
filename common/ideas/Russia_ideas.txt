@@ -473,8 +473,71 @@ ideas = {
 			
 			picture = rus_combat_squads
 		}
-		
-		
+
+		# --- Legacy ideas referenced by the shared Russian focus tree ---
+		# These were used by common/national_focus/Sanya_focus228.txt but never
+		# defined, which produced "swap_ideas: Invalid idea" errors.
+
+		SOV_mayakovsky_4 = {
+			allowed = { always = no }
+			picture = new_economic_policy
+			modifier = {
+				research_speed_factor = 0.03
+			}
+		}
+		SOV_mayakovsky_5 = {
+			allowed = { always = no }
+			picture = new_economic_policy
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		SOV_mayakovsky_6 = {
+			allowed = { always = no }
+			picture = new_economic_policy
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		SOV_mayakovsky_7 = {
+			allowed = { always = no }
+			picture = new_economic_policy
+			modifier = {
+				research_speed_factor = 0.08
+			}
+		}
+
+		RUS_war_communism_1 = {
+			allowed = { always = no }
+			picture = new_economic_policy
+			modifier = {
+				consumer_goods_factor = 0.1
+				army_morale_factor = 0.05
+			}
+		}
+		RUS_war_communism_2 = {
+			allowed = { always = no }
+			picture = new_economic_policy
+			modifier = {
+				consumer_goods_factor = 0.05
+				army_morale_factor = 0.1
+			}
+		}
+
+		SOV_socialism_in_one_contry_policies_1 = {
+			allowed = { always = no }
+			picture = new_economic_policy
+			modifier = {
+				political_power_gain = 0.05
+			}
+		}
+		SOV_socialism_in_one_contry_policies_2 = {
+			allowed = { always = no }
+			picture = new_economic_policy
+			modifier = {
+				political_power_gain = 0.1
+			}
+		}
 	
 }
 

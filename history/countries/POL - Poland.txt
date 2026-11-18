@@ -1,4 +1,4 @@
-﻿capital = 10
+capital = 10
 
 oob = "POL_1936"
 if = {
@@ -42,7 +42,6 @@ set_technology = {
 	tech_recon = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	trench_warfare = 1
 	fuel_silos = 1
 	synth_oil_experiments = 1
 	basic_train = 1

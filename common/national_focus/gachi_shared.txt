@@ -21,9 +21,7 @@ add_popularity = {
     popularity = 0.05
 }
 set_power_balance = {
-    id = my_bop
-    left_side = my_bop_left_side
-    right_side = my_bop_right_side
+    id = SVO_power_balance
 }
 		
 	}

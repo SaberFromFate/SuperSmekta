@@ -23,7 +23,7 @@ focus_tree = {
 		add_ideas = {
     SVO_HOR
 	}
-war_support_factor = 0.10
+add_war_support = 0.10
 	add_popularity = { ideology = fascism popularity = 0.05 }
 	}
     }

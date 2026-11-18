@@ -840,7 +840,7 @@ annex_country = {
     state = 330
 }
 		add_resource = {
-    type = aluminum
+    type = aluminium
     amount = 1488
     state = 330
 }
@@ -903,8 +903,7 @@ start_civil_war = {
     ideology = communism
 
     size = 0.8
-    only_own_territory = no
-    capital = 330
+        capital = 330
     states = { 
         330
     }

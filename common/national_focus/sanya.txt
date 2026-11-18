@@ -216,7 +216,7 @@ add_tech_bonus = {
 		
         completion_reward = { 
 			add_equipment_to_stockpile = {
-    type = nuke
+    type = infantry_equipment
     amount = 1488
     producer = GER
 }
@@ -286,7 +286,7 @@ focus = {
 			add_tech_bonus = {
     bonus = 148.8
     uses = 6
-    category = industrial_tech
+    category = industry
 
 }
 }
@@ -342,8 +342,8 @@ focus = {
 					level = 5
 					instant_build = yes
 				}
-				add_war_support = 0.2
 			}
+			ROOT = { add_war_support = 0.2 }
 
 }
 }
@@ -364,7 +364,7 @@ focus = {
 			add_tech_bonus = {
     bonus = 148.8
     uses = 6
-    category = industrial_tech
+    category = industry
 
 }
 }

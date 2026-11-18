@@ -7,7 +7,7 @@ focus_tree = {
 	focus = {
 		id = nasladitsya_bleyzerom
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 14
 		y = 7
 allow_branch = { has_country_flag = yaser }
@@ -15,7 +15,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = obyazat_orgii
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		x = 28
 		y = 8
 
@@ -23,7 +23,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = akt_spyash
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nasladitsya_bleyzerom
 		}
@@ -34,7 +34,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = linux
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = akt_spyash
 		}
@@ -45,7 +45,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = yastech
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = linux
 		}
@@ -56,7 +56,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = psybeacon
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = yastech
 		}
@@ -67,7 +67,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = gordon
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = psybeacon
 		}
@@ -78,7 +78,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = spermoi_kiev
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = gordon
 		}
@@ -89,7 +89,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = 5gsystems
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = psybeacon
 		}
@@ -100,7 +100,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = 5gchipsy
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = 5gsystems
 		}
@@ -111,7 +111,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = rodinaisrael
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = yastech
 		}
@@ -122,7 +122,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = matemyas
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = yastech
 		}
@@ -133,7 +133,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = democrit
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = matemyas
 		}
@@ -144,7 +144,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = bsqminusac
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = democrit
 		}
@@ -155,7 +155,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = samokaty
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = akt_spyash
 		}
@@ -166,7 +166,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = fizikayas
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = yastech
 		}
@@ -177,7 +177,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = zhopa
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = fizikayas
 		}
@@ -188,7 +188,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = chlenodinamika
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = zhopa
 		}
@@ -202,7 +202,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = dastab_luchi
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = fizikayas
 		}
@@ -213,7 +213,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = vaccination
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = fizikayas
 		}
@@ -224,7 +224,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = polukrov
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nasladitsya_bleyzerom
 		}
@@ -235,7 +235,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = new_species
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = polukrov
 		}
@@ -246,7 +246,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = zapustit_stanok
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = new_species
 		}
@@ -257,7 +257,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = rusy_budut_sosat
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = zapustit_stanok
 		}
@@ -268,7 +268,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = pyatera
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = rusy_budut_sosat
 		}
@@ -279,7 +279,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = incubation
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = polukrov
 		}
@@ -290,7 +290,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = no_vozrast_solasia
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = nasladitsya_bleyzerom
 		}
@@ -301,7 +301,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = vyvesti_iz_polki
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = no_vozrast_solasia
 		}
@@ -312,7 +312,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = assimilation_yas
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = vyvesti_iz_polki
 		}
@@ -327,7 +327,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = pozhir_prirody
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = assimilation_yas
 		}
@@ -338,7 +338,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = slavify
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = vyvesti_iz_polki
 		}
@@ -353,7 +353,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = slugi
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = slavify
 		}
@@ -364,7 +364,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = analnoe_zondirovanie
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = pozhir_prirody
 			focus = slugi
@@ -376,7 +376,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = forced_notrad
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = analnoe_zondirovanie
 		}
@@ -387,7 +387,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = nikto_ne_znaet
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = no_vozrast_solasia
 		}
@@ -398,7 +398,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = lgt
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = obyazat_orgii
 		}
@@ -413,7 +413,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = germofrod
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = obyazat_orgii
 		}
@@ -428,7 +428,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = sodom_pokazhetsya
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = lgt
 			focus = germofrod
@@ -443,7 +443,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = turbofuriebsrvo
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = vaccination
 		}
@@ -457,7 +457,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = govnomztopoit
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = gordon
 		}
@@ -468,7 +468,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = capitalyaser
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = rodinaisrael
 		}
@@ -482,7 +482,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = org_weapons
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = turbofuriebsrvo
 		}
@@ -493,7 +493,7 @@ allow_branch = { has_country_flag = yaser }
 	focus = {
 		id = no_phonk]
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = analnoe_zondirovanie
 		}

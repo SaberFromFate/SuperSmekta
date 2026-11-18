@@ -2,7 +2,7 @@ leader_traits = {
 	GOYDA = {
 		random = no
 		weekly_casualties_war_support = 0.003
-		weekly_war_support = 0.001
+		war_support_weekly = 0.001
 		war_support_factor = 0.05
 	}
 		birka = {
@@ -41,8 +41,8 @@ consumer_goods_factor = -0.15
 			small_plane_airframe = {
 				air_range = 1
 			}
-			experience_gain_air_factor = 0.1
 		}
+		experience_gain_air_factor = 0.1
 	}
 			gos={
 			random = no

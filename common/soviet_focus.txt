@@ -11,7 +11,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_path_of_marxism_leninism
 		icon = GFX_focus_SOV_the_path_of_marxism_leninism
-		cost = 5,00
+		cost = 5
 		x = 16
 		y = 0
 			offset = {
@@ -61,7 +61,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_centre
 		icon = GFX_focus_fra_loyalty_stalin
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_path_of_marxism_leninism
 		}
@@ -139,7 +139,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_stalin_constitution
 		icon = GFX_SOV_the_stalin_constitutiony_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_the_centre
 		}
@@ -167,7 +167,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_zinovyevite_terrorist_center
 		icon = GFX_focus_SOV_purge_zinovyevists
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_stalin_constitution
 		}
@@ -257,7 +257,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_comintern
 		icon = GFX_goal_support_communism
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_path_of_marxism_leninism
 		}
@@ -293,7 +293,7 @@ focus_tree = {
 	focus = {
 		id = SOV_middle_east_diplomacy
 		icon = GFX_focus_TUR_treaty_of_saadabad
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_comintern
 		}
@@ -508,7 +508,7 @@ focus_tree = {
 	focus = {
 		id = SOV_socialism_in_one_country
 		icon = GFX_focus_SOV_socialism_in_one_country
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_centre
 		}
@@ -538,7 +538,7 @@ focus_tree = {
 	focus = {
 		id = SOV_secure_the_administration
 		icon = GFX_focus_generic_join_comintern
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_the_zinovyevite_terrorist_center
 		}
@@ -568,7 +568,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_collectivization_process
 		icon = GFX_focus_prc_agrarian_socialism
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_socialism_in_one_country
 		}
@@ -708,7 +708,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_anti_soviet_trotskyist_center
 		icon = GFX_focus_SOV_purge_trotskyists
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_zinovyevite_terrorist_center
 		}
@@ -824,7 +824,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_workers_dictatorship
 		icon = GFX_SOV_the_workers_dictatorship_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_the_anti_soviet_trotskyist_center
 		}
@@ -851,7 +851,7 @@ focus_tree = {
 	focus = {
 		id = SOV_organization_centralization_discipline
 		icon = GFX_focus_SOV_organization_centralization_discipline
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_collectivization_process
 		}
@@ -881,7 +881,7 @@ focus_tree = {
 	focus = {
 		id = SOV_war_economy
 		icon = GFX_SOV_war_economy_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_organization_centralization_discipline
 		}
@@ -959,7 +959,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_military_conspiracy
 		icon = GFX_focus_SOV_military_purge
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_workers_dictatorship
 		}
@@ -1048,7 +1048,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_bloc_of_rights_and_trotskyites
 		icon = GFX_focus_SOV_purge_bukharinists
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_the_military_conspiracy
 		}
@@ -1137,7 +1137,7 @@ focus_tree = {
 	focus = {
 		id = SOV_behead_the_snake
 		icon = GFX_focus_SOV_behead_the_snake
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_military_conspiracy
 		}
@@ -1181,7 +1181,7 @@ focus_tree = {
 	focus = {
 		id = SOV_stalins_cult_of_personality
 		icon = GFX_focus_SOV_stalins_cult_of_personality
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_bloc_of_rights_and_trotskyites
 		}
@@ -1218,7 +1218,7 @@ focus_tree = {
 	focus = {
 		id = SOV_they_will_know_fear
 		icon = GFX_SOV_they_will_know_fear_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_stalins_cult_of_personality
 		}
@@ -1316,7 +1316,7 @@ focus_tree = {
 	focus = {
 		id = SOV_inheritor_of_the_mantle_of_lenin
 		icon = GFX_SOV_inheritor_of_the_mantle_of_lenin_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_stalins_cult_of_personality
 		}
@@ -1345,7 +1345,7 @@ focus_tree = {
 	focus = {
 		id = SOV_brilliant_genius
 		icon = GFX_focus_generic_socialist_science
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_inheritor_of_the_mantle_of_lenin
 		}
@@ -1388,7 +1388,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_faithful_servant_of_lenin
 		icon = GFX_SOV_the_faithful_servant_of_lenin_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_stalins_cult_of_personality
 		}
@@ -1417,7 +1417,7 @@ focus_tree = {
 	focus = {
 		id = SOV_ban_excessive_hero_worship
 		icon = GFX_focus_renounce_the_treaty_of_trianon
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_the_faithful_servant_of_lenin
 		}
@@ -1458,7 +1458,7 @@ focus_tree = {
 	focus = {
 		id = SOV_leader_of_the_party_and_the_people
 		icon = GFX_SOV_leader_of_the_party_and_the_people_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_inheritor_of_the_mantle_of_lenin
 			focus = SOV_the_faithful_servant_of_lenin
@@ -1527,7 +1527,7 @@ focus_tree = {
 	focus = {
 		id = SOV_great_commander
 		icon = GFX_SOV_great_commander_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_inheritor_of_the_mantle_of_lenin
 		}
@@ -1568,7 +1568,7 @@ focus_tree = {
 	focus = {
 		id = SOV_architect_of_communism
 		icon = GFX_SOV_architect_of_communism_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_faithful_servant_of_lenin
 		}
@@ -1599,7 +1599,7 @@ focus_tree = {
 	focus = {
 		id = SOV_father_of_nations
 		icon = GFX_SOV_father_of_nations_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_great_commander
 			focus = SOV_architect_of_communism
@@ -1631,7 +1631,7 @@ focus_tree = {
 	focus = {
 		id = SOV_freedom_of_debate_unity_of_action
 		icon = GFX_focus_generic_soviet_politics
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_stalins_cult_of_personality
 		}
@@ -1659,7 +1659,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_construction_of_communism
 		icon = GFX_focus_ger_great_red_menace
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_freedom_of_debate_unity_of_action
 		}
@@ -1723,7 +1723,7 @@ focus_tree = {
 	focus = {
 		id = SOV_addressing_internal_affairs
 		icon = GFX_focus_generic_self_management
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_path_of_marxism_leninism
 		}
@@ -1829,7 +1829,7 @@ focus_tree = {
 	focus = {
 		id = SOV_nkvd_primacy
 		icon = GFX_SOV_nkvd_primacy_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_addressing_internal_affairs
 		}
@@ -1849,7 +1849,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_new_soviet_woman
 		icon = GFX_SOV_the_new_soviet_woman_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_addressing_internal_affairs
 		}
@@ -1873,7 +1873,7 @@ focus_tree = {
 	focus = {
 		id = SOV_expand_the_agitprop
 		icon = GFX_SOV_expand_the_agitprop_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_addressing_internal_affairs
 		}
@@ -1900,7 +1900,7 @@ focus_tree = {
 	focus = {
 		id = SOV_positive_heroism
 		icon = GFX_SOV_positive_heroism_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_expand_the_agitprop
 		}
@@ -1930,7 +1930,7 @@ focus_tree = {
 	focus = {
 		id = SOV_revive_the_stakhanovite_movement
 		icon = GFX_SOV_revive_the_stakhanovite_movement_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_positive_heroism
 		}
@@ -1949,7 +1949,7 @@ focus_tree = {
 	focus = {
 		id = SOV_war_heroes
 		icon = GFX_SOV_war_heroes_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_revive_the_stakhanovite_movement
 		}
@@ -2061,7 +2061,7 @@ focus_tree = {
 	focus = {
 		id = SOV_collectivist_propaganda
 		icon = GFX_SOV_collectivist_propaganda_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_expand_the_agitprop
 		}
@@ -2088,7 +2088,7 @@ focus_tree = {
 	focus = {
 		id = SOV_socialist_emulation
 		icon = GFX_SOV_socialist_emulation_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_collectivist_propaganda
 		}
@@ -2107,7 +2107,7 @@ focus_tree = {
 	focus = {
 		id = SOV_socialist_realism
 		icon = GFX_SOV_socialist_realism_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_socialist_emulation
 		}
@@ -2129,7 +2129,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_komsomol
 		icon = GFX_SOV_the_komsomol_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_expand_the_agitprop
 		}
@@ -2158,7 +2158,7 @@ focus_tree = {
 	focus = {
 		id = SOV_patriarch_of_all_russia
 		icon = GFX_SOV_patriarch_of_all_russia_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_war_heroes
 			focus = SOV_socialist_realism
@@ -2180,7 +2180,7 @@ focus_tree = {
 	focus = {
 		id = SOV_policy_of_collective_security
 		icon = GFX_SOV_policy_of_collective_security_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_comintern
 		}
@@ -2212,7 +2212,7 @@ focus_tree = {
 	focus = {
 		id = SOV_anti_fascist_policies
 		icon = GFX_focus_generic_anti_fascist_diplomacy
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_policy_of_collective_security
 		}
@@ -2268,7 +2268,7 @@ focus_tree = {
 	focus = {
 		id = SOV_seek_a_defense_pact_with_the_allies
 		icon = GFX_goal_generic_major_alliance
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_anti_fascist_policies
 		}
@@ -2420,7 +2420,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_khakimov_proposal
 		icon = GFX_focus_generic_befriend_saudi_arabia
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_seek_a_defense_pact_with_the_allies
 		}
@@ -2473,7 +2473,7 @@ focus_tree = {
 	focus = {
 		id = SOV_eradicate_western_fascism
 		icon = GFX_focus_generic_strike_at_democracy1
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_seek_a_defense_pact_with_the_allies
 		}
@@ -2574,7 +2574,7 @@ focus_tree = {
 	focus = {
 		id = SOV_policy_of_individual_security
 		icon = GFX_SOV_policy_of_individual_security_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_comintern
 		}
@@ -2606,7 +2606,7 @@ focus_tree = {
 	focus = {
 		id = SOV_approach_germany
 		icon = GFX_goal_molotov_ribbentrop_pact
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_policy_of_individual_security
 		}
@@ -2914,7 +2914,7 @@ focus_tree = {
 	focus = {
 		id = SOV_liberation_of_the_european_proletariat
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_approach_germany
 		}
@@ -3015,7 +3015,7 @@ focus_tree = {
 	focus = {
 		id = SOV_anti_capitalist_policies
 		icon = GFX_focus_spr_class_war
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_comintern
 		}
@@ -3076,7 +3076,7 @@ focus_tree = {
 	focus = {
 		id = SOV_baltic_security
 		icon = GFX_focus_SOV_baltic_security
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_the_comintern
 		}
@@ -3253,7 +3253,7 @@ focus_tree = {
 	focus = {
 		id = SOV_respect_baltic_self_determination
 		icon = GFX_SOV_respect_baltic_self_determination_ccp_2d_sov_compatibility
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_baltic_security
 		}
@@ -3317,7 +3317,7 @@ focus_tree = {
 	focus = {
 		id = SOV_claims_in_baltic
 		icon = GFX_SOV_claims_in_baltic_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_baltic_security
 		}
@@ -3419,7 +3419,7 @@ focus_tree = {
 	focus = {
 		id = SOV_secure_leningrad
 		icon = GFX_focus_generic_attack_finland
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_respect_baltic_self_determination
 			focus = SOV_claims_in_baltic
@@ -3485,7 +3485,7 @@ focus_tree = {
 	focus = {
 		id = SOV_control_scandinavia
 		icon = GFX_SOV_control_scandinavia_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_secure_leningrad
 		}
@@ -3623,7 +3623,7 @@ focus_tree = {
 	focus = {
 		id = SOV_claims_on_poland
 		icon = GFX_SOV_claims_on_poland_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_respect_baltic_self_determination
 			focus = SOV_claims_in_baltic
@@ -3747,7 +3747,7 @@ focus_tree = {
 	focus = {
 		id = SOV_demand_eastern_poland
 		icon = GFX_SOV_demand_eastern_poland_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_claims_on_poland
 		}
@@ -3909,7 +3909,7 @@ focus_tree = {
 	focus = {
 		id = SOV_offer_poland_protection
 		icon = GFX_focus_generic_polish_deal
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_claims_on_poland
 		}
@@ -4052,7 +4052,7 @@ focus_tree = {
 	focus = {
 		id = SOV_claim_on_bessarabia
 		icon = GFX_focus_generic_attack_romania
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_claims_on_poland
 		}
@@ -4247,7 +4247,7 @@ focus_tree = {
 	focus = {
 		id = SOV_demand_balkan_submission
 		icon = GFX_SOV_demand_balkan_submission_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_claim_on_bessarabia
 		}
@@ -4320,7 +4320,7 @@ focus_tree = {
 	focus = {
 		id = SOV_seek_balkan_cooperation
 		icon = GFX_focus_BUL_free_balkan_states
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_claim_on_bessarabia
 		}
@@ -4413,7 +4413,7 @@ focus_tree = {
 	focus = {
 		id = SOV_the_southern_thrust
 		icon = GFX_SOV_the_southern_thrust_ccp_2d_sov_compatibility
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = SOV_middle_east_diplomacy
 		}
@@ -4568,7 +4568,7 @@ focus_tree = {
 	focus = {
 		id = SOV_support_afghan_ideology
 		icon = GFX_focus_generic_befriend_afghanistan
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_middle_east_diplomacy
 		}
@@ -4614,7 +4614,7 @@ focus_tree = {
 	focus = {
 		id = SOV_preemptive_invasion_of_iran
 		icon = GFX_focus_generic_attack_iran
-		cost = 5,00
+		cost = 5
 		prerequisite = {
 			focus = SOV_support_afghan_ideology
 		}

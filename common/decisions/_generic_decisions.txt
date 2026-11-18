@@ -318,7 +318,7 @@ political_actions = {
 		}
         visible = {
             country_exists = FER
-			as_government = neutrality
+			has_government = neutrality
         }
         available = {
 		has_government = neutrality
@@ -543,7 +543,6 @@ political_actions = {
 			
 
         }
-    }
 	targeted_race_for_the_bomb = {
 
 		icon = generic_research
