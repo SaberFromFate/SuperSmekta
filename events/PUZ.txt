@@ -122,7 +122,7 @@ country_event = {
 			add_state_core = 924
 			add_state_core = 143
 			add_state_core = 142
-			news_event = {id = PUZ_norp_e.2 hours = 6}
+			news_event = {id = PUZ_denp_e.2 hours = 6}
 		}
 		
 		
@@ -140,18 +140,6 @@ country_event = {
 		}
 		
 	}
-
-}
-
-news_event = {
-	id = PUZ_denp_e.2
-	title = PUZ_denp_e.2.t
-	desc = PUZ_denp_e.2.d
-	picture = GFX_news_event_PUZ_am5_e
-	major = yes
-	
-	is_triggered_only = yes
-
 
 }
 

@@ -415,101 +415,11 @@ news_event = {
 		name = cj.25.a
 	}
 }
-news_event = {
-	id = cj.2
-	title = cj.2.t 
-	desc = cj.2.d
-	picture = GFX_CJ_2
-	major = yes
-		immediate = {
-		hidden_effect={
-				play_song = "Marty_Robbins_-_Big_Iron_48399041"
-				
-			}}
-	is_triggered_only = yes
-	option = {
-		name = cj.2.a
-	}
-}
-news_event = {
-	id = cj.2
-	title = cj.2.t 
-	desc = cj.2.d
-	picture = GFX_CJ_2
-	major = yes
-		immediate = {
-		hidden_effect={
-				play_song = "Marty_Robbins_-_Big_Iron_48399041"
-				
-			}}
-	is_triggered_only = yes
-	option = {
-		name = cj.2.a
-	}
-}
-news_event = {
-	id = cj.2
-	title = cj.2.t 
-	desc = cj.2.d
-	picture = GFX_CJ_2
-	major = yes
-		immediate = {
-		hidden_effect={
-				play_song = "Marty_Robbins_-_Big_Iron_48399041"
-				
-			}}
-	is_triggered_only = yes
-	option = {
-		name = cj.2.a
-	}
-}
-news_event = {
-	id = cj.2
-	title = cj.2.t 
-	desc = cj.2.d
-	picture = GFX_CJ_2
-	major = yes
-		immediate = {
-		hidden_effect={
-				play_song = "Marty_Robbins_-_Big_Iron_48399041"
-				
-			}}
-	is_triggered_only = yes
-	option = {
-		name = cj.2.a
-	}
-}
-news_event = {
-	id = cj.2
-	title = cj.2.t 
-	desc = cj.2.d
-	picture = GFX_CJ_2
-	major = yes
-		immediate = {
-		hidden_effect={
-				play_song = "Marty_Robbins_-_Big_Iron_48399041"
-				
-			}}
-	is_triggered_only = yes
-	option = {
-		name = cj.2.a
-	}
-}
-news_event = {
-	id = cj.2
-	title = cj.2.t 
-	desc = cj.2.d
-	picture = GFX_CJ_2
-	major = yes
-		immediate = {
-		hidden_effect={
-				play_song = "Marty_Robbins_-_Big_Iron_48399041"
-				
-			}}
-	is_triggered_only = yes
-	option = {
-		name = cj.2.a
-	}
-}
+
+
+
+
+
+
 
 
