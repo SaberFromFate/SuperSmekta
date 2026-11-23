@@ -461,6 +461,7 @@
 							size > 1
 						}
 					}
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = air_base
 						level = 3
@@ -480,6 +481,7 @@
 					}
 				}
 				capital_scope = {
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = air_base
 						level = 3
@@ -491,7 +493,6 @@
 						level = 2
 						instant_build = yes
 					}
-					add_extra_state_shared_building_slots = 4
 				}
 			}
 			add_doctrine_cost_reduction = {
@@ -855,6 +856,7 @@
 		}
 		completion_reward = {
 				58 = {
+					add_extra_state_shared_building_slots = 4
 					if = {
 						limit = { is_controlled_by = ROOT }
 						add_building_construction = {
@@ -863,7 +865,6 @@
 							instant_build = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 4
 				}		
 		}
 		x = 27
@@ -880,6 +881,7 @@
 		}
 		completion_reward = {
 			909 = {
+				add_extra_state_shared_building_slots = 4
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -889,7 +891,6 @@
 						
 					}
 				}
-				add_extra_state_shared_building_slots = 4
 			}		
 		}
 		x = 27
@@ -997,6 +998,7 @@
 			add_political_power = 75
 			add_stability = 0.05
 			capital_scope = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = PUZ_space_institute
 					level = 1
@@ -1018,6 +1020,8 @@
 		x = 19
 		y = 6
 		completion_reward = {
+			add_political_power = 50
+			add_command_power = 25
 			add_war_support = 0.05
 		}
 
@@ -1033,6 +1037,8 @@
 			focus = PUZ_start
 		}
 		completion_reward = {
+			add_command_power = 25
+			add_army_experience = 15
 			add_war_support = 0.05
 
 			add_state_claim = 912
@@ -1120,6 +1126,8 @@
 			focus = PUZ_den_p
 		}
 		completion_reward = {
+			add_war_support = 0.05
+			add_political_power = 50
 			create_wargoal = {
 				type = annex_everything
 				target = DEN
@@ -1141,6 +1149,13 @@
 			focus = PUZ_swe_p
 		}
 		completion_reward = {
+			add_war_support = 0.05
+			add_tech_bonus = {
+				name = PUZ_sweden_navy
+				bonus = 0.5
+				uses = 1
+				category = dd_tech
+			}
 			create_wargoal = {
 				type = annex_everything
 				target = SWE
@@ -1183,6 +1198,7 @@
 			focus = PUZ_fin_p
 		}
 		completion_reward = {
+			add_army_experience = 25
 			create_wargoal = {
 				type = annex_everything
 				target = FIN
@@ -1296,6 +1312,12 @@
 			focus = PUZ_nor_p
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = PUZ_norway_navy
+				bonus = 0.5
+				uses = 1
+				category = ca_tech
+			}
 			create_wargoal = {
 				type = annex_everything
 				target = NOR
@@ -1331,6 +1353,7 @@
 			}
 		}
 		completion_reward = {
+			add_war_support = 0.05
 			every_state = {
 					limit = { 
 						is_coastal = yes 
@@ -1347,6 +1370,7 @@
 							state = 925
 						}
 					}
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = coastal_bunker
 						level = 2
@@ -1392,6 +1416,7 @@
 		x = 16
 		y = 11
 		completion_reward = {
+			add_war_support = 0.05
 			every_state = {
 					limit = { 
 						
@@ -1407,6 +1432,7 @@
 							state = 925
 						}
 					}
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = arms_factory
 						level = 1
@@ -1446,6 +1472,12 @@
 		}
 
 		completion_reward = {
+			add_tech_bonus = {
+				name = PUZ_resn_research
+				bonus = 0.5
+				uses = 2
+				category = electronics
+			}
 			swap_ideas = {
     			remove_idea = PUZ_TB2
     			add_idea = PUZ_TB3
@@ -1560,6 +1592,8 @@
 			focus = PUZ_south
 		}
 		completion_reward = {
+			add_army_experience = 50
+			add_command_power = 25
 			add_war_support = 0.05
 			create_wargoal = {
 				type = annex_everything
@@ -1578,6 +1612,12 @@
 			focus = PUZ_ger
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = PUZ_cze_industry
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
 			create_wargoal = {
 				type = annex_everything
 				target = CZE
@@ -1597,6 +1637,12 @@
 		x = 24
 		y = 9
 		completion_reward = {
+			add_tech_bonus = {
+				name = PUZ_sil_industry
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
 			create_wargoal = {
 				type = annex_everything
 				target = SIL
@@ -1617,6 +1663,7 @@
 		x = 24
 		y = 10
 		completion_reward = {
+			add_stability = 0.05
 			create_wargoal = {
 				type = annex_everything
 				target = AUS
@@ -1632,6 +1679,8 @@
 			focus = PUZ_aus
 		}
 		completion_reward = {
+			add_war_support = 0.05
+			add_political_power = 50
 			LES = {
 				country_event = { id = PUZ_ukr_e.1 hours = 6 }
 			}
@@ -1660,6 +1709,12 @@
 		}
 
 		completion_reward ={
+			add_tech_bonus = {
+				name = PUZ_ger_c_construction
+				bonus = 0.5
+				uses = 1
+				category = construction_tech
+			}
 			every_state = {
 					limit = { 
 						
@@ -1671,6 +1726,7 @@
 							state = 65
 						}
 					}
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
@@ -1703,6 +1759,7 @@
 		}
 
 		completion_reward ={
+			add_war_support = 0.05
 			every_state = {
 					limit = { 
 						
@@ -1714,6 +1771,7 @@
 							state = 65
 						}
 					}
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = arms_factory
 						level = 1
@@ -1746,6 +1804,7 @@
 		x = 26
 		y = 11
 		completion_reward = {
+			add_army_experience = 25
 
 
 			add_tech_bonus = {
@@ -1789,6 +1848,12 @@
 		x = 10
 		y = 11
 		completion_reward = {
+			add_tech_bonus = {
+				name = PUZ_swem_industry
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
 			every_state = {
 					limit = { 
 						
@@ -1806,6 +1871,7 @@
 							state = 917
 						}
 					}
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = arms_factory
 						level = 1
@@ -1843,6 +1909,8 @@
 		x = 19
 		y = 12
 		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 100
 
 			add_state_core = 912
 			add_state_core = 99
@@ -1941,6 +2009,10 @@
 		prerequisite = {
 			focus = PUZ_cet
 		}
+		mutually_exclusive = {
+			focus = PUZ_era_mil
+			focus = PUZ_era_eco
+		}
 		x = 19
 		y = 13
 		completion_reward = {
@@ -1950,12 +2022,80 @@
 		}
 	}
 	focus = {
+		id = PUZ_era_mil
+		text = PUZ_era_mil
+		icon = GFX_goal_generic_major_war
+		cost = 5,00
+		prerequisite = {
+			focus = PUZ_cet
+		}
+		mutually_exclusive = {
+			focus = PUZ_era
+			focus = PUZ_era_eco
+		}
+		x = 17
+		y = 13
+		completion_reward = {
+			add_war_support = 0.05
+			add_army_experience = 50
+			add_manpower = 50000
+			add_doctrine_cost_reduction = {
+				name = PUZ_land_doctrine
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = PUZ_era_eco
+		text = PUZ_era_eco
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5,00
+		prerequisite = {
+			focus = PUZ_cet
+		}
+		mutually_exclusive = {
+			focus = PUZ_era
+			focus = PUZ_era_mil
+		}
+		x = 21
+		y = 13
+		completion_reward = {
+			add_stability = 0.05
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = PUZ_era_eco_bonus
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+		}
+	}
+
+	focus = {
 		id = PUZ_ascension
 		text = PUZ_ascension
 		icon = GFX_goal_tfv_generic_tech_sharing
 		cost = 5,00
 		prerequisite = {
 			focus = PUZ_era
+			focus = PUZ_era_mil
+			focus = PUZ_era_eco
 		}
 		x = 19
 		y = 14
@@ -1986,6 +2126,7 @@
 		x = 19
 		y = 15
 		completion_reward = {
+			add_command_power = 50
 			add_stability = 0.1
 			add_war_support = 0.05
 			add_political_power = 150
