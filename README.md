@@ -10,8 +10,7 @@
 
 [![HOI4](https://img.shields.io/badge/Hearts%20of%20Iron%20IV-1.20.x-9b1c1c?style=for-the-badge)](https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/)
 [![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-1b2838?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/sharedfiles/filedetails/?id=3329420560)
-[![Branch](https://img.shields.io/badge/branch-test-orange?style=for-the-badge&logo=git&logoColor=white)](https://github.com/SaberFromFate/SuperSmekta/tree/test)
-[![Status](https://img.shields.io/badge/status-playable-brightgreen?style=for-the-badge)](https://github.com/SaberFromFate/SuperSmekta/commits/test)
+[![Status](https://img.shields.io/badge/status-playable-brightgreen?style=for-the-badge)](https://github.com/SaberFromFate/SuperSmekta)
 
 </div>
 
@@ -22,9 +21,6 @@
 **Smekta** — большой альтернативно-исторический мод, который перекраивает привычную политическую картину мира HOI4: новые страны и идеологии, собственные деревья фокусов, события, новостные цепочки, персонажи, флаги, портреты, музыка и переработанная карта.
 
 В центре внимания — **Альянс «Смекта»** и его основатели, вокруг которых строится политика, дипломатия и локальные конфликты. Здесь у каждой страны есть свой характер, а у каждого решения — последствия.
-
-> [!NOTE]
-> Мод создаётся небольшой командой и активно допиливается. Ветка `test` — рабочая площадка для проверки новых изменений перед стабильным релизом.
 
 ---
 
@@ -64,13 +60,12 @@
 2. Подпишитесь на мод.
 3. Активируйте **Smekta** в лаунчере HOI4 и запустите игру.
 
-### Вручную (для разработки)
+### Вручную
 
-1. Склонируйте репозиторий в папку модов:
+1. Скачайте архив с модом и распакуйте его в папку:
 
-   ```powershell
-   cd "$env:USERPROFILE\Documents\Paradox Interactive\Hearts of Iron IV\mod"
-   git clone https://github.com/SaberFromFate/SuperSmekta.git Smekta
+   ```text
+   Documents\Paradox Interactive\Hearts of Iron IV\mod\Smekta
    ```
 
 2. Создайте рядом файл `Smekta.mod`:
@@ -95,71 +90,9 @@
 
 ---
 
-## 🧱 Структура репозитория
-
-```text
-SuperSmekta/
-├── common/          # идеологии, идеи, фокусы, решения, технологии, страны, здания
-├── decisions/       # решения (старый формат, если используется)
-├── events/          # события и новостные цепочки
-├── gfx/             # флаги, портреты, иконки, арт фокусов
-├── history/         # история стран, юнитов и штатов
-├── interface/       # .gui/.gfx: интерфейс, музыкальный плеер, радио
-├── localisation/    # локализация (ru и другие языки)
-├── music/           # саундтрек, плейлисты и радиостанция
-├── portraits/       # портреты персонажей
-├── sad/             # служебные/вспомогательные данные
-├── descriptor.mod   # метаданные мода
-└── 600x600.png      # обложка для Workshop
-```
-
----
-
-## 🛠️ Разработка и тестирование
-
-### Запуск с логами
-
-Самый полезный режим для отладки — `-debug`:
-
-```powershell
-& "D:\Steam\steamapps\common\Hearts of Iron IV\hoi4.exe" -debug
-```
-
-Логи игры лежат в:
-
-```text
-%USERPROFILE%\Documents\Paradox Interactive\Hearts of Iron IV\logs\
-```
-
-В первую очередь смотрите:
-
-- `error.log` — ошибки скриптов, локализации, событий и целей;
-- `game.log` — ход загрузки и запуска партии;
-- `system_debug.log` — ошибки интерфейса и вёрстки.
-
-### Автоматический прогон без кликов
-
-HOI4 умеет сама стартовать партию в режиме наблюдателя. Это удобно для проверки крашей на старте:
-
-```powershell
-& "D:\Steam\steamapps\common\Hearts of Iron IV\hoi4.exe" -hands_off -debug
-```
-
-Если игра доживает до нескольких игровых месяцев и не создаёт новую папку в `crashes/` — базовый старт стабилен.
-
-### Правила контрибьютинга
-
-- Одна логическая правка — один коммит.
-- Не коммитьте временные файлы, бэкапы и `.bak`, если они не нужны проекту.
-- Новые теги стран добавляйте в `common/country_tags/`.
-- Все новые фокусы, идеи и события должны иметь локализацию.
-- После правок проверяйте `error.log` на новые ошибки.
-
----
-
 ## 🩹 Что нового в 1.20
 
-В этой ветке мод адаптирован под **HOI4 1.20**:
+Мод адаптирован под **HOI4 1.20**:
 
 - восстановлены отсутствующие ванильные теги стран, из-за которых падала игра при старте;
 - обновлены интерфейсные файлы под новые элементы 1.20 (`country_filter`, настройки звука, фракции);
@@ -182,10 +115,8 @@ HOI4 умеет сама стартовать партию в режиме на�
 
 - **Автор проекта:** [SaberFromFate](https://github.com/SaberFromFate)
 - **Steam Workshop:** [Smekta](https://steamcommunity.com/sharedfiles/filedetails/?id=3329420560)
-- **Репозиторий:** [SaberFromFate/SuperSmekta](https://github.com/SaberFromFate/SuperSmekta)
-- **Ветка разработки:** [`test`](https://github.com/SaberFromFate/SuperSmekta/tree/test)
 
-Отдельное спасибо всем, кто тестировал мод, присылал баг-репорты, музыку, арт и идеи.
+Спасибо всем, кто поддерживал мод, присылал музыку, арт и идеи.
 
 ---
 
