@@ -1,6 +1,5 @@
-capital = 58 ##Наша столица
+﻿capital = 58 ##Наша столица
 
-oob = "PUZ_1936" ##GEG - Тег, заменить
 
 set_research_slots = 5 #Количество ячеек исследования
 
@@ -46,6 +45,7 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 2
 	tech_mountaineers = 1
+	tech_military_police = 1
 	tech_trucks = 2
 	motorised_infantry = 1
 	gw_artillery = 2
@@ -57,6 +57,19 @@ set_technology = {
 	synth_oil_experiments = 1
 	fuel_silos = 1
 	fuel_refining = 1
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment
+	amount = 20000
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment
+	amount = 3000
+}
+add_equipment_to_stockpile = {
+	type = support_equipment
+	amount = 1000
 }
 if = {
 	limit = {
@@ -162,4 +175,6 @@ add_ideas = {
 # Лидер Страны
 
 recruit_character = PUZ_rider
+recruit_character = PUZ_space_scientist
 
+set_oob = "PUZ_1936"

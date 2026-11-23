@@ -1,5 +1,5 @@
-PUZ_promethium_reactor = {
-	specialization = specialization_air
+﻿PUZ_promethium_reactor = {
+	specialization = specialization_space
 	icon = GFX_sp_nuclear_isotope_separation_medium
 
 	project_tags = {
@@ -32,7 +32,7 @@ PUZ_promethium_reactor = {
 	project_output = {
 		country_effects = {
 			add_breakthrough_progress = {
-				specialization = specialization_air
+				specialization = specialization_space
 				value = 0.5
 			}
 		}
@@ -44,7 +44,7 @@ PUZ_promethium_reactor = {
 }
 
 PUZ_promethium_engines = {
-	specialization = specialization_air
+	specialization = specialization_space
 	icon = GFX_sp_rockets_dual_chamber_rocket_engine_medium
 
 	project_tags = {
@@ -81,7 +81,7 @@ PUZ_promethium_engines = {
 	project_output = {
 		country_effects = {
 			add_breakthrough_progress = {
-				specialization = specialization_air
+				specialization = specialization_space
 				value = 0.5
 			}
 		}
@@ -93,7 +93,7 @@ PUZ_promethium_engines = {
 }
 
 PUZ_space_wyvern_tech = {
-	specialization = specialization_air
+	specialization = specialization_space
 	icon = GFX_sp_rockets_rocket_bomber_medium
 
 	project_tags = {
@@ -139,7 +139,7 @@ PUZ_space_wyvern_tech = {
 }
 
 PUZ_space_destroyer_tech = {
-	specialization = specialization_air
+	specialization = specialization_space
 	icon = GFX_sp_rockets_improved_rocket_bomber_medium
 
 	project_tags = {

@@ -27,4 +27,23 @@ characters = {
 			id = -1
 		}
 	}
+
+	PUZ_space_scientist = {
+		name = PUZ_space_scientist
+		portraits = {
+			civilian = {
+				large = GFX_portrait_AUS_eugen_sanger
+			}
+		}
+
+		scientist = {
+			traits = {
+				scientist_trait_rocketry_specialist
+				scientist_trait_brilliant_theorist
+			}
+			skills = {
+				specialization_space = 3
+			}
+		}
+	}
 }
