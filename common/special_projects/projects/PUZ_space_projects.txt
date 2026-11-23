@@ -1,0 +1,185 @@
+PUZ_promethium_reactor = {
+	specialization = specialization_air
+	icon = GFX_sp_nuclear_isotope_separation_medium
+
+	project_tags = {
+		sp_tag_rocket
+		sp_tag_aircraft
+	}
+
+	available = {
+		FROM = {
+			has_country_flag = PUZ_space_institute_built
+		}
+	}
+	visible = {
+		FROM = {
+			has_country_flag = PUZ_space_institute_built
+		}
+	}
+
+	prototype_time = 60
+	complexity = sp_complexity.small
+
+	resource_cost = {
+		resources = {
+			steel = 10
+			tungsten = 5
+			chromium = 3
+		}
+	}
+
+	project_output = {
+		country_effects = {
+			add_breakthrough_progress = {
+				specialization = specialization_air
+				value = 0.5
+			}
+		}
+	}
+
+	ai_will_do = {
+		base = 0.5
+	}
+}
+
+PUZ_promethium_engines = {
+	specialization = specialization_air
+	icon = GFX_sp_rockets_dual_chamber_rocket_engine_medium
+
+	project_tags = {
+		sp_tag_rocket
+		sp_tag_aircraft
+	}
+
+	special_project_parent = {
+		PUZ_promethium_reactor
+	}
+
+	available = {
+		FROM = {
+			has_country_flag = PUZ_space_institute_built
+		}
+	}
+	visible = {
+		FROM = {
+			has_country_flag = PUZ_space_institute_built
+		}
+	}
+
+	prototype_time = 60
+	complexity = sp_complexity.small
+
+	resource_cost = {
+		resources = {
+			aluminium = 10
+			tungsten = 5
+			rubber = 5
+		}
+	}
+
+	project_output = {
+		country_effects = {
+			add_breakthrough_progress = {
+				specialization = specialization_air
+				value = 0.5
+			}
+		}
+	}
+
+	ai_will_do = {
+		base = 0.5
+	}
+}
+
+PUZ_space_wyvern_tech = {
+	specialization = specialization_air
+	icon = GFX_sp_rockets_rocket_bomber_medium
+
+	project_tags = {
+		sp_tag_rocket
+		sp_tag_aircraft
+	}
+
+	special_project_parent = {
+		PUZ_promethium_engines
+	}
+
+	available = {
+		FROM = {
+			has_country_flag = PUZ_space_institute_built
+		}
+	}
+	visible = {
+		FROM = {
+			has_country_flag = PUZ_space_institute_built
+		}
+	}
+
+	prototype_time = 60
+	complexity = sp_complexity.small
+
+	resource_cost = {
+		resources = {
+			aluminium = 20
+			tungsten = 10
+			chromium = 5
+		}
+	}
+
+	project_output = {
+		enable_equipments = {
+			PUZ_space_wyvern
+		}
+	}
+
+	ai_will_do = {
+		base = 0.5
+	}
+}
+
+PUZ_space_destroyer_tech = {
+	specialization = specialization_air
+	icon = GFX_sp_rockets_improved_rocket_bomber_medium
+
+	project_tags = {
+		sp_tag_rocket
+		sp_tag_aircraft
+	}
+
+	special_project_parent = {
+		PUZ_promethium_engines
+	}
+
+	available = {
+		FROM = {
+			has_country_flag = PUZ_space_institute_built
+		}
+	}
+	visible = {
+		FROM = {
+			has_country_flag = PUZ_space_institute_built
+		}
+	}
+
+	prototype_time = 100
+	complexity = sp_complexity.medium
+
+	resource_cost = {
+		resources = {
+			aluminium = 40
+			tungsten = 20
+			chromium = 10
+		}
+	}
+
+	project_output = {
+		enable_equipments = {
+			PUZ_space_destroyer
+		}
+	}
+
+	ai_will_do = {
+		base = 0.5
+	}
+}

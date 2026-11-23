@@ -77,6 +77,21 @@
 		}
 		completion_reward = {
 			set_technology = { PUZ_hastarii_tech = 1 popup = no }
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 8000
+				producer = PUZ
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 600
+				producer = PUZ
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 500
+				producer = PUZ
+			}
 			swap_ideas = {
     			remove_idea = PUZ_TB
     			add_idea = PUZ_TB1

@@ -1,4 +1,4 @@
-division_template = {
+﻿division_template = {
 	name = "Skitarii"
 	division_names_group = PUZ_INF_01
 
@@ -29,6 +29,7 @@ units = {
 		}
 		location = 6389
 		division_template = "Skitarii"
+		start_equipment_factor = 1.0
 		start_experience_factor = 0.3
 	}
 	division = {
@@ -38,6 +39,7 @@ units = {
 		}
 		location = 9347
 		division_template = "Skitarii"
+		start_equipment_factor = 1.0
 		start_experience_factor = 0.3
 	}
 	division = {
@@ -47,6 +49,7 @@ units = {
 		}
 		location = 3368
 		division_template = "Skitarii"
+		start_equipment_factor = 1.0
 		start_experience_factor = 0.3
 	}
 	division = {
@@ -56,6 +59,7 @@ units = {
 		}
 		location = 9320
 		division_template = "Skitarii"
+		start_equipment_factor = 1.0
 		start_experience_factor = 0.3
 	}
 	division = {
@@ -65,6 +69,7 @@ units = {
 		}
 		location = 317
 		division_template = "Skitarii"
+		start_equipment_factor = 1.0
 		start_experience_factor = 0.3
 	}
 	division = {
@@ -74,6 +79,7 @@ units = {
 		}
 		location = 3231
 		division_template = "Skitarii"
+		start_equipment_factor = 1.0
 		start_experience_factor = 0.3
 	}
 }

@@ -15,10 +15,6 @@ if = {
 	set_oob = "GER_1936_nsb"
 }
 
-# Remove only German infantry divisions that start on PUZ territory
-delete_unit = { state = 58 division_template = "Infanterie-Division" }
-delete_unit = { state = 909 division_template = "Infanterie-Division" }
-
 add_breakthrough_progress = {
 	specialization = specialization_land
 	value = 1.0
@@ -746,10 +742,6 @@ set_war_support = 0.3
 		}
 		set_oob = "GER_1939_nsb"
 	}
-
-	# Remove only German infantry divisions that start on PUZ territory
-	delete_unit = { state = 58 division_template = "Infanterie-Division" }
-	delete_unit = { state = 909 division_template = "Infanterie-Division" }
 
 	if = {
 		limit = {

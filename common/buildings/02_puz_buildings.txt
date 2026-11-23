@@ -2,27 +2,25 @@ buildings = {
 	PUZ_space_institute = {
 		show_on_map = 1
 		base_cost = 30000
+		per_controlled_building_extra_cost = 5000
 		damage_factor = 0
 		icon_frame = 12
-		value = 10
-		is_buildable = no
-		always_shown = yes
+		value = 1
+		spawn_point = special_project_facility_spawn
+		specialization = { specialization_air }
+		tags = { facility }
+		need_supply = yes
+		need_detection = yes
+		detecting_intel_type = airforce
+		disabled_in_dmz = yes
 		only_display_if_exists = yes
-		disable_grow_animation = yes
-		show_modifier = yes
-		special_icon = GFX_facility_icon_small
-		spawn_point = PUZ_space_spawn
+		special_icon = GFX_specialization_air
+		infrastructure_construction_effect = yes
+		is_buildable = no
 		level_cap = {
 			province_max = 1
 			state_max = 1
+			group_by = special_project_facility
 		}
-	}
-}
-
-spawn_points = {
-	PUZ_space_spawn = {
-		type = province
-		max = 1
-		disable_auto_nudging = yes
 	}
 }
