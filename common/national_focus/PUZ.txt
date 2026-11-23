@@ -56,8 +56,8 @@
 				PUZ_TB
 			}			
 		}
-		x = 13
-		y = 3
+		x = 15
+		y = 2
 
 	}
 	focus = {
@@ -186,8 +186,8 @@
 			}
 		
 		
-		x = 10
-		y = 5
+		x = 13
+		y = 3
 
 	}
 	focus = {
@@ -203,8 +203,8 @@
 				PUZ_serv
 			}			
 		}
-		x = 13
-		y = 5
+		x = 15
+		y = 3
 
 	}
 	focus = {
@@ -225,8 +225,8 @@
 		}
 
 		
-		x = 16
-		y = 5
+		x = 17
+		y = 3
 
 	}
 	focus = {
@@ -304,8 +304,8 @@
 		}
 		
 
-		x = 13
-		y = 7
+		x = 15
+		y = 4
 	}
 
 
@@ -339,7 +339,7 @@
 			add_war_support = 0.1			
 		}
 		x = 19
-		y = 3
+		y = 2
 	}
 
 
@@ -360,7 +360,7 @@
 			focus = PUZ_arm21
 		}
 		x = 19
-		y = 5
+		y = 3
 
 		complete_tooltip = {
 			air_experience = 50
@@ -477,7 +477,7 @@
 
 		
 		x = 19
-		y = 7
+		y = 4
 
 	}
 
@@ -499,8 +499,8 @@
 				category = industry
 			}
 		}
-		x = 25
-		y = 3
+		x = 23
+		y = 2
 
 	}
 	focus = {
@@ -546,8 +546,8 @@
 			}
 		}
 
-		x = 22
-		y = 5
+		x = 21
+		y = 3
 
 	}
 	focus = {
@@ -592,8 +592,8 @@
 				
 			}
 		}
-		x = 22
-		y = 7
+		x = 21
+		y = 4
 
 	}
 	focus = {
@@ -639,8 +639,8 @@
 		}
 
 
-		x = 25
-		y = 5
+		x = 23
+		y = 3
 
 	}
 	focus = {
@@ -683,8 +683,8 @@
 				}
 			}
 		}
-		x = 25
-		y = 7
+		x = 23
+		y = 4
 
 	}
 
@@ -709,8 +709,8 @@
 					add_extra_state_shared_building_slots = 8
 				}		
 		}
-		x = 28
-		y = 5
+		x = 25
+		y = 3
 
 	}
 	focus = {
@@ -735,8 +735,8 @@
 				add_extra_state_shared_building_slots = 8
 			}		
 		}
-		x = 28
-		y = 7
+		x = 25
+		y = 4
 
 	}
 
@@ -762,7 +762,7 @@
 			focus = PUZ_am5
 		}
 		x = 19
-		y = 9
+		y = 5
 
 		completion_reward = {
 			add_political_power = 100
@@ -780,7 +780,7 @@
 			focus = PUZ_finp
 		}
 		x = 19
-		y = 11
+		y = 6
 		completion_reward = {
 			add_war_support = 0.1
 		}
@@ -847,8 +847,8 @@
 			add_state_claim = 111
 			add_state_claim = 149
 		}
-		x = 12
-		y = 13
+		x = 14
+		y = 7
 
 	}
 	focus = {
@@ -861,8 +861,8 @@
 		mutually_exclusive = {
 			focus = PUZ_den
 		}
-		x = 8
-		y = 15
+		x = 12
+		y = 8
 
 		completion_reward = {
 			
@@ -889,8 +889,8 @@
 				target = DEN
 			}
 		}
-		x = 16
-		y = 15
+		x = 17
+		y = 8
 
 	}
 	focus = {
@@ -910,8 +910,8 @@
 				target = SWE
 			}
 		}
-		x = 10
-		y = 17
+		x = 13
+		y = 9
 
 	}
 	focus = {
@@ -925,8 +925,8 @@
 		mutually_exclusive = {
 			focus = PUZ_swe
 		}
-		x = 6
-		y = 17
+		x = 10
+		y = 9
 		completion_reward = {
 			
 			SWE = { country_event = { id = PUZ_swep_e.1 hours = 6 }}
@@ -952,8 +952,8 @@
 				target = FIN
 			}
 		}
-		x = 10
-		y = 19
+		x = 13
+		y = 10
 
 	}
 	focus = {
@@ -973,8 +973,8 @@
 				
 			
 		}
-		x = 6
-		y = 19
+		x = 10
+		y = 10
 
 	}
 	focus = {
@@ -996,8 +996,8 @@
 			}
 		}
 
-		x = 10
-		y = 21
+		x = 13
+		y = 11
 
 		completion_reward = {
 			111 = {
@@ -1044,8 +1044,8 @@
 				
 			
 		}
-		x = 14
-		y = 17
+		x = 16
+		y = 9
 
 	}
 	focus = {
@@ -1066,7 +1066,7 @@
 			}
 		}
 		x = 18
-		y = 17
+		y = 9
 
 	}
 	focus = {
@@ -1125,8 +1125,8 @@
 			
 		}	
 
-		x = 14
-		y = 19
+		x = 16
+		y = 10
 
 	}
 	focus = {
@@ -1153,8 +1153,8 @@
 				NOR = { is_subject_of = PUZ }
 			}
 		}
-		x = 14
-		y = 21
+		x = 16
+		y = 11
 		completion_reward = {
 			every_state = {
 					limit = { 
@@ -1190,7 +1190,7 @@
 			focus = PUZ_nor
 		}
 		x = 18
-		y = 19
+		y = 10
 		available = {
 			OR = {
 				AND = {
@@ -1260,7 +1260,7 @@
 		}
 
 		x = 18
-		y = 21
+		y = 11
 
 	}
 	focus = {
@@ -1270,8 +1270,8 @@
 		prerequisite = {
 			focus = PUZ_start
 		}
-		x = 26
-		y = 13
+		x = 24
+		y = 7
 
 		completion_reward = {
 			   # Германия (GER)
@@ -1330,8 +1330,8 @@
 				target = GER
 			}
 		}
-		x = 26
-		y = 15
+		x = 24
+		y = 8
 
 	}
 	focus = {
@@ -1347,8 +1347,8 @@
 				target = CZE
 			}
 		}
-		x = 22
-		y = 17
+		x = 21
+		y = 9
 
 	}
 	focus = {
@@ -1358,8 +1358,8 @@
 		prerequisite = {
 			focus = PUZ_ger
 		}
-		x = 26
-		y = 17
+		x = 24
+		y = 9
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -1378,8 +1378,8 @@
 		prerequisite = {
 			focus = PUZ_sil
 		}
-		x = 26
-		y = 19
+		x = 24
+		y = 10
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -1400,8 +1400,8 @@
 				country_event = { id = PUZ_ukr_e.1 hours = 6 }
 			}
 		}
-		x = 26
-		y = 21
+		x = 24
+		y = 11
 
 	}
 	focus = {
@@ -1444,8 +1444,8 @@
 			}
 		}
 
-		x = 30
-		y = 17
+		x = 26
+		y = 9
 
 	}
 	focus = {
@@ -1487,8 +1487,8 @@
 			}
 		}
 
-		x = 30
-		y = 19
+		x = 26
+		y = 10
 
 	}
 	focus = {
@@ -1507,8 +1507,8 @@
 				owns_state = 65
 			}
 		}
-		x = 30
-		y = 21
+		x = 26
+		y = 11
 		completion_reward = {
 
 
@@ -1550,8 +1550,8 @@
 				SWE = { is_subject_of = PUZ }
 			}
 		}
-		x = 6
-		y = 21
+		x = 10
+		y = 11
 		completion_reward = {
 			every_state = {
 					limit = { 
@@ -1605,7 +1605,7 @@
 			focus = PUZ_ger_tech
 		}
 		x = 19
-		y = 23
+		y = 12
 		completion_reward = {
 
 			add_state_core = 912
@@ -1706,7 +1706,7 @@
 			focus = PUZ_cet
 		}
 		x = 19
-		y = 25
+		y = 13
 		completion_reward = {
 			add_stability = 0.15
 			add_political_power = 150
@@ -1722,7 +1722,7 @@
 			focus = PUZ_era
 		}
 		x = 19
-		y = 27
+		y = 14
 		completion_reward = {
 			add_war_support = 0.05
 			add_tech_bonus = {
@@ -1748,7 +1748,7 @@
 			focus = PUZ_ascension
 		}
 		x = 19
-		y = 29
+		y = 15
 		completion_reward = {
 			add_stability = 0.1
 			add_war_support = 0.1
