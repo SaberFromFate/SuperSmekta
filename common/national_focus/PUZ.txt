@@ -65,7 +65,7 @@
 	}
 	focus = {
 		id = PUZ_am2
-		text = PUZ_am2
+		text = PUZ_hastarii
 		icon = GFX_PUZ_am2
 		cost = 5,00
 		prerequisite = {
@@ -996,6 +996,13 @@
 		completion_reward = {
 			add_political_power = 75
 			add_stability = 0.05
+			capital_scope = {
+				add_building_construction = {
+					type = PUZ_space_institute
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 
 	}

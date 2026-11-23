@@ -1,0 +1,15 @@
+buildings = {
+	PUZ_space_institute = {
+		base_cost = 30000
+		damage_factor = 0
+		icon_frame = 12
+		value = 10
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		show_modifier = yes
+		level_cap = {
+			state_max = 1
+		}
+	}
+}
