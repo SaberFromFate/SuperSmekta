@@ -1005,6 +1005,7 @@
 					instant_build = yes
 				}
 			}
+			set_country_flag = PUZ_space_institute_built
 		}
 
 	}
