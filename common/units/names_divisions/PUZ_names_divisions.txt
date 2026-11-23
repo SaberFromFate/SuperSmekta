@@ -1,0 +1,49 @@
+PUZ_INF_01 = {
+	name = "Skitarii"
+
+	for_countries = { PUZ }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	ordered = {
+		1 = { "%d. Skitarii" }
+		2 = { "%d. Skitarii" }
+		3 = { "%d. Skitarii" }
+		4 = { "%d. Skitarii" }
+		5 = { "%d. Skitarii" }
+		6 = { "%d. Skitarii" }
+		7 = { "%d. Skitarii" }
+		8 = { "%d. Skitarii" }
+		9 = { "%d. Skitarii" }
+		10 = { "%d. Skitarii" }
+		11 = { "%d. Skitarii" }
+		12 = { "%d. Skitarii" }
+	}
+}
+
+PUZ_SF_01 = {
+	name = "Hastarii"
+
+	for_countries = { PUZ }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" "mountaineers" }
+
+	ordered = {
+		1 = { "%d. Hastarii" }
+		2 = { "%d. Hastarii" }
+		3 = { "%d. Hastarii" }
+		4 = { "%d. Hastarii" }
+		5 = { "%d. Hastarii" }
+		6 = { "%d. Hastarii" }
+		7 = { "%d. Hastarii" }
+		8 = { "%d. Hastarii" }
+		9 = { "%d. Hastarii" }
+		10 = { "%d. Hastarii" }
+		11 = { "%d. Hastarii" }
+		12 = { "%d. Hastarii" }
+	}
+}

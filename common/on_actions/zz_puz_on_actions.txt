@@ -1,0 +1,13 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			PUZ = {
+				every_owned_state = {
+					GER = {
+						delete_unit = { state = PREV }
+					}
+				}
+			}
+		}
+	}
+}

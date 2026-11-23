@@ -80,6 +80,7 @@ ideas = {
 				research_speed_factor = 0.05
 				conscription = 0.01
 				war_support_factor = 0.05
+				special_forces_cap = 0.05
 				weekly_manpower = 500
 			}
 		}
@@ -96,6 +97,7 @@ ideas = {
 				research_speed_factor = 0.10
 				conscription = 0.01
 				war_support_factor = 0.05
+				special_forces_cap = 0.05
 				weekly_manpower = 500
 				industrial_capacity_factory = 0.10
 				industrial_capacity_dockyard = 0.10
@@ -125,6 +127,7 @@ ideas = {
 				research_speed_factor = 0.15
 				conscription = 0.015
 				war_support_factor = 0.05
+				special_forces_cap = 0.05
 				weekly_manpower = 750
 				industrial_capacity_factory = 0.15
 				industrial_capacity_dockyard = 0.15
