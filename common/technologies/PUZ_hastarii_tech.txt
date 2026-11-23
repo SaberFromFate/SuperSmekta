@@ -1,0 +1,13 @@
+technologies = {
+	PUZ_hastarii_tech = {
+		allow = {
+			always = no
+		}
+
+		start_year = 1936
+
+		enable_subunits = {
+			hastarii
+		}
+	}
+}

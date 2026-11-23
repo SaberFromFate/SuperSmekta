@@ -1,15 +1,28 @@
 buildings = {
 	PUZ_space_institute = {
+		show_on_map = 1
 		base_cost = 30000
 		damage_factor = 0
 		icon_frame = 12
 		value = 10
 		is_buildable = no
-		disable_grow_animation = yes
+		always_shown = yes
 		only_display_if_exists = yes
+		disable_grow_animation = yes
 		show_modifier = yes
+		special_icon = GFX_facility_icon_small
+		spawn_point = PUZ_space_spawn
 		level_cap = {
+			province_max = 1
 			state_max = 1
 		}
+	}
+}
+
+spawn_points = {
+	PUZ_space_spawn = {
+		type = province
+		max = 1
+		disable_auto_nudging = yes
 	}
 }

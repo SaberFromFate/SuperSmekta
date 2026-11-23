@@ -1,0 +1,10 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			GER = {
+				delete_unit = { state = 58 division_template = "Infanterie-Division" }
+				delete_unit = { state = 909 division_template = "Infanterie-Division" }
+			}
+		}
+	}
+}

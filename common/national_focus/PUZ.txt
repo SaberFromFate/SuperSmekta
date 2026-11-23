@@ -76,6 +76,7 @@
 			focus = PUZ_am_lab
 		}
 		completion_reward = {
+			set_technology = { PUZ_hastarii_tech = 1 popup = no }
 			swap_ideas = {
     			remove_idea = PUZ_TB
     			add_idea = PUZ_TB1
@@ -84,14 +85,14 @@
 					name = "Hastarii"
 					division_names_group = PUZ_SF_01
 					regiments = {
-						mountaineers = { x = 0 y = 0 }
-						mountaineers = { x = 0 y = 1 }
-						mountaineers = { x = 0 y = 2 }
-						mountaineers = { x = 0 y = 3 }
-						mountaineers = { x = 1 y = 0 }
-						mountaineers = { x = 1 y = 1 }
-						mountaineers = { x = 1 y = 2 }
-						mountaineers = { x = 1 y = 3 }
+						hastarii = { x = 0 y = 0 }
+						hastarii = { x = 0 y = 1 }
+						hastarii = { x = 0 y = 2 }
+						hastarii = { x = 0 y = 3 }
+						hastarii = { x = 1 y = 0 }
+						hastarii = { x = 1 y = 1 }
+						hastarii = { x = 1 y = 2 }
+						hastarii = { x = 1 y = 3 }
 						artillery_brigade = { x = 2 y = 0 }
 						artillery_brigade = { x = 2 y = 1 }
 					}
@@ -997,12 +998,13 @@
 		completion_reward = {
 			add_political_power = 75
 			add_stability = 0.05
-			capital_scope = {
+			58 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = PUZ_space_institute
 					level = 1
 					instant_build = yes
+					province = 6389
 				}
 			}
 			set_country_flag = PUZ_space_institute_built
