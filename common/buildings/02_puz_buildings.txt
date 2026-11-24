@@ -1,4 +1,4 @@
-﻿buildings = {
+buildings = {
 	PUZ_space_institute = {
 		show_on_map = 1
 		base_cost = 30000

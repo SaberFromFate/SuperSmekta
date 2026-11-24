@@ -200,6 +200,8 @@
 
  #space
  specialization_space: "Космические программы"
+ specialization_space_short: "Космос"
+ specialization_space_speed_factor: "Скорость спецпроектов ($specialization_space$)"
  PUZ_space_scientist: "Илья Космоград"
 
  #buildings

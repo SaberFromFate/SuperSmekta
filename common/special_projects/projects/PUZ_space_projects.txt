@@ -1,4 +1,4 @@
-﻿PUZ_promethium_reactor = {
+PUZ_promethium_reactor = {
 	specialization = specialization_space
 	icon = GFX_sp_nuclear_isotope_separation_medium
 
