@@ -177,5 +177,19 @@ add_ideas = {
 
 recruit_character = PUZ_rider
 recruit_character = PUZ_space_scientist
+recruit_character = PUZ_magos_advisor
+recruit_character = PUZ_enginseer
+recruit_character = PUZ_fabricator_chief
+recruit_character = PUZ_mechanicus_theorist
+recruit_character = PUZ_skitarii_marshal
+recruit_character = PUZ_hastarii_commander
+recruit_character = PUZ_logis_advisor
+recruit_character = PUZ_geneator_advisor
+recruit_character = PUZ_datasmith_advisor
+recruit_character = PUZ_army_chief
+recruit_character = PUZ_navy_chief
+recruit_character = PUZ_air_chief
+recruit_character = PUZ_high_command_2
+recruit_character = PUZ_void_theorist
 
 set_oob = "PUZ_1936"

@@ -220,4 +220,140 @@ spriteTypes ={
 		name = "GFX_country_event_PUZ_am_ev"
 		texturefile = "gfx/event_pictures/country_event_PUZ_am_ev.dds"
 	}
+
+	# --- Hastarii (собственный значок роты/дивизии) ---
+	spriteType = {
+		name = "GFX_unit_hastarii_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_hastarii_icon.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_hastarii_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_hastarii_icon.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_hastarii_icon_small"
+		texturefile = "gfx/texticons/unit_hastarii_icon_small.png"
+		noOfFrames = 2
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_nato_unit_hastarii_icon_small"
+		texturefile = "gfx/texticons/unit_hastarii_icon_small.png"
+		noOfFrames = 2
+		legacy_lazy_load = no
+	}
+
+	# --- Механикус: портреты ---
+	spriteType = {
+		name = "GFX_portrait_PUZ_space_scientist"
+		texturefile = "gfx/leaders/PUZ/portrait_magos_scientist.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_magos_advisor"
+		texturefile = "gfx/leaders/PUZ/portrait_magos_advisor.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_magos_advisor_small"
+		texturefile = "gfx/leaders/PUZ/portrait_magos_advisor_small.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_enginseer"
+		texturefile = "gfx/leaders/PUZ/portrait_enginseer.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_enginseer_small"
+		texturefile = "gfx/leaders/PUZ/portrait_enginseer_small.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_fabricator"
+		texturefile = "gfx/leaders/PUZ/portrait_fabricator.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_fabricator_small"
+		texturefile = "gfx/leaders/PUZ/portrait_fabricator_small.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_skitarii_marshal"
+		texturefile = "gfx/leaders/PUZ/portrait_skitarii_marshal.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_skitarii_marshal_small"
+		texturefile = "gfx/leaders/PUZ/portrait_skitarii_marshal_small.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_hastarii_commander"
+		texturefile = "gfx/leaders/PUZ/portrait_hastarii_commander.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_hastarii_commander_small"
+		texturefile = "gfx/leaders/PUZ/portrait_hastarii_commander_small.png"
+	}
+
+	# --- Механикус: дополнительные советники ---
+	spriteType = {
+		name = "GFX_portrait_PUZ_logis_advisor"
+		texturefile = "gfx/leaders/PUZ/portrait_logis_advisor.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_logis_advisor_small"
+		texturefile = "gfx/leaders/PUZ/portrait_logis_advisor_small.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_geneator_advisor"
+		texturefile = "gfx/leaders/PUZ/portrait_geneator_advisor.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_geneator_advisor_small"
+		texturefile = "gfx/leaders/PUZ/portrait_geneator_advisor_small.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_datasmith_advisor"
+		texturefile = "gfx/leaders/PUZ/portrait_datasmith_advisor.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_datasmith_advisor_small"
+		texturefile = "gfx/leaders/PUZ/portrait_datasmith_advisor_small.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_army_chief"
+		texturefile = "gfx/leaders/PUZ/portrait_army_chief.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_army_chief_small"
+		texturefile = "gfx/leaders/PUZ/portrait_army_chief_small.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_navy_chief"
+		texturefile = "gfx/leaders/PUZ/portrait_navy_chief.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_navy_chief_small"
+		texturefile = "gfx/leaders/PUZ/portrait_navy_chief_small.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_air_chief"
+		texturefile = "gfx/leaders/PUZ/portrait_air_chief.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_air_chief_small"
+		texturefile = "gfx/leaders/PUZ/portrait_air_chief_small.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_high_command_2"
+		texturefile = "gfx/leaders/PUZ/portrait_high_command_2.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_high_command_2_small"
+		texturefile = "gfx/leaders/PUZ/portrait_high_command_2_small.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_void_theorist"
+		texturefile = "gfx/leaders/PUZ/portrait_void_theorist.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PUZ_void_theorist_small"
+		texturefile = "gfx/leaders/PUZ/portrait_void_theorist_small.png"
+	}
 }

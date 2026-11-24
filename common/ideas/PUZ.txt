@@ -163,4 +163,16 @@ ideas = {
 		}
 
 	}
+
+	country = {
+		PUZ_promethium_reactor_idea = {
+			picture = PUZ_WT
+			allowed = {
+				always = no	# Выдаётся после изучения прометиевого реактора
+			}
+			modifier = {
+				factory_energy_consumption = -1.0
+			}
+		}
+	}
 }

@@ -10,6 +10,20 @@
  PUZ_tech_am_long: "Adeptus Mechanicus"
  PUZ_tech_am_party: "Adeptus Mechanicus"
  PUZ_rider: "Вано Пузиковский"
+ PUZ_magos_advisor: "Магос-советник Когниций"
+ PUZ_enginseer: "Инженериус Вольт"
+ PUZ_fabricator_chief: "Фабрикатор-генерал Ортус"
+ PUZ_mechanicus_theorist: "Магос-теоретик Логисий"
+ PUZ_skitarii_marshal: "Маршал Скитариев Рэд"
+ PUZ_hastarii_commander: "Командир Хастариев Драк"
+ PUZ_logis_advisor: "Логис-советник Калькула"
+ PUZ_geneator_advisor: "Генератор-советник Энергей"
+ PUZ_datasmith_advisor: "Датасмит-советник Память"
+ PUZ_army_chief: "Магос-маршал Витрувий"
+ PUZ_navy_chief: "Адмирал-магос Навис"
+ PUZ_air_chief: "Магос-аэронавт Аэрис"
+ PUZ_high_command_2: "Скитарий-префект Гарм"
+ PUZ_void_theorist: "Магос-теоретик Войд"
  PUZ_tech: "Северогерманская технократия"
  PUZ_tech_AA: "Центральноевропейская технократическая федеративная империя"
  
@@ -202,7 +216,7 @@
  specialization_space: "Космические программы"
  specialization_space_short: "Космос"
  specialization_space_speed_factor: "Скорость спецпроектов ($specialization_space$)"
- PUZ_space_scientist: "Илья Космоград"
+ PUZ_space_scientist: "Магос-доминус Феррум"
 
  #buildings
  PUZ_space_institute: "Экспериментальный комплекс «Космический институт»"
@@ -216,6 +230,9 @@
  PUZ_TB2: "Integrated Adeptus Mechanicus"
  PUZ_TB3: "Integrated Adeptus Mechanicus"
  PUZ_serv: "Создание сервиторов"
+ PUZ_promethium_reactor_idea: "Прометиевый реактор"
+ PUZ_promethium_reactor_idea_desc: "Прометиевый реактор даёт достаточно энергии, чтобы полностью избавить промышленность от зависимости от угля."
+ PUZ_promethium_reactor_idea_tt: "Прометиевый реактор: заводы больше не потребляют уголь."
 
 
 
@@ -225,6 +242,9 @@
  #traits
  technocrat2: "Ярый технократ"
  magos: "Архимагос культа Mechanicus"
+ PUZ_magos_advisor_trait: "Магос-советник"
+ PUZ_enginseer_trait: "Инженериус"
+ PUZ_fabricator_trait: "Фабрикатор"
 
 
 

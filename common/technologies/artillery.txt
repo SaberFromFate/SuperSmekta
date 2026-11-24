@@ -560,6 +560,7 @@ technologies = {
 			rocketry
 			mio_cat_all_artillery_equipment
 		}
+		special_project_specialization = { specialization_space }
 	}
 
 	rocket_artillery2 = {
@@ -604,6 +605,7 @@ technologies = {
 			rocketry
 			mio_cat_all_artillery_equipment
 		}
+		special_project_specialization = { specialization_space }
 	}
 
 	rocket_artillery3 = {
@@ -648,6 +650,7 @@ technologies = {
 			rocketry
 			mio_cat_all_artillery_equipment
 		}
+		special_project_specialization = { specialization_space }
 	}
 
 	rocket_artillery4 = {
@@ -686,6 +689,7 @@ technologies = {
 			rocketry
 			mio_cat_all_artillery_equipment
 		}
+		special_project_specialization = { specialization_space }
 	}
 		rocket_artillery5 = {
 
@@ -717,6 +721,7 @@ technologies = {
 			rocketry
 			mio_cat_all_artillery_equipment
 		}
+		special_project_specialization = { specialization_space }
 	}
 
 	interwar_antiair = {

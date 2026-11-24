@@ -1,0 +1,9 @@
+# PUZ custom buildings: 3D entity for the space institute.
+entity = {
+	name = "building_PUZ_space_institute"
+	pdxmesh = "building_rocket_facility"
+
+	default_state = "idle"
+	state = { name = "idle"
+	}
+}

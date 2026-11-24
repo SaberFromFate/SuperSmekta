@@ -35,6 +35,8 @@ PUZ_promethium_reactor = {
 				specialization = specialization_space
 				value = 0.5
 			}
+			add_ideas = PUZ_promethium_reactor_idea
+			custom_effect_tooltip = PUZ_promethium_reactor_idea_tt
 		}
 	}
 
@@ -59,6 +61,7 @@ PUZ_promethium_engines = {
 	available = {
 		FROM = {
 			has_country_flag = PUZ_space_institute_built
+			has_tech = experimental_rockets
 		}
 	}
 	visible = {

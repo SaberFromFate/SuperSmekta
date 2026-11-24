@@ -32,7 +32,7 @@ characters = {
 		name = PUZ_space_scientist
 		portraits = {
 			civilian = {
-				large = GFX_portrait_AUS_eugen_sanger
+				large = GFX_portrait_PUZ_space_scientist
 			}
 		}
 
@@ -42,7 +42,378 @@ characters = {
 				scientist_trait_brilliant_theorist
 			}
 			skills = {
-				specialization_space = 3
+				specialization_space = 4
+			}
+		}
+	}
+
+	PUZ_magos_advisor = {
+		name = PUZ_magos_advisor
+		portraits = {
+			civilian = {
+				large = GFX_portrait_PUZ_magos_advisor
+				small = GFX_portrait_PUZ_magos_advisor_small
+			}
+			army = {
+				large = GFX_portrait_PUZ_magos_advisor
+				small = GFX_portrait_PUZ_magos_advisor_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PUZ_magos_advisor
+			allowed = {
+				original_tag = PUZ
+			}
+			traits = {
+				PUZ_magos_advisor_trait
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+	}
+
+	PUZ_enginseer = {
+		name = PUZ_enginseer
+		portraits = {
+			civilian = {
+				large = GFX_portrait_PUZ_enginseer
+				small = GFX_portrait_PUZ_enginseer_small
+			}
+			army = {
+				large = GFX_portrait_PUZ_enginseer
+				small = GFX_portrait_PUZ_enginseer_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PUZ_enginseer
+			allowed = {
+				original_tag = PUZ
+			}
+			traits = {
+				PUZ_enginseer_trait
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.2
+			}
+		}
+	}
+
+	PUZ_fabricator_chief = {
+		name = PUZ_fabricator_chief
+		portraits = {
+			civilian = {
+				large = GFX_portrait_PUZ_fabricator
+				small = GFX_portrait_PUZ_fabricator_small
+			}
+			army = {
+				large = GFX_portrait_PUZ_fabricator
+				small = GFX_portrait_PUZ_fabricator_small
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = PUZ_fabricator_chief
+			allowed = {
+				original_tag = PUZ
+			}
+			traits = {
+				PUZ_fabricator_trait
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 1.0
+			}
+		}
+	}
+
+	PUZ_mechanicus_theorist = {
+		name = PUZ_mechanicus_theorist
+		portraits = {
+			civilian = {
+				large = GFX_portrait_PUZ_magos_advisor
+				small = GFX_portrait_PUZ_magos_advisor_small
+			}
+			army = {
+				large = GFX_portrait_PUZ_magos_advisor
+				small = GFX_portrait_PUZ_magos_advisor_small
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = PUZ_mechanicus_theorist
+			allowed = {
+				original_tag = PUZ
+			}
+			traits = {
+				military_theorist
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.0
+			}
+		}
+	}
+
+	PUZ_skitarii_marshal = {
+		name = PUZ_skitarii_marshal
+		portraits = {
+			army = {
+				large = GFX_portrait_PUZ_skitarii_marshal
+				small = GFX_portrait_PUZ_skitarii_marshal_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				brilliant_strategist
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = 1
+		}
+	}
+
+	PUZ_hastarii_commander = {
+		name = PUZ_hastarii_commander
+		portraits = {
+			army = {
+				large = GFX_portrait_PUZ_hastarii_commander
+				small = GFX_portrait_PUZ_hastarii_commander_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+				organizer
+				trickster
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 2
+		}
+	}
+
+	PUZ_logis_advisor = {
+		name = PUZ_logis_advisor
+		portraits = {
+			civilian = {
+				large = GFX_portrait_PUZ_logis_advisor
+				small = GFX_portrait_PUZ_logis_advisor_small
+			}
+			army = {
+				large = GFX_portrait_PUZ_logis_advisor
+				small = GFX_portrait_PUZ_logis_advisor_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PUZ_logis_advisor
+			allowed = {
+				original_tag = PUZ
+			}
+			traits = {
+				war_industrialist
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.2
+			}
+		}
+	}
+
+	PUZ_geneator_advisor = {
+		name = PUZ_geneator_advisor
+		portraits = {
+			civilian = {
+				large = GFX_portrait_PUZ_geneator_advisor
+				small = GFX_portrait_PUZ_geneator_advisor_small
+			}
+			army = {
+				large = GFX_portrait_PUZ_geneator_advisor
+				small = GFX_portrait_PUZ_geneator_advisor_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PUZ_geneator_advisor
+			allowed = {
+				original_tag = PUZ
+			}
+			traits = {
+				captain_of_industry
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.2
+			}
+		}
+	}
+
+	PUZ_datasmith_advisor = {
+		name = PUZ_datasmith_advisor
+		portraits = {
+			civilian = {
+				large = GFX_portrait_PUZ_datasmith_advisor
+				small = GFX_portrait_PUZ_datasmith_advisor_small
+			}
+			army = {
+				large = GFX_portrait_PUZ_datasmith_advisor
+				small = GFX_portrait_PUZ_datasmith_advisor_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PUZ_datasmith_advisor
+			allowed = {
+				original_tag = PUZ
+			}
+			traits = {
+				economist
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.0
+			}
+		}
+	}
+
+	PUZ_army_chief = {
+		name = PUZ_army_chief
+		portraits = {
+			army = {
+				large = GFX_portrait_PUZ_army_chief
+				small = GFX_portrait_PUZ_army_chief_small
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = PUZ_army_chief
+			allowed = {
+				original_tag = PUZ
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.0
+			}
+		}
+	}
+
+	PUZ_navy_chief = {
+		name = PUZ_navy_chief
+		portraits = {
+			army = {
+				large = GFX_portrait_PUZ_navy_chief
+				small = GFX_portrait_PUZ_navy_chief_small
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = PUZ_navy_chief
+			allowed = {
+				original_tag = PUZ
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.0
+			}
+		}
+	}
+
+	PUZ_air_chief = {
+		name = PUZ_air_chief
+		portraits = {
+			army = {
+				large = GFX_portrait_PUZ_air_chief
+				small = GFX_portrait_PUZ_air_chief_small
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = PUZ_air_chief
+			allowed = {
+				original_tag = PUZ
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.0
+			}
+		}
+	}
+
+	PUZ_high_command_2 = {
+		name = PUZ_high_command_2
+		portraits = {
+			civilian = {
+				large = GFX_portrait_PUZ_high_command_2
+				small = GFX_portrait_PUZ_high_command_2_small
+			}
+			army = {
+				large = GFX_portrait_PUZ_high_command_2
+				small = GFX_portrait_PUZ_high_command_2_small
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = PUZ_high_command_2
+			allowed = {
+				original_tag = PUZ
+			}
+			traits = {
+				army_entrenchment_2
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 1.0
+			}
+		}
+	}
+
+	PUZ_void_theorist = {
+		name = PUZ_void_theorist
+		portraits = {
+			civilian = {
+				large = GFX_portrait_PUZ_void_theorist
+				small = GFX_portrait_PUZ_void_theorist_small
+			}
+			army = {
+				large = GFX_portrait_PUZ_void_theorist
+				small = GFX_portrait_PUZ_void_theorist_small
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = PUZ_void_theorist
+			allowed = {
+				original_tag = PUZ
+			}
+			traits = {
+				air_warfare_theorist
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.0
 			}
 		}
 	}
